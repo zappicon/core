@@ -1,0 +1,84 @@
+const angleDownCircleLight = {
+  "name": "svg",
+  "type": "element",
+  "value": "",
+  "parent": null,
+  "attributes": {
+    "width": "24",
+    "height": "24",
+    "viewBox": "0 0 24 24",
+    "fill": "none",
+    "xmlns": "http://www.w3.org/2000/svg"
+  },
+  "children": [
+    {
+      "name": "g",
+      "type": "element",
+      "value": "",
+      "parent": null,
+      "attributes": {
+        "clip-path": "url(#clip0_9002_7953)"
+      },
+      "children": [
+        {
+          "name": "path",
+          "type": "element",
+          "value": "",
+          "parent": null,
+          "attributes": {
+            "d": "M15.6464 10.6464C15.8417 10.4512 16.1583 10.4512 16.3536 10.6464C16.5488 10.8417 16.5488 11.1583 16.3536 11.3536L12.3536 15.3536C12.2598 15.4473 12.1326 15.5 12 15.5C11.8674 15.5 11.7402 15.4473 11.6464 15.3536L7.64645 11.3536C7.45119 11.1583 7.45119 10.8417 7.64645 10.6464C7.84171 10.4512 8.15829 10.4512 8.35355 10.6464L12 14.2929L15.6464 10.6464Z",
+            "fill": "#000"
+          },
+          "children": []
+        },
+        {
+          "name": "path",
+          "type": "element",
+          "value": "",
+          "parent": null,
+          "attributes": {
+            "fill-rule": "evenodd",
+            "clip-rule": "evenodd",
+            "d": "M12 0.5C5.64873 0.5 0.5 5.64873 0.5 12C0.5 18.3513 5.64873 23.5 12 23.5C18.3513 23.5 23.5 18.3513 23.5 12C23.5 5.64873 18.3513 0.5 12 0.5ZM1.5 12C1.5 6.20101 6.20101 1.5 12 1.5C17.799 1.5 22.5 6.20101 22.5 12C22.5 17.799 17.799 22.5 12 22.5C6.20101 22.5 1.5 17.799 1.5 12Z",
+            "fill": "#000"
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "defs",
+      "type": "element",
+      "value": "",
+      "parent": null,
+      "attributes": {},
+      "children": [
+        {
+          "name": "clipPath",
+          "type": "element",
+          "value": "",
+          "parent": null,
+          "attributes": {
+            "id": "clip0_9002_7953"
+          },
+          "children": [
+            {
+              "name": "rect",
+              "type": "element",
+              "value": "",
+              "parent": null,
+              "attributes": {
+                "width": "24",
+                "height": "24",
+                "fill": "white"
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+} as const;
+
+export default angleDownCircleLight;

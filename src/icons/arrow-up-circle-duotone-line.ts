@@ -1,0 +1,96 @@
+const arrowUpCircleDuotoneLine = {
+  "name": "svg",
+  "type": "element",
+  "value": "",
+  "parent": null,
+  "attributes": {
+    "width": "24",
+    "height": "24",
+    "viewBox": "0 0 24 24",
+    "fill": "none",
+    "xmlns": "http://www.w3.org/2000/svg"
+  },
+  "children": [
+    {
+      "name": "g",
+      "type": "element",
+      "value": "",
+      "parent": null,
+      "attributes": {
+        "clip-path": "url(#clip0_9002_7862)"
+      },
+      "children": [
+        {
+          "name": "path",
+          "type": "element",
+          "value": "",
+          "parent": null,
+          "attributes": {
+            "opacity": "0.4",
+            "d": "M23 12C23 18.0751 18.0751 23 12 23C5.92487 23 1 18.0751 1 12C1 5.92487 5.92487 1 12 1C18.0751 1 23 5.92487 23 12Z",
+            "fill": "#000"
+          },
+          "children": []
+        },
+        {
+          "name": "path",
+          "type": "element",
+          "value": "",
+          "parent": null,
+          "attributes": {
+            "d": "M16.3536 11.3536C16.1583 11.5488 15.8417 11.5488 15.6464 11.3536L12.5 8.20711V17C12.5 17.2761 12.2761 17.5 12 17.5C11.7239 17.5 11.5 17.2761 11.5 17V8.2071L8.35355 11.3536C8.15829 11.5488 7.84171 11.5488 7.64645 11.3536C7.45119 11.1583 7.45119 10.8417 7.64645 10.6464L11.6464 6.64645C11.7402 6.55268 11.8674 6.5 12 6.5C12.1326 6.5 12.2598 6.55268 12.3536 6.64645L16.3536 10.6464C16.5488 10.8417 16.5488 11.1583 16.3536 11.3536Z",
+            "fill": "#000"
+          },
+          "children": []
+        },
+        {
+          "name": "path",
+          "type": "element",
+          "value": "",
+          "parent": null,
+          "attributes": {
+            "fill-rule": "evenodd",
+            "clip-rule": "evenodd",
+            "d": "M0.5 12C0.5 5.64873 5.64873 0.5 12 0.5C18.3513 0.5 23.5 5.64873 23.5 12C23.5 18.3513 18.3513 23.5 12 23.5C5.64873 23.5 0.5 18.3513 0.5 12ZM12 1.5C6.20101 1.5 1.5 6.20101 1.5 12C1.5 17.799 6.20101 22.5 12 22.5C17.799 22.5 22.5 17.799 22.5 12C22.5 6.20101 17.799 1.5 12 1.5Z",
+            "fill": "#000"
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "defs",
+      "type": "element",
+      "value": "",
+      "parent": null,
+      "attributes": {},
+      "children": [
+        {
+          "name": "clipPath",
+          "type": "element",
+          "value": "",
+          "parent": null,
+          "attributes": {
+            "id": "clip0_9002_7862"
+          },
+          "children": [
+            {
+              "name": "rect",
+              "type": "element",
+              "value": "",
+              "parent": null,
+              "attributes": {
+                "width": "24",
+                "height": "24",
+                "fill": "white"
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+} as const;
+
+export default arrowUpCircleDuotoneLine;

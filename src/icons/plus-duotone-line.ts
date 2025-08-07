@@ -1,0 +1,40 @@
+const plusDuotoneLine = {
+  "name": "svg",
+  "type": "element",
+  "value": "",
+  "parent": null,
+  "attributes": {
+    "width": "24",
+    "height": "24",
+    "viewBox": "0 0 24 24",
+    "fill": "none",
+    "xmlns": "http://www.w3.org/2000/svg"
+  },
+  "children": [
+    {
+      "name": "path",
+      "type": "element",
+      "value": "",
+      "parent": null,
+      "attributes": {
+        "opacity": "0.4",
+        "d": "M12 20.5C11.7239 20.5 11.5 20.2761 11.5 20L11.5 4C11.5 3.72386 11.7239 3.5 12 3.5C12.2761 3.5 12.5 3.72386 12.5 4L12.5 20C12.5 20.2761 12.2761 20.5 12 20.5Z",
+        "fill": "#000"
+      },
+      "children": []
+    },
+    {
+      "name": "path",
+      "type": "element",
+      "value": "",
+      "parent": null,
+      "attributes": {
+        "d": "M20.5 12C20.5 12.2761 20.2761 12.5 20 12.5H4C3.72386 12.5 3.5 12.2761 3.5 12C3.5 11.7239 3.72386 11.5 4 11.5H20C20.2761 11.5 20.5 11.7239 20.5 12Z",
+        "fill": "#000"
+      },
+      "children": []
+    }
+  ]
+} as const;
+
+export default plusDuotoneLine;
