@@ -45,29 +45,39 @@ async function convertSvgToTs() {
     const iconNames = Object.keys(iconsMap)
     console.log(`Converting ${iconNames.length} icons to TypeScript objects with variants...`)
 
-    let indexTsContent = ''
+    let iconsArrayContent = 'export default [\n'
+
     for (const iconName of iconNames) {
       const variantsArr = []
       for (const variant of VARIANTS) {
         const variantKey = toCamelCase(variant.replace(' ', '-'))
         if (iconsMap[iconName][variantKey]) {
-          variantsArr.push({ variant: variantKey, svg: iconsMap[iconName][variantKey] })
+          variantsArr.push({
+            variant: variantKey,
+            svg: iconsMap[iconName][variantKey],
+          })
         }
       }
-      let arrString = JSON.stringify(variantsArr, null, 2)
-      arrString = arrString.replace(/"(\w+)":/g, '$1:')
-      indexTsContent += `export const ${toCamelCase(iconName)} = ${arrString} as const;\n\n`
+
+      let variantsStr = JSON.stringify(variantsArr, null, 2)
+      variantsStr = variantsStr.replace(/"(\w+)":/g, '$1:') // remove quotes from keys
+      variantsStr = variantsStr.replace(/variant: (\w+)/g, 'variant: "$1"') // keep variant as string
+
+      iconsArrayContent += `  {\n    name: "${iconName}",\n    variants: ${variantsStr}\n  },\n`
     }
-    const indexTsPath = join(OUTPUT_DIR, 'icons.ts')
-    await writeFile(indexTsPath, indexTsContent)
-    console.log(`✅ Converted ${iconNames.length} icons successfully and exported to icons.ts!`)
+
+    iconsArrayContent += '] as const;\n'
+
+    const indexTsPath = join(OUTPUT_DIR, 'index.ts')
+    await writeFile(indexTsPath, iconsArrayContent)
+    console.log(`✅ Converted ${iconNames.length} icons successfully and exported to index.ts!`)
   } catch (error) {
     console.error('Error converting files:', error)
     process.exit(1)
   }
 }
 
-function toCamelCase(str) {
+export function toCamelCase(str) {
   return str
     .split('-')
     .map((word, index) => {
