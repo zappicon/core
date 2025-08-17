@@ -183,6 +183,75 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M22.5 15.2V8.8c0-1.68 0-2.52-.327-3.162a3 3 0 0 0-1.311-1.311C20.22 4 19.38 4 17.7 4H6.3c-1.68 0-2.52 0-3.162.327a3 3 0 0 0-1.311 1.311C1.5 6.28 1.5 7.12 1.5 8.8v6.4c0 1.68 0 2.52.327 3.162a3 3 0 0 0 1.311 1.311C3.78 20 4.62 20 6.3 20h11.4c1.68 0 2.52 0 3.162-.327a3 3 0 0 0 1.311-1.311c.327-.642.327-1.482.327-3.162M8.45 13.1c-1.706 0-3.269 1.162-3.684 2.775a.5.5 0 0 0 .484.625h6.4a.5.5 0 0 0 .484-.625C11.72 14.262 10.156 13.1 8.45 13.1m-2.3-3.3a2.3 2.3 0 1 1 4.6 0 2.3 2.3 0 0 1-4.6 0",
+            "clip-rule": "evenodd",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M13.75 10a.5.5 0 0 1 .5-.5h4.5a.5.5 0 0 1 0 1h-4.5a.5.5 0 0 1-.5-.5M15.75 13.5a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1zM8.45 14.1c-1.276 0-2.42.878-2.716 2.025a.5.5 0 0 1-.968-.25C5.18 14.262 6.744 13.1 8.45 13.1s3.269 1.162 3.684 2.775a.5.5 0 0 1-.968.25C10.87 14.978 9.726 14.1 8.45 14.1"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M8.45 7.5a2.3 2.3 0 1 0 0 4.6 2.3 2.3 0 0 0 0-4.6m-1.3 2.3a1.3 1.3 0 1 1 2.6 0 1.3 1.3 0 0 1-2.6 0",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M7.078 3.5h9.844c.962 0 1.713 0 2.317.05.615.05 1.12.153 1.577.386a4 4 0 0 1 1.748 1.748c.233.457.336.962.387 1.576C23 7.865 23 8.617 23 9.578v4.844c0 .961 0 1.713-.05 2.317-.05.615-.153 1.12-.386 1.577a4 4 0 0 1-1.748 1.748c-.457.233-.962.336-1.576.387-.604.049-1.356.049-2.317.049H7.077c-.962 0-1.713 0-2.318-.05-.614-.05-1.12-.153-1.576-.386a4 4 0 0 1-1.748-1.748c-.233-.457-.336-.962-.387-1.576C1 16.136 1 15.384 1 14.423V9.578c0-.962 0-1.713.05-2.318.05-.614.153-1.12.386-1.576a4 4 0 0 1 1.748-1.748c.457-.233.962-.336 1.576-.387C5.365 3.5 6.116 3.5 7.078 3.5M4.842 4.546c-.553.045-.912.132-1.204.281a3 3 0 0 0-1.311 1.311c-.149.292-.236.651-.281 1.204C2 7.9 2 8.612 2 9.6v4.8c0 .988 0 1.7.046 2.258.045.553.132.912.281 1.204a3 3 0 0 0 1.311 1.311c.292.149.651.236 1.204.281.558.046 1.27.046 2.258.046h9.8c.988 0 1.7 0 2.258-.046.553-.045.912-.132 1.204-.281a3 3 0 0 0 1.311-1.311c.149-.292.236-.651.281-1.204C22 16.1 22 15.388 22 14.4V9.6c0-.988 0-1.7-.046-2.258-.045-.553-.132-.912-.281-1.204a3 3 0 0 0-1.311-1.311c-.292-.149-.651-.236-1.204-.281C18.6 4.5 17.888 4.5 16.9 4.5H7.1c-.988 0-1.7 0-2.258.046",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -350,6 +419,60 @@ export default [
           attributes: {
             fill: "#000",
             d: "M4.8 2.75c.316 0 .613.07.878.197a.75.75 0 0 0 .644-1.355 3.55 3.55 0 0 0-4.73 4.73.75.75 0 0 0 1.355-.644A2.05 2.05 0 0 1 4.8 2.75M18.322 2.947a2.05 2.05 0 0 1 2.731 2.731.75.75 0 0 0 1.355.644 3.55 3.55 0 0 0-4.73-4.73.75.75 0 1 0 .644 1.355M6.03 18.97a.75.75 0 0 1 0 1.06l-2.5 2.5a.75.75 0 0 1-1.06-1.06l2.5-2.5a.75.75 0 0 1 1.06 0M17.97 18.97a.75.75 0 0 0 0 1.06l2.5 2.5a.75.75 0 1 0 1.06-1.06l-2.5-2.5a.75.75 0 0 0-1.06 0M12.75 7.5a.75.75 0 0 0-1.5 0v5a.75.75 0 0 0 .352.636l3.2 2a.75.75 0 1 0 .796-1.272l-2.848-1.78z"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M21 12.5a9 9 0 1 1-18 0 9 9 0 0 1 18 0",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M4.8 2.5c.354 0 .687.08.985.221a.5.5 0 1 0 .43-.903 3.3 3.3 0 0 0-4.397 4.397.5.5 0 0 0 .903-.43A2.3 2.3 0 0 1 4.8 2.5M18.215 2.721a2.3 2.3 0 0 1 3.064 3.064.5.5 0 0 0 .903.43 3.3 3.3 0 0 0-4.397-4.397.5.5 0 0 0 .43.903M12.5 7.5a.5.5 0 0 0-1 0v5a.5.5 0 0 0 .235.424l3.2 2a.5.5 0 1 0 .53-.848L12.5 12.223z"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M12 3a9.5 9.5 0 0 0-6.82 16.113l-2.534 2.533a.5.5 0 0 0 .708.708l2.559-2.56A9.46 9.46 0 0 0 12 22a9.46 9.46 0 0 0 6.087-2.206l2.56 2.56a.5.5 0 0 0 .707-.708l-2.534-2.533A9.5 9.5 0 0 0 12 3m-8.5 9.5a8.5 8.5 0 1 1 17 0 8.5 8.5 0 0 1-17 0",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -681,6 +804,100 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "clip-path": "url(#a)"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M23 12c0 6.075-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1s11 4.925 11 11",
+                opacity: ".4"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M15.646 10.646a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L12 14.293z"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                "fill-rule": "evenodd",
+                d: "M12 .5C5.649.5.5 5.649.5 12S5.649 23.5 12 23.5 23.5 18.351 23.5 12 18.351.5 12 .5M1.5 12C1.5 6.201 6.201 1.5 12 1.5S22.5 6.201 22.5 12 17.799 22.5 12 22.5 1.5 17.799 1.5 12",
+                "clip-rule": "evenodd"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "defs",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {},
+          children: [
+            {
+              name: "clipPath",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                id: "a"
+              },
+              children: [
+                {
+                  name: "path",
+                  type: "element",
+                  value: "",
+                  parent: null,
+                  attributes: {
+                    fill: "#fff",
+                    d: "M0 0h24v24H0z"
+                  },
+                  children: []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
   },
@@ -797,6 +1014,36 @@ export default [
           attributes: {
             fill: "#000",
             d: "M6.293 9.293a1 1 0 0 1 1.414 0L12 13.586l4.293-4.293a1 1 0 1 1 1.414 1.414l-5 5a1 1 0 0 1-1.414 0l-5-5a1 1 0 0 1 0-1.414",
+            opacity: ".4"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M6.646 9.646a.5.5 0 0 1 .708 0L12 14.293l4.646-4.647a.5.5 0 0 1 .708.708l-5 5a.5.5 0 0 1-.708 0l-5-5a.5.5 0 0 1 0-.708",
             opacity: ".4"
           },
           children: []
@@ -959,6 +1206,60 @@ export default [
           attributes: {
             fill: "#000",
             d: "M16.53 10.47a.75.75 0 0 0-1.06 0L12 13.94l-3.47-3.47a.75.75 0 0 0-1.06 1.06l4 4a.75.75 0 0 0 1.06 0l4-4a.75.75 0 0 0 0-1.06"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M22 15.6V8.4c0-2.24 0-3.36-.436-4.216a4 4 0 0 0-1.748-1.748C18.96 2 17.84 2 15.6 2H8.4c-2.24 0-3.36 0-4.216.436a4 4 0 0 0-1.748 1.748C2 5.04 2 6.16 2 8.4v7.2c0 2.24 0 3.36.436 4.216a4 4 0 0 0 1.748 1.748C5.04 22 6.16 22 8.4 22h7.2c2.24 0 3.36 0 4.216-.436a4 4 0 0 0 1.748-1.748C22 18.96 22 17.84 22 15.6",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M15.646 10.646a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L12 14.293z"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M15.623 1.5H8.377c-1.1 0-1.958 0-2.645.056-.698.057-1.265.175-1.775.434A4.5 4.5 0 0 0 1.99 3.957c-.26.51-.377 1.077-.434 1.775C1.5 6.42 1.5 7.276 1.5 8.377v7.246c0 1.1 0 1.958.056 2.645.057.698.175 1.265.434 1.775a4.5 4.5 0 0 0 1.967 1.967c.51.26 1.077.377 1.775.434.688.056 1.544.056 2.645.056h7.246c1.1 0 1.958 0 2.645-.056.698-.057 1.265-.175 1.775-.434a4.5 4.5 0 0 0 1.967-1.967c.26-.51.377-1.077.434-1.775.056-.687.056-1.544.056-2.645V8.377c0-1.1 0-1.958-.056-2.645-.057-.698-.175-1.265-.434-1.775a4.5 4.5 0 0 0-1.967-1.967c-.51-.26-1.077-.377-1.775-.434-.687-.056-1.544-.056-2.645-.056M4.41 2.881c.346-.176.766-.276 1.403-.328C6.455 2.5 7.272 2.5 8.4 2.5h7.2c1.128 0 1.945 0 2.586.053.637.052 1.057.152 1.403.328a3.5 3.5 0 0 1 1.53 1.53c.176.346.276.766.328 1.403.053.641.053 1.458.053 2.586v7.2c0 1.128 0 1.945-.053 2.586-.052.637-.152 1.057-.328 1.403a3.5 3.5 0 0 1-1.53 1.53c-.346.176-.766.276-1.402.328-.642.053-1.459.053-2.587.053H8.4c-1.128 0-1.945 0-2.586-.053-.637-.052-1.057-.152-1.403-.328a3.5 3.5 0 0 1-1.53-1.53c-.176-.346-.276-.766-.328-1.402C2.5 17.545 2.5 16.728 2.5 15.6V8.4c0-1.128 0-1.945.053-2.586.052-.637.152-1.057.328-1.403a3.5 3.5 0 0 1 1.53-1.53",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -1290,6 +1591,100 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "clip-path": "url(#a)"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M23 12c0 6.075-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1s11 4.925 11 11",
+                opacity: ".4"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M13.354 8.354a.5.5 0 0 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L9.707 12z"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                "fill-rule": "evenodd",
+                d: "M12 .5C5.649.5.5 5.649.5 12S5.649 23.5 12 23.5 23.5 18.351 23.5 12 18.351.5 12 .5M1.5 12C1.5 6.201 6.201 1.5 12 1.5S22.5 6.201 22.5 12 17.799 22.5 12 22.5 1.5 17.799 1.5 12",
+                "clip-rule": "evenodd"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "defs",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {},
+          children: [
+            {
+              name: "clipPath",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                id: "a"
+              },
+              children: [
+                {
+                  name: "path",
+                  type: "element",
+                  value: "",
+                  parent: null,
+                  attributes: {
+                    fill: "#fff",
+                    d: "M0 0h24v24H0z"
+                  },
+                  children: []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
   },
@@ -1406,6 +1801,36 @@ export default [
           attributes: {
             fill: "#000",
             d: "M14.707 6.293a1 1 0 0 1 0 1.414L10.414 12l4.293 4.293a1 1 0 0 1-1.414 1.414l-5-5a1 1 0 0 1 0-1.414l5-5a1 1 0 0 1 1.414 0",
+            opacity: ".4"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M14.354 6.646a.5.5 0 0 1 0 .708L9.707 12l4.647 4.646a.5.5 0 0 1-.708.708l-5-5a.5.5 0 0 1 0-.708l5-5a.5.5 0 0 1 .708 0",
             opacity: ".4"
           },
           children: []
@@ -1568,6 +1993,60 @@ export default [
           attributes: {
             fill: "#000",
             d: "M13.53 7.47a.75.75 0 0 1 0 1.06L10.06 12l3.47 3.47a.75.75 0 1 1-1.06 1.06l-4-4a.75.75 0 0 1 0-1.06l4-4a.75.75 0 0 1 1.06 0"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M22 15.6V8.4c0-2.24 0-3.36-.436-4.216a4 4 0 0 0-1.748-1.748C18.96 2 17.84 2 15.6 2H8.4c-2.24 0-3.36 0-4.216.436a4 4 0 0 0-1.748 1.748C2 5.04 2 6.16 2 8.4v7.2c0 2.24 0 3.36.436 4.216a4 4 0 0 0 1.748 1.748C5.04 22 6.16 22 8.4 22h7.2c2.24 0 3.36 0 4.216-.436a4 4 0 0 0 1.748-1.748C22 18.96 22 17.84 22 15.6",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M13.354 8.354a.5.5 0 0 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L9.707 12z"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M15.623 1.5H8.377c-1.1 0-1.958 0-2.645.056-.698.057-1.265.175-1.775.434A4.5 4.5 0 0 0 1.99 3.957c-.26.51-.377 1.077-.434 1.775C1.5 6.42 1.5 7.276 1.5 8.377v7.246c0 1.1 0 1.958.056 2.645.057.698.175 1.265.434 1.775a4.5 4.5 0 0 0 1.967 1.967c.51.26 1.077.377 1.775.434.688.056 1.544.056 2.645.056h7.246c1.1 0 1.958 0 2.645-.056.698-.057 1.265-.175 1.775-.434a4.5 4.5 0 0 0 1.967-1.967c.26-.51.377-1.077.434-1.775.056-.687.056-1.544.056-2.645V8.377c0-1.1 0-1.958-.056-2.645-.057-.698-.175-1.265-.434-1.775a4.5 4.5 0 0 0-1.967-1.967c-.51-.26-1.077-.377-1.775-.434-.687-.056-1.544-.056-2.645-.056M4.41 2.881c.346-.176.766-.276 1.403-.328C6.455 2.5 7.272 2.5 8.4 2.5h7.2c1.128 0 1.945 0 2.586.053.637.052 1.057.152 1.403.328a3.5 3.5 0 0 1 1.53 1.53c.176.346.276.766.328 1.403.053.641.053 1.458.053 2.586v7.2c0 1.128 0 1.945-.053 2.586-.052.637-.152 1.057-.328 1.403a3.5 3.5 0 0 1-1.53 1.53c-.346.176-.766.276-1.402.328-.642.053-1.459.053-2.587.053H8.4c-1.128 0-1.945 0-2.586-.053-.637-.052-1.057-.152-1.403-.328a3.5 3.5 0 0 1-1.53-1.53c-.176-.346-.276-.766-.328-1.402C2.5 17.545 2.5 16.728 2.5 15.6V8.4c0-1.128 0-1.945.053-2.586.052-.637.152-1.057.328-1.403a3.5 3.5 0 0 1 1.53-1.53",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -1899,6 +2378,100 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "clip-path": "url(#a)"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M23 12c0 6.075-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1s11 4.925 11 11",
+                opacity: ".4"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M10.646 8.354a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L14.293 12z"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                "fill-rule": "evenodd",
+                d: "M12 .5C5.649.5.5 5.649.5 12S5.649 23.5 12 23.5 23.5 18.351 23.5 12 18.351.5 12 .5M1.5 12C1.5 6.201 6.201 1.5 12 1.5S22.5 6.201 22.5 12 17.799 22.5 12 22.5 1.5 17.799 1.5 12",
+                "clip-rule": "evenodd"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "defs",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {},
+          children: [
+            {
+              name: "clipPath",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                id: "a"
+              },
+              children: [
+                {
+                  name: "path",
+                  type: "element",
+                  value: "",
+                  parent: null,
+                  attributes: {
+                    fill: "#fff",
+                    d: "M0 0h24v24H0z"
+                  },
+                  children: []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
   },
@@ -2015,6 +2588,36 @@ export default [
           attributes: {
             fill: "#000",
             d: "M9.293 6.293a1 1 0 0 0 0 1.414L13.586 12l-4.293 4.293a1 1 0 1 0 1.414 1.414l5-5a1 1 0 0 0 0-1.414l-5-5a1 1 0 0 0-1.414 0",
+            opacity: ".4"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M9.646 6.646a.5.5 0 0 0 0 .708L14.293 12l-4.647 4.646a.5.5 0 0 0 .708.708l5-5a.5.5 0 0 0 0-.708l-5-5a.5.5 0 0 0-.708 0",
             opacity: ".4"
           },
           children: []
@@ -2177,6 +2780,60 @@ export default [
           attributes: {
             fill: "#000",
             d: "M10.47 7.47a.75.75 0 0 0 0 1.06L13.94 12l-3.47 3.47a.75.75 0 1 0 1.06 1.06l4-4a.75.75 0 0 0 0-1.06l-4-4a.75.75 0 0 0-1.06 0"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M22 15.6V8.4c0-2.24 0-3.36-.436-4.216a4 4 0 0 0-1.748-1.748C18.96 2 17.84 2 15.6 2H8.4c-2.24 0-3.36 0-4.216.436a4 4 0 0 0-1.748 1.748C2 5.04 2 6.16 2 8.4v7.2c0 2.24 0 3.36.436 4.216a4 4 0 0 0 1.748 1.748C5.04 22 6.16 22 8.4 22h7.2c2.24 0 3.36 0 4.216-.436a4 4 0 0 0 1.748-1.748C22 18.96 22 17.84 22 15.6",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M10.646 8.354a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L14.293 12z"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M15.623 1.5H8.377c-1.1 0-1.958 0-2.645.056-.698.057-1.265.175-1.775.434A4.5 4.5 0 0 0 1.99 3.957c-.26.51-.377 1.077-.434 1.775C1.5 6.42 1.5 7.276 1.5 8.377v7.246c0 1.1 0 1.958.056 2.645.057.698.175 1.265.434 1.775a4.5 4.5 0 0 0 1.967 1.967c.51.26 1.077.377 1.775.434.688.056 1.544.056 2.645.056h7.246c1.1 0 1.958 0 2.645-.056.698-.057 1.265-.175 1.775-.434a4.5 4.5 0 0 0 1.967-1.967c.26-.51.377-1.077.434-1.775.056-.687.056-1.544.056-2.645V8.377c0-1.1 0-1.958-.056-2.645-.057-.698-.175-1.265-.434-1.775a4.5 4.5 0 0 0-1.967-1.967c-.51-.26-1.077-.377-1.775-.434-.687-.056-1.544-.056-2.645-.056M4.41 2.881c.346-.176.766-.276 1.403-.328C6.455 2.5 7.272 2.5 8.4 2.5h7.2c1.128 0 1.945 0 2.586.053.637.052 1.057.152 1.403.328a3.5 3.5 0 0 1 1.53 1.53c.176.346.276.766.328 1.403.053.641.053 1.458.053 2.586v7.2c0 1.128 0 1.945-.053 2.586-.052.637-.152 1.057-.328 1.403a3.5 3.5 0 0 1-1.53 1.53c-.346.176-.766.276-1.402.328-.642.053-1.459.053-2.587.053H8.4c-1.128 0-1.945 0-2.586-.053-.637-.052-1.057-.152-1.403-.328a3.5 3.5 0 0 1-1.53-1.53c-.176-.346-.276-.766-.328-1.402C2.5 17.545 2.5 16.728 2.5 15.6V8.4c0-1.128 0-1.945.053-2.586.052-.637.152-1.057.328-1.403a3.5 3.5 0 0 1 1.53-1.53",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -2508,6 +3165,100 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "clip-path": "url(#a)"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M23 12c0 6.075-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1s11 4.925 11 11",
+                opacity: ".4"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M15.646 13.354a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 .708.708L12 9.707z"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                "fill-rule": "evenodd",
+                d: "M12 .5C5.649.5.5 5.649.5 12S5.649 23.5 12 23.5 23.5 18.351 23.5 12 18.351.5 12 .5M1.5 12C1.5 6.201 6.201 1.5 12 1.5S22.5 6.201 22.5 12 17.799 22.5 12 22.5 1.5 17.799 1.5 12",
+                "clip-rule": "evenodd"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "defs",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {},
+          children: [
+            {
+              name: "clipPath",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                id: "a"
+              },
+              children: [
+                {
+                  name: "path",
+                  type: "element",
+                  value: "",
+                  parent: null,
+                  attributes: {
+                    fill: "#fff",
+                    d: "M0 0h24v24H0z"
+                  },
+                  children: []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
   },
@@ -2624,6 +3375,36 @@ export default [
           attributes: {
             fill: "#000",
             d: "M6.293 14.707a1 1 0 0 0 1.414 0L12 10.414l4.293 4.293a1 1 0 0 0 1.414-1.414l-5-5a1 1 0 0 0-1.414 0l-5 5a1 1 0 0 0 0 1.414",
+            opacity: ".4"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M6.646 14.354a.5.5 0 0 0 .708 0L12 9.707l4.646 4.647a.5.5 0 0 0 .708-.708l-5-5a.5.5 0 0 0-.708 0l-5 5a.5.5 0 0 0 0 .708",
             opacity: ".4"
           },
           children: []
@@ -2786,6 +3567,60 @@ export default [
           attributes: {
             fill: "#000",
             d: "M16.53 13.53a.75.75 0 0 1-1.06 0L12 10.06l-3.47 3.47a.75.75 0 0 1-1.06-1.06l4-4a.75.75 0 0 1 1.06 0l4 4a.75.75 0 0 1 0 1.06"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M22 15.6V8.4c0-2.24 0-3.36-.436-4.216a4 4 0 0 0-1.748-1.748C18.96 2 17.84 2 15.6 2H8.4c-2.24 0-3.36 0-4.216.436a4 4 0 0 0-1.748 1.748C2 5.04 2 6.16 2 8.4v7.2c0 2.24 0 3.36.436 4.216a4 4 0 0 0 1.748 1.748C5.04 22 6.16 22 8.4 22h7.2c2.24 0 3.36 0 4.216-.436a4 4 0 0 0 1.748-1.748C22 18.96 22 17.84 22 15.6",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M15.646 13.354a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 .708.708L12 9.707z"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M15.623 1.5H8.377c-1.1 0-1.958 0-2.645.056-.698.057-1.265.175-1.775.434A4.5 4.5 0 0 0 1.99 3.957c-.26.51-.377 1.077-.434 1.775C1.5 6.42 1.5 7.276 1.5 8.377v7.246c0 1.1 0 1.958.056 2.645.057.698.175 1.265.434 1.775a4.5 4.5 0 0 0 1.967 1.967c.51.26 1.077.377 1.775.434.688.056 1.544.056 2.645.056h7.246c1.1 0 1.958 0 2.645-.056.698-.057 1.265-.175 1.775-.434a4.5 4.5 0 0 0 1.967-1.967c.26-.51.377-1.077.434-1.775.056-.687.056-1.544.056-2.645V8.377c0-1.1 0-1.958-.056-2.645-.057-.698-.175-1.265-.434-1.775a4.5 4.5 0 0 0-1.967-1.967c-.51-.26-1.077-.377-1.775-.434-.687-.056-1.544-.056-2.645-.056M4.41 2.881c.346-.176.766-.276 1.403-.328C6.455 2.5 7.272 2.5 8.4 2.5h7.2c1.128 0 1.945 0 2.586.053.637.052 1.057.152 1.403.328a3.5 3.5 0 0 1 1.53 1.53c.176.346.276.766.328 1.403.053.641.053 1.458.053 2.586v7.2c0 1.128 0 1.945-.053 2.586-.052.637-.152 1.057-.328 1.403a3.5 3.5 0 0 1-1.53 1.53c-.346.176-.766.276-1.402.328-.642.053-1.459.053-2.587.053H8.4c-1.128 0-1.945 0-2.586-.053-.637-.052-1.057-.152-1.403-.328a3.5 3.5 0 0 1-1.53-1.53c-.176-.346-.276-.766-.328-1.402C2.5 17.545 2.5 16.728 2.5 15.6V8.4c0-1.128 0-1.945.053-2.586.052-.637.152-1.057.328-1.403a3.5 3.5 0 0 1 1.53-1.53",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -2957,6 +3792,47 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M17.354 6.646a.5.5 0 0 1 0 .708L12.707 12l4.647 4.646a.5.5 0 0 1-.708.708l-5-5a.5.5 0 0 1 0-.708l5-5a.5.5 0 0 1 .708 0",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M11.354 6.646a.5.5 0 0 1 0 .708L6.707 12l4.647 4.646a.5.5 0 0 1-.708.708l-5-5a.5.5 0 0 1 0-.708l5-5a.5.5 0 0 1 .708 0"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -3118,6 +3994,47 @@ export default [
           attributes: {
             fill: "#000",
             d: "M12.707 3.293a1 1 0 0 1 0 1.414L5.414 12l7.293 7.293a1 1 0 0 1-1.414 1.414l-8-8a1 1 0 0 1 0-1.414l8-8a1 1 0 0 1 1.414 0"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M20.354 3.646a.5.5 0 0 1 0 .708L12.707 12l7.647 7.646a.5.5 0 0 1-.708.708l-8-8a.5.5 0 0 1 0-.708l8-8a.5.5 0 0 1 .708 0",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M12.354 3.646a.5.5 0 0 1 0 .708L4.707 12l7.647 7.646a.5.5 0 0 1-.708.708l-8-8a.5.5 0 0 1 0-.708l8-8a.5.5 0 0 1 .708 0"
           },
           children: []
         }
@@ -3289,6 +4206,47 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M6.646 6.646a.5.5 0 0 0 0 .708L11.293 12l-4.647 4.646a.5.5 0 0 0 .708.708l5-5a.5.5 0 0 0 0-.708l-5-5a.5.5 0 0 0-.708 0",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M12.646 6.646a.5.5 0 0 0 0 .708L17.293 12l-4.647 4.646a.5.5 0 0 0 .708.708l5-5a.5.5 0 0 0 0-.708l-5-5a.5.5 0 0 0-.708 0"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -3450,6 +4408,47 @@ export default [
           attributes: {
             fill: "#000",
             d: "M11.293 3.293a1 1 0 0 0 0 1.414L18.586 12l-7.293 7.293a1 1 0 0 0 1.414 1.414l8-8a1 1 0 0 0 0-1.414l-8-8a1 1 0 0 0-1.414 0"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M3.646 3.646a.5.5 0 0 0 0 .708L11.293 12l-7.647 7.646a.5.5 0 0 0 .708.708l8-8a.5.5 0 0 0 0-.708l-8-8a.5.5 0 0 0-.708 0",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M11.646 3.646a.5.5 0 0 0 0 .708L19.293 12l-7.647 7.646a.5.5 0 0 0 .708.708l8-8a.5.5 0 0 0 0-.708l-8-8a.5.5 0 0 0-.708 0"
           },
           children: []
         }
@@ -3743,6 +4742,100 @@ export default [
               parent: null,
               attributes: {
                 d: "M15.47 12.47a.75.75 0 1 1 1.06 1.06l-4 4a.75.75 0 0 1-1.06 0l-4-4a.75.75 0 1 1 1.06-1.06l2.72 2.72V7a.75.75 0 0 1 1.5 0v8.19z"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "defs",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {},
+          children: [
+            {
+              name: "clipPath",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                id: "a"
+              },
+              children: [
+                {
+                  name: "path",
+                  type: "element",
+                  value: "",
+                  parent: null,
+                  attributes: {
+                    fill: "#fff",
+                    d: "M0 0h24v24H0z"
+                  },
+                  children: []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "clip-path": "url(#a)"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M23 12c0 6.075-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1s11 4.925 11 11",
+                opacity: ".4"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M16.354 12.646a.5.5 0 0 0-.708 0L12.5 15.793V7a.5.5 0 0 0-1 0v8.793l-3.146-3.147a.5.5 0 0 0-.708.708l4 4a.5.5 0 0 0 .708 0l4-4a.5.5 0 0 0 0-.708"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                "fill-rule": "evenodd",
+                d: "M.5 12C.5 5.649 5.649.5 12 .5S23.5 5.649 23.5 12 18.351 23.5 12 23.5.5 18.351.5 12M12 1.5C6.201 1.5 1.5 6.201 1.5 12S6.201 22.5 12 22.5 22.5 17.799 22.5 12 17.799 1.5 12 1.5",
+                "clip-rule": "evenodd"
               },
               children: []
             }
@@ -4107,6 +5200,100 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "clip-path": "url(#a)"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M23 12c0 6.075-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1s11 4.925 11 11",
+                opacity: ".4"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M8.146 15.854A.5.5 0 0 0 8.5 16H14a.5.5 0 0 0 0-1H9.707l6.147-6.146a.5.5 0 0 0-.708-.708L9 14.293V10a.5.5 0 0 0-1 0v5.5a.5.5 0 0 0 .146.354"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                "fill-rule": "evenodd",
+                d: "M.5 12C.5 5.649 5.649.5 12 .5S23.5 5.649 23.5 12 18.351 23.5 12 23.5.5 18.351.5 12M12 1.5C6.201 1.5 1.5 6.201 1.5 12S6.201 22.5 12 22.5 22.5 17.799 22.5 12 17.799 1.5 12 1.5",
+                "clip-rule": "evenodd"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "defs",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {},
+          children: [
+            {
+              name: "clipPath",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                id: "a"
+              },
+              children: [
+                {
+                  name: "path",
+                  type: "element",
+                  value: "",
+                  parent: null,
+                  attributes: {
+                    fill: "#fff",
+                    d: "M0 0h24v24H0z"
+                  },
+                  children: []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
   },
@@ -4235,6 +5422,47 @@ export default [
           attributes: {
             fill: "#000",
             d: "M4 19a1 1 0 0 0 1 1h8a1 1 0 1 0 0-2H6v-7a1 1 0 1 0-2 0z"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M5.146 18.854a.5.5 0 0 0 .708 0l13.5-13.5a.5.5 0 0 0-.708-.708l-13.5 13.5a.5.5 0 0 0 0 .708",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M4.5 19a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 0-1H5.5V11a.5.5 0 0 0-1 0z"
           },
           children: []
         }
@@ -4396,6 +5624,60 @@ export default [
           attributes: {
             fill: "#000",
             d: "M8.5 16.25a.75.75 0 0 1-.75-.75V10a.75.75 0 0 1 1.5 0v3.69l5.72-5.72a.75.75 0 1 1 1.06 1.06l-5.72 5.72H14a.75.75 0 0 1 0 1.5z"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M22 15.6V8.4c0-2.24 0-3.36-.436-4.216a4 4 0 0 0-1.748-1.748C18.96 2 17.84 2 15.6 2H8.4c-2.24 0-3.36 0-4.216.436a4 4 0 0 0-1.748 1.748C2 5.04 2 6.16 2 8.4v7.2c0 2.24 0 3.36.436 4.216a4 4 0 0 0 1.748 1.748C5.04 22 6.16 22 8.4 22h7.2c2.24 0 3.36 0 4.216-.436a4 4 0 0 0 1.748-1.748C22 18.96 22 17.84 22 15.6",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M8.146 15.854A.5.5 0 0 0 8.5 16H14a.5.5 0 0 0 0-1H9.707l6.147-6.146a.5.5 0 0 0-.708-.708L9 14.293V10a.5.5 0 0 0-1 0v5.5a.5.5 0 0 0 .146.354"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M8.377 1.5h7.246c1.1 0 1.958 0 2.645.056.698.057 1.265.175 1.775.434a4.5 4.5 0 0 1 1.967 1.967c.26.51.377 1.077.434 1.775.056.687.056 1.544.056 2.645v7.246c0 1.1 0 1.958-.056 2.645-.057.698-.175 1.265-.434 1.775a4.5 4.5 0 0 1-1.967 1.967c-.51.26-1.077.377-1.775.434-.687.056-1.544.056-2.645.056H8.377c-1.1 0-1.958 0-2.645-.056-.698-.057-1.265-.175-1.775-.434a4.5 4.5 0 0 1-1.967-1.967c-.26-.51-.377-1.077-.434-1.775-.056-.687-.056-1.544-.056-2.645V8.377c0-1.1 0-1.958.056-2.645.057-.698.175-1.265.434-1.775A4.5 4.5 0 0 1 3.957 1.99c.51-.26 1.077-.377 1.775-.434C6.42 1.5 7.276 1.5 8.377 1.5M5.814 2.553c-.637.052-1.057.152-1.403.328a3.5 3.5 0 0 0-1.53 1.53c-.176.346-.276.766-.328 1.403C2.5 6.455 2.5 7.272 2.5 8.4v7.2c0 1.128 0 1.945.053 2.586.052.637.152 1.057.328 1.403a3.5 3.5 0 0 0 1.53 1.53c.346.176.766.276 1.403.328.641.053 1.458.053 2.586.053h7.2c1.128 0 1.945 0 2.586-.053.637-.052 1.057-.152 1.403-.328a3.5 3.5 0 0 0 1.53-1.53c.176-.346.276-.766.328-1.402.053-.642.053-1.459.053-2.587V8.4c0-1.128 0-1.945-.053-2.586-.052-.637-.152-1.057-.328-1.403a3.5 3.5 0 0 0-1.53-1.53c-.346-.176-.766-.276-1.402-.328C17.545 2.5 16.728 2.5 15.6 2.5H8.4c-1.128 0-1.945 0-2.586.053",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -4727,6 +6009,100 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "clip-path": "url(#a)"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M23 12c0 6.075-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1s11 4.925 11 11",
+                opacity: ".4"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M15.854 15.854A.5.5 0 0 1 15.5 16H10a.5.5 0 0 1 0-1h4.293L8.146 8.854a.5.5 0 1 1 .708-.708L15 14.293V10a.5.5 0 0 1 1 0v5.5a.5.5 0 0 1-.146.354"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                "fill-rule": "evenodd",
+                d: "M.5 12C.5 5.649 5.649.5 12 .5S23.5 5.649 23.5 12 18.351 23.5 12 23.5.5 18.351.5 12M12 1.5C6.201 1.5 1.5 6.201 1.5 12S6.201 22.5 12 22.5 22.5 17.799 22.5 12 17.799 1.5 12 1.5",
+                "clip-rule": "evenodd"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "defs",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {},
+          children: [
+            {
+              name: "clipPath",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                id: "a"
+              },
+              children: [
+                {
+                  name: "path",
+                  type: "element",
+                  value: "",
+                  parent: null,
+                  attributes: {
+                    fill: "#fff",
+                    d: "M0 0h24v24H0z"
+                  },
+                  children: []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
   },
@@ -4855,6 +6231,47 @@ export default [
           attributes: {
             fill: "#000",
             d: "M20 19a1 1 0 0 1-1 1h-8a1 1 0 1 1 0-2h7v-7a1 1 0 1 1 2 0z"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M18.854 18.854a.5.5 0 0 1-.708 0l-13.5-13.5a.5.5 0 1 1 .708-.708l13.5 13.5a.5.5 0 0 1 0 .708",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M19.5 19a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1 0-1h7.5V11a.5.5 0 0 1 1 0z"
           },
           children: []
         }
@@ -5021,6 +6438,60 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M22 15.6V8.4c0-2.24 0-3.36-.436-4.216a4 4 0 0 0-1.748-1.748C18.96 2 17.84 2 15.6 2H8.4c-2.24 0-3.36 0-4.216.436a4 4 0 0 0-1.748 1.748C2 5.04 2 6.16 2 8.4v7.2c0 2.24 0 3.36.436 4.216a4 4 0 0 0 1.748 1.748C5.04 22 6.16 22 8.4 22h7.2c2.24 0 3.36 0 4.216-.436a4 4 0 0 0 1.748-1.748C22 18.96 22 17.84 22 15.6",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M15.854 15.854A.5.5 0 0 1 15.5 16H10a.5.5 0 0 1 0-1h4.293L8.146 8.854a.5.5 0 1 1 .708-.708L15 14.293V10a.5.5 0 0 1 1 0v5.5a.5.5 0 0 1-.146.354"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M8.377 1.5h7.246c1.1 0 1.958 0 2.645.056.698.057 1.265.175 1.775.434a4.5 4.5 0 0 1 1.967 1.967c.26.51.377 1.077.434 1.775.056.687.056 1.544.056 2.645v7.246c0 1.1 0 1.958-.056 2.645-.057.698-.175 1.265-.434 1.775a4.5 4.5 0 0 1-1.967 1.967c-.51.26-1.077.377-1.775.434-.687.056-1.544.056-2.645.056H8.377c-1.1 0-1.958 0-2.645-.056-.698-.057-1.265-.175-1.775-.434a4.5 4.5 0 0 1-1.967-1.967c-.26-.51-.377-1.077-.434-1.775-.056-.687-.056-1.544-.056-2.645V8.377c0-1.1 0-1.958.056-2.645.057-.698.175-1.265.434-1.775A4.5 4.5 0 0 1 3.957 1.99c.51-.26 1.077-.377 1.775-.434C6.42 1.5 7.276 1.5 8.377 1.5M5.814 2.553c-.637.052-1.057.152-1.403.328a3.5 3.5 0 0 0-1.53 1.53c-.176.346-.276.766-.328 1.403C2.5 6.455 2.5 7.272 2.5 8.4v7.2c0 1.128 0 1.945.053 2.586.052.637.152 1.057.328 1.403a3.5 3.5 0 0 0 1.53 1.53c.346.176.766.276 1.403.328.641.053 1.458.053 2.586.053h7.2c1.128 0 1.945 0 2.586-.053.637-.052 1.057-.152 1.403-.328a3.5 3.5 0 0 0 1.53-1.53c.176-.346.276-.766.328-1.402.053-.642.053-1.459.053-2.587V8.4c0-1.128 0-1.945-.053-2.586-.052-.637-.152-1.057-.328-1.403a3.5 3.5 0 0 0-1.53-1.53c-.346-.176-.766-.276-1.402-.328C17.545 2.5 16.728 2.5 15.6 2.5H8.4c-1.128 0-1.945 0-2.586.053",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -5149,6 +6620,47 @@ export default [
           attributes: {
             fill: "#000",
             d: "M6.293 15.293a1 1 0 0 1 1.414 0L12 19.586l4.293-4.293a1 1 0 0 1 1.414 1.414l-5 5a1 1 0 0 1-1.414 0l-5-5a1 1 0 0 1 0-1.414"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M12 2.5a.5.5 0 0 1 .5.5v17.5a.5.5 0 0 1-1 0V3a.5.5 0 0 1 .5-.5",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M6.646 15.646a.5.5 0 0 1 .708 0L12 20.293l4.646-4.647a.5.5 0 0 1 .708.708l-5 5a.5.5 0 0 1-.708 0l-5-5a.5.5 0 0 1 0-.708"
           },
           children: []
         }
@@ -5310,6 +6822,60 @@ export default [
           attributes: {
             fill: "#000",
             d: "M15.47 12.47a.75.75 0 1 1 1.06 1.06l-4 4a.75.75 0 0 1-1.06 0l-4-4a.75.75 0 1 1 1.06-1.06l2.72 2.72V7a.75.75 0 0 1 1.5 0v8.19z"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M22 15.6V8.4c0-2.24 0-3.36-.436-4.216a4 4 0 0 0-1.748-1.748C18.96 2 17.84 2 15.6 2H8.4c-2.24 0-3.36 0-4.216.436a4 4 0 0 0-1.748 1.748C2 5.04 2 6.16 2 8.4v7.2c0 2.24 0 3.36.436 4.216a4 4 0 0 0 1.748 1.748C5.04 22 6.16 22 8.4 22h7.2c2.24 0 3.36 0 4.216-.436a4 4 0 0 0 1.748-1.748C22 18.96 22 17.84 22 15.6",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M16.354 12.646a.5.5 0 0 0-.708 0L12.5 15.793V7a.5.5 0 0 0-1 0v8.793l-3.146-3.147a.5.5 0 0 0-.708.708l4 4a.5.5 0 0 0 .708 0l4-4a.5.5 0 0 0 0-.708"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M8.377 1.5h7.246c1.1 0 1.958 0 2.645.056.698.057 1.265.175 1.775.434a4.5 4.5 0 0 1 1.967 1.967c.26.51.377 1.077.434 1.775.056.687.056 1.544.056 2.645v7.246c0 1.1 0 1.958-.056 2.645-.057.698-.175 1.265-.434 1.775a4.5 4.5 0 0 1-1.967 1.967c-.51.26-1.077.377-1.775.434-.687.056-1.544.056-2.645.056H8.377c-1.1 0-1.958 0-2.645-.056-.698-.057-1.265-.175-1.775-.434a4.5 4.5 0 0 1-1.967-1.967c-.26-.51-.377-1.077-.434-1.775-.056-.687-.056-1.544-.056-2.645V8.377c0-1.1 0-1.958.056-2.645.057-.698.175-1.265.434-1.775A4.5 4.5 0 0 1 3.957 1.99c.51-.26 1.077-.377 1.775-.434C6.42 1.5 7.276 1.5 8.377 1.5M5.814 2.553c-.637.052-1.057.152-1.403.328a3.5 3.5 0 0 0-1.53 1.53c-.176.346-.276.766-.328 1.403C2.5 6.455 2.5 7.272 2.5 8.4v7.2c0 1.128 0 1.945.053 2.586.052.637.152 1.057.328 1.403a3.5 3.5 0 0 0 1.53 1.53c.346.176.766.276 1.403.328.641.053 1.458.053 2.586.053h7.2c1.128 0 1.945 0 2.586-.053.637-.052 1.057-.152 1.403-.328a3.5 3.5 0 0 0 1.53-1.53c.176-.346.276-.766.328-1.402.053-.642.053-1.459.053-2.587V8.4c0-1.128 0-1.945-.053-2.586-.052-.637-.152-1.057-.328-1.403a3.5 3.5 0 0 0-1.53-1.53c-.346-.176-.766-.276-1.402-.328C17.545 2.5 16.728 2.5 15.6 2.5H8.4c-1.128 0-1.945 0-2.586.053",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -5641,6 +7207,100 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "clip-path": "url(#a)"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M23 12c0 6.075-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1s11 4.925 11 11",
+                opacity: ".4"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M11.354 7.646a.5.5 0 0 1 0 .708L8.207 11.5H17a.5.5 0 0 1 0 1H8.207l3.147 3.146a.5.5 0 0 1-.708.708l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 0 1 .708 0"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                "fill-rule": "evenodd",
+                d: "M.5 12C.5 5.649 5.649.5 12 .5S23.5 5.649 23.5 12 18.351 23.5 12 23.5.5 18.351.5 12M12 1.5C6.201 1.5 1.5 6.201 1.5 12S6.201 22.5 12 22.5 22.5 17.799 22.5 12 17.799 1.5 12 1.5",
+                "clip-rule": "evenodd"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "defs",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {},
+          children: [
+            {
+              name: "clipPath",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                id: "a"
+              },
+              children: [
+                {
+                  name: "path",
+                  type: "element",
+                  value: "",
+                  parent: null,
+                  attributes: {
+                    fill: "#fff",
+                    d: "M0 0h24v24H0z"
+                  },
+                  children: []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
   },
@@ -5769,6 +7429,47 @@ export default [
           attributes: {
             fill: "#000",
             d: "M8.707 6.293a1 1 0 0 1 0 1.414L4.414 12l4.293 4.293a1 1 0 1 1-1.414 1.414l-5-5a1 1 0 0 1 0-1.414l5-5a1 1 0 0 1 1.414 0"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M21.5 12a.5.5 0 0 1-.5.5H3.5a.5.5 0 0 1 0-1H21a.5.5 0 0 1 .5.5",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M8.354 6.646a.5.5 0 0 1 0 .708L3.707 12l4.647 4.646a.5.5 0 0 1-.708.708l-5-5a.5.5 0 0 1 0-.708l5-5a.5.5 0 0 1 .708 0"
           },
           children: []
         }
@@ -5930,6 +7631,60 @@ export default [
           attributes: {
             fill: "#000",
             d: "M11.53 8.53a.75.75 0 0 0-1.06-1.06l-4 4a.75.75 0 0 0 0 1.06l4 4a.75.75 0 1 0 1.06-1.06l-2.72-2.72H17a.75.75 0 0 0 0-1.5H8.81z"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M22 15.6V8.4c0-2.24 0-3.36-.436-4.216a4 4 0 0 0-1.748-1.748C18.96 2 17.84 2 15.6 2H8.4c-2.24 0-3.36 0-4.216.436a4 4 0 0 0-1.748 1.748C2 5.04 2 6.16 2 8.4v7.2c0 2.24 0 3.36.436 4.216a4 4 0 0 0 1.748 1.748C5.04 22 6.16 22 8.4 22h7.2c2.24 0 3.36 0 4.216-.436a4 4 0 0 0 1.748-1.748C22 18.96 22 17.84 22 15.6",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M11.354 7.646a.5.5 0 0 1 0 .708L8.207 11.5H17a.5.5 0 0 1 0 1H8.207l3.147 3.146a.5.5 0 0 1-.708.708l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 0 1 .708 0"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M8.377 1.5h7.246c1.1 0 1.958 0 2.645.056.698.057 1.265.175 1.775.434a4.5 4.5 0 0 1 1.967 1.967c.26.51.377 1.077.434 1.775.056.687.056 1.544.056 2.645v7.246c0 1.1 0 1.958-.056 2.645-.057.698-.175 1.265-.434 1.775a4.5 4.5 0 0 1-1.967 1.967c-.51.26-1.077.377-1.775.434-.687.056-1.544.056-2.645.056H8.377c-1.1 0-1.958 0-2.645-.056-.698-.057-1.265-.175-1.775-.434a4.5 4.5 0 0 1-1.967-1.967c-.26-.51-.377-1.077-.434-1.775-.056-.687-.056-1.544-.056-2.645V8.377c0-1.1 0-1.958.056-2.645.057-.698.175-1.265.434-1.775A4.5 4.5 0 0 1 3.957 1.99c.51-.26 1.077-.377 1.775-.434C6.42 1.5 7.276 1.5 8.377 1.5M5.814 2.553c-.637.052-1.057.152-1.403.328a3.5 3.5 0 0 0-1.53 1.53c-.176.346-.276.766-.328 1.403C2.5 6.455 2.5 7.272 2.5 8.4v7.2c0 1.128 0 1.945.053 2.586.052.637.152 1.057.328 1.403a3.5 3.5 0 0 0 1.53 1.53c.346.176.766.276 1.403.328.641.053 1.458.053 2.586.053h7.2c1.128 0 1.945 0 2.586-.053.637-.052 1.057-.152 1.403-.328a3.5 3.5 0 0 0 1.53-1.53c.176-.346.276-.766.328-1.402.053-.642.053-1.459.053-2.587V8.4c0-1.128 0-1.945-.053-2.586-.052-.637-.152-1.057-.328-1.403a3.5 3.5 0 0 0-1.53-1.53c-.346-.176-.766-.276-1.402-.328C17.545 2.5 16.728 2.5 15.6 2.5H8.4c-1.128 0-1.945 0-2.586.053",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -6261,6 +8016,100 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "clip-path": "url(#a)"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M23 12c0 6.075-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1s11 4.925 11 11",
+                opacity: ".4"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M12.646 7.646a.5.5 0 0 0 0 .708l3.147 3.146H7a.5.5 0 0 0 0 1h8.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708 0"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                "fill-rule": "evenodd",
+                d: "M.5 12C.5 5.649 5.649.5 12 .5S23.5 5.649 23.5 12 18.351 23.5 12 23.5.5 18.351.5 12M12 1.5C6.201 1.5 1.5 6.201 1.5 12S6.201 22.5 12 22.5 22.5 17.799 22.5 12 17.799 1.5 12 1.5",
+                "clip-rule": "evenodd"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "defs",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {},
+          children: [
+            {
+              name: "clipPath",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                id: "a"
+              },
+              children: [
+                {
+                  name: "path",
+                  type: "element",
+                  value: "",
+                  parent: null,
+                  attributes: {
+                    fill: "#fff",
+                    d: "M0 0h24v24H0z"
+                  },
+                  children: []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
   },
@@ -6389,6 +8238,47 @@ export default [
           attributes: {
             fill: "#000",
             d: "M15.293 6.293a1 1 0 0 0 0 1.414L19.586 12l-4.293 4.293a1 1 0 0 0 1.414 1.414l5-5a1 1 0 0 0 0-1.414l-5-5a1 1 0 0 0-1.414 0"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M2.5 12a.5.5 0 0 0 .5.5h17.5a.5.5 0 0 0 0-1H3a.5.5 0 0 0-.5.5",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M15.646 6.646a.5.5 0 0 0 0 .708L20.293 12l-4.647 4.646a.5.5 0 0 0 .708.708l5-5a.5.5 0 0 0 0-.708l-5-5a.5.5 0 0 0-.708 0"
           },
           children: []
         }
@@ -6555,6 +8445,60 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M22 15.6V8.4c0-2.24 0-3.36-.436-4.216a4 4 0 0 0-1.748-1.748C18.96 2 17.84 2 15.6 2H8.4c-2.24 0-3.36 0-4.216.436a4 4 0 0 0-1.748 1.748C2 5.04 2 6.16 2 8.4v7.2c0 2.24 0 3.36.436 4.216a4 4 0 0 0 1.748 1.748C5.04 22 6.16 22 8.4 22h7.2c2.24 0 3.36 0 4.216-.436a4 4 0 0 0 1.748-1.748C22 18.96 22 17.84 22 15.6",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M12.646 7.646a.5.5 0 0 0 0 .708l3.147 3.146H7a.5.5 0 0 0 0 1h8.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708 0"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M8.377 1.5h7.246c1.1 0 1.958 0 2.645.056.698.057 1.265.175 1.775.434a4.5 4.5 0 0 1 1.967 1.967c.26.51.377 1.077.434 1.775.056.687.056 1.544.056 2.645v7.246c0 1.1 0 1.958-.056 2.645-.057.698-.175 1.265-.434 1.775a4.5 4.5 0 0 1-1.967 1.967c-.51.26-1.077.377-1.775.434-.687.056-1.544.056-2.645.056H8.377c-1.1 0-1.958 0-2.645-.056-.698-.057-1.265-.175-1.775-.434a4.5 4.5 0 0 1-1.967-1.967c-.26-.51-.377-1.077-.434-1.775-.056-.687-.056-1.544-.056-2.645V8.377c0-1.1 0-1.958.056-2.645.057-.698.175-1.265.434-1.775A4.5 4.5 0 0 1 3.957 1.99c.51-.26 1.077-.377 1.775-.434C6.42 1.5 7.276 1.5 8.377 1.5M5.814 2.553c-.637.052-1.057.152-1.403.328a3.5 3.5 0 0 0-1.53 1.53c-.176.346-.276.766-.328 1.403C2.5 6.455 2.5 7.272 2.5 8.4v7.2c0 1.128 0 1.945.053 2.586.052.637.152 1.057.328 1.403a3.5 3.5 0 0 0 1.53 1.53c.346.176.766.276 1.403.328.641.053 1.458.053 2.586.053h7.2c1.128 0 1.945 0 2.586-.053.637-.052 1.057-.152 1.403-.328a3.5 3.5 0 0 0 1.53-1.53c.176-.346.276-.766.328-1.402.053-.642.053-1.459.053-2.587V8.4c0-1.128 0-1.945-.053-2.586-.052-.637-.152-1.057-.328-1.403a3.5 3.5 0 0 0-1.53-1.53c-.346-.176-.766-.276-1.402-.328C17.545 2.5 16.728 2.5 15.6 2.5H8.4c-1.128 0-1.945 0-2.586.053",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -6683,6 +8627,47 @@ export default [
           attributes: {
             fill: "#000",
             d: "M22 9h-5.5a1 1 0 1 1 0-2H21V2.5a1 1 0 1 1 2 0V8a1 1 0 0 1-1 1"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M12 1.5c5.799 0 10.5 4.701 10.5 10.5S17.799 22.5 12 22.5 1.5 17.799 1.5 12 6.201 1.5 12 1.5",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M17.7 4.4A9.46 9.46 0 0 0 12 2.5a9.5 9.5 0 1 0 0 19 9.5 9.5 0 0 0 9.065-6.65.5.5 0 1 1 .954.3C20.681 19.41 16.702 22.5 12 22.5 6.201 22.5 1.5 17.799 1.5 12S6.201 1.5 12 1.5c2.363 0 4.545.781 6.3 2.1.726.544 1.502 1.323 2.16 2.084.391.451.75.907 1.04 1.318V2.5a.5.5 0 1 1 1 0V8a.5.5 0 0 1-.5.5h-5.5a.5.5 0 1 1 0-1h4.127c-.253-.353-.57-.754-.922-1.161-.634-.732-1.358-1.454-2.005-1.94"
           },
           children: []
         }
@@ -6976,6 +8961,100 @@ export default [
               parent: null,
               attributes: {
                 d: "M15.47 11.53a.75.75 0 1 0 1.06-1.06l-4-4a.75.75 0 0 0-1.06 0l-4 4a.75.75 0 1 0 1.06 1.06l2.72-2.72V17a.75.75 0 0 0 1.5 0V8.81z"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "defs",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {},
+          children: [
+            {
+              name: "clipPath",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                id: "a"
+              },
+              children: [
+                {
+                  name: "path",
+                  type: "element",
+                  value: "",
+                  parent: null,
+                  attributes: {
+                    fill: "#fff",
+                    d: "M0 0h24v24H0z"
+                  },
+                  children: []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "clip-path": "url(#a)"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M23 12c0 6.075-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1s11 4.925 11 11",
+                opacity: ".4"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M16.354 11.354a.5.5 0 0 1-.708 0L12.5 8.207V17a.5.5 0 0 1-1 0V8.207l-3.146 3.147a.5.5 0 0 1-.708-.708l4-4a.5.5 0 0 1 .708 0l4 4a.5.5 0 0 1 0 .708"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                "fill-rule": "evenodd",
+                d: "M.5 12C.5 5.649 5.649.5 12 .5S23.5 5.649 23.5 12 18.351 23.5 12 23.5.5 18.351.5 12M12 1.5C6.201 1.5 1.5 6.201 1.5 12S6.201 22.5 12 22.5 22.5 17.799 22.5 12 17.799 1.5 12 1.5",
+                "clip-rule": "evenodd"
               },
               children: []
             }
@@ -7340,6 +9419,100 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "clip-path": "url(#a)"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M23 12c0 6.075-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1s11 4.925 11 11",
+                opacity: ".4"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M8.146 8.146A.5.5 0 0 1 8.5 8H14a.5.5 0 0 1 0 1H9.707l6.147 6.146a.5.5 0 0 1-.708.708L9 9.707V14a.5.5 0 0 1-1 0V8.5a.5.5 0 0 1 .146-.354"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                "fill-rule": "evenodd",
+                d: "M.5 12C.5 5.649 5.649.5 12 .5S23.5 5.649 23.5 12 18.351 23.5 12 23.5.5 18.351.5 12M12 1.5C6.201 1.5 1.5 6.201 1.5 12S6.201 22.5 12 22.5 22.5 17.799 22.5 12 17.799 1.5 12 1.5",
+                "clip-rule": "evenodd"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "defs",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {},
+          children: [
+            {
+              name: "clipPath",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                id: "a"
+              },
+              children: [
+                {
+                  name: "path",
+                  type: "element",
+                  value: "",
+                  parent: null,
+                  attributes: {
+                    fill: "#fff",
+                    d: "M0 0h24v24H0z"
+                  },
+                  children: []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
   },
@@ -7468,6 +9641,47 @@ export default [
           attributes: {
             fill: "#000",
             d: "M4 5a1 1 0 0 1 1-1h8a1 1 0 1 1 0 2H6v7a1 1 0 1 1-2 0z"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M5.146 5.146a.5.5 0 0 1 .708 0l13.5 13.5a.5.5 0 0 1-.708.708l-13.5-13.5a.5.5 0 0 1 0-.708",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M4.5 5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1H5.5V13a.5.5 0 0 1-1 0z"
           },
           children: []
         }
@@ -7629,6 +9843,60 @@ export default [
           attributes: {
             fill: "#000",
             d: "M8.5 7.75a.75.75 0 0 0-.75.75V14a.75.75 0 0 0 1.5 0v-3.69l5.72 5.72a.75.75 0 1 0 1.06-1.06l-5.72-5.72H14a.75.75 0 0 0 0-1.5z"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M22 15.6V8.4c0-2.24 0-3.36-.436-4.216a4 4 0 0 0-1.748-1.748C18.96 2 17.84 2 15.6 2H8.4c-2.24 0-3.36 0-4.216.436a4 4 0 0 0-1.748 1.748C2 5.04 2 6.16 2 8.4v7.2c0 2.24 0 3.36.436 4.216a4 4 0 0 0 1.748 1.748C5.04 22 6.16 22 8.4 22h7.2c2.24 0 3.36 0 4.216-.436a4 4 0 0 0 1.748-1.748C22 18.96 22 17.84 22 15.6",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M8.146 8.146A.5.5 0 0 1 8.5 8H14a.5.5 0 0 1 0 1H9.707l6.147 6.146a.5.5 0 0 1-.708.708L9 9.707V14a.5.5 0 0 1-1 0V8.5a.5.5 0 0 1 .146-.354"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M8.377 1.5h7.246c1.1 0 1.958 0 2.645.056.698.057 1.265.175 1.775.434a4.5 4.5 0 0 1 1.967 1.967c.26.51.377 1.077.434 1.775.056.687.056 1.544.056 2.645v7.246c0 1.1 0 1.958-.056 2.645-.057.698-.175 1.265-.434 1.775a4.5 4.5 0 0 1-1.967 1.967c-.51.26-1.077.377-1.775.434-.687.056-1.544.056-2.645.056H8.377c-1.1 0-1.958 0-2.645-.056-.698-.057-1.265-.175-1.775-.434a4.5 4.5 0 0 1-1.967-1.967c-.26-.51-.377-1.077-.434-1.775-.056-.687-.056-1.544-.056-2.645V8.377c0-1.1 0-1.958.056-2.645.057-.698.175-1.265.434-1.775A4.5 4.5 0 0 1 3.957 1.99c.51-.26 1.077-.377 1.775-.434C6.42 1.5 7.276 1.5 8.377 1.5M5.814 2.553c-.637.052-1.057.152-1.403.328a3.5 3.5 0 0 0-1.53 1.53c-.176.346-.276.766-.328 1.403C2.5 6.455 2.5 7.272 2.5 8.4v7.2c0 1.128 0 1.945.053 2.586.052.637.152 1.057.328 1.403a3.5 3.5 0 0 0 1.53 1.53c.346.176.766.276 1.403.328.641.053 1.458.053 2.586.053h7.2c1.128 0 1.945 0 2.586-.053.637-.052 1.057-.152 1.403-.328a3.5 3.5 0 0 0 1.53-1.53c.176-.346.276-.766.328-1.402.053-.642.053-1.459.053-2.587V8.4c0-1.128 0-1.945-.053-2.586-.052-.637-.152-1.057-.328-1.403a3.5 3.5 0 0 0-1.53-1.53c-.346-.176-.766-.276-1.402-.328C17.545 2.5 16.728 2.5 15.6 2.5H8.4c-1.128 0-1.945 0-2.586.053",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -7960,6 +10228,100 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "clip-path": "url(#a)"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M23 12c0 6.075-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1s11 4.925 11 11",
+                opacity: ".4"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M15.854 8.146A.5.5 0 0 0 15.5 8H10a.5.5 0 0 0 0 1h4.293l-6.147 6.146a.5.5 0 0 0 .708.708L15 9.707V14a.5.5 0 0 0 1 0V8.5a.5.5 0 0 0-.146-.354"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                "fill-rule": "evenodd",
+                d: "M.5 12C.5 5.649 5.649.5 12 .5S23.5 5.649 23.5 12 18.351 23.5 12 23.5.5 18.351.5 12M12 1.5C6.201 1.5 1.5 6.201 1.5 12S6.201 22.5 12 22.5 22.5 17.799 22.5 12 17.799 1.5 12 1.5",
+                "clip-rule": "evenodd"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "defs",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {},
+          children: [
+            {
+              name: "clipPath",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                id: "a"
+              },
+              children: [
+                {
+                  name: "path",
+                  type: "element",
+                  value: "",
+                  parent: null,
+                  attributes: {
+                    fill: "#fff",
+                    d: "M0 0h24v24H0z"
+                  },
+                  children: []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
   },
@@ -8088,6 +10450,47 @@ export default [
           attributes: {
             fill: "#000",
             d: "M20 5a1 1 0 0 0-1-1h-8a1 1 0 1 0 0 2h7v7a1 1 0 1 0 2 0z"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M18.854 5.146a.5.5 0 0 0-.708 0l-13.5 13.5a.5.5 0 0 0 .708.708l13.5-13.5a.5.5 0 0 0 0-.708",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M19.5 5a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0 0 1h7.5V13a.5.5 0 0 0 1 0z"
           },
           children: []
         }
@@ -8254,6 +10657,60 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M22 15.6V8.4c0-2.24 0-3.36-.436-4.216a4 4 0 0 0-1.748-1.748C18.96 2 17.84 2 15.6 2H8.4c-2.24 0-3.36 0-4.216.436a4 4 0 0 0-1.748 1.748C2 5.04 2 6.16 2 8.4v7.2c0 2.24 0 3.36.436 4.216a4 4 0 0 0 1.748 1.748C5.04 22 6.16 22 8.4 22h7.2c2.24 0 3.36 0 4.216-.436a4 4 0 0 0 1.748-1.748C22 18.96 22 17.84 22 15.6",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M15.854 8.146A.5.5 0 0 0 15.5 8H10a.5.5 0 0 0 0 1h4.293l-6.147 6.146a.5.5 0 0 0 .708.708L15 9.707V14a.5.5 0 0 0 1 0V8.5a.5.5 0 0 0-.146-.354"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M8.377 1.5h7.246c1.1 0 1.958 0 2.645.056.698.057 1.265.175 1.775.434a4.5 4.5 0 0 1 1.967 1.967c.26.51.377 1.077.434 1.775.056.687.056 1.544.056 2.645v7.246c0 1.1 0 1.958-.056 2.645-.057.698-.175 1.265-.434 1.775a4.5 4.5 0 0 1-1.967 1.967c-.51.26-1.077.377-1.775.434-.687.056-1.544.056-2.645.056H8.377c-1.1 0-1.958 0-2.645-.056-.698-.057-1.265-.175-1.775-.434a4.5 4.5 0 0 1-1.967-1.967c-.26-.51-.377-1.077-.434-1.775-.056-.687-.056-1.544-.056-2.645V8.377c0-1.1 0-1.958.056-2.645.057-.698.175-1.265.434-1.775A4.5 4.5 0 0 1 3.957 1.99c.51-.26 1.077-.377 1.775-.434C6.42 1.5 7.276 1.5 8.377 1.5M5.814 2.553c-.637.052-1.057.152-1.403.328a3.5 3.5 0 0 0-1.53 1.53c-.176.346-.276.766-.328 1.403C2.5 6.455 2.5 7.272 2.5 8.4v7.2c0 1.128 0 1.945.053 2.586.052.637.152 1.057.328 1.403a3.5 3.5 0 0 0 1.53 1.53c.346.176.766.276 1.403.328.641.053 1.458.053 2.586.053h7.2c1.128 0 1.945 0 2.586-.053.637-.052 1.057-.152 1.403-.328a3.5 3.5 0 0 0 1.53-1.53c.176-.346.276-.766.328-1.402.053-.642.053-1.459.053-2.587V8.4c0-1.128 0-1.945-.053-2.586-.052-.637-.152-1.057-.328-1.403a3.5 3.5 0 0 0-1.53-1.53c-.346-.176-.766-.276-1.402-.328C17.545 2.5 16.728 2.5 15.6 2.5H8.4c-1.128 0-1.945 0-2.586.053",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -8382,6 +10839,47 @@ export default [
           attributes: {
             fill: "#000",
             d: "M6.293 8.707a1 1 0 0 0 1.414 0L12 4.414l4.293 4.293a1 1 0 1 0 1.414-1.414l-5-5a1 1 0 0 0-1.414 0l-5 5a1 1 0 0 0 0 1.414"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M12 21.5a.5.5 0 0 0 .5-.5V3.5a.5.5 0 0 0-1 0V21a.5.5 0 0 0 .5.5",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M6.646 8.354a.5.5 0 0 0 .708 0L12 3.707l4.646 4.647a.5.5 0 0 0 .708-.708l-5-5a.5.5 0 0 0-.708 0l-5 5a.5.5 0 0 0 0 .708"
           },
           children: []
         }
@@ -8548,6 +11046,60 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M22 15.6V8.4c0-2.24 0-3.36-.436-4.216a4 4 0 0 0-1.748-1.748C18.96 2 17.84 2 15.6 2H8.4c-2.24 0-3.36 0-4.216.436a4 4 0 0 0-1.748 1.748C2 5.04 2 6.16 2 8.4v7.2c0 2.24 0 3.36.436 4.216a4 4 0 0 0 1.748 1.748C5.04 22 6.16 22 8.4 22h7.2c2.24 0 3.36 0 4.216-.436a4 4 0 0 0 1.748-1.748C22 18.96 22 17.84 22 15.6",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M16.354 11.354a.5.5 0 0 1-.708 0L12.5 8.207V17a.5.5 0 0 1-1 0V8.207l-3.146 3.147a.5.5 0 0 1-.708-.708l4-4a.5.5 0 0 1 .708 0l4 4a.5.5 0 0 1 0 .708"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M8.377 1.5h7.246c1.1 0 1.958 0 2.645.056.698.057 1.265.175 1.775.434a4.5 4.5 0 0 1 1.967 1.967c.26.51.377 1.077.434 1.775.056.687.056 1.544.056 2.645v7.246c0 1.1 0 1.958-.056 2.645-.057.698-.175 1.265-.434 1.775a4.5 4.5 0 0 1-1.967 1.967c-.51.26-1.077.377-1.775.434-.687.056-1.544.056-2.645.056H8.377c-1.1 0-1.958 0-2.645-.056-.698-.057-1.265-.175-1.775-.434a4.5 4.5 0 0 1-1.967-1.967c-.26-.51-.377-1.077-.434-1.775-.056-.687-.056-1.544-.056-2.645V8.377c0-1.1 0-1.958.056-2.645.057-.698.175-1.265.434-1.775A4.5 4.5 0 0 1 3.957 1.99c.51-.26 1.077-.377 1.775-.434C6.42 1.5 7.276 1.5 8.377 1.5M5.814 2.553c-.637.052-1.057.152-1.403.328a3.5 3.5 0 0 0-1.53 1.53c-.176.346-.276.766-.328 1.403C2.5 6.455 2.5 7.272 2.5 8.4v7.2c0 1.128 0 1.945.053 2.586.052.637.152 1.057.328 1.403a3.5 3.5 0 0 0 1.53 1.53c.346.176.766.276 1.403.328.641.053 1.458.053 2.586.053h7.2c1.128 0 1.945 0 2.586-.053.637-.052 1.057-.152 1.403-.328a3.5 3.5 0 0 0 1.53-1.53c.176-.346.276-.766.328-1.402.053-.642.053-1.459.053-2.587V8.4c0-1.128 0-1.945-.053-2.586-.052-.637-.152-1.057-.328-1.403a3.5 3.5 0 0 0-1.53-1.53c-.346-.176-.766-.276-1.402-.328C17.545 2.5 16.728 2.5 15.6 2.5H8.4c-1.128 0-1.945 0-2.586.053",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -8686,6 +11238,47 @@ export default [
           attributes: {
             fill: "#000",
             d: "M22 9.5a1 1 0 0 0 1-1V4a1 1 0 0 0-2 0v3.5h-3.5a1 1 0 1 0 0 2zM2 14.5a1 1 0 0 0-1 1V20a1 1 0 1 0 2 0v-3.5h3.5a1 1 0 1 0 0-2z"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M12 1.5C6.201 1.5 1.5 6.201 1.5 12S6.201 22.5 12 22.5 22.5 17.799 22.5 12 17.799 1.5 12 1.5",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M12.001 21.5c4.595 0 8.43-3.264 9.31-7.6a.5.5 0 1 1 .98.2c-.973 4.792-5.21 8.4-10.29 8.4A10.5 10.5 0 0 1 2.5 16.475V20a.5.5 0 0 1-1 0v-4.5A.5.5 0 0 1 2 15h4.5a.5.5 0 1 1 0 1H3.382A9.5 9.5 0 0 0 12 21.5M2.69 10.1C3.57 5.762 7.404 2.5 12 2.5A9.5 9.5 0 0 1 20.62 8H17.5a.5.5 0 1 0 0 1h4.501a.5.5 0 0 0 .5-.5V4a.5.5 0 0 0-1 0v3.524A10.5 10.5 0 0 0 12 1.5c-5.08 0-9.317 3.608-10.29 8.4a.5.5 0 0 0 .98.2"
           },
           children: []
         }
@@ -8832,6 +11425,49 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M2.5 12a9.5 9.5 0 1 1 19 0c0 1.199-.216 2.21-.619 2.935-.394.709-.962 1.143-1.723 1.252-.758.108-1.408-.176-1.883-.683A2.98 2.98 0 0 1 16.5 13.5V8.25a.5.5 0 0 0-1 0v.921a4.5 4.5 0 1 0 .16 5.446c.172.589.475 1.134.886 1.571.67.715 1.634 1.149 2.754.989 1.116-.16 1.933-.817 2.456-1.756.513-.924.744-2.12.744-3.421 0-5.799-4.701-10.5-10.5-10.5S1.5 6.201 1.5 12 6.201 22.5 12 22.5a.5.5 0 0 0 0-1A9.5 9.5 0 0 1 2.5 12m13 0a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -8964,6 +11600,69 @@ export default [
           attributes: {
             fill: "#000",
             d: "M9.189 5.39c1.39-.987 3.315.008 3.315 1.713v9.796c0 1.705-1.925 2.7-3.315 1.713l-6.733-4.776a2.25 2.25 0 0 1 0-3.67z"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            opacity: ".4"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M2.746 10.574a1.75 1.75 0 0 0 0 2.854l6.732 4.776c1.06.752 2.526-.006 2.526-1.305V7.103c0-1.3-1.466-2.057-2.526-1.305z"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M12.746 10.574a1.75 1.75 0 0 0 0 2.854l6.733 4.776c1.059.752 2.525-.006 2.525-1.305V7.103c0-1.3-1.466-2.057-2.526-1.305z"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M9.189 5.39c1.39-.987 3.315.008 3.315 1.713v3.03l6.685-4.743c1.39-.987 3.315.008 3.315 1.713v9.796c0 1.705-1.925 2.7-3.315 1.713l-6.685-4.742v3.03c0 1.704-1.925 2.699-3.315 1.712l-6.733-4.776a2.25 2.25 0 0 1 0-3.67zm2.315 1.713a1.1 1.1 0 0 0-1.737-.897L3.035 10.98a1.25 1.25 0 0 0 0 2.04l6.732 4.775a1.1 1.1 0 0 0 1.737-.897zm10 0a1.1 1.1 0 0 0-1.737-.897l-6.732 4.775a1.25 1.25 0 0 0 0 2.04l6.732 4.775a1.1 1.1 0 0 0 1.737-.897z",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -9295,6 +11994,100 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "clip-path": "url(#a)"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M9.156 2.514c1.359-2.019 4.33-2.019 5.688 0l.672.998 1.18-.23c2.389-.467 4.49 1.633 4.022 4.021l-.23 1.181.998.672c2.019 1.359 2.019 4.33 0 5.688l-.998.672.23 1.18c.467 2.389-1.633 4.49-4.021 4.022l-1.181-.23-.672.998c-1.359 2.019-4.33 2.019-5.688 0l-.672-.998-1.18.23c-2.389.467-4.49-1.633-4.023-4.021l.231-1.181-.998-.672c-2.019-1.359-2.019-4.33 0-5.688l.998-.672-.23-1.18c-.467-2.389 1.633-4.49 4.021-4.023l1.181.231z",
+                opacity: ".4"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M15.354 9.354a.5.5 0 0 0-.708-.708l-6 6a.5.5 0 0 0 .708.708zM8.75 9.5a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0M14.5 13.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                "fill-rule": "evenodd",
+                d: "M15.259 2.235c-1.557-2.313-4.961-2.313-6.518 0l-.486.723-.856-.167c-2.736-.535-5.143 1.872-4.608 4.608l.167.856-.723.486c-2.313 1.557-2.313 4.961 0 6.518l.723.486-.167.856c-.535 2.736 1.872 5.143 4.608 4.608l.856-.167.486.723c1.557 2.313 4.961 2.313 6.518 0l.486-.723.856.167c2.736.535 5.143-1.872 4.608-4.608l-.167-.856.723-.486c2.313-1.557 2.313-4.961 0-6.518l-.723-.486.167-.856c.535-2.736-1.872-5.143-4.608-4.608l-.856.167zm-5.688.558c1.16-1.724 3.698-1.724 4.858 0l.672.998a.5.5 0 0 0 .51.212l1.181-.23c2.04-.4 3.835 1.395 3.436 3.435l-.231 1.18a.5.5 0 0 0 .212.511l.998.672c1.724 1.16 1.724 3.698 0 4.858l-.998.672a.5.5 0 0 0-.212.51l.23 1.181c.4 2.04-1.395 3.835-3.434 3.436l-1.181-.231a.5.5 0 0 0-.511.212l-.672.998c-1.16 1.724-3.698 1.724-4.858 0l-.672-.998a.5.5 0 0 0-.51-.212l-1.181.23c-2.04.4-3.835-1.395-3.436-3.434l.231-1.181a.5.5 0 0 0-.212-.511l-.998-.672c-1.724-1.16-1.724-3.698 0-4.858l.998-.672a.5.5 0 0 0 .212-.51l-.23-1.181c-.4-2.04 1.395-3.835 3.435-3.436l1.18.231a.5.5 0 0 0 .511-.212z",
+                "clip-rule": "evenodd"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "defs",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {},
+          children: [
+            {
+              name: "clipPath",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                id: "a"
+              },
+              children: [
+                {
+                  name: "path",
+                  type: "element",
+                  value: "",
+                  parent: null,
+                  attributes: {
+                    fill: "#fff",
+                    d: "M0 0h24v24H0z"
+                  },
+                  children: []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
   },
@@ -9499,6 +12292,71 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M20.749 10H3.25c-1.241 0-1.724-1.614-.686-2.295l8.063-5.294a2.5 2.5 0 0 1 2.744 0l8.063 5.294c1.037.681.555 2.295-.686 2.295",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M12.5 6a.5.5 0 1 0-1 0v1.5a.5.5 0 0 0 1 0z"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M13.646 1.993a3 3 0 0 0-3.293 0L2.29 7.287c-1.452.954-.777 3.213.96 3.213H20.75c1.737 0 2.413-2.26.96-3.213zm-2.744.836a2 2 0 0 1 2.195 0l8.063 5.294c.623.409.333 1.377-.412 1.377H3.252c-.745 0-1.034-.968-.412-1.377z",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M18.75 12.5a.5.5 0 0 1 .5.5v3a.5.5 0 1 1-1 0v-3a.5.5 0 0 1 .5-.5M14.75 13a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0zM9.75 12.5a.5.5 0 0 1 .5.5v3a.5.5 0 1 1-1 0v-3a.5.5 0 0 1 .5-.5M5.75 13a.5.5 0 0 0-1 0v3a.5.5 0 0 0 1 0zM3 19a.5.5 0 0 1 .5-.5h17a.5.5 0 1 1 0 1h-17A.5.5 0 0 1 3 19M2 21.5a.5.5 0 0 0 0 1h20a.5.5 0 1 0 0-1z"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -9666,6 +12524,60 @@ export default [
           attributes: {
             fill: "#000",
             d: "M10.114 2.43a.75.75 0 1 0-1.228-.86L5.61 6.25H3.574c-.258 0-.494 0-.692.016a1.8 1.8 0 0 0-.676.175 1.75 1.75 0 0 0-.765.764c-.118.23-.157.464-.175.677a9 9 0 0 0-.016.692v.852c0 .258 0 .494.016.692.018.213.057.446.175.676.168.33.435.597.765.765.23.118.463.157.676.175.198.016.434.016.692.016h16.852c.258 0 .494 0 .692-.016.213-.018.446-.057.677-.175a1.75 1.75 0 0 0 .764-.765c.118-.23.157-.463.175-.676.016-.198.016-.434.016-.692v-.852c0-.258 0-.494-.016-.692a1.8 1.8 0 0 0-.175-.677 1.75 1.75 0 0 0-.765-.764 1.8 1.8 0 0 0-.676-.175c-.198-.016-.434-.016-.692-.016h-2.035l-3.277-4.68a.75.75 0 1 0-1.228.86l2.674 3.82H7.44zM8.75 15a.75.75 0 0 0-1.5 0v3.5a.75.75 0 0 0 1.5 0zM12.75 15a.75.75 0 0 0-1.5 0v3.5a.75.75 0 0 0 1.5 0zM16 14.25a.75.75 0 0 1 .75.75v3.5a.75.75 0 0 1-1.5 0V15a.75.75 0 0 1 .75-.75"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M3 11h18l-.84 6.157c-.234 1.716-.35 2.574-.761 3.22a3.5 3.5 0 0 1-1.493 1.303c-.696.32-1.562.32-3.294.32H9.388c-1.732 0-2.598 0-3.294-.32a3.5 3.5 0 0 1-1.493-1.303c-.41-.646-.527-1.504-.761-3.22z",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M8.5 14.5a.5.5 0 0 0-1 0V18a.5.5 0 0 0 1 0zM12.5 14.5a.5.5 0 0 0-1 0V18a.5.5 0 1 0 1 0zM16.5 14.5a.5.5 0 1 0-1 0V18a.5.5 0 0 0 1 0z"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M9.787 1.59a.5.5 0 0 1 .123.697L6.96 6.5h10.08l-2.95-4.213a.5.5 0 1 1 .82-.574L18.26 6.5h1.809c.397 0 .693 0 .949.068a2 2 0 0 1 1.414 1.414c.068.256.068.552.068.95v.137c0 .398 0 .693-.068.949a2 2 0 0 1-.961 1.23l-.818 5.997c-.115.84-.204 1.5-.318 2.029-.117.539-.265.979-.514 1.371a4 4 0 0 1-1.707 1.49c-.422.194-.878.281-1.428.324-.54.041-1.205.041-2.053.041H9.367c-.848 0-1.514 0-2.053-.041-.55-.043-1.006-.13-1.428-.324a4 4 0 0 1-1.707-1.49c-.25-.392-.397-.832-.514-1.371-.113-.529-.203-1.188-.318-2.03l-.818-5.995a2 2 0 0 1-.96-1.231c-.07-.256-.07-.551-.069-.95v-.137c0-.397 0-.693.068-.949a2 2 0 0 1 1.414-1.414c.256-.068.552-.068.95-.068H5.74l3.35-4.787a.5.5 0 0 1 .697-.123M4 7.5c-.497 0-.648.004-.759.034a1 1 0 0 0-.707.707c-.03.111-.034.262-.034.759s.004.648.034.759a1 1 0 0 0 .707.707c.111.03.262.034.759.034h16c.497 0 .648-.004.759-.034a1 1 0 0 0 .707-.707c.03-.111.034-.262.034-.759s-.004-.648-.034-.759a1 1 0 0 0-.707-.707c-.111-.03-.262-.034-.759-.034zm-.427 4 .762 5.59c.118.865.203 1.486.308 1.973.104.48.22.793.38 1.046a3 3 0 0 0 1.28 1.117c.273.125.598.198 1.088.236.496.038 1.123.038 1.997.038h5.224c.874 0 1.5 0 1.997-.038.49-.038.815-.11 1.088-.236a3 3 0 0 0 1.28-1.117c.16-.253.276-.565.38-1.046.105-.487.19-1.108.308-1.974l.762-5.589z",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -9851,6 +12763,70 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            opacity: ".4"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M5.966 5.966a6.6 6.6 0 0 0-.51 2.01L5.28 9.931a12.13 12.13 0 0 1-1.988 5.631l-.033.05A1.535 1.535 0 0 0 4.535 18H18zM20.271 17.771a1.534 1.534 0 0 0 .471-2.158l-.033-.05a12.13 12.13 0 0 1-1.988-5.631l-.178-1.957a6.57 6.57 0 0 0-11.63-3.563z"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M2.354 1.646a.5.5 0 1 0-.708.708L5.38 6.086a7 7 0 0 0-.42 1.844L4.78 9.887a11.63 11.63 0 0 1-1.906 5.399l-.033.05A2.035 2.035 0 0 0 4.535 18.5h13.258l3.853 3.854a.5.5 0 0 0 .708-.708zM16.793 17.5 6.17 6.877q-.162.552-.215 1.144l-.178 1.956a12.63 12.63 0 0 1-2.07 5.864l-.033.05a1.035 1.035 0 0 0 .861 1.609z",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M19.903 17.403a1.035 1.035 0 0 0 .423-1.512l-.033-.05a12.63 12.63 0 0 1-2.07-5.864l-.178-1.956A6.07 6.07 0 0 0 7.268 4.768l-.71-.71A7.07 7.07 0 0 1 19.041 7.93l.177 1.956c.175 1.93.83 3.786 1.906 5.399l.033.05a2.035 2.035 0 0 1-.526 2.796zM9.151 20.067a.5.5 0 0 1 .683.183 2.499 2.499 0 0 0 4.332 0 .5.5 0 0 1 .865.5 3.499 3.499 0 0 1-6.062 0 .5.5 0 0 1 .182-.683"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -10005,6 +12981,60 @@ export default [
           attributes: {
             fill: "#000",
             d: "M9.026 19.85a.75.75 0 0 1 1.025.274 2.249 2.249 0 0 0 3.899 0 .75.75 0 0 1 1.298.751 3.749 3.749 0 0 1-6.496 0 .75.75 0 0 1 .274-1.024"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "m18.721 9.932-.178-1.957a6.57 6.57 0 0 0-13.086 0l-.178 1.957a12.13 12.13 0 0 1-1.988 5.631l-.033.05A1.535 1.535 0 0 0 4.535 18h14.93a1.535 1.535 0 0 0 1.277-2.387l-.033-.05a12.13 12.13 0 0 1-1.988-5.631",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M12 1.5a7.07 7.07 0 0 0-7.041 6.43L4.78 9.887a11.63 11.63 0 0 1-1.906 5.399l-.033.05A2.035 2.035 0 0 0 4.535 18.5h14.93a2.035 2.035 0 0 0 1.693-3.164l-.033-.05a11.63 11.63 0 0 1-1.906-5.4l-.178-1.956A7.07 7.07 0 0 0 12 1.5M5.955 8.02a6.07 6.07 0 0 1 12.09 0l.178 1.957c.19 2.097.902 4.112 2.07 5.864l.033.05a1.035 1.035 0 0 1-.861 1.609H4.535a1.035 1.035 0 0 1-.861-1.61l.033-.05a12.63 12.63 0 0 0 2.07-5.863z",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M9.834 20.25a.5.5 0 0 0-.865.5 3.499 3.499 0 0 0 6.063 0 .5.5 0 0 0-.866-.5 2.499 2.499 0 0 1-4.332 0"
           },
           children: []
         }
@@ -10348,6 +13378,100 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            "clip-path": "url(#a)",
+            "clip-rule": "evenodd"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M12 23c6.075 0 11-4.925 11-11S18.075 1 12 1 1 5.925 1 12s4.925 11 11 11m.884-14.5h-2.88L10 12v3.5h3.63a1.75 1.75 0 1 0 0-3.5h-.733a1.75 1.75 0 0 0-.013-3.5",
+                opacity: ".4"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M8.75 8a.5.5 0 0 0 0 1h.586v6H8.75a.5.5 0 0 0 0 1H10v1a.5.5 0 0 0 1 0v-1h1v1a.5.5 0 0 0 1 0v-1h.5a2.25 2.25 0 0 0 .959-4.286A2.25 2.25 0 0 0 13 8.014V7a.5.5 0 0 0-1 0v1h-1V7a.5.5 0 0 0-1 0v1zm4.75 7a1.25 1.25 0 1 0 0-2.5h-3.164V15zm-3.164-6h2.414a1.25 1.25 0 0 1 .011 2.5h-2.425z"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M12 .5C5.649.5.5 5.649.5 12S5.649 23.5 12 23.5 23.5 18.351 23.5 12 18.351.5 12 .5M1.5 12C1.5 6.201 6.201 1.5 12 1.5S22.5 6.201 22.5 12 17.799 22.5 12 22.5 1.5 17.799 1.5 12"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "defs",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {},
+          children: [
+            {
+              name: "clipPath",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                id: "a"
+              },
+              children: [
+                {
+                  name: "path",
+                  type: "element",
+                  value: "",
+                  parent: null,
+                  attributes: {
+                    fill: "#fff",
+                    d: "M0 0h24v24H0z"
+                  },
+                  children: []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
   },
@@ -10491,6 +13615,49 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M17.5 6.5 12 12l5.5 5.5L12 22V2z",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M11.786 1.548a.5.5 0 0 1 .53.065l5.5 4.5a.5.5 0 0 1 .038.74L12.707 12l5.147 5.147a.5.5 0 0 1-.037.74l-5.5 4.5A.5.5 0 0 1 11.5 22v-8.793l-5.146 5.147a.5.5 0 0 1-.708-.707L11.293 12 5.646 6.354a.5.5 0 1 1 .708-.708l5.146 5.147V2a.5.5 0 0 1 .286-.452m.714 11.66 4.256 4.255-4.256 3.482zm0-2.415V3.055l4.256 3.482z",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -10612,6 +13779,49 @@ export default [
             fill: "#000",
             d: "M20.75 11.001c0 .614-.389 1.1-1.163 2.066l-6.151 7.69c-1.025 1.282-1.493 1.867-2.164 1.972a1.742 1.742 0 0 1-1.564-.549c-.458-.5-.458-1.25-.458-2.89V15.6c0-.314 0-.639-.029-.718a.25.25 0 0 0-.107-.104c-.076-.028-.4-.028-.714-.028H6.248c-1.239 0-1.861 0-2.339-.382a1.74 1.74 0 0 1-.659-1.367c0-.614.389-1.1 1.163-2.067l6.151-7.69c1.025-1.282 1.493-1.867 2.164-1.972a1.74 1.74 0 0 1 1.564.548c.458.5.458 1.25.458 2.89V8.4c0 .314 0 .639.029.719.022.042.06.08.108.105.073.026.398.026.712.026h2.152c1.239 0 1.861 0 2.339.382.418.333.659.832.659 1.368z",
             opacity: ".4"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M8.4 14.006H6.248c-1.065 0-1.598 0-1.872-.218A1 1 0 0 1 4 13.005c0-.35.333-.766.998-1.598l6.152-7.693c.874-1.093 1.311-1.64 1.694-1.7a1 1 0 0 1 .894.314c.262.286.262.986.262 2.385v3.692c0 .56 0 .84.109 1.054a1 1 0 0 0 .437.437c.214.108.494.108 1.054.108h2.152c1.065 0 1.598 0 1.872.219a1 1 0 0 1 .376.782c0 .35-.333.767-.999 1.599l-6.151 7.693c-.874 1.093-1.311 1.64-1.695 1.7a1 1 0 0 1-.893-.314C10 21.397 10 20.697 10 19.298v-3.692c0-.56 0-.84-.11-1.054a1 1 0 0 0-.436-.437c-.214-.109-.494-.109-1.054-.109",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M12.767 1.52a1.5 1.5 0 0 1 1.34.47c.256.28.326.686.358 1.07.035.408.035.95.035 1.628v3.717c0 .288 0 .474.012.616a.6.6 0 0 0 .042.21.5.5 0 0 0 .219.219.6.6 0 0 0 .21.043c.143.011.329.012.617.012h2.177c.511 0 .93 0 1.253.029.32.029.648.092.906.298a1.5 1.5 0 0 1 .564 1.174c0 .33-.156.626-.333.894-.179.27-.44.597-.76.996l-6.183 7.733c-.423.53-.762.953-1.043 1.249-.266.28-.574.553-.948.612a1.5 1.5 0 0 1-1.34-.47c-.256-.28-.326-.685-.359-1.07C9.5 20.543 9.5 20 9.5 19.323v-3.717c0-.288 0-.474-.012-.616a.6.6 0 0 0-.043-.21.5.5 0 0 0-.218-.22.6.6 0 0 0-.211-.042 9 9 0 0 0-.616-.012H6.223c-.511 0-.93 0-1.253-.03-.32-.028-.648-.092-.906-.297a1.5 1.5 0 0 1-.564-1.174c0-.33.156-.626.333-.894.179-.27.44-.597.76-.997l6.183-7.732c.423-.53.762-.953 1.043-1.25.266-.28.573-.553.948-.612m.602 1.145a.5.5 0 0 0-.447-.157s-.028.006-.092.052c-.07.05-.163.132-.286.261-.248.262-.56.651-1.003 1.205L5.389 11.72c-.339.424-.571.715-.722.944-.156.236-.167.322-.167.343a.5.5 0 0 0 .188.391c.016.013.09.058.372.084.273.025.645.025 1.188.025H8.42c.264 0 .491 0 .678.015.198.017.395.052.584.149a1.5 1.5 0 0 1 .655.655c.097.19.133.386.149.584.015.187.015.414.015.678v3.71c0 .71 0 1.209.03 1.568.016.178.037.3.06.383.022.073.04.096.041.098a.5.5 0 0 0 .447.157s.027-.006.092-.052c.07-.05.163-.132.286-.261.248-.262.56-.651 1.003-1.205l6.152-7.693c.339-.424.571-.716.722-.944.156-.236.167-.323.167-.343a.5.5 0 0 0-.188-.391c-.016-.013-.09-.059-.373-.084-.272-.025-.645-.025-1.187-.025H15.58c-.264 0-.491 0-.679-.016a1.5 1.5 0 0 1-.583-.148 1.5 1.5 0 0 1-.656-.655 1.5 1.5 0 0 1-.148-.584c-.015-.187-.015-.415-.015-.678v-3.71c0-.71 0-1.21-.031-1.569a2 2 0 0 0-.06-.382.3.3 0 0 0-.04-.098",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -10754,6 +13964,49 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M10.789 19.531 12 20.5l1.211-.969a4.7 4.7 0 0 1 2.94-1.031h.468c1.553 0 3.07.46 4.362 1.32A.655.655 0 0 0 22 19.277V6.152a1.22 1.22 0 0 0-.543-1.014l-.297-.198a8.57 8.57 0 0 0-4.756-1.44c-1.52 0-2.956.69-3.906 1.877L12 6l-.498-.623A5 5 0 0 0 7.596 3.5 8.57 8.57 0 0 0 2.84 4.94l-.297.198A1.22 1.22 0 0 0 2 6.152v13.124c0 .523.583.835 1.019.545A7.86 7.86 0 0 1 7.38 18.5h.468c1.069 0 2.106.364 2.94 1.031",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "m11.684 20.888-1.207-.966A4.2 4.2 0 0 0 7.849 19h-.468c-1.454 0-2.875.43-4.085 1.237a1.155 1.155 0 0 1-1.796-.961V6.152c0-.574.287-1.111.766-1.43l.297-.198A9.07 9.07 0 0 1 7.596 3c1.671 0 3.252.76 4.296 2.065L12 5.2l.108-.135A5.5 5.5 0 0 1 16.404 3c1.791 0 3.543.53 5.033 1.524l.297.198c.479.319.766.856.766 1.43v13.124a1.155 1.155 0 0 1-1.796.96A7.36 7.36 0 0 0 16.619 19h-.468c-.955 0-1.882.325-2.627.922l-1.208.966a1 1 0 0 1-.075.05l-.024.013m-9.1-15.595A8.07 8.07 0 0 1 7.597 4c1.367 0 2.66.622 3.514 1.69l.389.485V19.46l-.399-.32A5.2 5.2 0 0 0 7.85 18h-.468a8.37 8.37 0 0 0-4.64 1.405.155.155 0 0 1-.241-.13V6.153c0-.24.12-.465.32-.598zM12.5 19.46l.399-.32A5.2 5.2 0 0 1 16.15 18h.468c1.651 0 3.266.489 4.64 1.405a.155.155 0 0 0 .241-.13V6.153a.72.72 0 0 0-.32-.598l-.297-.198A8.07 8.07 0 0 0 16.403 4c-1.367 0-2.66.622-3.514 1.69l-.389.485z",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -10890,6 +14143,49 @@ export default [
           attributes: {
             fill: "#000",
             d: "M3.75 19.5c0-.966.784-1.75 1.75-1.75h12.75v3.5H5.5a1.75 1.75 0 0 1-1.75-1.75"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M3 5.5v14A2.5 2.5 0 0 1 5.5 17h14a1.5 1.5 0 0 0 1.5-1.5v-12A1.5 1.5 0 0 0 19.5 2h-13A3.5 3.5 0 0 0 3 5.5",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M2.5 19.5v-14a4 4 0 0 1 4-4h13a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2v4H21a.5.5 0 0 1 0 1H5.5a3 3 0 0 1-3-3m1-14a3 3 0 0 1 3-3h13a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-14a3 3 0 0 0-2 .764zm15 12h-13a2 2 0 1 0 0 4h13z",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -11043,6 +14339,49 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "m5 11.458-2.164-.982c-1.042-.473-1.563-.71-1.728-1.032a.97.97 0 0 1 0-.888c.165-.323.686-.56 1.728-1.032l6.513-2.955c.974-.441 1.46-.662 1.97-.75a4 4 0 0 1 1.363 0c.509.088.995.309 1.968.75l6.514 2.955c1.042.473 1.563.71 1.728 1.032a.97.97 0 0 1 0 .888c-.165.323-.686.56-1.728 1.032L19 11.458v4.8c0 .795-.315 1.564-.98 2.001C16.902 18.995 14.853 20 12 20s-4.902-1.005-6.02-1.74c-.665-.438-.98-1.207-.98-2.003z",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M12.766 3.327a4.6 4.6 0 0 0-1.532 0c-.573.098-1.115.344-2.023.756L2.607 7.079c-.502.228-.91.412-1.21.582-.294.166-.58.366-.734.667a1.47 1.47 0 0 0 0 1.344c.154.301.44.502.734.667.3.17.708.354 1.21.582l1.893.86v4.476c0 .919.366 1.868 1.205 2.42C6.882 19.451 9.025 20.5 12 20.5s5.118-1.049 6.295-1.823c.84-.552 1.205-1.501 1.205-2.42V11.78l1.893-.859.107-.048V16a.5.5 0 0 0 1 0v-5.604l.102-.057c.295-.165.581-.366.735-.667a1.47 1.47 0 0 0 0-1.344c-.154-.301-.44-.501-.735-.667-.3-.17-.707-.354-1.209-.582L14.79 4.083c-.908-.412-1.45-.658-2.023-.756m5.734 8.907-3.711 1.683c-.908.412-1.45.658-2.023.756a4.6 4.6 0 0 1-1.532 0c-.573-.098-1.115-.344-2.023-.756L5.5 12.234v4.023c0 .673.265 1.262.755 1.585C7.314 18.539 9.269 19.5 12 19.5s4.686-.961 5.745-1.658c.49-.323.755-.912.755-1.585zm-7.098-7.921a3.6 3.6 0 0 1 1.196 0c.43.073.849.26 1.846.711l6.513 2.955c.53.24.897.408 1.154.553.268.15.325.23.336.252a.47.47 0 0 1 0 .432c-.01.022-.067.101-.336.252-.257.146-.624.312-1.154.553l-6.513 2.955c-.997.452-1.416.638-1.846.711-.396.068-.8.068-1.196 0-.43-.073-.849-.259-1.846-.711L3.043 10.02c-.53-.24-.897-.407-1.154-.553-.269-.15-.325-.23-.336-.252a.47.47 0 0 1 0-.432c.01-.022.067-.101.336-.252.257-.145.624-.312 1.154-.553l6.513-2.955c.997-.452 1.416-.638 1.846-.711",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -11164,6 +14503,49 @@ export default [
             fill: "#000",
             d: "M14.306 1.25H9.668c-.883 0-1.592 0-2.164.047-.589.048-1.1.149-1.57.389l-.054.03c-1.042.643-1.641 1.304-1.914 2.267-.126.446-.173.926-.194 1.438-.015.37-.017.788-.019 1.245l-.003.528V21.28a1.47 1.47 0 0 0 2.466 1.079l5.208-4.807.027-.027c.19-.195.329-.306.43-.367a.5.5 0 0 1 .113-.052H12q0-.001.023.005.027.006.097.047a2.4 2.4 0 0 1 .457.394l5.208 4.807a1.468 1.468 0 0 0 2.466-1.079V7.168c0-.883 0-1.592-.047-2.164-.048-.589-.149-1.1-.389-1.57l-.03-.054c-.643-1.042-1.304-1.64-2.267-1.914-.446-.126-.926-.173-1.439-.194a36 36 0 0 0-1.251-.02q-.253 0-.521-.002",
             opacity: ".4"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M9.7 2h4.6c1.82 0 2.73 0 3.425.354a3.25 3.25 0 0 1 1.42 1.42c.355.696.355 1.606.355 3.426v14.081a.719.719 0 0 1-1.206.528l-5.209-4.807c-.383-.354-.574-.53-.791-.597a1 1 0 0 0-.588 0c-.217.067-.409.243-.791.597l-5.208 4.807a.719.719 0 0 1-1.207-.528V7.2c0-1.82 0-2.73.354-3.425a3.25 3.25 0 0 1 1.42-1.42C6.97 2 7.88 2 9.7 2",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M9.678 1.5h4.644c.892 0 1.591 0 2.153.046.573.047 1.048.144 1.477.363a3.75 3.75 0 0 1 1.64 1.639c.218.43.315.904.362 1.477C20 5.587 20 6.286 20 7.178V21.28a1.219 1.219 0 0 1-2.046.896l-5.208-4.808a8 8 0 0 0-.428-.38.6.6 0 0 0-.171-.106.5.5 0 0 0-.294 0 .6.6 0 0 0-.171.106c-.104.082-.23.198-.428.38l-5.208 4.808A1.219 1.219 0 0 1 4 21.28V7.178c0-.892 0-1.591.046-2.153.047-.573.144-1.048.363-1.477a3.75 3.75 0 0 1 1.639-1.64c.43-.218.904-.315 1.477-.362C8.087 1.5 8.786 1.5 9.678 1.5M7.606 2.543c-.51.041-.84.122-1.104.257A2.75 2.75 0 0 0 5.3 4.002c-.135.265-.216.593-.257 1.104C5 5.623 5 6.282 5 7.2v14.081a.219.219 0 0 0 .367.16l5.222-4.82c.18-.165.336-.309.474-.418a1.5 1.5 0 0 1 .496-.276 1.5 1.5 0 0 1 .882 0c.191.059.349.16.496.276.138.109.294.253.474.419l5.222 4.82a.219.219 0 0 0 .367-.16V7.2c0-.918 0-1.577-.043-2.094-.041-.51-.122-.84-.257-1.104A2.75 2.75 0 0 0 17.5 2.8c-.266-.135-.594-.216-1.105-.257C15.877 2.5 15.218 2.5 14.3 2.5H9.7c-.918 0-1.577 0-2.094.043",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -11301,6 +14683,49 @@ export default [
           attributes: {
             fill: "#000",
             d: "m5.676 3.755 10.588 4.992 1.756-.788a.8.8 0 0 0-.2-.137L7.446 2.93l2.761-1.284a4.25 4.25 0 0 1 3.586 0l6.5 3.023a4.25 4.25 0 0 1 2.34 2.863L18.25 9.499V13a.75.75 0 1 1-1.5 0v-2.826l-3.999 1.794v10.72a4.3 4.3 0 0 1-1.5 0V11.969L1.366 7.536A4.25 4.25 0 0 1 3.707 4.67z"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "m4.024 5.35 6.5-3.023a3.5 3.5 0 0 1 2.952 0l6.5 3.024A3.5 3.5 0 0 1 22 8.524v7.021a3.5 3.5 0 0 1-2.05 3.186l-6.5 2.959a3.5 3.5 0 0 1-2.9 0l-6.5-2.96A3.5 3.5 0 0 1 2 15.546v-7.02A3.5 3.5 0 0 1 4.024 5.35",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M13.687 1.873a4 4 0 0 0-3.374 0l-6.5 3.024A4 4 0 0 0 1.5 8.524v7.021a4 4 0 0 0 2.343 3.64l6.5 2.96a4 4 0 0 0 3.314 0l6.5-2.96a4 4 0 0 0 2.343-3.64V8.524a4 4 0 0 0-2.313-3.627zm-2.952.907a3 3 0 0 1 2.53 0l6.5 3.024c.522.243.951.624 1.252 1.088l-3.493 1.566-9.386-4.47zM17 9.789V13a.5.5 0 0 0 1 0V9.34l3.414-1.53a3 3 0 0 1 .086.714v7.021a3 3 0 0 1-1.757 2.73l-6.5 2.96a3 3 0 0 1-.742.227v-9.657zm-.674-.794L6.96 4.535 4.235 5.804a3 3 0 0 0-1.252 1.088L12 10.934zM2.586 7.81a3 3 0 0 0-.086.714v7.021a3 3 0 0 0 1.757 2.73l6.5 2.96q.362.164.744.227v-9.656z",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -11480,6 +14905,51 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M18 5H6c-1.4 0-2.1 0-2.635.272a2.5 2.5 0 0 0-1.093 1.093C2 6.9 2 7.6 2 9v2.16c0 1.344 0 2.016.262 2.53q.102.2.238.376V16.8c0 1.82 0 2.73.354 3.425a3.25 3.25 0 0 0 1.42 1.42C4.97 22 5.88 22 7.7 22h8.6c1.82 0 2.73 0 3.425-.354a3.25 3.25 0 0 0 1.42-1.42c.355-.696.355-1.606.355-3.426v-2.734q.136-.176.238-.376c.262-.514.262-1.186.262-2.53V9c0-1.4 0-2.1-.273-2.635a2.5 2.5 0 0 0-1.092-1.093C20.1 5 19.4 5 18 5m-4.5 9.25a1.5 1.5 0 0 0-3 0v1.5a1.5 1.5 0 0 0 3 0z",
+            "clip-rule": "evenodd",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M13.62 1.5h-3.24c-.403 0-.735 0-1.006.022-.281.023-.54.072-.782.196a2 2 0 0 0-.874.874c-.124.243-.173.501-.196.782-.022.27-.022.603-.022 1.005V4.5H5.978c-.681 0-1.223 0-1.66.036-.449.036-.83.113-1.18.291a3 3 0 0 0-1.311 1.311c-.178.35-.255.731-.291 1.18-.036.437-.036.979-.036 1.66v2.204c0 .653 0 1.174.034 1.595.036.431.11.8.282 1.14q.083.162.184.312v2.593c0 .892 0 1.59.046 2.153.047.573.144 1.048.363 1.477a3.75 3.75 0 0 0 1.639 1.64c.43.218.904.315 1.477.362.562.046 1.261.046 2.153.046h8.644c.892 0 1.591 0 2.153-.046.573-.047 1.048-.144 1.477-.363a3.75 3.75 0 0 0 1.64-1.639c.218-.43.315-.904.362-1.477.046-.562.046-1.262.046-2.153V14.23q.101-.15.184-.312c.173-.34.246-.709.282-1.14.034-.42.034-.942.034-1.595V8.978c0-.681 0-1.223-.036-1.66-.036-.449-.113-.83-.291-1.18a3 3 0 0 0-1.311-1.311c-.35-.178-.731-.255-1.18-.291-.437-.036-.979-.036-1.66-.036H16.5v-.12c0-.403 0-.735-.022-1.006-.023-.281-.072-.54-.196-.782a2 2 0 0 0-.874-.874c-.243-.124-.501-.173-.782-.196A13 13 0 0 0 13.62 1.5m2.38 4H6c-.708 0-1.21 0-1.601.032-.386.032-.622.092-.807.186a2 2 0 0 0-.874.874c-.094.185-.154.42-.186.807C2.5 7.79 2.5 8.292 2.5 9v2.16c0 .68 0 1.16.031 1.536.03.369.087.592.176.767a1.9 1.9 0 0 0 .83.83c.175.089.398.146.767.176.376.03.856.031 1.536.031H10v-.25a2 2 0 1 1 4 0v.25h4.16c.68 0 1.16 0 1.536-.031.369-.03.592-.087.767-.176a1.9 1.9 0 0 0 .83-.83c.089-.175.146-.398.176-.767.03-.376.031-.856.031-1.536V9c0-.708 0-1.21-.032-1.601-.032-.386-.092-.622-.186-.807a2 2 0 0 0-.874-.874c-.185-.094-.42-.154-.807-.186C19.21 5.5 18.708 5.5 18 5.5zm-7.5-1h7v-.1c0-.428 0-.72-.019-.944-.018-.22-.05-.332-.09-.41a1 1 0 0 0-.437-.437c-.078-.04-.19-.072-.41-.09A13 13 0 0 0 13.6 2.5h-3.2c-.428 0-.72 0-.944.019-.22.018-.332.05-.41.09a1 1 0 0 0-.437.437c-.04.078-.072.19-.09.41-.019.225-.019.516-.019.944zM3 16.8v-1.66l.083.044c.34.173.709.246 1.14.282.42.034.942.034 1.595.034H10v.25a2 2 0 1 0 4 0v-.25h4.182c.653 0 1.174 0 1.595-.034.431-.036.8-.11 1.14-.282L21 15.14v1.66c0 .918 0 1.577-.043 2.094-.041.51-.122.84-.257 1.104A2.75 2.75 0 0 1 19.5 21.2c-.266.136-.594.216-1.105.257-.517.043-1.176.043-2.094.043H7.7c-.918 0-1.577 0-2.094-.043-.51-.041-.84-.122-1.104-.257A2.75 2.75 0 0 1 3.3 19.998c-.135-.265-.216-.593-.257-1.104C3 18.377 3 17.718 3 16.8m9-.05a1 1 0 0 1-1-1v-1.5a1 1 0 1 1 2 0v1.5a1 1 0 0 1-1 1",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -11636,6 +15106,60 @@ export default [
           attributes: {
             fill: "#000",
             d: "M15.75 6.5a.75.75 0 0 1-.75.75h-1a.75.75 0 0 1 0-1.5h1a.75.75 0 0 1 .75.75M15.75 9.5a.75.75 0 0 1-.75.75h-1a.75.75 0 0 1 0-1.5h1a.75.75 0 0 1 .75.75M15 13.25a.75.75 0 0 0 0-1.5h-1a.75.75 0 0 0 0 1.5zM10.75 9.5a.75.75 0 0 1-.75.75H9a.75.75 0 0 1 0-1.5h1a.75.75 0 0 1 .75.75M10 7.25a.75.75 0 0 0 0-1.5H9a.75.75 0 0 0 0 1.5zM10.75 12.5a.75.75 0 0 1-.75.75H9a.75.75 0 0 1 0-1.5h1a.75.75 0 0 1 .75.75M9 17c0-.69.56-1.25 1.25-1.25h3.5c.69 0 1.25.56 1.25 1.25v4.25h7a.75.75 0 0 1 0 1.5H2a.75.75 0 0 1 0-1.5h7z"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M9.5 22H4V6.8c0-1.68 0-2.52.327-3.162a3 3 0 0 1 1.311-1.311C6.28 2 7.12 2 8.8 2h6.4c1.68 0 2.52 0 3.162.327a3 3 0 0 1 1.311 1.311C20 4.28 20 5.12 20 6.8V22h-5.5v-5a1 1 0 0 0-1-1h-3a1 1 0 0 0-1 1z",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M15.5 10a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1 0-1h1a.5.5 0 0 1 .5.5M15 7.5a.5.5 0 0 0 0-1h-1a.5.5 0 0 0 0 1zM15.5 13a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1 0-1h1a.5.5 0 0 1 .5.5M10 10.5a.5.5 0 0 0 0-1H9a.5.5 0 0 0 0 1zM10.5 7a.5.5 0 0 1-.5.5H9a.5.5 0 0 1 0-1h1a.5.5 0 0 1 .5.5M10 13.5a.5.5 0 0 0 0-1H9a.5.5 0 0 0 0 1z"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M8.778 1.5h6.444c.822 0 1.469 0 1.99.043.53.043.974.133 1.377.338a3.5 3.5 0 0 1 1.53 1.53c.205.403.295.847.338 1.378.043.52.043 1.168.043 1.989V21.5H22a.5.5 0 0 1 0 1H2a.5.5 0 0 1 0-1h1.5V6.778c0-.821 0-1.468.043-1.99.043-.53.133-.974.338-1.377a3.5 3.5 0 0 1 1.53-1.53c.403-.205.847-.295 1.378-.338.52-.043 1.168-.043 1.989-.043M4.5 21.5H9V17a1.5 1.5 0 0 1 1.5-1.5h3A1.5 1.5 0 0 1 15 17v4.5h4.5V6.8c0-.848 0-1.455-.04-1.93-.038-.469-.11-.766-.233-1.005a2.5 2.5 0 0 0-1.092-1.093c-.239-.121-.536-.194-1.005-.233-.476-.039-1.082-.039-1.93-.039H8.8c-.848 0-1.455 0-1.93.04-.469.038-.766.11-1.005.232a2.5 2.5 0 0 0-1.093 1.093c-.121.239-.194.536-.233 1.005C4.5 5.345 4.5 5.952 4.5 6.8zm9.5 0V17a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4.5z",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -11836,6 +15360,60 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M2 7.6v8.8c0 1.96 0 2.94.381 3.689a3.5 3.5 0 0 0 1.53 1.53C4.66 22 5.64 22 7.6 22H12V12h10V7.6c0-1.96 0-2.94-.381-3.689a3.5 3.5 0 0 0-1.53-1.53C19.34 2 18.36 2 16.4 2H7.6c-1.96 0-2.94 0-3.689.381a3.5 3.5 0 0 0-1.53 1.53C2 4.66 2 5.64 2 7.6",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M8.854 15.146a.5.5 0 0 1 0 .708L7.707 17l1.147 1.146a.5.5 0 0 1-.708.708L7 17.707l-1.146 1.147a.5.5 0 0 1-.708-.708L6.293 17l-1.147-1.146a.5.5 0 0 1 .708-.708L7 16.293l1.146-1.147a.5.5 0 0 1 .708 0M9 7.5a.5.5 0 0 0 0-1H5a.5.5 0 0 0 0 1zM19 16.25a.5.5 0 0 0 0-1h-4a.5.5 0 0 0 0 1zM19.5 18.25a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1 0-1h4a.5.5 0 0 1 .5.5M17 9.5a.5.5 0 0 1-.5-.5V7.5H15a.5.5 0 0 1 0-1h1.5V5a.5.5 0 0 1 1 0v1.5H19a.5.5 0 0 1 0 1h-1.5V9a.5.5 0 0 1-.5.5"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M7.578 1.5c-.962 0-1.713 0-2.318.05-.614.05-1.12.153-1.576.386a4 4 0 0 0-1.748 1.748c-.233.457-.336.962-.387 1.576C1.5 5.865 1.5 6.616 1.5 7.578v8.844c0 .962 0 1.713.05 2.317.05.615.153 1.12.386 1.577a4 4 0 0 0 1.748 1.748c.457.233.962.336 1.576.387.605.049 1.356.049 2.318.049h8.845c.96 0 1.713 0 2.317-.05.614-.05 1.12-.153 1.576-.386a4 4 0 0 0 1.748-1.748c.233-.457.336-.962.387-1.576.049-.604.049-1.356.049-2.317V7.577c0-.962 0-1.713-.05-2.318-.05-.614-.153-1.12-.386-1.576a4 4 0 0 0-1.748-1.748c-.457-.233-.962-.336-1.576-.387-.604-.049-1.356-.049-2.317-.049zM2.5 16.4v-3.9h9v9H7.6c-.988 0-1.7 0-2.258-.046-.553-.045-.912-.132-1.204-.281a3 3 0 0 1-1.311-1.311c-.149-.292-.236-.651-.281-1.204C2.5 18.1 2.5 17.388 2.5 16.4m0-4.9h9v-9H7.6c-.988 0-1.7 0-2.258.046-.553.045-.912.132-1.204.281a3 3 0 0 0-1.311 1.311c-.149.292-.236.651-.281 1.204C2.5 5.9 2.5 6.612 2.5 7.6zm13.9 10h-3.9v-9h9v3.9c0 .988 0 1.7-.046 2.258-.045.553-.132.912-.281 1.204a3 3 0 0 1-1.311 1.311c-.292.149-.651.236-1.204.281-.559.046-1.27.046-2.258.046m5.1-10V7.6c0-.988 0-1.7-.046-2.258-.045-.553-.132-.912-.281-1.204a3 3 0 0 0-1.311-1.311c-.292-.149-.651-.236-1.204-.281C18.1 2.5 17.388 2.5 16.4 2.5h-3.9v9z",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -12003,6 +15581,60 @@ export default [
           attributes: {
             fill: "#000",
             d: "M8 .25a.75.75 0 0 1 .75.75v1.25h6.5V1a.75.75 0 0 1 1.5 0v1.25c.806 0 1.465.006 2.01.05.63.052 1.172.16 1.67.413a4.25 4.25 0 0 1 1.857 1.858c.253.497.361 1.04.413 1.67.046.564.05 1.252.05 2.099 0 .056 0 .084-.01.105a.1.1 0 0 1-.045.044c-.021.011-.049.011-.105.011H1.41c-.056 0-.084 0-.105-.01a.1.1 0 0 1-.044-.045c-.011-.021-.011-.049-.011-.105 0-.847.004-1.535.05-2.1.052-.63.16-1.172.413-1.67a4.25 4.25 0 0 1 1.858-1.857c.497-.253 1.04-.361 1.67-.413.544-.044 1.203-.05 2.009-.05V1A.75.75 0 0 1 8 .25M6.5 13.5a1 1 0 1 1 2 0 1 1 0 0 1-2 0M12 12.5a1 1 0 1 0 0 2 1 1 0 0 0 0-2M15.5 13.5a1 1 0 1 1 2 0 1 1 0 0 1-2 0M7.5 16.5a1 1 0 1 0 0 2 1 1 0 0 0 0-2M11 17.5a1 1 0 1 1 2 0 1 1 0 0 1-2 0M16.5 16.5a1 1 0 1 0 0 2 1 1 0 0 0 0-2"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M2.1 8.5a.1.1 0 0 0-.1.1v8.8c0 1.96 0 2.94.381 3.689a3.5 3.5 0 0 0 1.53 1.53C4.66 23 5.64 23 7.6 23h8.8c1.96 0 2.94 0 3.689-.381a3.5 3.5 0 0 0 1.53-1.53C22 20.34 22 19.36 22 17.4V8.6a.1.1 0 0 0-.1-.1z",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M6.75 13.5a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0M12 12.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M15.75 13.5a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0M7.5 16.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M11.25 17.5a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0M16.5 16.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M8.5 1a.5.5 0 0 0-1 0v1.5c-.924 0-1.652.001-2.24.05-.614.05-1.12.153-1.576.386a4 4 0 0 0-1.748 1.748c-.233.457-.336.962-.387 1.576C1.5 6.865 1.5 7.616 1.5 8.578v8.844c0 .962 0 1.713.05 2.317.05.615.153 1.12.386 1.577a4 4 0 0 0 1.748 1.748c.457.233.962.336 1.576.387.605.049 1.356.049 2.318.049h8.845c.96 0 1.713 0 2.317-.05.614-.05 1.12-.153 1.576-.386a4 4 0 0 0 1.748-1.748c.233-.457.336-.962.387-1.576.049-.604.049-1.356.049-2.317V8.577c0-.962 0-1.713-.05-2.318-.05-.614-.153-1.12-.386-1.576a4 4 0 0 0-1.748-1.748c-.457-.233-.962-.336-1.576-.387-.588-.048-1.316-.049-2.24-.049V1a.5.5 0 0 0-1 0v1.5h-7zm7.9 2.5c.988 0 1.7 0 2.258.046.553.045.912.132 1.204.281a3 3 0 0 1 1.311 1.311c.149.292.236.651.281 1.204.036.438.044.971.046 1.658h-19c.002-.687.01-1.22.046-1.658.045-.553.132-.912.281-1.204a3 3 0 0 1 1.311-1.311c.292-.149.651-.236 1.204-.281C5.9 3.5 6.612 3.5 7.6 3.5zM2.5 9v8.4c0 .988 0 1.7.046 2.258.045.553.132.912.281 1.204a3 3 0 0 0 1.311 1.311c.292.149.651.236 1.204.281.558.046 1.27.046 2.258.046h8.8c.988 0 1.7 0 2.258-.046.553-.045.912-.132 1.204-.281a3 3 0 0 0 1.311-1.311c.149-.292.236-.651.281-1.204.046-.559.046-1.27.046-2.258V9z",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -12184,6 +15816,64 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M8.553 3.15 7.281 5H7.1c-1.96 0-2.94 0-3.689.381a3.5 3.5 0 0 0-1.53 1.53C1.5 7.66 1.5 8.64 1.5 10.6v4.8c0 1.96 0 2.94.381 3.689a3.5 3.5 0 0 0 1.53 1.53c.749.38 1.729.38 3.689.38h9.8c1.96 0 2.94 0 3.689-.38a3.5 3.5 0 0 0 1.53-1.53c.381-.749.381-1.729.381-3.69v-4.8c0-1.96 0-2.94-.381-3.688a3.5 3.5 0 0 0-1.53-1.53C19.84 5 18.86 5 16.9 5h-.181l-1.272-1.85a1.5 1.5 0 0 0-1.236-.65H9.789a1.5 1.5 0 0 0-1.236.65M12 17a4 4 0 1 1 0-8 4 4 0 0 1 0 8",
+            "clip-rule": "evenodd",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M12 8.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9m3.5 4.5a3.5 3.5 0 1 0-7 0 3.5 3.5 0 0 0 7 0",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M9.79 2a2 2 0 0 0-1.649.867L7.018 4.5c-.932 0-1.666 0-2.258.05-.614.05-1.12.153-1.576.386a4 4 0 0 0-1.748 1.748c-.233.456-.336.962-.387 1.576C1 8.864 1 9.616 1 10.577v4.845c0 .961 0 1.713.05 2.317.05.615.153 1.12.386 1.577a4 4 0 0 0 1.748 1.748c.457.233.962.336 1.576.387.605.049 1.356.049 2.318.049h9.845c.96 0 1.713 0 2.317-.05.614-.05 1.12-.153 1.576-.386a4 4 0 0 0 1.748-1.748c.233-.457.336-.962.387-1.577.049-.604.049-1.356.049-2.317v-4.845c0-.96 0-1.713-.05-2.317-.05-.614-.153-1.12-.386-1.576a4 4 0 0 0-1.748-1.748c-.457-.233-.962-.337-1.576-.387-.592-.048-1.325-.05-2.258-.05l-1.123-1.632A2 2 0 0 0 14.211 2zm-.825 1.433A1 1 0 0 1 9.789 3h4.422a1 1 0 0 1 .824.433l1.272 1.85a.5.5 0 0 0 .412.217h.181c.988 0 1.7 0 2.258.046.553.045.912.132 1.204.28a3 3 0 0 1 1.311 1.312c.149.292.236.651.281 1.204C22 8.9 22 9.612 22 10.6v4.8c0 .988 0 1.7-.046 2.258-.045.553-.132.912-.281 1.204a3 3 0 0 1-1.311 1.31c-.292.15-.651.237-1.204.282-.559.045-1.27.046-2.258.046H7.1c-.988 0-1.7 0-2.258-.046-.553-.045-.912-.132-1.204-.281a3 3 0 0 1-1.311-1.311c-.149-.292-.236-.651-.281-1.204C2 17.099 2 16.388 2 15.4v-4.8c0-.989 0-1.7.046-2.258.045-.553.132-.912.281-1.204a3 3 0 0 1 1.311-1.311c.292-.149.651-.236 1.204-.281C5.4 5.5 6.112 5.5 7.1 5.5h.181a.5.5 0 0 0 .412-.217z",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -12340,6 +16030,60 @@ export default [
           attributes: {
             fill: "#000",
             d: "M8.243 2.75c-.9 0-1.555 0-2.13.226a3.25 3.25 0 0 0-1.304.94c-.397.474-.604 1.095-.888 1.95l-.128.384H2a.75.75 0 0 0 0 1.5h1.293l-.45 1.35.045-.023c.364-.185.752-.26 1.173-.294q.22-.018.477-.024L5.3 6.472c.348-1.044.469-1.366.66-1.595a1.75 1.75 0 0 1 .701-.505c.277-.11.621-.122 1.722-.122h7.234c1.1 0 1.445.013 1.722.122.272.107.514.28.702.505.19.229.311.551.66 1.595l.761 2.287q.257.007.477.024c.422.035.81.109 1.173.294l.045.024-.45-1.35H22a.75.75 0 0 0 0-1.5h-1.793l-.128-.385c-.284-.855-.49-1.476-.888-1.95a3.25 3.25 0 0 0-1.303-.94c-.576-.227-1.231-.227-2.131-.226zM18.75 18.252c.463-.001.857-.006 1.189-.033.421-.035.809-.109 1.173-.294q.349-.178.638-.437v2.764a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1zM2.25 17.488q.288.258.638.437c.364.185.752.26 1.173.294.332.027.726.032 1.189.033v2a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1zM10 12.75a.75.75 0 0 0 0 1.5h4a.75.75 0 0 0 0-1.5zM5 13.5a1 1 0 1 1 2 0 1 1 0 0 1-2 0M18 12.5a1 1 0 1 0 0 2 1 1 0 0 0 0-2"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M5.6 9.5h12.8c1.26 0 1.89 0 2.372.245.423.216.767.56.983.984.245.48.245 1.11.245 2.371v.8c0 1.26 0 1.89-.245 2.371-.216.424-.56.768-.983.984-.476.242-1.096.245-2.325.245h.954c.7 0 1.205 0 1.599-.042v2.292a.75.75 0 0 1-.75.75h-1.5a.75.75 0 0 1-.75-.75V17.5H6v2.25a.75.75 0 0 1-.75.75h-1.5a.75.75 0 0 1-.75-.75v-2.292c.394.042.9.042 1.6.042h.953c-1.229 0-1.85-.003-2.324-.245a2.25 2.25 0 0 1-.984-.983C2 15.79 2 15.16 2 13.9v-.8c0-1.26 0-1.89.245-2.371a2.25 2.25 0 0 1 .984-.984C3.709 9.5 4.339 9.5 5.6 9.5",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M10 13a.5.5 0 0 0 0 1h4a.5.5 0 1 0 0-1zM5.25 13.5a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0M18 12.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M8.276 3c-.933 0-1.542 0-2.072.208A3 3 0 0 0 5 4.076c-.366.437-.558 1.014-.853 1.9l-.175.524H2a.5.5 0 0 0 0 1h1.64l-.593 1.777-.045.023A2.75 2.75 0 0 0 1.8 10.502c-.165.322-.235.673-.268 1.08-.032.395-.032.885-.032 1.496v.844c0 .611 0 1.1.032 1.496.033.407.103.758.268 1.08.173.34.414.64.707.879a1 1 0 0 0-.007.08v2.293c0 .69.56 1.25 1.25 1.25h1.5c.69 0 1.25-.56 1.25-1.25V18h11v1.75c0 .69.56 1.25 1.25 1.25h1.5c.69 0 1.25-.56 1.25-1.25v-2.292a1 1 0 0 0-.007-.081c.293-.24.534-.538.707-.878.165-.323.235-.674.268-1.08.032-.396.032-.886.032-1.497v-.844c0-.611 0-1.1-.032-1.496-.034-.407-.103-.758-.268-1.08a2.75 2.75 0 0 0-1.247-1.225L20.36 7.5H22a.5.5 0 0 0 0-1h-1.973l-.175-.525c-.295-.885-.487-1.462-.852-1.9a3 3 0 0 0-1.204-.867C17.266 3 16.657 3 15.724 3zM6.57 4.139C6.9 4.009 7.304 4 8.383 4h7.234c1.08 0 1.482.008 1.813.139a2 2 0 0 1 .802.578c.229.273.364.652.705 1.676L19.807 9H4.192l.87-2.607c.341-1.024.476-1.403.705-1.676a2 2 0 0 1 .802-.578M5.6 17c-.638 0-1.087 0-1.437-.029-.344-.028-.55-.081-.707-.162a1.75 1.75 0 0 1-.765-.765c-.081-.158-.134-.363-.162-.707-.029-.35-.029-.799-.029-1.437v-.8c0-.638 0-1.087.029-1.437.028-.344.081-.549.162-.707a1.75 1.75 0 0 1 .765-.765c.158-.08.363-.134.707-.162C4.513 10 4.962 10 5.6 10h12.8c.638 0 1.087 0 1.437.029.344.028.55.081.707.162.33.167.598.435.765.765.081.158.134.363.162.707.029.35.029.799.029 1.437v.8c0 .638 0 1.087-.029 1.437-.028.344-.081.55-.162.707a1.75 1.75 0 0 1-.765.765c-.158.081-.363.134-.707.162-.35.029-.799.029-1.437.029zm-2.1 2.75v-1.76c.31.01.663.01 1.07.01h.93v1.75a.25.25 0 0 1-.25.25h-1.5a.25.25 0 0 1-.25-.25m15-1.75h.93c.407 0 .761 0 1.07-.01v1.76a.25.25 0 0 1-.25.25h-1.5a.25.25 0 0 1-.25-.25z",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -12671,6 +16415,100 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            "clip-path": "url(#a)",
+            "clip-rule": "evenodd"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M12 23c6.075 0 11-4.925 11-11S18.075 1 12 1 1 5.925 1 12s4.925 11 11 11m.259-6.287-3.817-3.97a1.07 1.07 0 0 1 0-1.486l3.817-3.97c.58-.603 1.598-.193 1.598.644v8.139c0 .836-1.018 1.246-1.598.643",
+                opacity: ".4"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M8.082 13.09a1.57 1.57 0 0 1 0-2.18l3.817-3.97c.891-.927 2.458-.296 2.458.99v8.14c0 1.286-1.567 1.917-2.458.99zm.72-1.486a.57.57 0 0 0 0 .792l3.818 3.97a.429.429 0 0 0 .737-.296V7.93a.429.429 0 0 0-.737-.297z"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M12 .5C5.649.5.5 5.649.5 12S5.649 23.5 12 23.5 23.5 18.351 23.5 12 18.351.5 12 .5M1.5 12C1.5 6.201 6.201 1.5 12 1.5S22.5 6.201 22.5 12 17.799 22.5 12 22.5 1.5 17.799 1.5 12"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "defs",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {},
+          children: [
+            {
+              name: "clipPath",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                id: "a"
+              },
+              children: [
+                {
+                  name: "path",
+                  type: "element",
+                  value: "",
+                  parent: null,
+                  attributes: {
+                    fill: "#fff",
+                    d: "M0 0h24v24H0z"
+                  },
+                  children: []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
   },
@@ -12836,6 +16674,64 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M22 9.2v5.6c0 2.52 0 3.78-.49 4.743a4.5 4.5 0 0 1-1.967 1.967C18.58 22 17.32 22 14.8 22H9.2c-2.52 0-3.78 0-4.743-.49a4.5 4.5 0 0 1-1.967-1.967C2 18.58 2 17.32 2 14.8V9.2c0-2.52 0-3.78.49-4.743A4.5 4.5 0 0 1 4.457 2.49C5.42 2 6.68 2 9.2 2h5.6c2.52 0 3.78 0 4.743.49a4.5 4.5 0 0 1 1.967 1.967C22 5.42 22 6.68 22 9.2m-9.741 7.513-3.817-3.97a1.07 1.07 0 0 1 0-1.486l3.817-3.97c.58-.603 1.598-.193 1.598.644v8.139c0 .836-1.018 1.246-1.598.643",
+            "clip-rule": "evenodd",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M8.082 13.09a1.57 1.57 0 0 1 0-2.18l3.817-3.97c.891-.927 2.458-.296 2.458.99v8.14c0 1.286-1.567 1.917-2.458.99zm.72-1.486a.57.57 0 0 0 0 .792l3.818 3.97a.429.429 0 0 0 .737-.296V7.93a.429.429 0 0 0-.737-.297z",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M15.623 1.5H8.377c-1.1 0-1.958 0-2.645.056-.698.057-1.265.175-1.775.434A4.5 4.5 0 0 0 1.99 3.957c-.26.51-.377 1.077-.434 1.775C1.5 6.42 1.5 7.276 1.5 8.377v7.246c0 1.1 0 1.958.056 2.645.057.698.175 1.265.434 1.775a4.5 4.5 0 0 0 1.967 1.967c.51.26 1.077.377 1.775.434.688.056 1.544.056 2.645.056h7.246c1.1 0 1.958 0 2.645-.056.698-.057 1.265-.175 1.775-.434a4.5 4.5 0 0 0 1.967-1.967c.26-.51.377-1.077.434-1.775.056-.687.056-1.544.056-2.645V8.377c0-1.1 0-1.958-.056-2.645-.057-.698-.175-1.265-.434-1.775a4.5 4.5 0 0 0-1.967-1.967c-.51-.26-1.077-.377-1.775-.434-.687-.056-1.544-.056-2.645-.056M4.41 2.881c.346-.176.766-.276 1.403-.328C6.455 2.5 7.272 2.5 8.4 2.5h7.2c1.128 0 1.945 0 2.586.053.637.052 1.057.152 1.403.328a3.5 3.5 0 0 1 1.53 1.53c.176.346.276.766.328 1.403.053.641.053 1.458.053 2.586v7.2c0 1.128 0 1.945-.053 2.586-.052.637-.152 1.057-.328 1.403a3.5 3.5 0 0 1-1.53 1.53c-.346.176-.766.276-1.402.328-.642.053-1.459.053-2.587.053H8.4c-1.128 0-1.945 0-2.586-.053-.637-.052-1.057-.152-1.403-.328a3.5 3.5 0 0 1-1.53-1.53c-.176-.346-.276-.766-.328-1.402C2.5 17.545 2.5 16.728 2.5 15.6V8.4c0-1.128 0-1.945.053-2.586.052-.637.152-1.057.328-1.403a3.5 3.5 0 0 1 1.53-1.53",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -12957,6 +16853,49 @@ export default [
             fill: "#000",
             d: "M7.058 10.615a2 2 0 0 0 0 2.772l5.344 5.558c1.123 1.168 3.097.373 3.097-1.247V6.304c0-1.621-1.974-2.416-3.097-1.248z",
             opacity: ".4"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "m7.419 10.961 5.343-5.558c.811-.844 2.237-.27 2.237.9v11.394c0 1.171-1.426 1.745-2.237.901L7.42 13.04a1.5 1.5 0 0 1 0-2.079",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M7.058 13.387a2 2 0 0 1 0-2.773l5.344-5.558c1.123-1.168 3.097-.373 3.097 1.248v11.394c0 1.62-1.974 2.415-3.097 1.247zm.721-2.08a1 1 0 0 0 0 1.387l5.344 5.558c.499.52 1.376.166 1.376-.554V6.304c0-.72-.877-1.074-1.376-.555z",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -13288,6 +17227,100 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            "clip-path": "url(#a)",
+            "clip-rule": "evenodd"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M12 23c6.075 0 11-4.925 11-11S18.075 1 12 1 1 5.925 1 12s4.925 11 11 11m-.259-6.287 3.817-3.97a1.07 1.07 0 0 0 0-1.486l-3.817-3.97c-.58-.603-1.598-.193-1.598.644v8.139c0 .836 1.018 1.246 1.598.643",
+                opacity: ".4"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M15.919 13.09a1.57 1.57 0 0 0 0-2.18L12.1 6.94c-.891-.927-2.458-.296-2.458.99v8.14c0 1.286 1.567 1.917 2.458.99zm-.721-1.486a.57.57 0 0 1 0 .792l-3.818 3.97a.429.429 0 0 1-.737-.296V7.93c0-.385.47-.575.737-.297z"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M12 .5C5.649.5.5 5.649.5 12S5.649 23.5 12 23.5 23.5 18.351 23.5 12 18.351.5 12 .5M1.5 12C1.5 6.201 6.201 1.5 12 1.5S22.5 6.201 22.5 12 17.799 22.5 12 22.5 1.5 17.799 1.5 12"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "defs",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {},
+          children: [
+            {
+              name: "clipPath",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                id: "a"
+              },
+              children: [
+                {
+                  name: "path",
+                  type: "element",
+                  value: "",
+                  parent: null,
+                  attributes: {
+                    fill: "#fff",
+                    d: "M0 0h24v24H0z"
+                  },
+                  children: []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
   },
@@ -13453,6 +17486,64 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M22 9.2v5.6c0 2.52 0 3.78-.49 4.743a4.5 4.5 0 0 1-1.967 1.967C18.58 22 17.32 22 14.8 22H9.2c-2.52 0-3.78 0-4.743-.49a4.5 4.5 0 0 1-1.967-1.967C2 18.58 2 17.32 2 14.8V9.2c0-2.52 0-3.78.49-4.743A4.5 4.5 0 0 1 4.457 2.49C5.42 2 6.68 2 9.2 2h5.6c2.52 0 3.78 0 4.743.49a4.5 4.5 0 0 1 1.967 1.967C22 5.42 22 6.68 22 9.2m-10.259 7.513 3.817-3.97a1.07 1.07 0 0 0 0-1.486l-3.817-3.97c-.58-.603-1.598-.193-1.598.644v8.139c0 .836 1.018 1.246 1.598.643",
+            "clip-rule": "evenodd",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M15.919 13.09a1.57 1.57 0 0 0 0-2.18L12.1 6.94c-.891-.927-2.458-.296-2.458.99v8.14c0 1.286 1.567 1.917 2.458.99zm-.721-1.486a.57.57 0 0 1 0 .792l-3.818 3.97a.429.429 0 0 1-.737-.296V7.93c0-.385.47-.575.737-.297z",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M15.623 1.5H8.377c-1.1 0-1.958 0-2.645.056-.698.057-1.265.175-1.775.434A4.5 4.5 0 0 0 1.99 3.957c-.26.51-.377 1.077-.434 1.775C1.5 6.42 1.5 7.276 1.5 8.377v7.246c0 1.1 0 1.958.056 2.645.057.698.175 1.265.434 1.775a4.5 4.5 0 0 0 1.967 1.967c.51.26 1.077.377 1.775.434.688.056 1.544.056 2.645.056h7.246c1.1 0 1.958 0 2.645-.056.698-.057 1.265-.175 1.775-.434a4.5 4.5 0 0 0 1.967-1.967c.26-.51.377-1.077.434-1.775.056-.687.056-1.544.056-2.645V8.377c0-1.1 0-1.958-.056-2.645-.057-.698-.175-1.265-.434-1.775a4.5 4.5 0 0 0-1.967-1.967c-.51-.26-1.077-.377-1.775-.434-.687-.056-1.544-.056-2.645-.056M4.41 2.881c.346-.176.766-.276 1.403-.328C6.455 2.5 7.272 2.5 8.4 2.5h7.2c1.128 0 1.945 0 2.586.053.637.052 1.057.152 1.403.328a3.5 3.5 0 0 1 1.53 1.53c.176.346.276.766.328 1.403.053.641.053 1.458.053 2.586v7.2c0 1.128 0 1.945-.053 2.586-.052.637-.152 1.057-.328 1.403a3.5 3.5 0 0 1-1.53 1.53c-.346.176-.766.276-1.402.328-.642.053-1.459.053-2.587.053H8.4c-1.128 0-1.945 0-2.586-.053-.637-.052-1.057-.152-1.403-.328a3.5 3.5 0 0 1-1.53-1.53c-.176-.346-.276-.766-.328-1.402C2.5 17.545 2.5 16.728 2.5 15.6V8.4c0-1.128 0-1.945.053-2.586.052-.637.152-1.057.328-1.403a3.5 3.5 0 0 1 1.53-1.53",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -13574,6 +17665,49 @@ export default [
             fill: "#000",
             d: "M16.94 10.615a2 2 0 0 1 0 2.772l-5.343 5.558c-1.123 1.168-3.097.373-3.097-1.247V6.304c0-1.621 1.974-2.416 3.097-1.248z",
             opacity: ".4"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "m16.58 10.961-5.343-5.558c-.811-.844-2.237-.27-2.237.9v11.394c0 1.171 1.426 1.745 2.237.901l5.343-5.558a1.5 1.5 0 0 0 0-2.079",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M16.94 13.387a2 2 0 0 0 0-2.773l-5.343-5.558C10.474 3.888 8.5 4.683 8.5 6.304v11.394c0 1.62 1.974 2.415 3.097 1.247zm-.72-2.08a1 1 0 0 1 0 1.387l-5.343 5.558c-.5.52-1.377.166-1.377-.554V6.304c0-.72.877-1.074 1.377-.555z",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -13711,6 +17845,59 @@ export default [
           attributes: {
             fill: "#000",
             d: "M3.75 17.25a2.5 2.5 0 0 1 2.5-2.5.75.75 0 0 1 0 1.5 1 1 0 1 0 0 2H21a.75.75 0 0 1 0 1.5h-.378q.126.354.128.75a2.25 2.25 0 1 1-4.372-.75h-5.756q.126.354.128.75a2.25 2.25 0 1 1-4.372-.75H6.25a2.5 2.5 0 0 1-2.5-2.5"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            opacity: ".4"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M18.74 15.5H8.007a2 2 0 0 1-1.983-1.743L4.824 4.5h16.18a1 1 0 0 1 .995 1.1l-.772 7.651A2.5 2.5 0 0 1 18.74 15.5M8.5 22a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3M20 20.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M2 1.5a.5.5 0 0 0 0 1h1.182a1 1 0 0 1 .992.871l1.354 10.45c.058.447.232.853.488 1.191A2.25 2.25 0 0 0 6.25 19.5h.518a2 2 0 1 0 3.465 0h6.535a2 2 0 1 0 3.465 0H21a.5.5 0 0 0 0-1H6.25a1.25 1.25 0 1 1 0-2.5h12.49a3 3 0 0 0 2.984-2.699l.772-7.65A1.5 1.5 0 0 0 21.004 4H5.264l-.099-.757A2 2 0 0 0 3.182 1.5zm16.5 18a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-11 1a1 1 0 1 1 2 0 1 1 0 0 1-2 0M18.74 15a2 2 0 0 0 1.99-1.8l.771-7.65a.5.5 0 0 0-.497-.55H5.394l1.126 8.693A1.5 1.5 0 0 0 8.007 15z",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -13877,6 +18064,58 @@ export default [
           attributes: {
             fill: "#000",
             d: "M19 17a1 1 0 1 0 2 0V4a1 1 0 1 0-2 0zM12 6a1 1 0 0 0-1 1v10a1 1 0 1 0 2 0V7a1 1 0 0 0-1-1M7 13v4a1 1 0 1 0 2 0v-4a1 1 0 1 0-2 0M15 17v-6a1 1 0 1 1 2 0v6a1 1 0 1 1-2 0"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M2 1.5a.5.5 0 0 0-.5.5v16.5a4 4 0 0 0 4 4H22a.5.5 0 0 0 .5-.5V2a.5.5 0 0 0-.5-.5z",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M2 1.5a.5.5 0 0 1 .5.5v16.5a3 3 0 0 0 3 3H22a.5.5 0 0 1 0 1H5.5a4 4 0 0 1-4-4V2a.5.5 0 0 1 .5-.5"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M7.5 17v-4a.5.5 0 0 1 1 0v4a.5.5 0 0 1-1 0M11.5 7v10a.5.5 0 0 0 1 0V7a.5.5 0 0 0-1 0M15.5 17v-6a.5.5 0 0 1 1 0v6a.5.5 0 0 1-1 0M19.5 17a.5.5 0 0 0 1 0V4a.5.5 0 0 0-1 0z"
           },
           children: []
         }
@@ -14154,6 +18393,49 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M11 3.5a9.5 9.5 0 1 0 9.5 9.5H11z",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M11.522 1.011A.984.984 0 0 0 10.5 2v1.012C5.21 3.272 1 7.645 1 13c0 5.523 4.477 10 10 10 5.355 0 9.727-4.21 9.988-9.5H22a.984.984 0 0 0 .989-1.022c-.266-6.212-5.255-11.2-11.467-11.467m8.99 11.489H11.5V2.011c5.677.254 10.235 4.812 10.489 10.489zM10.5 4.014V12.5a1 1 0 0 0 1 1h8.486A9 9 0 1 1 10.5 4.014",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -14320,6 +18602,58 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M2 1.5a.5.5 0 0 0-.5.5v16.5a4 4 0 0 0 4 4H22a.5.5 0 0 0 .5-.5V2a.5.5 0 0 0-.5-.5z",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M2 1.5a.5.5 0 0 1 .5.5v16.5a3 3 0 0 0 3 3H22a.5.5 0 0 1 0 1H5.5a4 4 0 0 1-4-4V2a.5.5 0 0 1 .5-.5"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M6.5 18v-1.5a.5.5 0 0 1 1 0V18a.5.5 0 0 1-1 0M10.5 14.65V18a.5.5 0 0 0 1 0v-3.35a.5.5 0 0 0-1 0M15 18.5a.5.5 0 0 1-.5-.5v-5.2a.5.5 0 0 1 1 0V18a.5.5 0 0 1-.5.5M18.5 18a.5.5 0 0 0 1 0v-7a.5.5 0 0 0-1 0zM15.75 3a.5.5 0 0 1 .5-.5H20a.5.5 0 0 1 .5.5v3.75a.5.5 0 0 1-1 0V4.243c-2.122 2.308-4.06 3.974-6.131 5.131-2.198 1.228-4.519 1.869-7.324 2.124a.5.5 0 0 1-.09-.996c2.695-.245 4.874-.854 6.926-2.001 1.965-1.098 3.837-2.702 5.944-5.001H16.25a.5.5 0 0 1-.5-.5"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -14476,6 +18810,60 @@ export default [
           attributes: {
             fill: "#000",
             d: "M7 10.5a1 1 0 1 1 2 0 1 1 0 0 1-2 0M11 10.5a1 1 0 1 1 2 0 1 1 0 0 1-2 0M16 9.5a1 1 0 1 0 0 2 1 1 0 0 0 0-2"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M2 12.766V8.4c0-2.24 0-3.36.436-4.216a4 4 0 0 1 1.748-1.748C5.04 2 6.16 2 8.4 2h7.2c2.24 0 3.36 0 4.216.436a4 4 0 0 1 1.748 1.748C22 5.04 22 6.16 22 8.4v4.366c0 2.084 0 3.126-.379 3.933a4 4 0 0 1-1.922 1.922c-.807.379-1.85.379-3.933.379-.442 0-.663 0-.864.057-.212.06-.408.166-.574.31-.158.138-.278.323-.52.693l-.468.717c-.447.685-.67 1.027-.953 1.146a1 1 0 0 1-.774 0c-.283-.119-.506-.461-.953-1.146l-.468-.717c-.242-.37-.362-.555-.52-.692a1.5 1.5 0 0 0-.574-.31C8.898 19 8.676 19 8.234 19c-2.084 0-3.126 0-3.933-.379A4 4 0 0 1 2.379 16.7C2 15.892 2 14.849 2 12.766",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M12 9.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M7.25 10.5a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0M16 9.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M15.623 1.5H8.377c-1.1 0-1.958 0-2.645.056-.698.057-1.265.175-1.775.434A4.5 4.5 0 0 0 1.99 3.957c-.26.51-.377 1.077-.434 1.775C1.5 6.42 1.5 7.276 1.5 8.377v4.41c0 1.024 0 1.821.049 2.462.05.65.151 1.18.377 1.662a4.5 4.5 0 0 0 2.163 2.163c.481.226 1.011.328 1.662.377.64.049 1.438.049 2.462.049h.021c.471 0 .61.005.727.038a1 1 0 0 1 .383.207c.093.08.172.194.43.588l.48.737c.213.326.39.599.552.802.165.209.356.404.614.512a1.5 1.5 0 0 0 1.16 0c.258-.108.45-.303.614-.512.161-.203.34-.476.552-.802l.48-.737c.258-.394.337-.507.43-.588a1 1 0 0 1 .383-.207c.118-.034.256-.038.727-.038h.02c1.025 0 1.822 0 2.463-.049.65-.05 1.18-.151 1.662-.377a4.5 4.5 0 0 0 2.163-2.163c.226-.481.328-1.011.377-1.662.049-.64.049-1.438.049-2.462v-4.41c0-1.1 0-1.958-.056-2.645-.057-.698-.175-1.265-.434-1.775a4.5 4.5 0 0 0-1.967-1.967c-.51-.26-1.077-.377-1.775-.434-.687-.056-1.544-.056-2.645-.056M4.41 2.881c.346-.176.766-.276 1.403-.328C6.455 2.5 7.272 2.5 8.4 2.5h7.2c1.128 0 1.945 0 2.586.053.637.052 1.057.152 1.403.328a3.5 3.5 0 0 1 1.53 1.53c.176.346.276.766.328 1.403.053.641.053 1.458.053 2.586v4.366c0 1.05 0 1.809-.046 2.407-.045.594-.133.988-.285 1.314a3.5 3.5 0 0 1-1.682 1.682c-.326.152-.72.24-1.314.285-.598.046-1.358.046-2.407.046h-.062c-.382 0-.67 0-.94.076-.281.08-.542.222-.764.414-.211.184-.368.425-.577.745l-.502.77c-.228.35-.382.583-.511.747-.13.164-.192.2-.217.21a.5.5 0 0 1-.386 0c-.025-.01-.087-.046-.217-.21a11 11 0 0 1-.511-.748l-.502-.77c-.209-.319-.366-.56-.577-.744a2 2 0 0 0-.765-.414c-.27-.076-.557-.076-.939-.076h-.062c-1.05 0-1.809 0-2.407-.046-.593-.045-.988-.133-1.314-.285a3.5 3.5 0 0 1-1.682-1.682c-.152-.326-.24-.72-.285-1.314-.046-.598-.046-1.358-.046-2.407V8.4c0-1.128 0-1.945.053-2.586.052-.637.152-1.057.328-1.403a3.5 3.5 0 0 1 1.53-1.53",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -14807,6 +19195,100 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "clip-path": "url(#a)"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M23 12c0 6.075-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1s11 4.925 11 11",
+                opacity: ".4"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M16.854 9.354a.5.5 0 0 0-.708-.708L10.5 14.293l-2.646-2.647a.5.5 0 0 0-.708.708l3 3a.5.5 0 0 0 .708 0z"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                "fill-rule": "evenodd",
+                d: "M12 .5C5.649.5.5 5.649.5 12S5.649 23.5 12 23.5 23.5 18.351 23.5 12 18.351.5 12 .5M1.5 12C1.5 6.201 6.201 1.5 12 1.5S22.5 6.201 22.5 12 17.799 22.5 12 22.5 1.5 17.799 1.5 12",
+                "clip-rule": "evenodd"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "defs",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {},
+          children: [
+            {
+              name: "clipPath",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                id: "a"
+              },
+              children: [
+                {
+                  name: "path",
+                  type: "element",
+                  value: "",
+                  parent: null,
+                  attributes: {
+                    fill: "#fff",
+                    d: "M0 0h24v24H0z"
+                  },
+                  children: []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
   },
@@ -14968,6 +19450,60 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M22 15.6V8.4c0-2.24 0-3.36-.436-4.216a4 4 0 0 0-1.748-1.748C18.96 2 17.84 2 15.6 2H8.4c-2.24 0-3.36 0-4.216.436a4 4 0 0 0-1.748 1.748C2 5.04 2 6.16 2 8.4v7.2c0 2.24 0 3.36.436 4.216a4 4 0 0 0 1.748 1.748C5.04 22 6.16 22 8.4 22h7.2c2.24 0 3.36 0 4.216-.436a4 4 0 0 0 1.748-1.748C22 18.96 22 17.84 22 15.6",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M10.346 7.139a.5.5 0 0 1 .015.707L9.083 9.179a.5.5 0 0 1-.715.007l-.722-.725a.5.5 0 1 1 .708-.706l.361.363.924-.964a.5.5 0 0 1 .707-.015M12.5 7.6a.5.5 0 0 0 0 1H16a.5.5 0 0 0 0-1zM10.346 10.97a.5.5 0 0 1 .015.706l-1.278 1.333a.5.5 0 0 1-.715.007l-.722-.725a.5.5 0 1 1 .708-.706l.361.363.924-.964a.5.5 0 0 1 .707-.015M12.5 11.43a.5.5 0 0 0 0 1H16a.5.5 0 0 0 0-1zM10.346 14.799a.5.5 0 0 1 .015.707l-1.278 1.333a.5.5 0 0 1-.715.007l-.722-.725a.5.5 0 1 1 .708-.706l.361.363.924-.964a.5.5 0 0 1 .707-.015M12.5 15.26a.5.5 0 0 0 0 1H16a.5.5 0 1 0 0-1z"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M8.377 1.5h7.246c1.1 0 1.958 0 2.645.056.698.057 1.265.175 1.775.434a4.5 4.5 0 0 1 1.967 1.967c.26.51.377 1.077.434 1.775.056.687.056 1.544.056 2.645v7.246c0 1.1 0 1.958-.056 2.645-.057.698-.175 1.265-.434 1.775a4.5 4.5 0 0 1-1.967 1.967c-.51.26-1.077.377-1.775.434-.687.056-1.544.056-2.645.056H8.377c-1.1 0-1.958 0-2.645-.056-.698-.057-1.265-.175-1.775-.434a4.5 4.5 0 0 1-1.967-1.967c-.26-.51-.377-1.077-.434-1.775-.056-.687-.056-1.544-.056-2.645V8.377c0-1.1 0-1.958.056-2.645.057-.698.175-1.265.434-1.775A4.5 4.5 0 0 1 3.957 1.99c.51-.26 1.077-.377 1.775-.434C6.42 1.5 7.276 1.5 8.377 1.5M5.814 2.553c-.637.052-1.057.152-1.403.328a3.5 3.5 0 0 0-1.53 1.53c-.176.346-.276.766-.328 1.403C2.5 6.455 2.5 7.272 2.5 8.4v7.2c0 1.128 0 1.945.053 2.586.052.637.152 1.057.328 1.403a3.5 3.5 0 0 0 1.53 1.53c.346.176.766.276 1.403.328.641.053 1.458.053 2.586.053h7.2c1.128 0 1.945 0 2.586-.053.637-.052 1.057-.152 1.403-.328a3.5 3.5 0 0 0 1.53-1.53c.176-.346.276-.766.328-1.402.053-.642.053-1.459.053-2.587V8.4c0-1.128 0-1.945-.053-2.586-.052-.637-.152-1.057-.328-1.403a3.5 3.5 0 0 0-1.53-1.53c-.346-.176-.766-.276-1.402-.328C17.545 2.5 16.728 2.5 15.6 2.5H8.4c-1.128 0-1.945 0-2.586.053",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -15084,6 +19620,36 @@ export default [
           attributes: {
             fill: "#000",
             d: "M21.707 5.293a1 1 0 0 1 0 1.414l-12 12a1 1 0 0 1-1.414 0l-6-6a1 1 0 1 1 1.414-1.414L9 16.586 20.293 5.293a1 1 0 0 1 1.414 0",
+            opacity: ".4"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M21.354 5.646a.5.5 0 0 1 0 .708l-12 12a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 .708-.708L9 17.293 20.646 5.646a.5.5 0 0 1 .708 0",
             opacity: ".4"
           },
           children: []
@@ -15224,6 +19790,49 @@ export default [
           attributes: {
             fill: "#000",
             d: "M8.75.75a1.5 1.5 0 0 0-1.5 1.5v2a1.5 1.5 0 0 0 1.5 1.5h6.5a1.5 1.5 0 0 0 1.5-1.5v-2a1.5 1.5 0 0 0-1.5-1.5z"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M20.5 17.7V7.75c0-1.398 0-2.097-.228-2.648a3 3 0 0 0-1.624-1.624c-.531-.22-1.2-.228-2.498-.228a.15.15 0 0 0-.15.15c0 .56 0 .84-.109 1.054a1 1 0 0 1-.437.437C15.24 5 14.96 5 14.4 5H9.6c-.56 0-.84 0-1.054-.109a1 1 0 0 1-.437-.437C8 4.24 8 3.96 8 3.4a.15.15 0 0 0-.15-.15c-1.299 0-1.967.008-2.498.228a3 3 0 0 0-1.624 1.624C3.5 5.653 3.5 6.352 3.5 7.75v9.95c0 1.68 0 2.52.327 3.162a3 3 0 0 0 1.311 1.311c.642.327 1.482.327 3.162.327h7.4c1.68 0 2.52 0 3.162-.327a3 3 0 0 0 1.311-1.311c.327-.642.327-1.482.327-3.162",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M9 1a1.5 1.5 0 0 0-1.5 1.5v.25a19 19 0 0 0-1.176.03c-.443.03-.817.093-1.163.236a3.5 3.5 0 0 0-1.895 1.895c-.143.346-.206.72-.236 1.164C3 6.51 3 7.047 3 7.732v9.99c0 .822 0 1.468.043 1.99.043.53.133.974.338 1.377a3.5 3.5 0 0 0 1.53 1.53c.403.205.847.295 1.378.338.52.043 1.168.043 1.989.043h7.444c.822 0 1.469 0 1.99-.043.53-.043.974-.133 1.377-.338a3.5 3.5 0 0 0 1.53-1.53c.205-.403.295-.847.338-1.378.043-.52.043-1.167.043-1.989v-9.99c0-.684 0-1.222-.03-1.658-.03-.443-.093-.817-.236-1.163a3.5 3.5 0 0 0-1.895-1.895c-.346-.143-.72-.206-1.163-.236a19 19 0 0 0-1.176-.03V2.5A1.5 1.5 0 0 0 15 1zm7.102 4.018c.247-.267.398-.625.398-1.018v-.25c.455.002.81.007 1.107.027.393.027.645.079.85.163a2.5 2.5 0 0 1 1.353 1.353c.084.205.136.457.163.85C20 6.54 20 7.044 20 7.75v9.95c0 .848 0 1.454-.04 1.93-.038.469-.11.766-.233 1.005a2.5 2.5 0 0 1-1.092 1.092c-.239.122-.536.195-1.005.234-.476.039-1.082.039-1.93.039H8.3c-.848 0-1.455 0-1.93-.04-.469-.038-.766-.11-1.005-.233a2.5 2.5 0 0 1-1.093-1.092c-.121-.239-.194-.536-.233-1.005C4 19.154 4 18.548 4 17.7V7.75c0-.706 0-1.21.027-1.607.027-.393.079-.645.163-.85A2.5 2.5 0 0 1 5.543 3.94c.205-.084.457-.136.85-.163.296-.02.652-.025 1.107-.027V4A1.5 1.5 0 0 0 9 5.5h6a1.5 1.5 0 0 0 1.102-.482M15.5 2.5A.5.5 0 0 0 15 2H9a.5.5 0 0 0-.5.5v.9c0 .288 0 .474.012.616a.6.6 0 0 0 .043.211.5.5 0 0 0 .218.218.6.6 0 0 0 .21.043c.143.012.329.012.617.012h4.8c.288 0 .474 0 .616-.012a.6.6 0 0 0 .211-.043.5.5 0 0 0 .218-.218.6.6 0 0 0 .043-.21c.012-.143.012-.329.012-.617z",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -15555,6 +20164,100 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "clip-path": "url(#a)"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M23 12c0 6.075-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1s11 4.925 11 11",
+                opacity: ".4"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M12.5 6a.5.5 0 0 0-1 0v6a.5.5 0 0 0 .235.424l4 2.5a.5.5 0 1 0 .53-.848L12.5 11.723z"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                "fill-rule": "evenodd",
+                d: "M12 .5C5.649.5.5 5.649.5 12S5.649 23.5 12 23.5 23.5 18.351 23.5 12 18.351.5 12 .5M1.5 12C1.5 6.201 6.201 1.5 12 1.5S22.5 6.201 22.5 12 17.799 22.5 12 22.5 1.5 17.799 1.5 12",
+                "clip-rule": "evenodd"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "defs",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {},
+          children: [
+            {
+              name: "clipPath",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                id: "a"
+              },
+              children: [
+                {
+                  name: "path",
+                  type: "element",
+                  value: "",
+                  parent: null,
+                  attributes: {
+                    fill: "#fff",
+                    d: "M0 0h24v24H0z"
+                  },
+                  children: []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
   },
@@ -15690,6 +20393,49 @@ export default [
             fill: "#000",
             "fill-rule": "evenodd",
             d: "M12.75 19.378V16a.75.75 0 0 0-1.5 0v3.378a2.26 2.26 0 0 0-1.372 1.372H5a.75.75 0 0 0 0 1.5h4.878a2.25 2.25 0 0 0 4.244 0H19a.75.75 0 0 0 0-1.5h-4.878a2.26 2.26 0 0 0-1.372-1.372m0 2.122a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "m5.744 15.994-.108.001a3.636 3.636 0 0 1 0-7.273h.01A6.364 6.364 0 0 1 18.21 6.966a4.547 4.547 0 0 1-.867 9.028z",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M12 1.5a6.864 6.864 0 0 0-6.863 6.752 4.137 4.137 0 0 0 .614 8.242H11.5v3.069A2 2 0 0 0 10.063 21H5a.5.5 0 0 0 0 1h5.063a2 2 0 0 0 3.874 0H19a.5.5 0 0 0 0-1h-5.063a2 2 0 0 0-1.437-1.437v-3.07h4.836q.06.003.119.002a5.045 5.045 0 0 0 1.163-9.956A6.866 6.866 0 0 0 12 1.5M6.136 8.364a5.864 5.864 0 0 1 11.586-1.288.5.5 0 0 0 .405.384 4.047 4.047 0 0 1-.773 8.034H5.729l-.093.001a3.136 3.136 0 0 1 0-6.273h.01a.5.5 0 0 0 .5-.527q-.01-.165-.01-.331M12 20.5a1 1 0 1 1 0 2 1 1 0 0 1 0-2",
             "clip-rule": "evenodd"
           },
           children: []
@@ -15855,6 +20601,70 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            opacity: ".4"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M15.5 7a3.5 3.5 0 0 0-3.213 2.11 6.9 6.9 0 0 1 2.897 3.117 5.26 5.26 0 0 1 2.475 1.028A3.5 3.5 0 0 0 15.5 7M17.996 17.463a3.536 3.536 0 0 1-3.246 3.524V21h-11a2.75 2.75 0 1 1 .118-5.498 5.107 5.107 0 0 1 10.071-1.537q.255-.036.521-.037a3.536 3.536 0 0 1 3.536 3.535"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M16 3a.5.5 0 0 0-1 0v1.875a.5.5 0 1 0 1 0zM10.55 4.843a.5.5 0 1 0-.707.707l1.326 1.326a.5.5 0 0 0 .707-.707zM21.157 5.55a.5.5 0 1 0-.707-.707L19.124 6.17a.5.5 0 1 0 .707.707zM21.125 10a.5.5 0 1 0 0 1H23a.5.5 0 0 0 0-1zM19.831 14.124a.5.5 0 0 0-.707.707l1.326 1.326a.5.5 0 0 0 .707-.707zM13.14 9.671a2.501 2.501 0 1 1 3.579 3.012q.502.238.94.572a3.5 3.5 0 1 0-5.372-4.146q.449.251.854.562"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M3.354 15.024a5.607 5.607 0 0 1 10.958-1.594 4.037 4.037 0 0 1 .596 8.045.5.5 0 0 1-.158.025h-11a3.25 3.25 0 0 1-.396-6.476M8.96 10.5a4.607 4.607 0 0 0-4.593 4.964.5.5 0 0 1-.52.538L3.75 16a2.25 2.25 0 0 0 0 4.5h10.888a1 1 0 0 1 .072-.01 3.036 3.036 0 1 0-.698-6.03.5.5 0 0 1-.56-.383A4.61 4.61 0 0 0 8.96 10.5",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -15976,6 +20786,49 @@ export default [
             fill: "#000",
             d: "M12 3.25a7.75 7.75 0 0 0-7.744 8.058A4.751 4.751 0 0 0 5 20.75h13a5.75 5.75 0 0 0 1.6-11.274A7.75 7.75 0 0 0 12 3.25",
             opacity: ".4"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M1 16a4 4 0 0 0 4 4h13a5 5 0 0 0 .941-9.912 7.001 7.001 0 1 0-13.87 1.913L5 12a4 4 0 0 0-4 4",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M4.5 11a7.5 7.5 0 0 1 14.883-1.324A5.502 5.502 0 0 1 18 20.5H5a4.5 4.5 0 0 1-.482-8.974A8 8 0 0 1 4.5 11M12 4.5a6.5 6.5 0 0 0-6.434 7.43.5.5 0 0 1-.504.57H5a3.5 3.5 0 1 0 0 7h13a4.5 4.5 0 0 0 .848-8.92.5.5 0 0 1-.403-.427A6.5 6.5 0 0 0 12 4.5",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -16119,6 +20972,57 @@ export default [
           attributes: {
             fill: "#000",
             d: "M14.243 3.03a1 1 0 0 1 .727 1.213l-4 16a1 1 0 0 1-1.94-.485l4-16a1 1 0 0 1 1.213-.728"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            opacity: ".4"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M6.35 8.357a.5.5 0 1 0-.7-.714l-4 3.92a.5.5 0 0 0-.007.707l4 4.08a.5.5 0 1 0 .714-.7l-3.65-3.723zM18.35 7.643a.5.5 0 0 0-.7.714l3.643 3.566-3.65 3.727a.5.5 0 0 0 .714.7l4-4.084a.5.5 0 0 0-.007-.707z"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M14.121 3.515a.5.5 0 0 1 .364.606l-4 16a.5.5 0 0 1-.97-.242l4-16a.5.5 0 0 1 .606-.364"
           },
           children: []
         }
@@ -16285,6 +21189,59 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            opacity: ".4"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M2 5.5C2 7.433 4.91 9 8.5 9S15 7.433 15 5.5 12.09 2 8.5 2 2 3.567 2 5.5M9 14.5c0 1.933 2.91 3.5 6.5 3.5s6.5-1.567 6.5-3.5-2.91-3.5-6.5-3.5S9 12.567 9 14.5"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M3.667 2.585C2.425 3.254 1.5 4.26 1.5 5.5v12c0 1.335.913 2.347 2.175 2.998C4.94 21.152 6.65 21.5 8.5 21.5c.654 0 1.288-.055 1.889-.159q.14.082.286.157c1.266.654 2.976 1.002 4.825 1.002s3.559-.348 4.826-1.002c1.261-.65 2.174-1.663 2.174-2.998v-4c0-1.239-.925-2.246-2.167-2.915-1.262-.68-2.972-1.085-4.833-1.085v-5c0-1.239-.925-2.246-2.167-2.915C12.071 1.905 10.361 1.5 8.5 1.5s-3.57.405-4.833 1.085m.474.88C3.03 4.063 2.5 4.805 2.5 5.5c0 .694.53 1.437 1.64 2.035 1.091.587 2.631.965 4.36.965s3.269-.378 4.36-.965c1.09-.588 1.621-1.315 1.64-1.999v-.055c-.01-.689-.54-1.423-1.64-2.016-1.091-.587-2.631-.965-4.36-.965s-3.269.378-4.36.965m10.041 7.104q.31-.508.318-1.042V7.588c-.332.315-.73.592-1.167.827C12.071 9.095 10.361 9.5 8.5 9.5s-3.57-.405-4.833-1.085A5.5 5.5 0 0 1 2.5 7.588V9.5c0 .808.543 1.547 1.633 2.11 1.086.56 2.626.89 4.367.89q.488 0 .954-.044a5.4 5.4 0 0 1 1.213-.871c.957-.516 2.172-.873 3.515-1.016m-5.47 2.929L8.5 13.5c-1.85 0-3.559-.348-4.825-1.002a5 5 0 0 1-1.175-.816v1.836c.008.802.55 1.533 1.633 2.092 1.086.56 2.626.89 4.367.89v-2c0-.354.075-.688.212-1.002m.788 3.494v-.404c.332.314.73.592 1.167.827 1.262.68 2.972 1.085 4.833 1.085s3.57-.405 4.833-1.085a5.5 5.5 0 0 0 1.167-.827V18.5c0 .809-.542 1.547-1.633 2.11-1.086.56-2.626.89-4.367.89-1.74 0-3.281-.33-4.367-.89-1.09-.563-1.633-1.301-1.633-2.11zm-1 .508c-1.85 0-3.559-.348-4.825-1.002a5 5 0 0 1-1.175-.816V17.5c0 .809.542 1.547 1.633 2.11 1.086.56 2.627.89 4.367.89q.404 0 .793-.03C8.8 19.924 8.5 19.265 8.5 18.5zm2.64-5.035c-1.11.598-1.64 1.34-1.64 2.035 0 .694.53 1.437 1.64 2.035 1.091.587 2.631.965 4.36.965s3.269-.378 4.36-.965c1.09-.588 1.621-1.315 1.64-1.999v-.055c-.01-.689-.54-1.423-1.64-2.016-1.091-.587-2.631-.965-4.36-.965s-3.269.378-4.36.965",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -16441,6 +21398,60 @@ export default [
           attributes: {
             fill: "#000",
             d: "M7 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0M11 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0M16 11a1 1 0 1 0 0 2 1 1 0 0 0 0-2"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12c0 1.937.551 3.746 1.505 5.278a.52.52 0 0 1 .05.448l-.823 2.26a1 1 0 0 0 1.282 1.282l2.26-.822a.51.51 0 0 1 .448.05A9.95 9.95 0 0 0 12 22",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M12 11.25a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M7.25 12a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0M16 11.25a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M12 1.5C6.201 1.5 1.5 6.201 1.5 12c0 2.034.579 3.934 1.58 5.542q.006.012.004.013l-.822 2.26c-.435 1.197.726 2.358 1.923 1.923l2.26-.822q0-.001.013.004A10.45 10.45 0 0 0 12 22.5c5.799 0 10.5-4.701 10.5-10.5S17.799 1.5 12 1.5M2.5 12a9.5 9.5 0 1 1 9.5 9.5 9.45 9.45 0 0 1-5.014-1.43 1.01 1.01 0 0 0-.882-.094l-2.261.822a.5.5 0 0 1-.64-.641l.821-2.26c.109-.3.066-.624-.095-.883A9.45 9.45 0 0 1 2.5 12",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -16618,6 +21629,60 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M1.5 9.5h21v5.7c0 1.68 0 2.52-.327 3.162a3 3 0 0 1-1.311 1.311C20.22 20 19.38 20 17.7 20H6.3c-1.68 0-2.52 0-3.162-.327a3 3 0 0 1-1.311-1.311C1.5 17.72 1.5 16.88 1.5 15.2z",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M10 15a.5.5 0 0 1 0 1H5.5a.5.5 0 0 1 0-1zM15 15.5a.5.5 0 0 1-.5.5H13a.5.5 0 0 1 0-1h1.5a.5.5 0 0 1 .5.5"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M17.722 3.5H6.278c-.821 0-1.468 0-1.99.043-.53.043-.974.133-1.377.338a3.5 3.5 0 0 0-1.53 1.53c-.205.403-.295.847-.338 1.378C1 7.309 1 7.957 1 8.778v6.444c0 .822 0 1.469.043 1.99.043.53.133.974.338 1.377a3.5 3.5 0 0 0 1.53 1.53c.403.205.847.295 1.378.338.52.043 1.168.043 1.989.043h11.444c.822 0 1.468 0 1.99-.043.53-.043.974-.133 1.377-.338a3.5 3.5 0 0 0 1.53-1.53c.205-.403.295-.847.338-1.378.043-.52.043-1.168.043-1.989V8.778c0-.821 0-1.468-.043-1.99-.043-.53-.133-.974-.338-1.377a3.5 3.5 0 0 0-1.53-1.53c-.403-.205-.847-.295-1.378-.338-.52-.043-1.167-.043-1.989-.043M22 9v-.2c0-.848 0-1.455-.04-1.93-.038-.469-.11-.766-.233-1.005a2.5 2.5 0 0 0-1.092-1.093c-.239-.121-.536-.194-1.005-.233-.476-.039-1.082-.039-1.93-.039H6.3c-.848 0-1.455 0-1.93.04-.469.038-.766.11-1.005.232a2.5 2.5 0 0 0-1.093 1.093c-.121.239-.194.536-.233 1.005C2 7.345 2 7.952 2 8.8V9zM2 10h20v5.2c0 .848 0 1.454-.04 1.93-.038.469-.11.766-.233 1.005a2.5 2.5 0 0 1-1.092 1.092c-.239.122-.536.195-1.005.234-.476.039-1.082.039-1.93.039H6.3c-.848 0-1.455 0-1.93-.04-.469-.038-.766-.11-1.005-.233a2.5 2.5 0 0 1-1.093-1.092c-.121-.239-.194-.536-.233-1.005C2 16.654 2 16.048 2 15.2z",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -16755,6 +21820,69 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            opacity: ".4"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "m21 9-4.182 2.51a1 1 0 0 1-1.347-.303L12 6l-3.471 5.207a1 1 0 0 1-1.347.302L3 9l1.582 9.494A3 3 0 0 0 7.542 21h8.917a3 3 0 0 0 2.959-2.507zM12 6a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M2.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3M23 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M10 4.5a2 2 0 1 1 2.818 1.826l3.07 4.603a.5.5 0 0 0 .672.152l3.558-2.135a2 2 0 1 1 1.305.553l-1.179 7.076-.002.015-.331 1.985a3.5 3.5 0 0 1-3.452 2.925H7.54a3.5 3.5 0 0 1-3.452-2.925l-.33-1.983-.004-.019L2.576 9.5 2.5 9.5a2 2 0 1 1 1.382-.554L7.44 11.08a.5.5 0 0 0 .673-.152l3.069-4.603A2 2 0 0 1 10 4.5m2-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2M4.84 17l.235 1.411A2.5 2.5 0 0 0 7.541 20.5h8.918a2.5 2.5 0 0 0 2.466-2.089L19.16 17zm14.487-1H4.673L3.67 9.986l3.254 1.952a1.5 1.5 0 0 0 2.02-.454L12 6.901l3.055 4.583a1.5 1.5 0 0 0 2.02.454l3.254-1.952zM2.5 6.5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m18 1a1 1 0 1 1 2 0 1 1 0 0 1-2 0",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -16876,6 +22004,49 @@ export default [
             fill: "#000",
             d: "M4.957 1.425C2.755.61.611 2.755 1.425 4.957L7.34 20.954c.926 2.504 4.518 2.352 5.229-.222l1.578-5.715a1.25 1.25 0 0 1 .871-.872l5.715-1.578c2.574-.71 2.727-4.303.222-5.229z",
             opacity: ".4"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M2.128 4.697c-.592-1.602.967-3.16 2.569-2.569l15.997 5.914c1.821.673 1.71 3.286-.162 3.803l-5.714 1.577a2 2 0 0 0-1.396 1.395l-1.577 5.716c-.517 1.871-3.13 1.982-3.803.16z",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M1.66 4.87C.92 2.868 2.868.92 4.87 1.66l15.997 5.913c2.277.842 2.139 4.108-.201 4.753l-5.715 1.578a1.5 1.5 0 0 0-1.046 1.046l-1.578 5.716c-.646 2.34-3.912 2.478-4.754.201zm2.864-2.273c-1.202-.444-2.37.725-1.927 1.927L8.511 20.52c.505 1.366 2.464 1.283 2.852-.12l1.578-5.716a2.5 2.5 0 0 1 1.744-1.744l5.715-1.577c1.403-.388 1.486-2.347.12-2.852z",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -17015,6 +22186,49 @@ export default [
           attributes: {
             fill: "#000",
             d: "M14.75 18.75h-5.5V20c0 .69-.56 1.25-1.25 1.25h-.5a.75.75 0 0 0 0 1.5h9a.75.75 0 0 0 0-1.5H16c-.69 0-1.25-.56-1.25-1.25z"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M1.881 3.911C1.5 4.66 1.5 5.64 1.5 7.6v4.8c0 1.96 0 2.94.381 3.689a3.5 3.5 0 0 0 1.53 1.53C4.16 18 5.14 18 7.1 18H10v2a2 2 0 0 1-2 2h8a2 2 0 0 1-2-2v-2h2.9c1.96 0 2.94 0 3.689-.381a3.5 3.5 0 0 0 1.53-1.53c.381-.749.381-1.729.381-3.689V7.6c0-1.96 0-2.94-.381-3.689a3.5 3.5 0 0 0-1.53-1.53C19.84 2 18.86 2 16.9 2H7.1c-1.96 0-2.94 0-3.689.381a3.5 3.5 0 0 0-1.53 1.53",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M7.078 1.5c-.962 0-1.713 0-2.318.05-.614.05-1.12.153-1.576.386a4 4 0 0 0-1.748 1.748c-.233.457-.336.962-.387 1.576C1 5.865 1 6.616 1 7.578v4.844c0 .961 0 1.713.05 2.317.05.615.153 1.12.386 1.577a4 4 0 0 0 1.748 1.748c.457.233.962.336 1.576.387.605.049 1.356.049 2.318.049H9.5V20A1.5 1.5 0 0 1 8 21.5h-.5a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1H16a1.5 1.5 0 0 1-1.5-1.5v-1.5h2.422c.962 0 1.713 0 2.317-.05.615-.05 1.12-.153 1.577-.386a4 4 0 0 0 1.748-1.748c.233-.457.336-.962.387-1.576.049-.604.049-1.357.049-2.318V7.578c0-.962 0-1.713-.05-2.318-.05-.614-.153-1.12-.386-1.576a4 4 0 0 0-1.748-1.748c-.457-.233-.962-.336-1.576-.387-.604-.049-1.356-.049-2.317-.049zm6.422 17h-3V20a2.5 2.5 0 0 1-.5 1.5h4a2.5 2.5 0 0 1-.5-1.5zm3.4-1c.988 0 1.7 0 2.258-.046.553-.045.912-.132 1.204-.281a3 3 0 0 0 1.311-1.311c.149-.292.236-.651.281-1.204C22 14.1 22 13.388 22 12.4V7.6c0-.988 0-1.7-.046-2.258-.045-.553-.132-.912-.281-1.204a3 3 0 0 0-1.311-1.311c-.292-.149-.651-.236-1.204-.281C18.6 2.5 17.888 2.5 16.9 2.5H7.1c-.988 0-1.7 0-2.258.046-.553.045-.912.132-1.204.281a3 3 0 0 0-1.311 1.311c-.149.292-.236.651-.281 1.204C2 5.9 2 6.612 2 7.6v4.8c0 .988 0 1.7.046 2.258.045.553.132.912.281 1.204a3 3 0 0 0 1.311 1.311c.292.149.651.236 1.204.281.558.046 1.27.046 2.258.046z",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -17210,6 +22424,69 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M15.03 3.467a5.2 5.2 0 0 0 6.503 6.503c.303.956.467 1.974.467 3.03 0 5.523-4.477 10-10 10S2 18.523 2 13 6.477 3 12 3c1.056 0 2.074.164 3.03.467",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M19.497.503a.5.5 0 0 1 .5.5v5.46l1.646-1.647a.5.5 0 0 1 .707.707l-2.5 2.5a.5.5 0 0 1-.707 0l-2.5-2.5a.5.5 0 1 1 .707-.707l1.647 1.647v-5.46a.5.5 0 0 1 .5-.5"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M21.5 13c0-1.014-.159-1.99-.453-2.906a5 5 0 0 0 .956-.294c.323 1.009.497 2.084.497 3.2 0 5.799-4.701 10.5-10.5 10.5S1.5 18.799 1.5 13 6.201 2.5 12 2.5c1.116 0 2.191.174 3.2.496a5 5 0 0 0-.294.956A9.5 9.5 0 0 0 12 3.5a9.5 9.5 0 1 0 9.5 9.5"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M12.5 9.4c.252.029.487.084.726.18.378.15.735.386 1.16.708a.5.5 0 0 1-.604.797c-.41-.31-.678-.478-.925-.576-.235-.094-.48-.134-.857-.134-.554 0-.962.13-1.217.315a.83.83 0 0 0-.366.711c0 .372.173.59.473.758.332.186.772.278 1.192.348.414.069 1.015.18 1.516.46.534.3.985.811.985 1.631 0 .638-.29 1.167-.78 1.521-.357.26-.805.415-1.303.476v.572a.5.5 0 0 1-1 0v-.568a2.8 2.8 0 0 1-.726-.178c-.378-.15-.735-.387-1.16-.709a.5.5 0 1 1 .604-.797c.41.31.678.478.925.576.235.094.48.134.857.134.554 0 .962-.13 1.217-.316a.83.83 0 0 0 .366-.71c0-.373-.173-.59-.473-.758-.332-.186-.772-.278-1.192-.348-.414-.069-1.015-.18-1.516-.461-.533-.298-.985-.81-.985-1.63 0-.638.29-1.167.78-1.521.357-.26.805-.415 1.303-.476v-.572a.5.5 0 0 1 1 0z"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -17373,6 +22650,58 @@ export default [
           attributes: {
             fill: "#000",
             d: "M12 8.083a.75.75 0 0 1 .75.75v.352q.285.05.568.162c.411.163.79.417 1.218.741a.75.75 0 0 1-.905 1.196c-.405-.307-.652-.458-.866-.543-.197-.078-.408-.116-.765-.116-.518 0-.87.123-1.07.268a.58.58 0 0 0-.263.508c0 .26.103.405.345.54.29.162.69.249 1.111.32.412.068 1.054.184 1.598.489.59.33 1.113.916 1.113 1.848a2.08 2.08 0 0 1-.883 1.724 2.9 2.9 0 0 1-1.2.488v.357a.75.75 0 0 1-1.5 0v-.352a3 3 0 0 1-.57-.162c-.41-.163-.789-.417-1.217-.741a.75.75 0 1 1 .906-1.196c.405.306.65.458.865.543.197.078.408.116.765.116.519 0 .87-.123 1.07-.268a.58.58 0 0 0 .264-.508c0-.26-.104-.405-.346-.54-.29-.162-.69-.249-1.111-.32-.412-.068-1.054-.184-1.597-.489-.592-.33-1.113-.916-1.113-1.849 0-.72.332-1.324.883-1.723a2.9 2.9 0 0 1 1.2-.488v-.357a.75.75 0 0 1 .75-.75M19.497 8.42a.75.75 0 0 1-.75-.75V2.814l-1.22 1.22a.75.75 0 0 1-1.06-1.061l2.5-2.5a.75.75 0 0 1 1.06 0l2.5 2.5a.75.75 0 1 1-1.06 1.06l-1.22-1.22V7.67a.75.75 0 0 1-.75.75"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M15.03 3.467a5.2 5.2 0 0 0 6.503 6.503c.303.956.467 1.974.467 3.03 0 5.523-4.477 10-10 10S2 18.523 2 13 6.477 3 12 3c1.056 0 2.074.164 3.03.467",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M21.5 13c0-1.014-.159-1.99-.453-2.906a5 5 0 0 0 .956-.294c.323 1.009.497 2.084.497 3.2 0 5.799-4.701 10.5-10.5 10.5S1.5 18.799 1.5 13 6.201 2.5 12 2.5c1.116 0 2.191.174 3.2.496a5 5 0 0 0-.294.956A9.5 9.5 0 0 0 12 3.5a9.5 9.5 0 1 0 9.5 9.5"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M12.5 9.4c.252.029.487.084.726.18.378.15.735.386 1.16.708a.5.5 0 0 1-.604.797c-.41-.31-.678-.478-.925-.576-.235-.094-.48-.134-.857-.134-.554 0-.962.13-1.217.315a.83.83 0 0 0-.366.711c0 .372.173.59.473.758.332.186.772.278 1.192.348.414.069 1.015.18 1.516.46.534.3.985.811.985 1.631 0 .638-.29 1.167-.78 1.521-.357.26-.805.415-1.303.476v.572a.5.5 0 0 1-1 0v-.568a2.8 2.8 0 0 1-.726-.178c-.378-.15-.735-.387-1.16-.709a.5.5 0 1 1 .604-.797c.41.31.678.478.925.576.235.094.48.134.857.134.554 0 .962-.13 1.217-.316a.83.83 0 0 0 .366-.71c0-.373-.173-.59-.473-.758-.332-.186-.772-.278-1.192-.348-.414-.069-1.015-.18-1.516-.461-.533-.298-.985-.81-.985-1.63 0-.638.29-1.167.78-1.521.357-.26.805-.415 1.303-.476v-.572a.5.5 0 0 1 1 0zM19.497 8.17a.5.5 0 0 1-.5-.5V2.21L17.35 3.857a.5.5 0 0 1-.707-.707l2.5-2.5a.5.5 0 0 1 .707 0l2.5 2.5a.5.5 0 0 1-.707.707L19.997 2.21v5.46a.5.5 0 0 1-.5.5"
           },
           children: []
         }
@@ -17704,6 +23033,100 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "clip-path": "url(#a)"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M23 12c0 6.075-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1s11 4.925 11 11",
+                opacity: ".4"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M11.5 7.775V7a.5.5 0 0 1 1 0v.77c.329.031.63.097.934.218.44.175.86.452 1.368.837a.5.5 0 0 1-.604.797c-.492-.373-.823-.582-1.132-.704-.298-.119-.606-.168-1.066-.168-.679 0-1.191.16-1.52.398-.312.226-.48.536-.48.934 0 .491.236.782.62.997.415.232.96.344 1.462.428.497.083 1.202.214 1.787.542.617.345 1.131.93 1.131 1.87 0 .73-.332 1.336-.894 1.743-.434.314-.987.5-1.606.563V17a.5.5 0 0 1-1 0v-.77a3.3 3.3 0 0 1-.934-.218c-.44-.175-.86-.452-1.368-.837a.5.5 0 1 1 .604-.797c.492.373.823.582 1.132.704.298.118.606.168 1.066.168.679 0 1.191-.16 1.52-.398.312-.226.48-.536.48-.934 0-.491-.236-.782-.62-.997-.414-.232-.959-.344-1.462-.428-.497-.083-1.202-.214-1.787-.542-.617-.345-1.131-.93-1.131-1.87 0-.73.332-1.336.894-1.743.434-.314.987-.5 1.606-.563"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                "fill-rule": "evenodd",
+                d: "M12 .5C5.649.5.5 5.649.5 12S5.649 23.5 12 23.5 23.5 18.351 23.5 12 18.351.5 12 .5M1.5 12C1.5 6.201 6.201 1.5 12 1.5S22.5 6.201 22.5 12 17.799 22.5 12 22.5 1.5 17.799 1.5 12",
+                "clip-rule": "evenodd"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "defs",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {},
+          children: [
+            {
+              name: "clipPath",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                id: "a"
+              },
+              children: [
+                {
+                  name: "path",
+                  type: "element",
+                  value: "",
+                  parent: null,
+                  attributes: {
+                    fill: "#fff",
+                    d: "M0 0h24v24H0z"
+                  },
+                  children: []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
   },
@@ -17870,6 +23293,47 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M21.46 19.13c.04-.476.04-1.082.04-1.93V14a.5.5 0 0 1 1 0v3.222c0 .822 0 1.468-.043 1.99-.043.53-.133.974-.338 1.377a3.5 3.5 0 0 1-1.53 1.53c-.403.205-.847.295-1.378.338-.52.043-1.167.043-1.989.043H6.778c-.821 0-1.468 0-1.99-.043-.53-.043-.974-.133-1.377-.338a3.5 3.5 0 0 1-1.53-1.53c-.205-.403-.295-.847-.338-1.378-.043-.52-.043-1.167-.043-1.989V14a.5.5 0 0 1 1 0v3.2c0 .848 0 1.454.04 1.93.038.469.11.766.232 1.005a2.5 2.5 0 0 0 1.093 1.092c.239.122.536.195 1.005.234.476.039 1.082.039 1.93.039h10.4c.848 0 1.454 0 1.93-.04.469-.038.766-.11 1.005-.233a2.5 2.5 0 0 0 1.092-1.092c.122-.239.195-.536.234-1.005",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M12.5 13.793V2a.5.5 0 0 0-1 0v11.793L7.354 9.646a.5.5 0 1 0-.708.708l5 5a.5.5 0 0 0 .708 0l5-5a.5.5 0 0 0-.708-.708z"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -17991,6 +23455,49 @@ export default [
             fill: "#000",
             d: "M12.887 1.62a1.246 1.246 0 0 0-1.774 0C9.2 3.556 7.367 5.564 6.013 7.677 4.656 9.793 3.75 12.06 3.75 14.5c0 4.281 3.297 8.25 8.25 8.25s8.25-3.969 8.25-8.25c0-2.441-.906-4.707-2.263-6.824-1.355-2.113-3.187-4.121-5.1-6.055",
             opacity: ".4"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M19.5 14.5c0-4.5-3.337-8.5-7.146-12.352a.496.496 0 0 0-.708 0C7.836 6 4.5 10 4.5 14.5c0 3.906 3 7.5 7.5 7.5s7.5-3.594 7.5-7.5",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M11.29 1.796a.996.996 0 0 1 1.42 0c1.91 1.932 3.727 3.925 5.066 6.015C19.118 9.904 20 12.122 20 14.5c0 4.156-3.198 8-8 8s-8-3.844-8-8c0-2.378.882-4.596 2.223-6.689 1.34-2.09 3.157-4.083 5.068-6.015m.71.705c-1.9 1.92-3.655 3.852-4.935 5.85C5.786 10.346 5 12.378 5 14.5c0 3.657 2.802 7 7 7s7-3.343 7-7c0-2.122-.786-4.154-2.065-6.15-1.28-1.997-3.036-3.928-4.935-5.849",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -18139,6 +23646,49 @@ export default [
           attributes: {
             fill: "#000",
             d: "M17.732 3H6.268c-.813 0-1.469 0-2 .043-.546.045-1.026.14-1.47.366a3.75 3.75 0 0 0-1.64 1.639c-.313.616-.379 1.318-.4 2.191a.75.75 0 0 0 .296.614l8.658 6.597c.59.45 1.05.802 1.58.943.464.124.952.124 1.416 0 .53-.141.99-.493 1.58-.943l8.658-6.597a.75.75 0 0 0 .295-.614c-.02-.873-.086-1.575-.4-2.191a3.75 3.75 0 0 0-1.639-1.64c-.444-.226-.924-.32-1.47-.365C19.2 3 18.544 3 17.731 3"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M1.5 8.95c0-1.82 0-2.73.354-3.425a3.25 3.25 0 0 1 1.42-1.42C3.97 3.75 4.88 3.75 6.7 3.75h10.6c1.82 0 2.73 0 3.425.354a3.25 3.25 0 0 1 1.42 1.42c.355.696.355 1.606.355 3.426v6.1c0 1.82 0 2.73-.354 3.425a3.25 3.25 0 0 1-1.42 1.42c-.696.355-1.606.355-3.426.355H6.7c-1.82 0-2.73 0-3.425-.354a3.25 3.25 0 0 1-1.42-1.42C1.5 17.78 1.5 16.87 1.5 15.05z",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M17.322 3.25H6.678c-.892 0-1.591 0-2.153.046-.573.047-1.048.144-1.477.363a3.75 3.75 0 0 0-1.64 1.639c-.218.43-.315.904-.362 1.477a11 11 0 0 0-.028.477C1 7.722 1 8.272 1 8.928v6.144c0 .892 0 1.591.046 2.153.047.573.144 1.048.363 1.477a3.75 3.75 0 0 0 1.639 1.64c.43.218.904.315 1.477.362.562.046 1.261.046 2.153.046h10.644c.892 0 1.591 0 2.153-.046.573-.047 1.048-.144 1.477-.363a3.75 3.75 0 0 0 1.64-1.639c.218-.43.315-.904.362-1.477.046-.562.046-1.262.046-2.153V8.928c0-.655 0-1.206-.018-1.675v-.02a11 11 0 0 0-.028-.458c-.047-.573-.144-1.048-.363-1.477a3.75 3.75 0 0 0-1.639-1.64c-.43-.218-.904-.315-1.477-.362-.562-.046-1.262-.046-2.153-.046m4.648 3.776-.013-.17c-.041-.51-.122-.84-.257-1.104A2.75 2.75 0 0 0 20.5 4.55c-.266-.135-.594-.216-1.105-.257-.517-.043-1.176-.043-2.094-.043H6.7c-.918 0-1.577 0-2.094.043-.51.041-.84.122-1.104.257A2.75 2.75 0 0 0 2.3 5.752c-.135.265-.216.593-.257 1.104l-.012.17 8.333 6.349c.73.556.986.74 1.25.81a1.5 1.5 0 0 0 .772 0c.264-.07.52-.254 1.25-.81zM2 8.26v6.79c0 .918 0 1.577.043 2.094.041.51.122.84.257 1.105a2.75 2.75 0 0 0 1.202 1.201c.265.136.593.216 1.104.257.517.043 1.176.043 2.094.043h10.6c.918 0 1.577 0 2.094-.043.51-.041.84-.122 1.105-.257A2.75 2.75 0 0 0 21.7 18.25c.136-.266.216-.594.257-1.105.043-.517.043-1.176.043-2.094V8.26l-7.842 5.974c-.612.467-1.035.79-1.514.917a2.5 2.5 0 0 1-1.288 0c-.48-.127-.902-.45-1.514-.917z",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -18432,6 +23982,100 @@ export default [
               parent: null,
               attributes: {
                 d: "m15.294 12.237-3.03 1.752a.54.54 0 0 1-.542 0l-3.027-1.752a.54.54 0 0 1-.196-.742l3.027-5.185a.542.542 0 0 1 .936 0l3.029 5.185a.54.54 0 0 1-.197.742m-.073.98-3.024 1.75a.41.41 0 0 1-.408 0l-3.021-1.75c-.1-.057-.208.06-.144.154l2.92 4.347c.215.32.685.32.9 0l2.921-4.348c.064-.095-.044-.21-.144-.152"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "defs",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {},
+          children: [
+            {
+              name: "clipPath",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                id: "a"
+              },
+              children: [
+                {
+                  name: "path",
+                  type: "element",
+                  value: "",
+                  parent: null,
+                  attributes: {
+                    fill: "#fff",
+                    d: "M0 0h24v24H0z"
+                  },
+                  children: []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            "clip-path": "url(#a)",
+            "clip-rule": "evenodd"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M12 23c6.075 0 11-4.925 11-11S18.075 1 12 1 1 5.925 1 12s4.925 11 11 11m3.364-11.25-2.97-4.923c-.19-.325-.595-.325-.785 0L8.636 11.75a1 1 0 0 0 .027 1.076l2.943 4.374c.175.29.572.29.788 0l2.943-4.375a1 1 0 0 0 .027-1.075",
+                opacity: ".4"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "m12.823 6.571 2.968 4.92a1.5 1.5 0 0 1-.04 1.613l-2.95 4.384-.006.009c-.391.527-1.22.601-1.61-.027l-2.938-4.366a1.5 1.5 0 0 1-.04-1.613l2.971-4.92A.96.96 0 0 1 12 6.083c.341 0 .646.188.822.488m-3.75 5.422L12 7.145l2.925 4.847-2.927 1.673zm5.191 1.529-1.769 1.01a1 1 0 0 1-.992 0l-1.77-1.01L12 16.889z"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M.5 12C.5 5.649 5.649.5 12 .5S23.5 5.649 23.5 12 18.351 23.5 12 23.5.5 18.351.5 12M12 1.5C6.201 1.5 1.5 6.201 1.5 12S6.201 22.5 12 22.5 22.5 17.799 22.5 12 17.799 1.5 12 1.5"
               },
               children: []
             }
@@ -18796,6 +24440,100 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "clip-path": "url(#a)"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M23 12c0 6.075-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1s11 4.925 11 11",
+                opacity: ".4"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M13.413 6.6a4.22 4.22 0 0 0-2.793.341c-.876.43-1.612 1.145-2.124 2.044A6 6 0 0 0 8.041 10H6.5a.5.5 0 0 0 0 1h1.294a6.3 6.3 0 0 0 0 2H6.5a.5.5 0 0 0 0 1h1.541q.18.531.455 1.015c.512.899 1.248 1.614 2.124 2.043.878.43 1.85.551 2.793.341.94-.21 1.796-.736 2.463-1.498a.5.5 0 0 0-.753-.659c-.538.616-1.21 1.021-1.928 1.181-.715.16-1.457.07-2.135-.262-.68-.334-1.273-.9-1.695-1.641A5 5 0 0 1 9.11 14h3.39a.5.5 0 1 0 0-1H8.81a5.3 5.3 0 0 1 0-2h3.69a.5.5 0 1 0 0-1H9.11q.113-.27.255-.52c.422-.74 1.015-1.307 1.695-1.64a3.22 3.22 0 0 1 2.135-.263c.717.16 1.39.565 1.928 1.18a.5.5 0 0 0 .753-.658c-.667-.762-1.522-1.289-2.463-1.498"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                "fill-rule": "evenodd",
+                d: "M12 .5C5.649.5.5 5.649.5 12S5.649 23.5 12 23.5 23.5 18.351 23.5 12 18.351.5 12 .5M1.5 12C1.5 6.201 6.201 1.5 12 1.5S22.5 6.201 22.5 12 17.799 22.5 12 22.5 1.5 17.799 1.5 12",
+                "clip-rule": "evenodd"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "defs",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {},
+          children: [
+            {
+              name: "clipPath",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                id: "a"
+              },
+              children: [
+                {
+                  name: "path",
+                  type: "element",
+                  value: "",
+                  parent: null,
+                  attributes: {
+                    fill: "#fff",
+                    d: "M0 0h24v24H0z"
+                  },
+                  children: []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
   },
@@ -19122,6 +24860,100 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "clip-path": "url(#a)"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M23 12c0 6.075-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1s11 4.925 11 11",
+                opacity: ".4"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M11.125 16.5a.875.875 0 1 1 1.75 0 .875.875 0 0 1-1.75 0M11.5 7v6a.5.5 0 0 0 1 0V7a.5.5 0 0 0-1 0"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                "fill-rule": "evenodd",
+                d: "M.5 12C.5 5.649 5.649.5 12 .5S23.5 5.649 23.5 12 18.351 23.5 12 23.5.5 18.351.5 12M12 1.5C6.201 1.5 1.5 6.201 1.5 12S6.201 22.5 12 22.5 22.5 17.799 22.5 12 17.799 1.5 12 1.5",
+                "clip-rule": "evenodd"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "defs",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {},
+          children: [
+            {
+              name: "clipPath",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                id: "a"
+              },
+              children: [
+                {
+                  name: "path",
+                  type: "element",
+                  value: "",
+                  parent: null,
+                  attributes: {
+                    fill: "#fff",
+                    d: "M0 0h24v24H0z"
+                  },
+                  children: []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
   },
@@ -19278,6 +25110,60 @@ export default [
           attributes: {
             fill: "#000",
             d: "M11.25 8v6a.75.75 0 0 0 1.5 0V8a.75.75 0 0 0-1.5 0M12 16.5a1 1 0 1 0 0 2 1 1 0 0 0 0-2"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M9.829 4.253c.962-1.67 3.38-1.67 4.342 0l7.493 13.008c.958 1.664-.247 3.739-2.171 3.739H4.507c-1.924 0-3.13-2.075-2.17-3.739z",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M11.125 17.5a.875.875 0 1 1 1.75 0 .875.875 0 0 1-1.75 0M11.5 8v6a.5.5 0 1 0 1 0V8a.5.5 0 0 0-1 0"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M9.396 4.004c1.154-2.005 4.054-2.005 5.208 0l7.493 13.008c1.152 2-.298 4.488-2.604 4.488H4.507c-2.306 0-3.756-2.489-2.604-4.488zm4.342.499c-.77-1.337-2.706-1.337-3.476 0L2.77 17.51c-.765 1.328.196 2.989 1.738 2.989h14.986c1.542 0 2.503-1.66 1.738-2.99z",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -19489,6 +25375,81 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            opacity: ".4"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M5.94 5.94c-1.628 1.173-2.972 2.88-3.777 5.12a2.8 2.8 0 0 0 0 1.88c2.577 7.173 10.687 8.88 15.898 5.12l-3.585-3.584A3.5 3.5 0 0 1 12 15.5 3.496 3.496 0 0 1 8.5 12c0-.968.391-1.843 1.024-2.476zM15.387 12.887q.112-.425.113-.887a3.496 3.496 0 0 0-4.387-3.387L7.509 5.009c5.144-2.452 11.998-.435 14.328 6.052a2.8 2.8 0 0 1 0 1.878c-.57 1.59-1.413 2.91-2.435 3.963z"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M2.354 1.646a.5.5 0 1 0-.708.708L5.18 5.888c-1.494 1.208-2.723 2.877-3.487 5.004a3.3 3.3 0 0 0 0 2.216c2.64 7.353 10.844 9.22 16.31 5.602l3.643 3.644a.5.5 0 0 0 .708-.708zm14.924 16.339-2.824-2.824A4 4 0 0 1 12 16c-2.212 0-4-1.788-4-4 0-.925.313-1.777.84-2.454L5.894 6.602C4.496 7.708 3.345 9.25 2.634 11.23a2.3 2.3 0 0 0 0 1.54c2.376 6.616 9.679 8.354 14.644 5.215M9.554 10.26A3 3 0 0 0 9 12c0 1.66 1.34 3 3 3 .649 0 1.249-.205 1.74-.554z",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "m10.711 8.211.825.825Q11.762 9 12 9a2.996 2.996 0 0 1 2.964 3.464l.825.825c.137-.405.211-.838.211-1.289 0-2.212-1.788-4-4-4-.451 0-.884.074-1.289.211"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M21.366 12.77c-.544 1.515-1.346 2.774-2.32 3.777l.71.71c1.072-1.102 1.954-2.485 2.551-4.149a3.3 3.3 0 0 0 0-2.216c-2.463-6.858-9.766-8.944-15.173-6.258l.752.752c4.878-2.219 11.284-.271 13.48 5.844a2.3 2.3 0 0 1 0 1.54"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -19661,6 +25622,64 @@ export default [
             fill: "#000",
             "fill-rule": "evenodd",
             d: "M7.75 12c0-2.35 1.9-4.25 4.25-4.25s4.25 1.9 4.25 4.25-1.9 4.25-4.25 4.25-4.25-1.9-4.25-4.25M12 9.25A2.747 2.747 0 0 0 9.25 12 2.747 2.747 0 0 0 12 14.75 2.747 2.747 0 0 0 14.75 12 2.747 2.747 0 0 0 12 9.25",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M21.837 11.06a2.8 2.8 0 0 1 0 1.88c-3.381 9.414-16.293 9.414-19.674 0a2.8 2.8 0 0 1 0-1.88c3.381-9.414 16.293-9.414 19.674 0M12 15.5c1.936 0 3.5-1.564 3.5-3.5S13.936 8.5 12 8.5A3.496 3.496 0 0 0 8.5 12c0 1.936 1.564 3.5 3.5 3.5",
+            "clip-rule": "evenodd",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M12 8c-2.212 0-4 1.788-4 4s1.788 4 4 4 4-1.788 4-4-1.788-4-4-4m-3 4c0-1.66 1.34-3 3-3s3 1.34 3 3-1.34 3-3 3-3-1.34-3-3",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M22.307 10.892c-3.54-9.856-17.075-9.856-20.614 0a3.3 3.3 0 0 0 0 2.216c3.54 9.856 17.075 9.856 20.614 0a3.3 3.3 0 0 0 0-2.216m-19.673.338c3.222-8.973 15.51-8.973 18.732 0a2.3 2.3 0 0 1 0 1.54c-3.222 8.973-15.51 8.973-18.732 0a2.3 2.3 0 0 1 0-1.54",
             "clip-rule": "evenodd"
           },
           children: []
@@ -19955,6 +25974,100 @@ export default [
               parent: null,
               attributes: {
                 d: "M9 11.25c.575 0 .894-.447 1.024-.707.153-.306.226-.676.226-1.043s-.073-.737-.226-1.043c-.13-.26-.449-.707-1.024-.707s-.894.447-1.024.707A2.4 2.4 0 0 0 7.75 9.5c0 .367.073.737.226 1.043.13.26.449.707 1.024.707M7.55 17.6a.75.75 0 0 0 1.05-.15 4.24 4.24 0 0 1 3.4-1.7c1.39 0 2.624.666 3.4 1.7a.75.75 0 0 0 1.2-.901A5.74 5.74 0 0 0 12 14.25a5.74 5.74 0 0 0-4.6 2.299.75.75 0 0 0 .15 1.05M15 11.25c.575 0 .894-.447 1.024-.707.153-.306.226-.676.226-1.043s-.073-.737-.226-1.043c-.13-.26-.449-.707-1.024-.707s-.894.447-1.024.707A2.4 2.4 0 0 0 13.75 9.5c0 .367.073.737.226 1.043.13.26.449.707 1.024.707"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "defs",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {},
+          children: [
+            {
+              name: "clipPath",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                id: "a"
+              },
+              children: [
+                {
+                  name: "path",
+                  type: "element",
+                  value: "",
+                  parent: null,
+                  attributes: {
+                    fill: "#fff",
+                    d: "M0 0h24v24H0z"
+                  },
+                  children: []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "clip-path": "url(#a)"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M23 12c0 6.075-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1s11 4.925 11 11",
+                opacity: ".4"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M16.4 16.7a.5.5 0 0 1-.8.6 4.5 4.5 0 0 0-3.6-1.8 4.5 4.5 0 0 0-3.6 1.8.5.5 0 0 1-.8-.6 5.5 5.5 0 0 1 4.4-2.2c1.8 0 3.397.865 4.4 2.2M8.2 8.57c.116-.235.37-.57.8-.57s.684.335.8.57c.133.263.2.593.2.93s-.067.667-.2.93c-.116.235-.37.57-.8.57s-.684-.335-.8-.57A2.1 2.1 0 0 1 8 9.5c0-.337.067-.667.2-.93M15 8c-.43 0-.684.335-.8.57-.133.263-.2.593-.2.93s.067.667.2.93c.116.235.37.57.8.57s.684-.335.8-.57c.133-.263.2-.593.2-.93s-.067-.667-.2-.93c-.116-.235-.37-.57-.8-.57"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                "fill-rule": "evenodd",
+                d: "M12 .5C5.649.5.5 5.649.5 12S5.649 23.5 12 23.5 23.5 18.351 23.5 12 18.351.5 12 .5M1.5 12C1.5 6.201 6.201 1.5 12 1.5S22.5 6.201 22.5 12 17.799 22.5 12 22.5 1.5 17.799 1.5 12",
+                "clip-rule": "evenodd"
               },
               children: []
             }
@@ -20319,6 +26432,100 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "clip-path": "url(#a)"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M23 12c0 6.075-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1s11 4.925 11 11",
+                opacity: ".4"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M16.4 15.3a.5.5 0 1 0-.8-.6 4.5 4.5 0 0 1-3.6 1.8 4.5 4.5 0 0 1-3.6-1.8.5.5 0 1 0-.8.6 5.5 5.5 0 0 0 4.4 2.2c1.8 0 3.397-.865 4.4-2.2M8.2 8.57c.116-.235.37-.57.8-.57s.684.335.8.57c.133.263.2.593.2.93s-.067.667-.2.93c-.116.235-.37.57-.8.57s-.684-.335-.8-.57A2.1 2.1 0 0 1 8 9.5c0-.337.067-.667.2-.93M15 8c-.43 0-.684.335-.8.57-.133.263-.2.593-.2.93s.067.667.2.93c.116.235.37.57.8.57s.684-.335.8-.57c.133-.263.2-.593.2-.93s-.067-.667-.2-.93c-.116-.235-.37-.57-.8-.57"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                "fill-rule": "evenodd",
+                d: "M12 .5C5.649.5.5 5.649.5 12S5.649 23.5 12 23.5 23.5 18.351 23.5 12 18.351.5 12 .5M1.5 12C1.5 6.201 6.201 1.5 12 1.5S22.5 6.201 22.5 12 17.799 22.5 12 22.5 1.5 17.799 1.5 12",
+                "clip-rule": "evenodd"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "defs",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {},
+          children: [
+            {
+              name: "clipPath",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                id: "a"
+              },
+              children: [
+                {
+                  name: "path",
+                  type: "element",
+                  value: "",
+                  parent: null,
+                  attributes: {
+                    fill: "#fff",
+                    d: "M0 0h24v24H0z"
+                  },
+                  children: []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
   },
@@ -20486,6 +26693,60 @@ export default [
           attributes: {
             fill: "#000",
             d: "M20.75 8.25a.75.75 0 0 0-.22-.53l-6.25-6.25a.75.75 0 0 0-.53-.22v5a2 2 0 0 0 2 2zM12 10.25a.75.75 0 0 1 .75.75v5.19l1.72-1.72a.75.75 0 1 1 1.06 1.06l-3 3a.75.75 0 0 1-1.06 0l-3-3a.75.75 0 1 1 1.06-1.06l1.72 1.72V11a.75.75 0 0 1 .75-.75"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M13.5 2.085V6.5a2 2 0 0 0 2 2h4.415l.03.112c.055.23.055.474.055.963V17.2c0 1.68 0 2.52-.327 3.162a3 3 0 0 1-1.311 1.311C17.72 22 16.88 22 15.2 22H8.8c-1.68 0-2.52 0-3.162-.327a3 3 0 0 1-1.311-1.311C4 19.72 4 18.88 4 17.2V6.8c0-1.68 0-2.52.327-3.162a3 3 0 0 1 1.311-1.311C6.28 2 7.12 2 8.8 2h3.624c.49 0 .734 0 .965.055z",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M12 10.5a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708l2.146 2.147V11a.5.5 0 0 1 .5-.5"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M13.596 1.555c-.232-.055-.472-.055-.79-.055H8.779c-.821 0-1.468 0-1.99.043-.53.043-.974.133-1.377.339a3.5 3.5 0 0 0-1.53 1.53c-.205.402-.295.846-.338 1.377-.043.52-.043 1.168-.043 1.989v10.444c0 .822 0 1.468.043 1.99.043.53.133.974.338 1.377a3.5 3.5 0 0 0 1.53 1.53c.403.205.847.295 1.378.338.52.043 1.168.043 1.989.043h6.444c.822 0 1.469 0 1.99-.043.53-.043.974-.133 1.377-.338a3.5 3.5 0 0 0 1.53-1.53c.205-.403.295-.847.338-1.378.043-.52.043-1.167.043-1.989V9.193c0-.317 0-.557-.055-.789q-.075-.308-.24-.578c-.124-.203-.294-.372-.518-.596L14.77 2.313c-.224-.224-.393-.394-.596-.518a2 2 0 0 0-.578-.24M13 2.501l-.244-.001H8.8c-.848 0-1.455 0-1.93.04-.469.038-.766.11-1.005.233a2.5 2.5 0 0 0-1.093 1.092c-.121.239-.194.536-.233 1.005C4.5 5.346 4.5 5.952 4.5 6.8v10.4c0 .848 0 1.454.04 1.93.038.469.11.766.232 1.005a2.5 2.5 0 0 0 1.093 1.092c.239.122.536.195 1.005.234.475.039 1.082.039 1.93.039h6.4c.848 0 1.454 0 1.93-.04.469-.038.766-.11 1.005-.233a2.5 2.5 0 0 0 1.092-1.092c.122-.239.195-.536.234-1.005.039-.476.039-1.082.039-1.93V9h-4A2.5 2.5 0 0 1 13 6.5zM19.043 8l-.1-.1L14.1 3.058l-.099-.1V6.5A1.5 1.5 0 0 0 15.5 8z",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -20663,6 +26924,60 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M13.5 2.085V6.5a2 2 0 0 0 2 2h4.415l.03.112c.055.23.055.474.055.963V17.2c0 1.68 0 2.52-.327 3.162a3 3 0 0 1-1.311 1.311C17.72 22 16.88 22 15.2 22H8.8c-1.68 0-2.52 0-3.162-.327a3 3 0 0 1-1.311-1.311C4 19.72 4 18.88 4 17.2V6.8c0-1.68 0-2.52.327-3.162a3 3 0 0 1 1.311-1.311C6.28 2 7.12 2 8.8 2h3.624c.49 0 .734 0 .965.055z",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M12 18.5a.5.5 0 0 1-.5-.5v-5.793l-2.146 2.146a.5.5 0 1 1-.708-.707l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.707L12.5 12.207V18a.5.5 0 0 1-.5.5"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M13.596 1.555c-.232-.055-.472-.055-.79-.055H8.779c-.821 0-1.468 0-1.99.042-.53.044-.974.134-1.377.34a3.5 3.5 0 0 0-1.53 1.529c-.205.403-.295.847-.338 1.378-.043.52-.043 1.167-.043 1.989v10.444c0 .821 0 1.468.043 1.989.043.531.133.975.338 1.378a3.5 3.5 0 0 0 1.53 1.53c.403.205.847.295 1.378.338.52.043 1.168.043 1.989.043h6.444c.822 0 1.469 0 1.99-.043.53-.043.974-.133 1.377-.339a3.5 3.5 0 0 0 1.53-1.53c.205-.402.295-.846.338-1.377.043-.52.043-1.168.043-1.989V9.193c0-.317 0-.557-.055-.789q-.075-.308-.24-.578c-.124-.203-.294-.372-.518-.597L14.77 2.313c-.224-.224-.393-.394-.596-.518a2 2 0 0 0-.578-.24M14 2.957V6.5A1.5 1.5 0 0 0 15.5 8h3.543l-.1-.1L14.1 3.057zM19.5 9v8.2c0 .848 0 1.454-.04 1.93-.038.469-.11.766-.233 1.005a2.5 2.5 0 0 1-1.092 1.092c-.239.122-.536.195-1.005.234-.476.039-1.082.039-1.93.039H8.8c-.848 0-1.455 0-1.93-.04-.469-.038-.766-.111-1.005-.233a2.5 2.5 0 0 1-1.093-1.092c-.121-.239-.194-.536-.233-1.005-.039-.476-.039-1.082-.039-1.93V6.8c0-.848 0-1.455.04-1.93.038-.47.11-.766.232-1.005a2.5 2.5 0 0 1 1.093-1.093c.239-.121.536-.195 1.005-.233.476-.039 1.082-.04 1.93-.04h3.956l.244.002V6.5A2.5 2.5 0 0 0 15.5 9z",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -20835,6 +27150,60 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M13.5 2.085V6.5a2 2 0 0 0 2 2h4.415l.03.112c.055.23.055.474.055.963V17.2c0 1.68 0 2.52-.327 3.162a3 3 0 0 1-1.311 1.311C17.72 22 16.88 22 15.2 22H8.8c-1.68 0-2.52 0-3.162-.327a3 3 0 0 1-1.311-1.311C4 19.72 4 18.88 4 17.2V6.8c0-1.68 0-2.52.327-3.162a3 3 0 0 1 1.311-1.311C6.28 2 7.12 2 8.8 2h3.624c.49 0 .734 0 .965.055z",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M7.5 13a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 0-1H8a.5.5 0 0 0-.5.5M8 17.5a.5.5 0 0 1 0-1h4a.5.5 0 1 1 0 1z"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M13.596 1.555c-.232-.055-.472-.055-.79-.055H8.779c-.821 0-1.468 0-1.99.043-.53.043-.974.133-1.377.339a3.5 3.5 0 0 0-1.53 1.53c-.205.402-.295.846-.338 1.377-.043.52-.043 1.168-.043 1.989v10.444c0 .822 0 1.468.043 1.99.043.53.133.974.338 1.377a3.5 3.5 0 0 0 1.53 1.53c.403.205.847.295 1.378.338.52.043 1.168.043 1.989.043h6.444c.822 0 1.469 0 1.99-.043.53-.043.974-.133 1.377-.338a3.5 3.5 0 0 0 1.53-1.53c.205-.403.295-.847.338-1.378.043-.52.043-1.167.043-1.989V9.193c0-.317 0-.557-.055-.789q-.075-.308-.24-.578c-.124-.203-.294-.372-.518-.596L14.77 2.313c-.224-.224-.393-.394-.596-.518a2 2 0 0 0-.578-.24M13 2.501l-.244-.001H8.8c-.848 0-1.455 0-1.93.04-.469.038-.766.11-1.005.233a2.5 2.5 0 0 0-1.093 1.092c-.121.239-.194.536-.233 1.005C4.5 5.346 4.5 5.952 4.5 6.8v10.4c0 .848 0 1.454.04 1.93.038.469.11.766.232 1.005a2.5 2.5 0 0 0 1.093 1.092c.239.122.536.195 1.005.234.475.039 1.082.039 1.93.039h6.4c.848 0 1.454 0 1.93-.04.469-.038.766-.11 1.005-.233a2.5 2.5 0 0 0 1.092-1.092c.122-.239.195-.536.234-1.005.039-.476.039-1.082.039-1.93V9h-4A2.5 2.5 0 0 1 13 6.5zM19.043 8l-.1-.1L14.1 3.057l-.099-.1V6.5A1.5 1.5 0 0 0 15.5 8z",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -20984,6 +27353,49 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M8 2h8v20H8z",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M7.5 1.5c-.924 0-1.652.001-2.24.05-.614.05-1.12.153-1.576.386a4 4 0 0 0-1.748 1.748c-.233.457-.336.962-.387 1.576A23 23 0 0 0 1.5 7.02v10.002c.002.683.01 1.245.05 1.718.05.614.153 1.12.386 1.576a4 4 0 0 0 1.748 1.748c.457.233.962.336 1.576.387.588.048 1.316.049 2.24.049h9c.924 0 1.652-.001 2.24-.05.614-.05 1.12-.153 1.576-.386a4 4 0 0 0 1.748-1.748c.233-.457.336-.962.387-1.576a23 23 0 0 0 .049-1.76V6.977a23 23 0 0 0-.05-1.717c-.05-.614-.153-1.12-.386-1.576a4 4 0 0 0-1.748-1.748c-.457-.233-.962-.336-1.576-.387-.588-.048-1.316-.049-2.24-.049zm14 15v-4h-5v4zm-6-4h-7v9h7zm1 5h4.997c-.005.454-.016.832-.043 1.158-.045.553-.132.912-.281 1.204a3 3 0 0 1-1.311 1.311c-.292.149-.651.236-1.204.281-.54.044-1.221.046-2.158.046zM2.546 18.658a17 17 0 0 1-.043-1.158H7.5v4c-.937 0-1.619-.002-2.158-.046-.553-.045-.912-.132-1.204-.281a3 3 0 0 1-1.311-1.311c-.149-.292-.236-.651-.281-1.204M2.5 16.5h5v-4h-5v4m19-5v-4h-5v4zm-6 0v-9h-7v9zm-8 0v-4h-5v4zm13.954-6.158c.027.326.038.704.043 1.158H16.5v-4c.937 0 1.619.002 2.158.046.553.045.912.132 1.204.281a3 3 0 0 1 1.311 1.311c.149.292.236.651.281 1.204M7.5 6.5H2.503c.005-.454.016-.832.043-1.158.045-.553.132-.912.281-1.204a3 3 0 0 1 1.311-1.311c.292-.149.651-.236 1.204-.281.54-.044 1.221-.046 2.158-.046z",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -21105,6 +27517,49 @@ export default [
             fill: "#000",
             d: "M4.121 1.5a2.621 2.621 0 0 0-1.853 4.475l6.44 6.44A1 1 0 0 1 9 13.12v4.398c0 .456.207.887.563 1.172l4.625 3.7A.5.5 0 0 0 15 22v-8.879a1 1 0 0 1 .293-.707l6.44-6.44A2.621 2.621 0 0 0 19.878 1.5z",
             opacity: ".4"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M4.121 2H19.88a2.121 2.121 0 0 1 1.5 3.621l-6.44 6.44a1.5 1.5 0 0 0-.439 1.06V22l-4.625-3.7a1 1 0 0 1-.375-.78V13.12a1.5 1.5 0 0 0-.44-1.06L2.622 5.62A2.121 2.121 0 0 1 4.121 2",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M1.5 4.121A2.62 2.62 0 0 1 4.121 1.5H19.88a2.621 2.621 0 0 1 1.853 4.475l-6.44 6.44a1 1 0 0 0-.292.706V22a.5.5 0 0 1-.812.39l-4.625-3.7A1.5 1.5 0 0 1 9 17.52V13.12a1 1 0 0 0-.293-.707l-6.44-6.44A2.62 2.62 0 0 1 1.5 4.122M4.121 2.5a1.621 1.621 0 0 0-1.146 2.768l6.44 6.44A2 2 0 0 1 10 13.12v4.398a.5.5 0 0 0 .188.39L14 20.96v-7.838a2 2 0 0 1 .586-1.414l6.44-6.44A1.621 1.621 0 0 0 19.878 2.5z",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -21242,6 +27697,49 @@ export default [
           attributes: {
             fill: "#000",
             d: "M4 1.25a.75.75 0 0 1 .75.75v20a.75.75 0 0 1-1.5 0V2A.75.75 0 0 1 4 1.25"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M19.495 4H4v11h15.494a.5.5 0 0 0 .426-.762l-2.597-4.213a1 1 0 0 1 0-1.05l2.597-4.213A.5.5 0 0 0 19.494 4",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M4.5 2a.5.5 0 0 0-1 0v20a.5.5 0 0 0 1 0v-6.5h14.994a1 1 0 0 0 .852-1.525l-2.597-4.213a.5.5 0 0 1 0-.524l2.597-4.213a1 1 0 0 0-.852-1.525H4.5zm0 2.5v10h14.994l-2.596-4.213a1.5 1.5 0 0 1 0-1.574L19.494 4.5z",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -21408,6 +27906,60 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M2 16.1V7.9c0-1.54 0-2.31.3-2.898A2.75 2.75 0 0 1 3.502 3.8c.588-.3 1.358-.3 2.898-.3h2.106c.367 0 .55 0 .723.041.153.037.3.098.433.18.152.093.282.223.54.482l.595.594c.26.26.39.39.54.482a1.5 1.5 0 0 0 .434.18c.173.041.356.041.723.041H17.6c1.54 0 2.31 0 2.898.3A2.75 2.75 0 0 1 21.7 7.002c.3.588.3 1.358.3 2.898v6.2c0 1.54 0 2.31-.3 2.898A2.75 2.75 0 0 1 20.5 20.2c-.589.3-1.359.3-2.899.3H6.4c-1.54 0-2.31 0-2.898-.3A2.75 2.75 0 0 1 2.3 19C2 18.41 2 17.64 2 16.1",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M12 9a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708l2.146 2.147V9.5A.5.5 0 0 1 12 9"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M8.557 3c.317 0 .557 0 .789.055a2 2 0 0 1 .578.24c.203.124.372.294.597.518l.63.63c.276.277.359.355.448.41a1 1 0 0 0 .289.12c.102.024.215.027.606.027h5.128c.751 0 1.346 0 1.825.04.49.04.902.122 1.279.314a3.25 3.25 0 0 1 1.42 1.42c.191.377.275.79.315 1.28.039.478.039 1.073.039 1.824v6.244c0 .751 0 1.346-.04 1.825-.04.49-.123.902-.314 1.279a3.25 3.25 0 0 1-1.42 1.42c-.377.192-.79.275-1.28.315-.478.039-1.073.039-1.824.039H6.378c-.751 0-1.346 0-1.825-.04-.49-.04-.902-.122-1.278-.314a3.25 3.25 0 0 1-1.42-1.42c-.193-.377-.276-.79-.316-1.28-.039-.478-.039-1.073-.039-1.824V7.878c0-.751 0-1.346.04-1.825.04-.49.122-.902.314-1.278a3.25 3.25 0 0 1 1.42-1.42c.377-.193.79-.276 1.28-.316C5.031 3 5.626 3 6.377 3zm.555 1.028C9.01 4.003 8.897 4 8.506 4H6.4c-.778 0-1.332 0-1.765.036-.428.035-.695.101-.906.21a2.25 2.25 0 0 0-.984.983c-.108.211-.174.478-.21.906C2.5 6.568 2.5 7.122 2.5 7.9v8.2c0 .778 0 1.332.036 1.765.035.428.101.695.21.907.215.423.56.767.983.983.211.108.478.174.906.21C5.068 20 5.622 20 6.4 20h11.2c.778 0 1.332 0 1.765-.036.428-.035.695-.101.907-.21a2.25 2.25 0 0 0 .983-.983c.108-.211.174-.478.21-.905.035-.434.035-.988.035-1.766V9.9c0-.778 0-1.332-.036-1.765-.035-.428-.101-.695-.21-.906a2.25 2.25 0 0 0-.983-.984c-.211-.108-.478-.174-.905-.21C18.932 6 18.378 6 17.6 6h-5.157c-.317 0-.557 0-.789-.055q-.308-.075-.578-.24c-.203-.124-.372-.294-.597-.518l-.63-.63c-.276-.277-.359-.355-.448-.41a1 1 0 0 0-.289-.12",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -21569,6 +28121,60 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M2 16.1V7.9c0-1.54 0-2.31.3-2.898A2.75 2.75 0 0 1 3.502 3.8c.588-.3 1.358-.3 2.898-.3h2.106c.367 0 .55 0 .723.041.153.037.3.098.433.18.152.093.282.223.54.482l.595.594c.26.26.39.39.54.482a1.5 1.5 0 0 0 .434.18c.173.041.356.041.723.041H17.6c1.54 0 2.31 0 2.898.3A2.75 2.75 0 0 1 21.7 7.002c.3.588.3 1.358.3 2.898v6.2c0 1.54 0 2.31-.3 2.898A2.75 2.75 0 0 1 20.5 20.2c-.589.3-1.359.3-2.899.3H6.4c-1.54 0-2.31 0-2.898-.3A2.75 2.75 0 0 1 2.3 19C2 18.41 2 17.64 2 16.1",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M12 17a.5.5 0 0 1-.5-.5v-5.793l-2.146 2.147a.5.5 0 0 1-.708-.707l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.707L12.5 10.707V16.5a.5.5 0 0 1-.5.5"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M8.557 3c.317 0 .557 0 .789.055a2 2 0 0 1 .578.24c.203.124.372.294.597.519l.63.63c.276.276.359.354.448.409a1 1 0 0 0 .289.12c.102.024.215.027.606.027h5.128c.751 0 1.346 0 1.825.04.49.04.902.123 1.279.314a3.25 3.25 0 0 1 1.42 1.42c.191.377.275.79.315 1.28.039.478.039 1.073.039 1.824v6.244c0 .752 0 1.346-.04 1.825-.04.49-.123.902-.314 1.279a3.25 3.25 0 0 1-1.42 1.42c-.377.192-.79.275-1.28.315-.478.04-1.073.04-1.824.04H6.378c-.751 0-1.346 0-1.825-.04-.49-.04-.902-.123-1.278-.315a3.25 3.25 0 0 1-1.42-1.42c-.193-.377-.276-.79-.316-1.279-.039-.479-.039-1.073-.039-1.825V7.878c0-.751 0-1.346.04-1.825.04-.49.122-.902.314-1.278a3.25 3.25 0 0 1 1.42-1.42c.377-.192.79-.276 1.28-.316C5.031 3 5.626 3 6.377 3zm.555 1.028C9.01 4.003 8.897 4 8.506 4H6.4c-.778 0-1.332 0-1.765.036-.428.035-.695.101-.906.21a2.25 2.25 0 0 0-.984.983c-.108.212-.174.478-.21.906C2.5 6.568 2.5 7.122 2.5 7.9v8.2c0 .778 0 1.332.036 1.766.035.427.101.694.21.906.215.423.56.767.983.983.211.108.478.174.906.21C5.068 20 5.622 20 6.4 20h11.2c.778 0 1.332 0 1.765-.036.428-.035.695-.101.907-.21a2.25 2.25 0 0 0 .983-.982c.108-.212.174-.479.21-.906.035-.434.035-.988.035-1.766V9.9c0-.778 0-1.332-.036-1.765-.035-.428-.101-.694-.21-.906a2.25 2.25 0 0 0-.983-.984c-.211-.108-.478-.174-.905-.209C18.932 6.001 18.378 6 17.6 6h-5.157c-.317 0-.557 0-.789-.055q-.308-.075-.578-.24c-.203-.124-.372-.294-.597-.518l-.63-.63c-.276-.277-.359-.355-.448-.41a1 1 0 0 0-.289-.12",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -21708,6 +28314,49 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M3.5 12V6c0-1.4 0-2.1.272-2.635a2.5 2.5 0 0 1 1.093-1.093C5.4 2 6.1 2 7.5 2h2.264c.27 0 .406 0 .532.033a1 1 0 0 1 .312.144c.107.073.195.176.37.382l.543.632c.176.206.264.309.371.382a1 1 0 0 0 .312.144c.126.033.261.033.532.033H16.5c1.4 0 2.1 0 2.635.272a2.5 2.5 0 0 1 1.092 1.093c.273.535.273 1.235.273 2.635V12c0 1.4 0 2.1-.273 2.635a2.5 2.5 0 0 1-1.092 1.092C18.6 16 17.9 16 16.5 16h-9c-1.4 0-2.1 0-2.635-.273a2.5 2.5 0 0 1-1.093-1.092C3.5 14.1 3.5 13.4 3.5 12",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M11.5 16.5H7.478c-.681 0-1.223 0-1.66-.036-.449-.036-.83-.113-1.18-.29a3 3 0 0 1-1.311-1.312c-.178-.35-.255-.731-.291-1.18C3 13.246 3 12.704 3 12.023V5.978c0-.681 0-1.223.036-1.66.036-.448.113-.83.291-1.18a3 3 0 0 1 1.311-1.311c.35-.178.731-.255 1.18-.291.437-.036.979-.036 1.66-.036H9.81c.225 0 .423 0 .614.05a1.5 1.5 0 0 1 .467.215c.162.112.291.262.438.433l.572.668c.193.226.234.267.275.296a.5.5 0 0 0 .156.071c.048.013.107.017.404.017h3.786c.681 0 1.223 0 1.66.036.449.036.83.113 1.18.291a3 3 0 0 1 1.311 1.311c.178.35.255.732.291 1.18.036.437.036.979.036 1.66v4.294c0 .681 0 1.223-.036 1.66-.036.449-.113.83-.291 1.18a3 3 0 0 1-1.311 1.311c-.35.178-.731.255-1.18.291-.437.036-.979.036-1.66.036H12.5v3.063c.703.18 1.256.734 1.437 1.437H19a.5.5 0 0 1 0 1h-5.063a2 2 0 0 1-3.874 0H5a.5.5 0 0 1 0-1h5.063a2 2 0 0 1 1.437-1.437zm-1.736-14c.297 0 .356.004.404.017a.5.5 0 0 1 .156.071c.04.029.082.07.275.296l.572.668c.147.17.276.321.438.433q.215.147.467.215c.19.05.389.05.614.05h3.81c.708 0 1.21 0 1.601.032.386.032.622.092.807.186a2 2 0 0 1 .874.874c.094.185.154.42.186.807C20 6.54 20 7.042 20 7.75V12c0 .708 0 1.21-.032 1.601-.032.386-.092.622-.186.807a2 2 0 0 1-.874.874c-.185.094-.42.154-.807.186-.392.032-.893.032-1.601.032h-9c-.708 0-1.21 0-1.601-.032-.386-.032-.622-.092-.807-.186a2 2 0 0 1-.874-.874c-.094-.185-.154-.42-.186-.807C4 13.21 4 12.708 4 12.001V6c0-.71 0-1.21.032-1.602.032-.386.092-.622.186-.807a2 2 0 0 1 .874-.874c.185-.094.42-.154.807-.186C6.29 2.5 6.792 2.5 7.5 2.5zM12 20.5a1 1 0 1 1 0 2 1 1 0 0 1 0-2",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -21829,6 +28478,49 @@ export default [
             fill: "#000",
             d: "M9.404 2.812c-.261-.062-.53-.062-.836-.062h-2.6c-.673 0-1.223 0-1.671.037-.463.037-.882.118-1.272.317a3.25 3.25 0 0 0-1.42 1.42c-.2.391-.28.81-.318 1.273-.037.448-.037.998-.037 1.672v9.063c0 .673 0 1.224.037 1.671.037.463.118.882.317 1.273a3.25 3.25 0 0 0 1.42 1.42c.391.199.81.28 1.273.317.447.037.998.037 1.672.037H18.03c.674 0 1.225 0 1.672-.037.463-.037.882-.118 1.273-.317a3.25 3.25 0 0 0 1.42-1.42c.199-.391.28-.81.317-1.273.037-.447.037-.998.037-1.671V9.469c0-.674 0-1.224-.037-1.672-.037-.463-.118-.882-.317-1.272a3.25 3.25 0 0 0-1.42-1.42c-.391-.2-.81-.28-1.273-.318-.447-.037-.998-.037-1.672-.037h-5.537c-.402 0-.482-.005-.548-.02a.8.8 0 0 1-.217-.09c-.058-.036-.117-.089-.402-.373l-.638-.639c-.216-.216-.405-.406-.635-.546a2.3 2.3 0 0 0-.65-.27",
             opacity: ".4"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M2 16.1V7.9c0-1.54 0-2.31.3-2.898A2.75 2.75 0 0 1 3.502 3.8c.588-.3 1.358-.3 2.898-.3h2.106c.367 0 .55 0 .723.041.153.037.3.098.433.18.152.093.282.223.54.482l.595.594c.26.26.39.39.54.482a1.5 1.5 0 0 0 .434.18c.173.041.356.041.723.041H17.6c1.54 0 2.31 0 2.898.3A2.75 2.75 0 0 1 21.7 7.002c.3.588.3 1.358.3 2.898v6.2c0 1.54 0 2.31-.3 2.898A2.75 2.75 0 0 1 20.5 20.2c-.589.3-1.359.3-2.899.3H6.4c-1.54 0-2.31 0-2.898-.3A2.75 2.75 0 0 1 2.3 19C2 18.41 2 17.64 2 16.1",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M8.557 3c.317 0 .557 0 .789.055a2 2 0 0 1 .578.24c.203.124.372.294.597.518l.035.036.595.595c.276.276.359.354.448.409a1 1 0 0 0 .289.12c.102.024.215.027.606.027h5.128c.751 0 1.346 0 1.825.04.49.04.902.122 1.279.314a3.25 3.25 0 0 1 1.42 1.42c.191.377.275.79.315 1.28.039.478.039 1.073.039 1.824v6.244c0 .752 0 1.346-.04 1.825-.04.49-.123.902-.314 1.279a3.25 3.25 0 0 1-1.42 1.42c-.377.192-.79.275-1.28.315-.478.039-1.073.039-1.824.039H6.378c-.751 0-1.346 0-1.825-.04-.49-.04-.902-.122-1.278-.314a3.25 3.25 0 0 1-1.42-1.42c-.193-.377-.276-.79-.316-1.28-.039-.478-.039-1.073-.039-1.824V7.878c0-.751 0-1.346.04-1.825.04-.49.122-.902.314-1.278a3.25 3.25 0 0 1 1.42-1.42c.377-.193.79-.276 1.28-.316C5.031 3 5.626 3 6.377 3h2.178m.555 1.028C9.01 4.003 8.897 4 8.506 4H6.4c-.778 0-1.332 0-1.765.036-.428.035-.695.101-.906.21a2.25 2.25 0 0 0-.984.983c-.108.211-.174.478-.21.906C2.5 6.568 2.5 7.122 2.5 7.9v8.2c0 .778 0 1.332.036 1.765.035.428.101.695.21.907.215.423.56.767.983.983.211.108.478.174.906.21C5.068 20 5.622 20 6.4 20h11.2c.778 0 1.332 0 1.765-.036.428-.035.695-.101.907-.21a2.25 2.25 0 0 0 .983-.983c.108-.211.174-.478.21-.905.035-.434.035-.988.035-1.766V9.9c0-.778 0-1.332-.036-1.765-.035-.428-.101-.695-.21-.906a2.25 2.25 0 0 0-.983-.984c-.211-.108-.478-.174-.905-.21C18.932 6 18.378 6 17.6 6h-5.156c-.318 0-.558 0-.79-.055q-.308-.075-.578-.24c-.203-.124-.372-.294-.597-.518l-.035-.036-.595-.594c-.276-.277-.359-.355-.448-.41a1 1 0 0 0-.289-.12",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -22010,6 +28702,68 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            opacity: ".4"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M16.934 1.612a.5.5 0 0 1 .67.034l4.75 4.75a.5.5 0 0 1 .034.67l-2.82 3.46a4.332 4.332 0 1 1-6.095-6.094zM10.5 10.5 7 14l-1.296-1.296A12.65 12.65 0 0 1 2 3.761a.73.73 0 0 1 1.246-.515zM10.793 17.793 10 17l3.5-3.5L15 15l-2.793 2.793a1 1 0 0 1-1.414 0"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M17.566 2.388a.5.5 0 0 0-.632-.776l-3.46 2.82a4.333 4.333 0 0 0-.661 6.048L1.646 21.646a.5.5 0 1 0 .708.707L13.52 11.187a4.333 4.333 0 0 0 6.048-.66l2.82-3.461a.5.5 0 1 0-.776-.632l-2.82 3.461a3.332 3.332 0 1 1-4.687-4.687z"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M2.5 3.761a.23.23 0 0 1 .392-.162l7.255 7.255.707-.708-7.255-7.254c-.775-.775-2.099-.226-2.099.87 0 3.486 1.385 6.83 3.85 9.296l1.296 1.296.708-.708-1.296-1.296A12.15 12.15 0 0 1 2.5 3.762M10.354 16.646l-.708.707.793.793a1.5 1.5 0 0 0 2.122 0L15 15.707l6.646 6.647a.5.5 0 0 0 .708-.708l-8.5-8.5-.707.707L14.293 15l-2.44 2.44a.5.5 0 0 1-.707 0zM18.742 3.591a.5.5 0 0 1 0 .707l-3.188 3.2a.5.5 0 0 1-.709-.706l3.19-3.2a.5.5 0 0 1 .706 0M20.41 5.964a.5.5 0 0 0-.709-.706l-3.189 3.2a.5.5 0 0 0 .709.706z"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -22142,6 +28896,69 @@ export default [
           attributes: {
             fill: "#000",
             d: "M14.815 5.384c-1.39-.986-3.315.008-3.315 1.713v9.796c0 1.705 1.925 2.7 3.315 1.713l6.732-4.776a2.25 2.25 0 0 0 0-3.67z"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            opacity: ".4"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M21.258 10.568a1.75 1.75 0 0 1 0 2.855l-6.732 4.775c-1.06.752-2.526-.006-2.526-1.305V7.097c0-1.3 1.466-2.057 2.526-1.305z"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M11.258 10.568a1.75 1.75 0 0 1 0 2.855l-6.732 4.775C3.466 18.95 2 18.192 2 16.893V7.097c0-1.3 1.466-2.057 2.526-1.305z"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M14.815 5.384c-1.39-.986-3.315.008-3.315 1.713v3.03L4.815 5.383C3.425 4.398 1.5 5.392 1.5 7.097v9.796c0 1.705 1.924 2.7 3.315 1.713l6.685-4.742v3.03c0 1.704 1.925 2.699 3.315 1.712l6.732-4.776a2.25 2.25 0 0 0 0-3.67zM12.5 7.097a1.1 1.1 0 0 1 1.736-.897l6.733 4.776a1.25 1.25 0 0 1 0 2.039l-6.733 4.776a1.1 1.1 0 0 1-1.736-.898zm-10 0A1.1 1.1 0 0 1 4.236 6.2l6.733 4.776a1.25 1.25 0 0 1 0 2.039L4.236 17.79a1.1 1.1 0 0 1-1.736-.898z",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -22303,6 +29120,60 @@ export default [
           attributes: {
             fill: "#000",
             d: "M17.75 2a.75.75 0 0 0-1.5 0c0 .69-.56 1.25-1.25 1.25h-1A2.75 2.75 0 0 0 11.25 6v1a.75.75 0 0 0 1.5 0V6c0-.69.56-1.25 1.25-1.25h1A2.75 2.75 0 0 0 17.75 2M17.5 11.5a1 1 0 1 0 0 2 1 1 0 0 0 0-2M14 15a1 1 0 1 1 2 0 1 1 0 0 1-2 0M8.75 12a.75.75 0 0 0-1.5 0v1.25H6a.75.75 0 0 0 0 1.5h1.25V16a.75.75 0 0 0 1.5 0v-1.25H10a.75.75 0 0 0 0-1.5H8.75z"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M1 14a7 7 0 0 1 7-7h8a7 7 0 1 1 0 14H8a7 7 0 0 1-7-7",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M16.75 12.5a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0M15 14.25a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M8 11.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V16a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V12a.5.5 0 0 1 .5-.5"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M17 1.5a.5.5 0 0 1 .5.5A2.5 2.5 0 0 1 15 4.5h-1A1.5 1.5 0 0 0 12.5 6v.5H16a7.5 7.5 0 0 1 0 15H8a7.5 7.5 0 0 1 0-15h3.5V6A2.5 2.5 0 0 1 14 3.5h1A1.5 1.5 0 0 0 16.5 2a.5.5 0 0 1 .5-.5m-9 6a6.5 6.5 0 1 0 0 13h8a6.5 6.5 0 1 0 0-13z",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -22473,6 +29344,64 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M20.025 5.925a1.754 1.754 0 0 0-2.398-.644c-1.17.677-2.632-.17-2.632-1.523 0-.97-.786-1.758-1.755-1.758h-2.48c-.969 0-1.755.787-1.755 1.758 0 1.354-1.462 2.2-2.632 1.523a1.754 1.754 0 0 0-2.398.644l-1.24 2.15a1.76 1.76 0 0 0 .643 2.402c1.17.677 1.17 2.369 0 3.046a1.76 1.76 0 0 0-.643 2.402l1.24 2.15a1.753 1.753 0 0 0 2.398.644c1.17-.677 2.632.17 2.632 1.523 0 .97.786 1.758 1.756 1.758h2.478c.97 0 1.756-.787 1.756-1.758 0-1.354 1.462-2.2 2.632-1.523.84.485 1.913.197 2.398-.644l1.24-2.15a1.76 1.76 0 0 0-.643-2.402c-1.17-.677-1.17-2.37 0-3.046a1.76 1.76 0 0 0 .643-2.402zM12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6",
+            "clip-rule": "evenodd",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M12 8.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7M9.5 12a2.5 2.5 0 1 1 5 0 2.5 2.5 0 0 1-5 0",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M3.128 13.09a2.26 2.26 0 0 0-.826 3.084l1.24 2.15a2.254 2.254 0 0 0 3.08.828 1.255 1.255 0 0 1 1.883 1.09 2.257 2.257 0 0 0 2.256 2.258h2.479a2.257 2.257 0 0 0 2.255-2.258c0-.97 1.047-1.574 1.882-1.09a2.254 2.254 0 0 0 3.081-.827l1.24-2.15a2.26 2.26 0 0 0-.826-3.085 1.26 1.26 0 0 1 0-2.18 2.26 2.26 0 0 0 .826-3.084l-1.24-2.151a2.254 2.254 0 0 0-3.08-.827 1.255 1.255 0 0 1-1.883-1.09A2.257 2.257 0 0 0 13.24 1.5h-2.48a2.257 2.257 0 0 0-2.255 2.258c0 .97-1.047 1.573-1.882 1.09a2.254 2.254 0 0 0-3.081.827l-1.24 2.15a2.26 2.26 0 0 0 .826 3.085 1.26 1.26 0 0 1 0 2.18m.04 2.585a1.26 1.26 0 0 1 .46-1.72c1.503-.869 1.503-3.041 0-3.91a1.26 1.26 0 0 1-.46-1.72l1.24-2.15a1.254 1.254 0 0 1 1.714-.461c1.505.87 3.383-.219 3.383-1.956 0-.695.563-1.258 1.255-1.258h2.48c.692 0 1.255.563 1.255 1.258 0 1.737 1.878 2.826 3.383 1.956a1.253 1.253 0 0 1 1.714.46l1.24 2.15a1.26 1.26 0 0 1-.46 1.72c-1.503.87-1.503 3.042 0 3.911.6.348.807 1.117.46 1.72l-1.24 2.15a1.254 1.254 0 0 1-1.714.46c-1.505-.87-3.383.22-3.383 1.957 0 .695-.563 1.258-1.255 1.258h-2.48a1.257 1.257 0 0 1-1.255-1.258c0-1.737-1.878-2.826-3.383-1.956-.6.347-1.367.141-1.714-.46z",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -22625,6 +29554,49 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M2.163 7.819C2 8.139 2 8.559 2 9.4v.2c0 .84 0 1.26.163 1.581a1.5 1.5 0 0 0 .656.656C3.139 12 3.5 12 3.5 12v5.2c0 1.68 0 2.52.327 3.162a3 3 0 0 0 1.311 1.311C5.78 22 6.62 22 8.3 22h7.4c1.68 0 2.52 0 3.162-.327a3 3 0 0 0 1.311-1.311c.327-.642.327-1.482.327-3.162V12s.36 0 .681-.164a1.5 1.5 0 0 0 .656-.655c.163-.32.163-.74.163-1.581v-.2c0-.84 0-1.26-.163-1.581a1.5 1.5 0 0 0-.656-.656C20.861 7 20.441 7 19.6 7H4.4c-.84 0-1.26 0-1.581.163a1.5 1.5 0 0 0-.656.656",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M3 12.425a1.7 1.7 0 0 1-.408-.143 2 2 0 0 1-.874-.874c-.124-.243-.173-.501-.196-.782-.022-.27-.022-.603-.022-1.005v-.242c0-.402 0-.734.022-1.005.023-.281.072-.54.196-.782a2 2 0 0 1 .874-.874c.243-.124.501-.173.782-.196.27-.022.603-.022 1.005-.022h1.227c-1.543-1.55-.88-4.535 1.62-4.959a2.94 2.94 0 0 1 2.505.759l2.27 2.14 2.27-2.14a2.94 2.94 0 0 1 2.505-.759c2.501.424 3.164 3.409 1.62 4.959h1.225c.402 0 .734 0 1.005.022.281.023.54.072.782.196a2 2 0 0 1 .874.874c.124.243.173.501.196.782.022.27.022.603.022 1.005v.242c0 .402 0 .734-.022 1.005-.023.281-.072.54-.196.782a2 2 0 0 1-.874.874 1.7 1.7 0 0 1-.408.143v4.797c0 .822 0 1.468-.043 1.99-.043.53-.133.974-.338 1.377a3.5 3.5 0 0 1-1.53 1.53c-.403.205-.847.295-1.378.338-.52.043-1.167.043-1.989.043H8.278c-.821 0-1.468 0-1.99-.043-.53-.043-.974-.133-1.377-.338a3.5 3.5 0 0 1-1.53-1.53c-.205-.403-.295-.847-.338-1.378C3 18.691 3 18.044 3 17.222zm4.393-9.898a1.94 1.94 0 0 1 1.652.5l2.476 2.335a.5.5 0 0 0-.021.143V6.5H7.72l-.67-.246c-1.864-.683-1.614-3.395.343-3.727M12.5 5.505a.5.5 0 0 0-.02-.142l2.477-2.336a1.94 1.94 0 0 1 1.652-.5c1.958.332 2.207 3.044.343 3.727l-.67.246H12.5zM7.632 7.5H11.5v4H4.4c-.428 0-.72 0-.944-.019-.22-.018-.332-.05-.41-.09a1 1 0 0 1-.437-.437c-.04-.078-.072-.19-.09-.41A13 13 0 0 1 2.5 9.6v-.2c0-.428 0-.72.019-.944.018-.22.05-.332.09-.41a1 1 0 0 1 .437-.437c.078-.04.19-.072.41-.09.225-.019.516-.019.944-.019h3.232m-3.291 5H4v4.7c0 .848 0 1.454.04 1.93.038.469.11.766.232 1.005a2.5 2.5 0 0 0 1.093 1.092c.239.122.536.195 1.005.234.475.039 1.082.039 1.93.039h3.2v-9H4.341m8.159 0v9h3.2c.848 0 1.454 0 1.93-.04.469-.038.766-.11 1.005-.233a2.5 2.5 0 0 0 1.092-1.092c.122-.239.195-.536.234-1.005.039-.476.039-1.082.039-1.93v-4.7h-7.5m7.1-1c.428 0 .72 0 .944-.019.22-.018.332-.05.41-.09a1 1 0 0 0 .437-.437c.04-.078.072-.19.09-.41.019-.225.019-.516.019-.944v-.2c0-.428 0-.72-.019-.944-.018-.22-.05-.332-.09-.41a1 1 0 0 0-.437-.437c-.078-.04-.19-.072-.41-.09A13 13 0 0 0 19.6 7.5h-7.1v4z",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -22767,6 +29739,59 @@ export default [
           attributes: {
             fill: "#000",
             d: "M6.25 11.25a5 5 0 1 0 0 10 5 5 0 0 0 0-10M17.75 11.25a5 5 0 1 0 0 10 5 5 0 0 0 0-10"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            opacity: ".4"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M6.25 20.5a4.25 4.25 0 1 0 0-8.5 4.25 4.25 0 0 0 0 8.5M17.75 20.5a4.25 4.25 0 1 0 0-8.5 4.25 4.25 0 0 0 0 8.5"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M16.93 3.297a2.5 2.5 0 0 1 3.62 1.674l1.471 6.773c.319 1.464.479 2.959.479 4.457v.049a4.75 4.75 0 1 1-9.493-.25h-2.014q.007.124.007.25a4.75 4.75 0 1 1-9.5-.015V16.2a21 21 0 0 1 .479-4.457l1.47-6.773a2.5 2.5 0 0 1 3.622-1.674l1.165.622a.5.5 0 0 1-.472.882L6.6 4.18a1.5 1.5 0 0 0-2.172 1.005l-1.471 6.772q-.117.538-.204 1.08A4.752 4.752 0 0 1 10.834 15h2.332a4.752 4.752 0 0 1 8.082-1.963 20 20 0 0 0-.204-1.081l-1.47-6.772A1.5 1.5 0 0 0 17.4 4.179l-1.165.622a.5.5 0 0 1-.472-.882zM2.5 16.25v-.014a3.75 3.75 0 1 1 0 .014m19 0v-.013a3.75 3.75 0 1 0 0 .013",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -23086,6 +30111,90 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "clip-path": "url(#a)"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M23 12c0 6.075-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1s11 4.925 11 11",
+                opacity: ".4"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                "fill-rule": "evenodd",
+                d: "M.5 12C.5 5.649 5.649.5 12 .5h.005C18.354.503 23.5 5.65 23.5 12v.003C23.498 18.353 18.35 23.5 12 23.5 5.649 23.5.5 18.351.5 12m10.006-9.717c.489-.535.99-.783 1.494-.783.505 0 1.005.248 1.495.783.492.538.94 1.334 1.319 2.332.708 1.87 1.132 4.351 1.181 6.885h-7.99c.05-2.534.473-5.015 1.181-6.885.378-.998.827-1.794 1.32-2.332M7.005 11.5c.05-2.628.487-5.235 1.246-7.24.372-.98.83-1.841 1.375-2.49-4.499 1.04-7.891 4.97-8.114 9.73zm-5.493 1h5.493c.05 2.628.487 5.235 1.246 7.24.372.98.83 1.841 1.375 2.49-4.499-1.04-7.891-4.97-8.114-9.73m20.976-1c-.223-4.76-3.615-8.69-8.114-9.73.546.649 1.003 1.51 1.375 2.49.76 2.005 1.197 4.612 1.246 7.24zm-5.494 1h5.494c-.225 4.802-3.676 8.76-8.234 9.758.6-.724 1.098-1.713 1.498-2.817.748-2.069 1.185-4.648 1.242-6.941m-1 0c-.057 2.19-.478 4.651-1.183 6.6-.38 1.052-.833 1.925-1.332 2.525-.5.602-.997.874-1.476.875H12c-.505 0-1.005-.248-1.495-.783-.492-.538-.94-1.334-1.319-2.332-.708-1.87-1.132-4.351-1.181-6.885z",
+                "clip-rule": "evenodd"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "defs",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {},
+          children: [
+            {
+              name: "clipPath",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                id: "a"
+              },
+              children: [
+                {
+                  name: "path",
+                  type: "element",
+                  value: "",
+                  parent: null,
+                  attributes: {
+                    fill: "#fff",
+                    d: "M0 0h24v24H0z"
+                  },
+                  children: []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
   },
@@ -23233,6 +30342,59 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            opacity: ".4"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M2 4.4c0-.84 0-1.26.163-1.581a1.5 1.5 0 0 1 .656-.656C3.139 2 3.559 2 4.4 2h3.2c.84 0 1.26 0 1.581.163a1.5 1.5 0 0 1 .656.656c.163.32.163.74.163 1.581v3.2c0 .84 0 1.26-.163 1.581a1.5 1.5 0 0 1-.656.656C8.861 10 8.441 10 7.6 10H4.4c-.84 0-1.26 0-1.581-.163a1.5 1.5 0 0 1-.656-.656C2 8.861 2 8.441 2 7.6zM14.164 2.819C14 3.139 14 3.559 14 4.4v3.2c0 .84 0 1.26.164 1.581a1.5 1.5 0 0 0 .655.656c.32.163.74.163 1.581.163h3.2c.84 0 1.26 0 1.581-.163a1.5 1.5 0 0 0 .656-.656C22 8.861 22 8.441 22 7.6V4.4c0-.84 0-1.26-.163-1.581a1.5 1.5 0 0 0-.656-.656C20.861 2 20.441 2 19.6 2h-3.2c-.84 0-1.26 0-1.581.163a1.5 1.5 0 0 0-.655.656M14.164 14.819c-.164.32-.164.74-.164 1.581v3.2c0 .84 0 1.26.164 1.581a1.5 1.5 0 0 0 .655.656c.32.163.74.163 1.581.163h3.2c.84 0 1.26 0 1.581-.163a1.5 1.5 0 0 0 .656-.656c.163-.32.163-.74.163-1.581v-3.2c0-.84 0-1.26-.163-1.581a1.5 1.5 0 0 0-.656-.655C20.861 14 20.441 14 19.6 14h-3.2c-.84 0-1.26 0-1.581.164a1.5 1.5 0 0 0-.655.655M2.163 14.819C2 15.139 2 15.559 2 16.4v3.2c0 .84 0 1.26.163 1.581a1.5 1.5 0 0 0 .656.656c.32.163.74.163 1.581.163h3.2c.84 0 1.26 0 1.581-.163a1.5 1.5 0 0 0 .656-.656c.163-.32.163-.74.163-1.581v-3.2c0-.84 0-1.26-.163-1.581a1.5 1.5 0 0 0-.656-.655C8.861 14 8.441 14 7.6 14H4.4c-.84 0-1.26 0-1.581.164a1.5 1.5 0 0 0-.656.655"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M19.62 1.5h-3.24c-.403 0-.735 0-1.006.022-.281.023-.54.072-.782.196a2 2 0 0 0-.874.874c-.124.243-.173.501-.196.782-.022.27-.022.603-.022 1.005v3.242c0 .402 0 .734.022 1.005.023.281.072.54.196.782a2 2 0 0 0 .874.874c.243.124.501.173.782.196.27.022.603.022 1.005.022h3.242c.402 0 .734 0 1.005-.022.281-.023.54-.072.782-.196a2 2 0 0 0 .874-.874c.124-.243.173-.501.196-.782.022-.27.022-.603.022-1.005V4.379c0-.402 0-.734-.022-1.005-.023-.281-.072-.54-.196-.782a2 2 0 0 0-.874-.874c-.243-.124-.501-.173-.782-.196A13 13 0 0 0 19.62 1.5m-4.574 1.109c.078-.04.19-.072.41-.09.225-.019.516-.019.944-.019h3.2c.428 0 .72 0 .944.019.22.018.332.05.41.09a1 1 0 0 1 .437.437c.04.078.072.19.09.41.019.225.019.516.019.944v3.2c0 .428 0 .72-.019.944-.018.22-.05.332-.09.41a1 1 0 0 1-.437.437c-.078.04-.19.072-.41.09-.225.019-.516.019-.944.019h-3.2c-.428 0-.72 0-.944-.019-.22-.018-.332-.05-.41-.09a1 1 0 0 1-.437-.437c-.04-.078-.072-.19-.09-.41A13 13 0 0 1 14.5 7.6V4.4c0-.428 0-.72.019-.944.018-.22.05-.332.09-.41a1 1 0 0 1 .437-.437M19.62 13.5h-3.24c-.403 0-.735 0-1.006.022-.281.023-.54.072-.782.196a2 2 0 0 0-.874.874c-.124.243-.173.501-.196.782-.022.27-.022.603-.022 1.005v3.242c0 .402 0 .734.022 1.005.023.281.072.54.196.782a2 2 0 0 0 .874.874c.243.124.501.173.782.196.27.022.603.022 1.005.022h3.242c.402 0 .734 0 1.005-.022.281-.023.54-.072.782-.196a2 2 0 0 0 .874-.874c.124-.243.173-.501.196-.782.022-.27.022-.603.022-1.005v-3.242c0-.402 0-.734-.022-1.005-.023-.281-.072-.54-.196-.782a2 2 0 0 0-.874-.874c-.243-.124-.501-.173-.782-.196-.27-.022-.603-.022-1.005-.022m-4.574 1.109c.078-.04.19-.072.41-.09.225-.019.516-.019.944-.019h3.2c.428 0 .72 0 .944.019.22.018.332.05.41.09a1 1 0 0 1 .437.437c.04.078.072.19.09.41.019.225.019.516.019.944v3.2c0 .428 0 .72-.019.944-.018.22-.05.332-.09.41a1 1 0 0 1-.437.437c-.078.04-.19.072-.41.09-.225.019-.516.019-.944.019h-3.2c-.428 0-.72 0-.944-.019-.22-.018-.332-.05-.41-.09a1 1 0 0 1-.437-.437c-.04-.078-.072-.19-.09-.41a13 13 0 0 1-.019-.944v-3.2c0-.428 0-.72.019-.944.018-.22.05-.332.09-.41a1 1 0 0 1 .437-.437M4.38 1.5h3.24c.403 0 .735 0 1.006.022.281.023.54.072.782.196a2 2 0 0 1 .874.874c.124.243.173.501.196.782.022.27.022.603.022 1.005v3.242c0 .402 0 .734-.022 1.005-.023.281-.072.54-.196.782a2 2 0 0 1-.874.874c-.243.124-.501.173-.782.196-.27.022-.603.022-1.005.022H4.379c-.402 0-.734 0-1.005-.022-.281-.023-.54-.072-.782-.196a2 2 0 0 1-.874-.874c-.124-.243-.173-.501-.196-.782C1.5 8.356 1.5 8.023 1.5 7.62V4.379c0-.402 0-.734.022-1.005.023-.281.072-.54.196-.782a2 2 0 0 1 .874-.874c.243-.124.501-.173.782-.196.27-.022.603-.022 1.005-.022m-.924 1.019c-.22.018-.332.05-.41.09a1 1 0 0 0-.437.437c-.04.078-.072.19-.09.41-.019.225-.019.516-.019.944v3.2c0 .428 0 .72.019.944.018.22.05.332.09.41a1 1 0 0 0 .437.437c.078.04.19.072.41.09.225.019.516.019.944.019h3.2c.428 0 .72 0 .944-.019.22-.018.332-.05.41-.09a1 1 0 0 0 .437-.437c.04-.078.072-.19.09-.41.019-.225.019-.516.019-.944V4.4c0-.428 0-.72-.019-.944-.018-.22-.05-.332-.09-.41a1 1 0 0 0-.437-.437c-.078-.04-.19-.072-.41-.09A13 13 0 0 0 7.6 2.5H4.4c-.428 0-.72 0-.944.019M7.62 13.5H4.38c-.403 0-.735 0-1.006.022-.281.023-.54.072-.782.196a2 2 0 0 0-.874.874c-.124.243-.173.501-.196.782-.022.27-.022.603-.022 1.005v3.242c0 .402 0 .734.022 1.005.023.281.072.54.196.782a2 2 0 0 0 .874.874c.243.124.501.173.782.196.27.022.603.022 1.005.022h3.242c.402 0 .734 0 1.005-.022.281-.023.54-.072.782-.196a2 2 0 0 0 .874-.874c.124-.243.173-.501.196-.782.022-.27.022-.603.022-1.005v-3.242c0-.402 0-.734-.022-1.005-.023-.281-.072-.54-.196-.782a2 2 0 0 0-.874-.874c-.243-.124-.501-.173-.782-.196-.27-.022-.603-.022-1.005-.022m-4.574 1.109c.078-.04.19-.072.41-.09.225-.019.516-.019.944-.019h3.2c.428 0 .72 0 .944.019.22.018.332.05.41.09a1 1 0 0 1 .437.437c.04.078.072.19.09.41.019.225.019.516.019.944v3.2c0 .428 0 .72-.019.944-.018.22-.05.332-.09.41a1 1 0 0 1-.437.437c-.078.04-.19.072-.41.09-.225.019-.516.019-.944.019H4.4c-.428 0-.72 0-.944-.019-.22-.018-.332-.05-.41-.09a1 1 0 0 1-.437-.437c-.04-.078-.072-.19-.09-.41A13 13 0 0 1 2.5 19.6v-3.2c0-.428 0-.72.019-.944.018-.22.05-.332.09-.41a1 1 0 0 1 .437-.437",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -23361,6 +30523,47 @@ export default [
           attributes: {
             fill: "#000",
             d: "M12 1.25a.75.75 0 0 1 .75.75v.549c.264.039.518.104.777.207.473.187.914.482 1.426.87a.75.75 0 0 1-.906 1.195c-.488-.37-.797-.561-1.074-.671C12.715 4.047 12.442 4 12 4c-.643 0-1.1.152-1.373.35a.85.85 0 0 0-.377.732c0 .379.166.596.491.778.373.21.878.316 1.382.4.496.083 1.241.22 1.868.57.675.378 1.259 1.037 1.259 2.088 0 .815-.373 1.495-.998 1.947-.42.305-.937.494-1.502.58V12a.75.75 0 1 1-1.5 0v-.549a3.4 3.4 0 0 1-.777-.207c-.473-.187-.914-.482-1.426-.87a.75.75 0 1 1 .906-1.196c.488.37.797.562 1.074.672.259.103.532.15.973.15.643 0 1.1-.152 1.373-.35a.85.85 0 0 0 .377-.732c0-.379-.166-.596-.491-.778-.373-.21-.877-.316-1.382-.4-.495-.083-1.241-.22-1.868-.57-.675-.378-1.259-1.037-1.259-2.088 0-.815.373-1.495.998-1.947.42-.305.937-.494 1.502-.58V2a.75.75 0 0 1 .75-.75"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M12.5 14c1.141 0 2.104.765 2.403 1.81l4.334-1.665a2.402 2.402 0 0 1 2.039 4.336L15.5 21.73a6 6 0 0 1-2.942.77H2a.5.5 0 0 1-.5-.5v-5a.5.5 0 0 1 .5-.5h.733a3 3 0 0 0 1.92-.695l1.053-.878A4 4 0 0 1 8.267 14z",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M12.5 2v.77c.329.031.63.097.934.218.44.175.86.452 1.368.837a.5.5 0 0 1-.604.797c-.492-.373-.823-.582-1.132-.704-.298-.119-.606-.168-1.066-.168-.679 0-1.191.16-1.52.398-.312.226-.48.536-.48.934 0 .491.236.782.62.997.415.232.96.344 1.462.428.497.083 1.202.214 1.787.542.617.345 1.131.93 1.131 1.87 0 .73-.332 1.336-.894 1.743-.434.314-.987.5-1.606.563V12a.5.5 0 0 1-1 0v-.77a3.3 3.3 0 0 1-.934-.218c-.44-.175-.86-.453-1.368-.837a.5.5 0 1 1 .604-.797c.492.372.823.582 1.132.704.298.118.606.168 1.066.168.679 0 1.191-.16 1.52-.398.312-.226.48-.536.48-.934 0-.491-.236-.782-.62-.997-.414-.232-.959-.344-1.462-.428-.497-.083-1.202-.214-1.787-.542C9.514 6.606 9 6.021 9 5.081c0-.73.332-1.336.894-1.743.434-.314.987-.5 1.606-.563V2a.5.5 0 0 1 1 0M21.5 16.388c0-.984-.986-1.662-1.904-1.309l-4.62 1.774A2.5 2.5 0 0 1 12.5 19H8a.5.5 0 0 1 0-1h4.5a1.5 1.5 0 0 0 1.5-1.49v-.02A1.5 1.5 0 0 0 12.5 15H8.267a3 3 0 0 0-1.92.695l-1.053.878a4 4 0 0 1-2.561.927H2a.5.5 0 0 1 0-1h.733a3 3 0 0 0 1.92-.695l1.053-.878A4 4 0 0 1 8.267 14H12.5c1.141 0 2.104.765 2.403 1.81l4.334-1.665a2.402 2.402 0 0 1 2.039 4.336L15.5 21.73a6 6 0 0 1-2.942.77H2a.5.5 0 0 1 0-1h10.56a5 5 0 0 0 2.45-.642l5.775-3.248c.442-.249.715-.716.715-1.222"
           },
           children: []
         }
@@ -23498,6 +30701,59 @@ export default [
           attributes: {
             fill: "#000",
             d: "M5.196 13.261a3 3 0 0 0-.311-.011H4.81c-.287 0-.493 0-.675.02a3.25 3.25 0 0 0-2.866 2.866c-.02.182-.02.388-.02.675v1.378c0 .287 0 .493.02.675a3.25 3.25 0 0 0 2.866 2.866c.182.02.388.02.675.02h.074c.104 0 .212 0 .311-.011a1.75 1.75 0 0 0 1.543-1.543c.011-.1.011-.207.011-.311v-4.77c0-.104 0-.212-.011-.31a1.75 1.75 0 0 0-1.543-1.544M19.115 13.25c-.104 0-.211 0-.31.011a1.75 1.75 0 0 0-1.544 1.543c-.011.1-.011.207-.011.311v4.77c0 .104 0 .212.011.311a1.75 1.75 0 0 0 1.543 1.543c.1.011.207.011.311.011h.074c.287 0 .493 0 .675-.02a3.25 3.25 0 0 0 2.866-2.866c.02-.182.02-.388.02-.675v-1.378c0-.287 0-.493-.02-.675a3.25 3.25 0 0 0-2.866-2.865c-.182-.021-.388-.021-.675-.021z"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            opacity: ".4"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M6 15.143v4.714c0 .133 0 .2-.006.255a1 1 0 0 1-.882.882C5.056 21 4.99 21 4.857 21c-.332 0-.497 0-.637-.016a2.5 2.5 0 0 1-2.204-2.204C2 18.64 2 18.475 2 18.143v-1.286c0-.332 0-.497.016-.637a2.5 2.5 0 0 1 2.204-2.204C4.36 14 4.525 14 4.857 14c.133 0 .2 0 .255.006a1 1 0 0 1 .882.882c.006.056.006.122.006.255M18.006 14.888c-.006.056-.006.122-.006.255v4.714c0 .133 0 .2.006.255a1 1 0 0 0 .882.882c.056.006.122.006.255.006.332 0 .497 0 .637-.016a2.5 2.5 0 0 0 2.204-2.204c.016-.14.016-.305.016-.637v-1.286c0-.332 0-.497-.016-.637a2.5 2.5 0 0 0-2.204-2.204C19.64 14 19.474 14 19.143 14c-.133 0-.2 0-.255.006a1 1 0 0 0-.882.882"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M12 2.5C6.201 2.5 1.5 7.201 1.5 13v5.179c0 .297 0 .49.019.657a3 3 0 0 0 2.645 2.645c.168.02.36.019.657.019h.06c.109 0 .202 0 .287-.01a1.5 1.5 0 0 0 1.323-1.322c.01-.085.01-.178.009-.287V15.12c0-.109 0-.202-.01-.287a1.5 1.5 0 0 0-1.322-1.323c-.085-.01-.178-.009-.287-.009h-.06c-.297 0-.489 0-.657.019a3 3 0 0 0-1.664.745V13a9.5 9.5 0 1 1 19 0v1.264a3 3 0 0 0-1.664-.745c-.168-.019-.36-.019-.657-.019h-.06c-.109 0-.202 0-.287.01a1.5 1.5 0 0 0-1.323 1.322c-.01.085-.01.178-.009.287v4.762c0 .109 0 .202.01.287a1.5 1.5 0 0 0 1.322 1.323c.085.01.178.01.287.009h.06c.297 0 .49 0 .657-.019a3 3 0 0 0 2.645-2.645c.019-.168.019-.36.019-.657V13c0-5.799-4.701-10.5-10.5-10.5M2.5 17.004v-.214c0-.296.002-.416.013-.514a2 2 0 0 1 1.763-1.763c.105-.012.236-.013.581-.013.146 0 .178 0 .199.003a.5.5 0 0 1 .44.441c.003.02.004.053.004.199v4.714c0 .146 0 .178-.003.199a.5.5 0 0 1-.441.44c-.02.003-.053.004-.199.004-.345 0-.476 0-.58-.013a2 2 0 0 1-1.764-1.763 6 6 0 0 1-.013-.581zM19.143 14.5c-.146 0-.178 0-.199.003a.5.5 0 0 0-.44.441 2 2 0 0 0-.004.199v4.714c0 .146 0 .178.003.199a.5.5 0 0 0 .441.44c.02.003.053.004.199.004.345 0 .476 0 .58-.013a2 2 0 0 0 1.764-1.763c.012-.105.013-.236.013-.581v-1.286c0-.345 0-.476-.013-.58a2 2 0 0 0-1.763-1.764 6 6 0 0 0-.581-.013",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -23829,6 +31085,100 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            "clip-path": "url(#a)",
+            "clip-rule": "evenodd"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M12 23c6.075 0 11-4.925 11-11S18.075 1 12 1 1 5.925 1 12s4.925 11 11 11m2.2-15.25c-1.008 0-1.817.797-2.2 1.25-.383-.453-1.192-1.25-2.2-1.25-1.764 0-2.8 1.5-2.8 3.237C7 14.25 11 16.5 12 17c1-.5 5-2.75 5-6.013 0-1.737-1.036-3.237-2.8-3.237",
+                opacity: ".4"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M9.8 7c-1.038 0-1.879.447-2.45 1.152-.563.696-.85 1.622-.85 2.585 0 1.841 1.124 3.344 2.287 4.411 1.173 1.077 2.468 1.789 2.99 2.05l.223.111.224-.112c.52-.26 1.816-.972 2.99-2.049 1.162-1.067 2.286-2.57 2.286-4.41 0-.964-.287-1.89-.85-2.586C16.079 7.447 15.238 7 14.2 7c-.638 0-1.19.251-1.616.542a4.5 4.5 0 0 0-.584.477 4.5 4.5 0 0 0-.584-.477C10.989 7.252 10.438 7 9.8 7m-2.3 3.737c0-.774.231-1.466.627-1.955C8.515 8.302 9.074 8 9.8 8c.37 0 .728.147 1.053.368s.59.497.765.705l.382.452.382-.452c.175-.208.44-.484.765-.705S13.829 8 14.2 8c.726 0 1.285.303 1.673.782.396.489.627 1.181.627 1.955 0 1.422-.876 2.676-1.963 3.674-.936.86-1.968 1.473-2.537 1.776-.569-.303-1.6-.916-2.537-1.776C8.376 13.413 7.5 12.16 7.5 10.737"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M12 .5C5.649.5.5 5.649.5 12S5.649 23.5 12 23.5 23.5 18.351 23.5 12 18.351.5 12 .5M1.5 12C1.5 6.201 6.201 1.5 12 1.5S22.5 6.201 22.5 12 17.799 22.5 12 22.5 1.5 17.799 1.5 12"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "defs",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {},
+          children: [
+            {
+              name: "clipPath",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                id: "a"
+              },
+              children: [
+                {
+                  name: "path",
+                  type: "element",
+                  value: "",
+                  parent: null,
+                  attributes: {
+                    fill: "#fff",
+                    d: "M0 0h24v24H0z"
+                  },
+                  children: []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
   },
@@ -23998,6 +31348,70 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            opacity: ".4"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M4.286 4.286C2.848 5.484 2 7.394 2 9.474 2 16.5 10.5 21 12 21.5c.771-.257 3.392-1.571 5.758-3.742zM19 16.5c1.686-1.892 3-4.263 3-7.026C22 6 19.634 3 16.107 3 14.09 3 12.766 4.093 12 5c-.766-.907-2.09-2-4.107-2-.73 0-1.41.128-2.03.363z"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M2.354 1.646a.5.5 0 1 0-.708.708l1.916 1.915C2.252 5.574 1.5 7.466 1.5 9.474c0 3.722 2.249 6.729 4.604 8.833 2.357 2.105 4.915 3.393 5.738 3.667l.158.053.158-.053c.805-.268 3.269-1.505 5.58-3.528l3.908 3.908a.5.5 0 0 0 .708-.708zM17.03 17.737 4.27 4.977C3.156 6.077 2.5 7.693 2.5 9.474c0 3.304 2.001 6.06 4.27 8.087 2.118 1.892 4.387 3.074 5.23 3.407.817-.323 2.971-1.442 5.03-3.23",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M21.5 9.474c0 2.59-1.23 4.843-2.854 6.672l.708.708c1.747-1.953 3.146-4.444 3.146-7.38 0-3.683-2.527-6.974-6.393-6.974-1.908 0-3.249.893-4.107 1.76-.858-.867-2.199-1.76-4.107-1.76-.88 0-1.69.17-2.416.477l.78.78A5.2 5.2 0 0 1 7.892 3.5c1.814 0 3.012.978 3.725 1.823l.382.452.382-.452c.713-.845 1.91-1.823 3.725-1.823 3.189 0 5.393 2.71 5.393 5.974"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -24119,6 +31533,49 @@ export default [
             fill: "#000",
             d: "M7.893 2.5C4.027 2.5 1.5 5.79 1.5 9.474c0 3.722 2.249 6.729 4.604 8.833 2.357 2.105 4.915 3.393 5.738 3.667l.158.053.158-.053c.823-.274 3.381-1.562 5.738-3.667 2.355-2.104 4.604-5.11 4.604-8.833 0-3.683-2.527-6.974-6.393-6.974-1.908 0-3.249.893-4.107 1.76-.858-.867-2.199-1.76-4.107-1.76",
             opacity: ".4"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M12 5c.766-.907 2.09-2 4.107-2C19.634 3 22 6 22 9.474 22 16.5 13.5 21 12 21.5c-1.5-.5-10-5-10-12.026C2 6 4.366 3 7.893 3 9.91 3 11.234 4.093 12 5",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M1.5 9.474C1.5 5.791 4.027 2.5 7.893 2.5c1.908 0 3.249.893 4.107 1.76.858-.867 2.199-1.76 4.107-1.76 3.866 0 6.393 3.29 6.393 6.974 0 3.722-2.249 6.729-4.604 8.833-2.357 2.105-4.915 3.393-5.738 3.667l-.158.053-.158-.053c-.823-.274-3.381-1.562-5.738-3.667C3.75 16.203 1.5 13.197 1.5 9.474M7.893 3.5C4.704 3.5 2.5 6.21 2.5 9.474c0 3.304 2.001 6.06 4.27 8.087 2.118 1.892 4.387 3.074 5.23 3.407.843-.333 3.112-1.515 5.23-3.407 2.269-2.027 4.27-4.783 4.27-8.087 0-3.265-2.204-5.974-5.393-5.974-1.814 0-3.012.978-3.725 1.823L12 5.775l-.382-.452C10.905 4.478 9.708 3.5 7.893 3.5",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -24289,6 +31746,64 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M22 8.4v7.2c0 2.24 0 3.36-.436 4.216a4 4 0 0 1-1.748 1.748C18.96 22 17.84 22 15.6 22H8.4c-2.24 0-3.36 0-4.216-.436a4 4 0 0 1-1.748-1.748C2 18.96 2 17.84 2 15.6V8.4c0-2.24 0-3.36.436-4.216a4 4 0 0 1 1.748-1.748C5.04 2 6.16 2 8.4 2h7.2c2.24 0 3.36 0 4.216.436a4 4 0 0 1 1.748 1.748C22 5.04 22 6.16 22 8.4m-7.8-.65c-1.008 0-1.817.797-2.2 1.25-.383-.453-1.192-1.25-2.2-1.25-1.764 0-2.8 1.5-2.8 3.237C7 14.25 11 16.5 12 17c1-.5 5-2.75 5-6.013 0-1.737-1.036-3.237-2.8-3.237",
+            "clip-rule": "evenodd",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M9.8 7c-1.038 0-1.879.447-2.45 1.152-.563.696-.85 1.622-.85 2.585 0 1.841 1.124 3.344 2.287 4.411 1.173 1.077 2.468 1.789 2.99 2.05l.223.111.224-.112c.52-.26 1.816-.972 2.99-2.049 1.162-1.067 2.286-2.57 2.286-4.41 0-.964-.287-1.89-.85-2.586C16.079 7.447 15.238 7 14.2 7c-.638 0-1.19.251-1.616.542a4.5 4.5 0 0 0-.584.477 4.5 4.5 0 0 0-.584-.477C10.989 7.252 10.438 7 9.8 7m-2.3 3.737c0-.774.231-1.466.627-1.955C8.515 8.302 9.074 8 9.8 8c.37 0 .728.147 1.053.368s.59.497.765.705l.382.452.382-.452c.175-.208.44-.484.765-.705S13.829 8 14.2 8c.726 0 1.285.303 1.673.782.396.489.627 1.181.627 1.955 0 1.422-.876 2.676-1.963 3.674-.936.86-1.968 1.473-2.537 1.776-.569-.303-1.6-.916-2.537-1.776C8.376 13.413 7.5 12.16 7.5 10.737",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M15.623 1.5H8.377c-1.1 0-1.958 0-2.645.056-.698.057-1.265.175-1.775.434A4.5 4.5 0 0 0 1.99 3.957c-.26.51-.377 1.077-.434 1.775C1.5 6.42 1.5 7.276 1.5 8.377v7.246c0 1.1 0 1.958.056 2.645.057.698.175 1.265.434 1.775a4.5 4.5 0 0 0 1.967 1.967c.51.26 1.077.377 1.775.434.688.056 1.544.056 2.645.056h7.246c1.1 0 1.958 0 2.645-.056.698-.057 1.265-.175 1.775-.434a4.5 4.5 0 0 0 1.967-1.967c.26-.51.377-1.077.434-1.775.056-.687.056-1.544.056-2.645V8.377c0-1.1 0-1.958-.056-2.645-.057-.698-.175-1.265-.434-1.775a4.5 4.5 0 0 0-1.967-1.967c-.51-.26-1.077-.377-1.775-.434-.687-.056-1.544-.056-2.645-.056M4.41 2.881c.346-.176.766-.276 1.403-.328C6.455 2.5 7.272 2.5 8.4 2.5h7.2c1.128 0 1.945 0 2.586.053.637.052 1.057.152 1.403.328a3.5 3.5 0 0 1 1.53 1.53c.176.346.276.766.328 1.403.053.641.053 1.458.053 2.586v7.2c0 1.128 0 1.945-.053 2.586-.052.637-.152 1.057-.328 1.403a3.5 3.5 0 0 1-1.53 1.53c-.346.176-.766.276-1.402.328-.642.053-1.459.053-2.587.053H8.4c-1.128 0-1.945 0-2.586-.053-.637-.052-1.057-.152-1.403-.328a3.5 3.5 0 0 1-1.53-1.53c-.176-.346-.276-.766-.328-1.402C2.5 17.545 2.5 16.728 2.5 15.6V8.4c0-1.128 0-1.945.053-2.586.052-.637.152-1.057.328-1.403a3.5 3.5 0 0 1 1.53-1.53",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -24410,6 +31925,49 @@ export default [
             fill: "#000",
             d: "M12.907 1.364a3.75 3.75 0 0 0-1.814 0c-.677.168-1.28.592-2.157 1.205l-5.07 3.55c-.785.55-1.307.914-1.692 1.398a4.3 4.3 0 0 0-.749 1.438c-.175.593-.175 1.23-.175 2.188v6.09c0 .812 0 1.468.043 1.999.045.546.14 1.027.366 1.47a3.75 3.75 0 0 0 1.639 1.64c.444.226.924.32 1.47.365.531.043 1.187.043 2 .043h.556c.19 0 .374 0 .53-.012.171-.014.373-.047.577-.151a1.5 1.5 0 0 0 .656-.656c.103-.203.136-.406.15-.577.013-.156.013-.34.013-.53V16.4c0-.432 0-.711.018-.924.017-.203.045-.28.064-.316a.75.75 0 0 1 .328-.328c.037-.019.112-.047.316-.064.212-.017.492-.018.924-.018h2.2c.433 0 .712 0 .924.018.204.017.28.045.317.064a.75.75 0 0 1 .327.328c.02.037.047.113.064.316.018.213.018.492.018.924v4.424c0 .19 0 .374.013.53.014.171.047.374.15.577a1.5 1.5 0 0 0 .656.656c.204.104.406.137.577.15.156.013.34.013.53.013h.556c.813 0 1.469 0 2-.043.546-.045 1.026-.14 1.47-.365a3.75 3.75 0 0 0 1.64-1.64c.226-.444.32-.924.365-1.47.043-.531.043-1.187.043-2v-6.09c0-.957 0-1.594-.175-2.187a4.3 4.3 0 0 0-.75-1.438c-.384-.484-.905-.849-1.69-1.398l-5.071-3.55c-.876-.613-1.48-1.037-2.157-1.205",
             opacity: ".4"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M2 11.256c0-1.067 0-1.6.144-2.088a3.5 3.5 0 0 1 .617-1.184c.316-.398.753-.704 1.628-1.316l4.858-3.4c.992-.695 1.488-1.042 2.027-1.177a3 3 0 0 1 1.452 0c.539.135 1.035.482 2.027 1.176l4.858 3.401c.875.612 1.312.918 1.628 1.316.28.351.49.754.617 1.184.144.487.144 1.02.144 2.088V17.2c0 1.68 0 2.52-.327 3.162a3 3 0 0 1-1.311 1.311C19.72 22 18.88 22 17.2 22h-.6c-.56 0-.84 0-1.054-.109a1 1 0 0 1-.437-.437C15 21.24 15 20.96 15 20.4v-4c0-.84 0-1.26-.164-1.58a1.5 1.5 0 0 0-.655-.656C13.861 14 13.441 14 12.6 14h-1.2c-.84 0-1.26 0-1.581.164a1.5 1.5 0 0 0-.656.655C9 15.14 9 15.56 9 16.4v4c0 .56 0 .84-.109 1.054a1 1 0 0 1-.437.437c-.214.11-.494.11-1.054.11h-.6c-1.68 0-2.52 0-3.162-.328a3 3 0 0 1-1.311-1.31C2 19.72 2 18.88 2 17.2z",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M11.154 1.606a3.5 3.5 0 0 1 1.693 0c.63.157 1.197.555 2.103 1.189l.09.063 4.858 3.4.07.049c.808.566 1.3.91 1.662 1.365.32.402.56.862.705 1.354.165.557.165 1.16.165 2.146v6.051c0 .82 0 1.468-.043 1.988-.043.532-.133.975-.338 1.378a3.5 3.5 0 0 1-1.53 1.53c-.403.205-.847.295-1.378.339-.52.042-1.167.042-1.989.042h-.641c-.264 0-.491 0-.678-.015a1.5 1.5 0 0 1-.584-.148 1.5 1.5 0 0 1-.655-.656 1.5 1.5 0 0 1-.149-.583c-.015-.187-.015-.415-.015-.678V16.4c0-.428 0-.72-.019-.944-.018-.22-.05-.331-.09-.41a1 1 0 0 0-.437-.437c-.078-.04-.19-.072-.41-.09a13 13 0 0 0-.944-.019h-1.2c-.428 0-.72 0-.944.02-.22.017-.332.05-.41.09a1 1 0 0 0-.437.436c-.04.079-.072.19-.09.41-.019.225-.019.516-.019.944v4.02c0 .263 0 .49-.015.678a1.5 1.5 0 0 1-.148.583 1.5 1.5 0 0 1-.656.656c-.19.096-.386.132-.583.148-.188.015-.415.015-.679.015h-.641c-.821 0-1.468 0-1.99-.042-.53-.044-.974-.134-1.377-.34a3.5 3.5 0 0 1-1.53-1.529c-.205-.403-.295-.846-.338-1.378-.043-.52-.043-1.167-.043-1.988v-6.051c0-.987 0-1.589.165-2.146a4 4 0 0 1 .705-1.354c.361-.454.854-.8 1.663-1.365l.069-.048L8.96 2.858l.09-.063c.905-.634 1.472-1.032 2.102-1.189m1.45.97a2.5 2.5 0 0 0-1.209 0c-.427.107-.835.383-1.86 1.1l-4.86 3.402c-.899.63-1.262.89-1.523 1.217a3 3 0 0 0-.528 1.015c-.12.401-.124.848-.124 1.946V17.2c0 .849 0 1.455.04 1.93.038.47.11.767.232 1.005a2.5 2.5 0 0 0 1.093 1.093c.239.121.536.195 1.005.233.476.039 1.082.04 1.93.04h.6c.288 0 .474-.001.616-.013a.6.6 0 0 0 .211-.042.5.5 0 0 0 .219-.219.6.6 0 0 0 .042-.21A9 9 0 0 0 8.5 20.4v-4.02c0-.403 0-.735.022-1.006.023-.28.072-.539.196-.782a2 2 0 0 1 .874-.874c.243-.123.501-.173.782-.196.27-.022.603-.022 1.005-.022h1.242c.402 0 .734 0 1.005.022.281.023.54.073.782.196a2 2 0 0 1 .874.874c.124.243.173.501.196.782.022.271.022.603.022 1.006v4.02c0 .289 0 .475.012.616a.6.6 0 0 0 .043.211.5.5 0 0 0 .218.219.6.6 0 0 0 .21.042c.143.012.329.012.617.012h.6c.848 0 1.454 0 1.93-.039.469-.038.766-.112 1.005-.233a2.5 2.5 0 0 0 1.092-1.093c.122-.238.195-.536.234-1.005.039-.475.039-1.081.039-1.93v-5.944c0-1.098-.005-1.545-.124-1.946a3 3 0 0 0-.528-1.015c-.26-.327-.624-.588-1.523-1.217l-4.86-3.401c-1.025-.718-1.432-.994-1.86-1.1",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -24571,6 +32129,60 @@ export default [
           attributes: {
             fill: "#000",
             d: "M8.395 15.556a.75.75 0 0 1 1.049-.16c1.552 1.139 3.56 1.139 5.112 0a.75.75 0 1 1 .888 1.209c-2.08 1.527-4.807 1.527-6.888 0a.75.75 0 0 1-.16-1.049"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M2 11.778c0-1.2 0-1.8.16-2.35a4 4 0 0 1 .687-1.34c.352-.45.839-.802 1.813-1.503l4.535-3.266c1.009-.726 1.513-1.089 2.064-1.23a3 3 0 0 1 1.482 0c.55.141 1.055.504 2.064 1.23l4.535 3.266c.974.701 1.461 1.052 1.813 1.503.312.4.545.854.687 1.34.16.55.16 1.15.16 2.35V16.4c0 1.96 0 2.94-.381 3.689a3.5 3.5 0 0 1-1.53 1.53C19.34 22 18.36 22 16.4 22H7.6c-1.96 0-2.94 0-3.689-.381a3.5 3.5 0 0 1-1.53-1.53C2 19.34 2 18.36 2 16.4z",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M9.296 15.597a.5.5 0 1 0-.592.806c1.993 1.463 4.6 1.463 6.592 0a.5.5 0 0 0-.592-.806c-1.64 1.204-3.768 1.204-5.408 0"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M12.865 1.605a3.5 3.5 0 0 0-1.73 0c-.643.164-1.22.58-2.14 1.243l-4.696 3.38c-.908.655-1.45 1.045-1.846 1.552a4.5 4.5 0 0 0-.773 1.508c-.18.618-.18 1.286-.18 2.405v4.73c0 .96 0 1.713.05 2.317.05.614.153 1.12.386 1.576a4 4 0 0 0 1.748 1.748c.457.233.962.337 1.577.387.604.049 1.355.049 2.317.049h8.845c.96 0 1.713 0 2.317-.05.614-.05 1.12-.153 1.576-.386a4 4 0 0 0 1.748-1.748c.233-.457.337-.962.387-1.576.049-.604.049-1.356.049-2.317v-4.73c0-1.12 0-1.787-.18-2.405a4.5 4.5 0 0 0-.773-1.508c-.396-.507-.938-.897-1.846-1.551l-4.696-3.381c-.92-.663-1.497-1.079-2.14-1.243m-1.483.97a2.5 2.5 0 0 1 1.236 0c.436.11.851.4 1.894 1.15l4.535 3.265c1 .72 1.415 1.024 1.712 1.406a3.5 3.5 0 0 1 .6 1.172c.136.464.141.98.141 2.21V16.4c0 .988 0 1.7-.046 2.258-.045.553-.132.912-.281 1.204a3 3 0 0 1-1.311 1.311c-.292.149-.651.236-1.204.281-.559.046-1.27.046-2.258.046H7.6c-.988 0-1.7 0-2.258-.046-.553-.045-.912-.132-1.204-.281a3 3 0 0 1-1.311-1.311c-.149-.292-.236-.651-.281-1.204C2.5 18.1 2.5 17.388 2.5 16.4v-4.622c0-1.23.005-1.746.14-2.21a3.5 3.5 0 0 1 .6-1.172c.298-.382.714-.687 1.713-1.406l4.534-3.265c1.044-.75 1.459-1.04 1.895-1.15",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -24752,6 +32364,64 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M1.5 9.1c0-1.96 0-2.94.381-3.69a3.5 3.5 0 0 1 1.53-1.529C4.16 3.5 5.14 3.5 7.1 3.5h9.8c1.96 0 2.94 0 3.689.381a3.5 3.5 0 0 1 1.53 1.53c.381.749.381 1.729.381 3.689v5.88l-5.293-5.293a1 1 0 0 0-1.414 0l-6.294 6.294-1.773-1.774a1 1 0 0 0-1.414 0l-4.414 4.414-.017-.032C1.5 17.84 1.5 16.86 1.5 14.899zm6 1.4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3",
+            "clip-rule": "evenodd",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M7.5 7a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-1 2a1 1 0 1 1 2 0 1 1 0 0 1-2 0",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M7.078 3h9.844c.962 0 1.713 0 2.317.05.615.05 1.12.153 1.577.386a4 4 0 0 1 1.748 1.748c.233.457.336.962.387 1.576C23 7.365 23 8.116 23 9.078v5.902c0 .946 0 1.688-.051 2.285-.051.603-.155 1.1-.385 1.551a4 4 0 0 1-1.748 1.748c-.456.233-.962.337-1.576.387-.604.05-1.356.05-2.317.05H7.078c-.961 0-1.713 0-2.317-.05-.615-.05-1.12-.154-1.577-.387a4 4 0 0 1-1.748-1.748c-.233-.457-.336-.962-.387-1.576C1 16.636 1 15.884 1 14.922V9.078c0-.962 0-1.713.05-2.318.05-.614.153-1.12.386-1.576a4 4 0 0 1 1.748-1.748c.457-.233.962-.336 1.576-.387C5.365 3 6.116 3 7.078 3M22 9.1v4.673l-4.44-4.44a1.5 1.5 0 0 0-2.12 0l-5.94 5.94-1.42-1.42a1.5 1.5 0 0 0-2.122 0l-3.844 3.845a5 5 0 0 1-.068-.54C2 16.6 2 15.888 2 14.9V9.1c0-.988 0-1.7.046-2.258.045-.553.132-.912.281-1.204a3 3 0 0 1 1.311-1.311c.292-.149.651-.236 1.204-.281C5.4 4 6.112 4 7.1 4h9.8c.988 0 1.7 0 2.258.046.553.045.912.132 1.204.281a3 3 0 0 1 1.311 1.311c.149.292.236.651.281 1.204C22 7.4 22 8.112 22 9.1M3.638 19.673a3 3 0 0 1-1.11-.974l4.138-4.138a.5.5 0 0 1 .707 0l1.773 1.773a.5.5 0 0 0 .707 0l6.294-6.293a.5.5 0 0 1 .707 0L22 15.187c0 .842-.005 1.468-.046 1.971-.045.553-.132.912-.281 1.204a3 3 0 0 1-1.311 1.311c-.292.149-.651.236-1.204.281C18.6 20 17.888 20 16.9 20H7.1c-.988 0-1.7 0-2.258-.046-.553-.045-.912-.132-1.204-.281",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -24886,6 +32556,49 @@ export default [
           attributes: {
             fill: "#000",
             d: "M7.217 11.75H.25v6.75a3.25 3.25 0 0 0 3.25 3.25h17a3.25 3.25 0 0 0 3.25-3.25v-6.75h-6.967c-.439 0-.846.23-1.072.607l-.917 1.529a.75.75 0 0 1-.643.364H9.849a.75.75 0 0 1-.643-.364l-.917-1.53a1.25 1.25 0 0 0-1.072-.606"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M1 12.51c0-.19 0-.286.012-.38q.015-.123.052-.245c.027-.09.066-.177.143-.35l2.737-6.16c.382-.86.573-1.29.875-1.605a2.5 2.5 0 0 1 .958-.622C6.188 3 6.66 3 7.6 3h8.802c.94 0 1.41 0 1.822.148.363.13.69.344.957.622.303.316.494.746.876 1.605l2.737 6.16c.077.173.116.26.143.35q.037.12.052.246c.012.093.012.188.012.378V16.2c0 1.68 0 2.52-.327 3.162a3 3 0 0 1-1.311 1.311C20.72 21 19.88 21 18.2 21H5.8c-1.68 0-2.52 0-3.162-.327a3 3 0 0 1-1.311-1.311C1 18.72 1 17.88 1 16.2z",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M7.503 2.5c-.848 0-1.401 0-1.895.178a3 3 0 0 0-1.15.747c-.363.379-.587.884-.931 1.66l-2.788 6.27c-.067.151-.117.265-.154.386a2 2 0 0 0-.07.327c-.015.125-.015.25-.015.415V18A3.5 3.5 0 0 0 4 21.5h16a3.49 3.49 0 0 0 2.59-1.145c.565-.622.91-1.448.91-2.355v-5.517c0-.165 0-.29-.016-.415a2 2 0 0 0-.07-.327c-.036-.12-.086-.235-.153-.386l-2.787-6.27c-.345-.776-.57-1.281-.932-1.66a3 3 0 0 0-1.15-.747c-.494-.178-1.047-.178-1.895-.178zM22.448 12a4 4 0 0 0-.112-.262L19.6 5.578c-.398-.894-.552-1.225-.78-1.462a2 2 0 0 0-.766-.498c-.309-.11-.673-.118-1.652-.118H7.6c-.98 0-1.344.007-1.653.118a2 2 0 0 0-.766.498c-.228.237-.382.568-.78 1.463l-2.737 6.159a4 4 0 0 0-.112.262h5.382a1.5 1.5 0 0 1 1.286.728l.917 1.53a.5.5 0 0 0 .43.242h4.867a.5.5 0 0 0 .429-.243l.917-1.529A1.5 1.5 0 0 1 17.066 12zm-16.76 8.5c-.79 0-1.364-.002-1.818-.04-.469-.038-.766-.11-1.005-.232a2.5 2.5 0 0 1-1.093-1.093c-.121-.239-.194-.536-.233-1.005-.039-.476-.039-1.082-.039-1.93V13h5.434a.5.5 0 0 1 .429.243l.917 1.529a1.5 1.5 0 0 0 1.286.728h4.868a1.5 1.5 0 0 0 1.286-.728l.917-1.53a.5.5 0 0 1 .43-.242H22.5v3.325c0 .784-.002 1.353-.04 1.805-.038.47-.11.766-.233 1.005a2.5 2.5 0 0 1-1.092 1.093c-.239.121-.536.194-1.005.233-.454.037-1.028.039-1.818.039z",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -25217,6 +32930,100 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "clip-path": "url(#a)"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M23 12c0 6.075-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1s11 4.925 11 11",
+                opacity: ".4"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M11.125 7.5a.875.875 0 1 1 1.75 0 .875.875 0 0 1-1.75 0M10.5 10.5a.5.5 0 0 0 0 1h1V17a.5.5 0 0 0 1 0v-6a.5.5 0 0 0-.5-.5z"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                "fill-rule": "evenodd",
+                d: "M.5 12C.5 5.649 5.649.5 12 .5S23.5 5.649 23.5 12 18.351 23.5 12 23.5.5 18.351.5 12M12 1.5C6.201 1.5 1.5 6.201 1.5 12S6.201 22.5 12 22.5 22.5 17.799 22.5 12 17.799 1.5 12 1.5",
+                "clip-rule": "evenodd"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "defs",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {},
+          children: [
+            {
+              name: "clipPath",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                id: "a"
+              },
+              children: [
+                {
+                  name: "path",
+                  type: "element",
+                  value: "",
+                  parent: null,
+                  attributes: {
+                    fill: "#fff",
+                    d: "M0 0h24v24H0z"
+                  },
+                  children: []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
   },
@@ -25389,6 +33196,64 @@ export default [
             fill: "#000",
             "fill-rule": "evenodd",
             d: "M10.944 10.055a2.75 2.75 0 1 0 .702 2.695H17a.75.75 0 0 0 .75-.75v-2a.75.75 0 0 0-1.5 0v1.25h-1.5v-.75a.75.75 0 0 0-1.5 0v.75h-1.604a2.74 2.74 0 0 0-.702-1.195m-1.06 1.061a1.25 1.25 0 1 0-1.768 1.767 1.25 1.25 0 0 0 1.767-1.767",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M22 9.2v5.6c0 2.52 0 3.78-.49 4.743a4.5 4.5 0 0 1-1.967 1.967C18.58 22 17.32 22 14.8 22H9.2c-2.52 0-3.78 0-4.743-.49a4.5 4.5 0 0 1-1.967-1.967C2 18.58 2 17.32 2 14.8V9.2c0-2.52 0-3.78.49-4.743A4.5 4.5 0 0 1 4.457 2.49C5.42 2 6.68 2 9.2 2h5.6c2.52 0 3.78 0 4.743.49a4.5 4.5 0 0 1 1.967 1.967C22 5.42 22 6.68 22 9.2m-11.586 4.214a2 2 0 1 0-2.828-2.828 2 2 0 0 0 2.828 2.828",
+            "clip-rule": "evenodd",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M14.5 10.5a.5.5 0 0 0-1 0v1h-2.05a2.5 2.5 0 1 0 0 1H17a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 0-1 0v1.5h-2zm-4.44.44a1.5 1.5 0 1 0-2.12 2.12 1.5 1.5 0 0 0 2.12-2.12",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M15.623 1.5H8.377c-1.1 0-1.958 0-2.645.056-.698.057-1.265.175-1.775.434A4.5 4.5 0 0 0 1.99 3.957c-.26.51-.377 1.077-.434 1.775C1.5 6.42 1.5 7.276 1.5 8.377v7.246c0 1.1 0 1.958.056 2.645.057.698.175 1.265.434 1.775a4.5 4.5 0 0 0 1.967 1.967c.51.26 1.077.377 1.775.434.687.056 1.544.056 2.645.056h7.246c1.1 0 1.958 0 2.645-.056.698-.057 1.265-.175 1.775-.434a4.5 4.5 0 0 0 1.967-1.967c.26-.51.377-1.077.434-1.775.056-.687.056-1.544.056-2.645V8.377c0-1.1 0-1.958-.056-2.645-.057-.698-.175-1.265-.434-1.775a4.5 4.5 0 0 0-1.967-1.967c-.51-.26-1.077-.377-1.775-.434-.687-.056-1.544-.056-2.645-.056M4.41 2.881c.346-.176.766-.276 1.403-.328C6.455 2.5 7.272 2.5 8.4 2.5h7.2c1.128 0 1.945 0 2.586.053.637.052 1.057.152 1.403.328a3.5 3.5 0 0 1 1.53 1.53c.176.346.276.766.328 1.403.053.641.053 1.458.053 2.586v7.2c0 1.128 0 1.945-.053 2.586-.052.637-.152 1.057-.328 1.403a3.5 3.5 0 0 1-1.53 1.53c-.346.176-.766.276-1.402.328-.642.053-1.459.053-2.587.053H8.4c-1.128 0-1.945 0-2.586-.053-.637-.052-1.057-.152-1.403-.328a3.5 3.5 0 0 1-1.53-1.53c-.176-.346-.276-.766-.328-1.402C2.5 17.545 2.5 16.728 2.5 15.6V8.4c0-1.128 0-1.945.053-2.586.052-.637.152-1.057.328-1.403a3.5 3.5 0 0 1 1.53-1.53",
             "clip-rule": "evenodd"
           },
           children: []
@@ -25609,6 +33474,71 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "m13.189 2.272 8.357 4.008a.8.8 0 0 1 0 1.442l-8.357 4.008a2.75 2.75 0 0 1-2.379 0L2.454 7.722a.8.8 0 0 1 0-1.442l8.357-4.008a2.75 2.75 0 0 1 2.379 0",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M13.405 1.82a3.25 3.25 0 0 0-2.81 0L2.236 5.83c-.984.472-.984 1.872 0 2.344l8.357 4.008a3.25 3.25 0 0 0 2.81 0l8.358-4.008c.984-.472.984-1.872 0-2.344zm-2.378.902a2.25 2.25 0 0 1 1.946 0l8.357 4.009a.3.3 0 0 1 0 .54l-8.358 4.008a2.25 2.25 0 0 1-1.945 0L2.67 7.272a.3.3 0 0 1 0-.541z",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M3.731 10.667a.5.5 0 0 1-.234.667l-.828.396a.3.3 0 0 0 0 .541l8.357 4.008a2.25 2.25 0 0 0 1.946 0l8.357-4.008a.3.3 0 0 0 0-.54l-.827-.397a.5.5 0 0 1 .433-.902l.827.397c.984.472.984 1.872 0 2.344l-8.357 4.008a3.25 3.25 0 0 1-2.811 0l-8.357-4.008c-.984-.472-.984-1.872 0-2.344l.827-.397a.5.5 0 0 1 .667.235"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M3.731 15.667a.5.5 0 0 1-.234.667l-.828.396a.3.3 0 0 0 0 .541l8.357 4.008a2.25 2.25 0 0 0 1.946 0l8.357-4.008a.3.3 0 0 0 0-.54l-.827-.397a.5.5 0 0 1 .433-.902l.827.397c.984.472.984 1.872 0 2.344l-8.357 4.008a3.25 3.25 0 0 1-2.811 0l-8.357-4.008c-.984-.472-.984-1.872 0-2.344l.827-.397a.5.5 0 0 1 .667.235"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -25741,6 +33671,49 @@ export default [
           attributes: {
             fill: "#000",
             d: "M8 3.25H5.469c-.674 0-1.225 0-1.672.037-.463.037-.882.118-1.272.317a3.25 3.25 0 0 0-1.42 1.42c-.2.391-.28.81-.318 1.273C.75 6.744.75 7.295.75 7.969v8.062c0 .674 0 1.225.037 1.672.037.463.118.882.317 1.273a3.25 3.25 0 0 0 1.42 1.42c.391.199.81.28 1.273.317.447.037.998.037 1.672.037H8z"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M22.5 15.2V8.8c0-1.68 0-2.52-.327-3.162a3 3 0 0 0-1.311-1.311C20.22 4 19.38 4 17.7 4H8v16h9.7c1.68 0 2.52 0 3.162-.327a3 3 0 0 0 1.311-1.311c.327-.642.327-1.482.327-3.162",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M6.278 3.5c-.821 0-1.468 0-1.99.043-.53.043-.974.133-1.377.338a3.5 3.5 0 0 0-1.53 1.53c-.205.403-.295.847-.338 1.378C1 7.309 1 7.957 1 8.778v6.444c0 .822 0 1.469.043 1.99.043.53.133.974.338 1.377a3.5 3.5 0 0 0 1.53 1.53c.403.205.847.295 1.378.338.52.043 1.168.043 1.989.043h11.444c.822 0 1.468 0 1.99-.043.53-.043.974-.133 1.377-.338a3.5 3.5 0 0 0 1.53-1.53c.205-.403.295-.847.338-1.378.043-.52.043-1.168.043-1.989V8.778c0-.821 0-1.468-.043-1.99-.043-.53-.133-.974-.338-1.377a3.5 3.5 0 0 0-1.53-1.53c-.403-.205-.847-.295-1.378-.338-.52-.043-1.167-.043-1.989-.043zm1.222 1H6.3c-.848 0-1.455 0-1.93.04-.469.038-.766.11-1.005.232a2.5 2.5 0 0 0-1.093 1.093c-.121.239-.194.536-.233 1.005C2 7.345 2 7.952 2 8.8v6.4c0 .848 0 1.454.04 1.93.038.469.11.766.232 1.005a2.5 2.5 0 0 0 1.093 1.092c.239.122.536.195 1.005.234.475.039 1.082.039 1.93.039h1.2zm1 15v-15h9.2c.848 0 1.454 0 1.93.04.469.038.766.11 1.005.232a2.5 2.5 0 0 1 1.092 1.093c.122.239.195.536.234 1.005C22 7.345 22 7.952 22 8.8v6.4c0 .848 0 1.454-.04 1.93-.038.469-.11.766-.233 1.005a2.5 2.5 0 0 1-1.092 1.092c-.239.122-.536.195-1.005.234-.476.039-1.082.039-1.93.039z",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -25955,6 +33928,69 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M20.904 3.096a5.45 5.45 0 0 0-7.707 0l-10.1 10.1a5.45 5.45 0 1 0 7.707 7.708l10.1-10.1a5.45 5.45 0 0 0 0-7.708",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M10.146 6.854a.5.5 0 0 1 0-.707l3.05-3.05a5.45 5.45 0 1 1 7.707 7.707l-3.05 3.05a.5.5 0 0 1-.707-.707l3.05-3.05a4.45 4.45 0 0 0-6.293-6.293l-3.05 3.05a.5.5 0 0 1-.707 0"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M15.353 8.647a.5.5 0 0 1 0 .707l-6 6a.5.5 0 0 1-.707-.707l6-6a.5.5 0 0 1 .707 0"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M13.853 17.854a.5.5 0 0 0-.707-.707l-3.05 3.05a4.45 4.45 0 1 1-6.293-6.293l3.05-3.05a.5.5 0 0 0-.707-.707l-3.05 3.05a5.45 5.45 0 0 0 7.707 7.707z"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -26116,6 +34152,60 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M22 15.6V8.4c0-2.24 0-3.36-.436-4.216a4 4 0 0 0-1.748-1.748C18.96 2 17.84 2 15.6 2H8.4c-2.24 0-3.36 0-4.216.436a4 4 0 0 0-1.748 1.748C2 5.04 2 6.16 2 8.4v7.2c0 2.24 0 3.36.436 4.216a4 4 0 0 0 1.748 1.748C5.04 22 6.16 22 8.4 22h7.2c2.24 0 3.36 0 4.216-.436a4 4 0 0 0 1.748-1.748C22 18.96 22 17.84 22 15.6",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M10.346 7.379a.5.5 0 0 1 .015.707L9.083 9.419a.5.5 0 0 1-.715.007l-.722-.725a.5.5 0 1 1 .708-.706l.361.363.924-.964a.5.5 0 0 1 .707-.015M12.5 7.84a.5.5 0 0 0 0 1H16a.5.5 0 0 0 0-1zM10.346 11.209a.5.5 0 0 1 .015.707l-1.278 1.333a.5.5 0 0 1-.715.007l-.722-.725a.5.5 0 1 1 .708-.706l.361.363.924-.964a.5.5 0 0 1 .707-.015M12.5 11.67a.5.5 0 0 0 0 1H16a.5.5 0 1 0 0-1zM8.25 16a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0M11.75 15.5a.5.5 0 0 0 0 1H16a.5.5 0 0 0 0-1z"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M8.377 1.5h7.246c1.1 0 1.958 0 2.645.056.698.057 1.265.175 1.775.434a4.5 4.5 0 0 1 1.967 1.967c.26.51.377 1.077.434 1.775.056.687.056 1.544.056 2.645v7.246c0 1.1 0 1.958-.056 2.645-.057.698-.175 1.265-.434 1.775a4.5 4.5 0 0 1-1.967 1.967c-.51.26-1.077.377-1.775.434-.687.056-1.544.056-2.645.056H8.377c-1.1 0-1.958 0-2.645-.056-.698-.057-1.265-.175-1.775-.434a4.5 4.5 0 0 1-1.967-1.967c-.26-.51-.377-1.077-.434-1.775-.056-.687-.056-1.544-.056-2.645V8.377c0-1.1 0-1.958.056-2.645.057-.698.175-1.265.434-1.775A4.5 4.5 0 0 1 3.957 1.99c.51-.26 1.077-.377 1.775-.434C6.42 1.5 7.276 1.5 8.377 1.5M5.814 2.553c-.637.052-1.057.152-1.403.328a3.5 3.5 0 0 0-1.53 1.53c-.176.346-.276.766-.328 1.403C2.5 6.455 2.5 7.272 2.5 8.4v7.2c0 1.128 0 1.945.053 2.586.052.637.152 1.057.328 1.403a3.5 3.5 0 0 0 1.53 1.53c.346.176.766.276 1.403.328.641.053 1.458.053 2.586.053h7.2c1.128 0 1.945 0 2.586-.053.637-.052 1.057-.152 1.403-.328a3.5 3.5 0 0 0 1.53-1.53c.176-.346.276-.766.328-1.402.053-.642.053-1.459.053-2.587V8.4c0-1.128 0-1.945-.053-2.586-.052-.637-.152-1.057-.328-1.403a3.5 3.5 0 0 0-1.53-1.53c-.346-.176-.766-.276-1.402-.328C17.545 2.5 16.728 2.5 15.6 2.5H8.4c-1.128 0-1.945 0-2.586.053",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -26272,6 +34362,60 @@ export default [
           attributes: {
             fill: "#000",
             d: "M8 7a1 1 0 1 0 0 2 1 1 0 0 0 0-2M11 7.25a.75.75 0 0 0 0 1.5h5a.75.75 0 0 0 0-1.5zM7 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0M11 11.25a.75.75 0 0 0 0 1.5h5a.75.75 0 0 0 0-1.5zM7 16a1 1 0 1 1 2 0 1 1 0 0 1-2 0M11 15.25a.75.75 0 0 0 0 1.5h5a.75.75 0 0 0 0-1.5z"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M22 15.6V8.4c0-2.24 0-3.36-.436-4.216a4 4 0 0 0-1.748-1.748C18.96 2 17.84 2 15.6 2H8.4c-2.24 0-3.36 0-4.216.436a4 4 0 0 0-1.748 1.748C2 5.04 2 6.16 2 8.4v7.2c0 2.24 0 3.36.436 4.216a4 4 0 0 0 1.748 1.748C5.04 22 6.16 22 8.4 22h7.2c2.24 0 3.36 0 4.216-.436a4 4 0 0 0 1.748-1.748C22 18.96 22 17.84 22 15.6",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M10.5 8a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5M8 7.25a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M7.25 12a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0M11 11.5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zM7.25 16a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0M11 15.5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1z"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M8.377 1.5h7.246c1.1 0 1.958 0 2.645.056.698.057 1.265.175 1.775.434a4.5 4.5 0 0 1 1.967 1.967c.26.51.377 1.077.434 1.775.056.687.056 1.544.056 2.645v7.246c0 1.1 0 1.958-.056 2.645-.057.698-.175 1.265-.434 1.775a4.5 4.5 0 0 1-1.967 1.967c-.51.26-1.077.377-1.775.434-.687.056-1.544.056-2.645.056H8.377c-1.1 0-1.958 0-2.645-.056-.698-.057-1.265-.175-1.775-.434a4.5 4.5 0 0 1-1.967-1.967c-.26-.51-.377-1.077-.434-1.775-.056-.687-.056-1.544-.056-2.645V8.377c0-1.1 0-1.958.056-2.645.057-.698.175-1.265.434-1.775A4.5 4.5 0 0 1 3.957 1.99c.51-.26 1.077-.377 1.775-.434C6.42 1.5 7.276 1.5 8.377 1.5M5.814 2.553c-.637.052-1.057.152-1.403.328a3.5 3.5 0 0 0-1.53 1.53c-.176.346-.276.766-.328 1.403C2.5 6.455 2.5 7.272 2.5 8.4v7.2c0 1.128 0 1.945.053 2.586.052.637.152 1.057.328 1.403a3.5 3.5 0 0 0 1.53 1.53c.346.176.766.276 1.403.328.641.053 1.458.053 2.586.053h7.2c1.128 0 1.945 0 2.586-.053.637-.052 1.057-.152 1.403-.328a3.5 3.5 0 0 0 1.53-1.53c.176-.346.276-.766.328-1.402.053-.642.053-1.459.053-2.587V8.4c0-1.128 0-1.945-.053-2.586-.052-.637-.152-1.057-.328-1.403a3.5 3.5 0 0 0-1.53-1.53c-.346-.176-.766-.276-1.402-.328C17.545 2.5 16.728 2.5 15.6 2.5H8.4c-1.128 0-1.945 0-2.586.053",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -26442,6 +34586,64 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M15.616 18.78C17.414 16.786 20 13.916 20 10a8 8 0 1 0-16 0c0 3.915 2.5 6.69 4.378 8.775l.122.135c.652.725 2.199 2.16 3 2.894.284.26.716.26 1 0 .801-.734 2.347-2.169 3-2.894zM12 12.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5",
+            "clip-rule": "evenodd",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M12 7a3 3 0 1 0 0 6 3 3 0 0 0 0-6m-2 3a2 2 0 1 1 4 0 2 2 0 0 1-4 0",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M12 1.5A8.5 8.5 0 0 0 3.5 10c0 4.11 2.617 7.013 4.479 9.078l.15.166c.672.747 2.239 2.2 3.033 2.928a1.24 1.24 0 0 0 1.676 0c.794-.727 2.361-2.18 3.034-2.928l.143-.158C17.797 17.109 20.5 14.11 20.5 10A8.5 8.5 0 0 0 12 1.5M4.5 10a7.5 7.5 0 0 1 15 0c0 3.72-2.47 6.464-4.287 8.482l-.085.094c-.633.703-2.158 2.119-2.966 2.86a.24.24 0 0 1-.325 0c-.807-.741-2.333-2.157-2.965-2.86l-.09-.1C6.884 16.368 4.5 13.72 4.5 10",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -26576,6 +34778,49 @@ export default [
           attributes: {
             fill: "#000",
             d: "M6.75 6.5a5.25 5.25 0 0 1 10.5 0V9a.75.75 0 0 1-1.5 0V6.5a3.75 3.75 0 1 0-7.5 0V9a.75.75 0 0 1-1.5 0z"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M4 13.8c0-1.68 0-2.52.327-3.162a3 3 0 0 1 1.311-1.311C6.28 9 7.12 9 8.8 9h6.4c1.68 0 2.52 0 3.162.327a3 3 0 0 1 1.311 1.311C20 11.28 20 12.12 20 13.8v3.4c0 1.68 0 2.52-.327 3.162a3 3 0 0 1-1.311 1.311C17.72 22 16.88 22 15.2 22H8.8c-1.68 0-2.52 0-3.162-.327a3 3 0 0 1-1.311-1.311C4 19.72 4 18.88 4 17.2z",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M12 1.5a5 5 0 0 0-5 5v2.028l-.211.015c-.531.043-.975.133-1.378.338a3.5 3.5 0 0 0-1.53 1.53c-.205.403-.295.847-.338 1.378-.043.52-.043 1.168-.043 1.989v3.444c0 .822 0 1.468.043 1.99.043.53.133.974.338 1.377a3.5 3.5 0 0 0 1.53 1.53c.403.205.847.295 1.378.338.52.043 1.167.043 1.989.043h6.444c.822 0 1.469 0 1.99-.043.53-.043.974-.133 1.377-.338a3.5 3.5 0 0 0 1.53-1.53c.205-.403.295-.847.338-1.378.043-.52.043-1.167.043-1.989v-3.444c0-.822 0-1.469-.043-1.99-.043-.53-.133-.974-.338-1.377a3.5 3.5 0 0 0-1.53-1.53c-.403-.205-.847-.295-1.378-.338L17 8.528V6.5a5 5 0 0 0-5-5m4 7.002V6.5a4 4 0 0 0-8 0v2.002q.36-.003.778-.002h6.444q.418 0 .778.002M5.865 9.772c.239-.121.536-.194 1.005-.233C7.345 9.5 7.952 9.5 8.8 9.5h6.4c.848 0 1.454 0 1.93.04.469.038.766.11 1.005.232a2.5 2.5 0 0 1 1.092 1.093c.122.239.195.536.234 1.005.039.476.039 1.082.039 1.93v3.4c0 .848 0 1.454-.04 1.93-.038.469-.11.766-.233 1.005a2.5 2.5 0 0 1-1.092 1.092c-.239.122-.536.195-1.005.234-.476.039-1.082.039-1.93.039H8.8c-.848 0-1.455 0-1.93-.04-.469-.038-.766-.11-1.005-.233a2.5 2.5 0 0 1-1.093-1.092c-.121-.239-.194-.536-.233-1.005-.039-.476-.039-1.082-.039-1.93v-3.4c0-.848 0-1.455.04-1.93.038-.469.11-.766.232-1.005a2.5 2.5 0 0 1 1.093-1.093",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -26747,6 +34992,47 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M18.13 2.54c-.476-.04-1.082-.04-1.93-.04H13a.5.5 0 0 1 0-1h3.222c.822 0 1.468 0 1.99.043.53.043.974.133 1.377.338a3.5 3.5 0 0 1 1.53 1.53c.205.403.295.847.338 1.378.043.52.043 1.168.043 1.989v10.444c0 .822 0 1.468-.043 1.99-.043.53-.133.974-.338 1.377a3.5 3.5 0 0 1-1.53 1.53c-.403.205-.847.295-1.378.338-.52.043-1.167.043-1.989.043H13a.5.5 0 0 1 0-1h3.2c.848 0 1.454 0 1.93-.04.469-.038.766-.11 1.005-.233a2.5 2.5 0 0 0 1.092-1.092c.122-.239.195-.536.234-1.005.039-.476.039-1.082.039-1.93V6.8c0-.848 0-1.455-.04-1.93-.038-.469-.11-.766-.233-1.005a2.5 2.5 0 0 0-1.092-1.093c-.239-.121-.536-.194-1.005-.233",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M9.354 6.646a.5.5 0 1 0-.708.708l4.147 4.146H3a.5.5 0 0 0 0 1h9.793l-4.147 4.146a.5.5 0 0 0 .708.708l5-5a.5.5 0 0 0 0-.708z"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -26913,6 +35199,47 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M5.87 2.54c.475-.04 1.082-.04 1.93-.04H11a.5.5 0 0 0 0-1H7.778c-.821 0-1.468 0-1.99.043-.53.043-.974.133-1.377.338a3.5 3.5 0 0 0-1.53 1.53c-.205.403-.295.847-.338 1.378-.043.52-.043 1.168-.043 1.989v10.444c0 .822 0 1.468.043 1.99.043.53.133.974.338 1.377a3.5 3.5 0 0 0 1.53 1.53c.403.205.847.295 1.378.338.52.043 1.168.043 1.989.043H11a.5.5 0 0 0 0-1H7.8c-.848 0-1.455 0-1.93-.04-.469-.038-.766-.11-1.005-.233a2.5 2.5 0 0 1-1.093-1.092c-.121-.239-.194-.536-.233-1.005-.039-.476-.039-1.082-.039-1.93V6.8c0-.848 0-1.455.04-1.93.038-.469.11-.766.232-1.005a2.5 2.5 0 0 1 1.093-1.093c.239-.121.536-.194 1.005-.233",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M16.354 6.646a.5.5 0 0 0-.708.708l4.147 4.146H10a.5.5 0 0 0 0 1h9.793l-4.147 4.146a.5.5 0 0 0 .708.708l5-5a.5.5 0 0 0 0-.708z"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -27069,6 +35396,60 @@ export default [
           attributes: {
             fill: "#000",
             d: "M8 7.25a.75.75 0 0 0 0 1.5h4a.75.75 0 0 0 0-1.5zM7.25 12a.75.75 0 0 1 .75-.75h8a.75.75 0 0 1 0 1.5H8a.75.75 0 0 1-.75-.75M7.25 16a.75.75 0 0 1 .75-.75h8a.75.75 0 0 1 0 1.5H8a.75.75 0 0 1-.75-.75"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M20.5 16.4V7.6c0-1.96 0-2.94-.381-3.689a3.5 3.5 0 0 0-1.53-1.53C17.84 2 16.86 2 14.9 2H9.1c-1.96 0-2.94 0-3.689.381a3.5 3.5 0 0 0-1.53 1.53C3.5 4.66 3.5 5.64 3.5 7.6v8.8c0 1.96 0 2.94.381 3.689a3.5 3.5 0 0 0 1.53 1.53C6.16 22 7.14 22 9.1 22h5.8c1.96 0 2.94 0 3.689-.381a3.5 3.5 0 0 0 1.53-1.53c.381-.749.381-1.729.381-3.689",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M8 15.5a.5.5 0 0 0 0 1h8a.5.5 0 0 0 0-1zM7.5 12a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1H8a.5.5 0 0 1-.5-.5M8 7.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1z"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M14.922 1.5H9.078c-.962 0-1.713 0-2.318.05-.614.05-1.12.153-1.576.386a4 4 0 0 0-1.748 1.748c-.233.457-.336.962-.387 1.576C3 5.865 3 6.616 3 7.578v8.844c0 .962 0 1.713.05 2.317.05.615.153 1.12.386 1.577a4 4 0 0 0 1.748 1.748c.457.233.962.336 1.576.387.605.049 1.357.049 2.318.049h5.844c.961 0 1.713 0 2.317-.05.615-.05 1.12-.153 1.577-.386a4 4 0 0 0 1.748-1.748c.233-.457.336-.962.387-1.576.049-.604.049-1.356.049-2.317V7.577c0-.962 0-1.713-.05-2.318-.05-.614-.153-1.12-.386-1.576a4 4 0 0 0-1.748-1.748c-.457-.233-.962-.336-1.576-.387-.604-.049-1.356-.049-2.318-.049M5.638 2.827c.292-.149.651-.236 1.204-.281C7.4 2.5 8.112 2.5 9.1 2.5h5.8c.988 0 1.7 0 2.258.046.553.045.912.132 1.204.281a3 3 0 0 1 1.311 1.311c.149.292.236.651.281 1.204C20 5.9 20 6.612 20 7.6v8.8c0 .988 0 1.7-.046 2.258-.045.553-.132.912-.281 1.204a3 3 0 0 1-1.311 1.311c-.292.149-.651.236-1.204.281-.559.046-1.27.046-2.258.046H9.1c-.988 0-1.7 0-2.258-.046-.553-.045-.912-.132-1.204-.281a3 3 0 0 1-1.311-1.311c-.149-.292-.236-.651-.281-1.204C4 18.1 4 17.388 4 16.4V7.6c0-.988 0-1.7.046-2.258.045-.553.132-.912.281-1.204a3 3 0 0 1 1.311-1.311",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -27400,6 +35781,100 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "clip-path": "url(#a)"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M23 12c0 6.075-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1s11 4.925 11 11",
+                opacity: ".4"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M8 7.5a.5.5 0 0 0 0 1h8a.5.5 0 0 0 0-1zM7.5 12a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1H8a.5.5 0 0 1-.5-.5M8 15.5a.5.5 0 0 0 0 1h8a.5.5 0 0 0 0-1z"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                "fill-rule": "evenodd",
+                d: "M12 .5C5.649.5.5 5.649.5 12S5.649 23.5 12 23.5 23.5 18.351 23.5 12 18.351.5 12 .5M1.5 12C1.5 6.201 6.201 1.5 12 1.5S22.5 6.201 22.5 12 17.799 22.5 12 22.5 1.5 17.799 1.5 12",
+                "clip-rule": "evenodd"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "defs",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {},
+          children: [
+            {
+              name: "clipPath",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                id: "a"
+              },
+              children: [
+                {
+                  name: "path",
+                  type: "element",
+                  value: "",
+                  parent: null,
+                  attributes: {
+                    fill: "#fff",
+                    d: "M0 0h24v24H0z"
+                  },
+                  children: []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
   },
@@ -27561,6 +36036,60 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M22 15.6V8.4c0-2.24 0-3.36-.436-4.216a4 4 0 0 0-1.748-1.748C18.96 2 17.84 2 15.6 2H8.4c-2.24 0-3.36 0-4.216.436a4 4 0 0 0-1.748 1.748C2 5.04 2 6.16 2 8.4v7.2c0 2.24 0 3.36.436 4.216a4 4 0 0 0 1.748 1.748C5.04 22 6.16 22 8.4 22h7.2c2.24 0 3.36 0 4.216-.436a4 4 0 0 0 1.748-1.748C22 18.96 22 17.84 22 15.6",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M8 7.5a.5.5 0 0 0 0 1h8a.5.5 0 0 0 0-1zM7.5 12a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1H8a.5.5 0 0 1-.5-.5M8 15.5a.5.5 0 0 0 0 1h8a.5.5 0 0 0 0-1z"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M15.623 1.5H8.377c-1.1 0-1.958 0-2.645.056-.698.057-1.265.175-1.775.434A4.5 4.5 0 0 0 1.99 3.957c-.26.51-.377 1.077-.434 1.775C1.5 6.42 1.5 7.276 1.5 8.377v7.246c0 1.1 0 1.958.056 2.645.057.698.175 1.265.434 1.775a4.5 4.5 0 0 0 1.967 1.967c.51.26 1.077.377 1.775.434.687.056 1.544.056 2.645.056h7.246c1.1 0 1.958 0 2.645-.056.698-.057 1.265-.175 1.775-.434a4.5 4.5 0 0 0 1.967-1.967c.26-.51.377-1.077.434-1.775.056-.687.056-1.544.056-2.645V8.377c0-1.1 0-1.958-.056-2.645-.057-.698-.175-1.265-.434-1.775a4.5 4.5 0 0 0-1.967-1.967c-.51-.26-1.077-.377-1.775-.434-.687-.056-1.544-.056-2.645-.056M4.41 2.881c.346-.176.766-.276 1.403-.328C6.455 2.5 7.272 2.5 8.4 2.5h7.2c1.128 0 1.945 0 2.586.053.637.052 1.057.152 1.403.328a3.5 3.5 0 0 1 1.53 1.53c.176.346.276.766.328 1.403.053.641.053 1.458.053 2.586v7.2c0 1.128 0 1.945-.053 2.586-.052.637-.152 1.057-.328 1.403a3.5 3.5 0 0 1-1.53 1.53c-.346.176-.766.276-1.402.328-.642.053-1.459.053-2.587.053H8.4c-1.128 0-1.945 0-2.586-.053-.637-.052-1.057-.152-1.403-.328a3.5 3.5 0 0 1-1.53-1.53c-.176-.346-.276-.766-.328-1.402C2.5 17.545 2.5 16.728 2.5 15.6V8.4c0-1.128 0-1.945.053-2.586.052-.637.152-1.057.328-1.403a3.5 3.5 0 0 1 1.53-1.53",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -27699,6 +36228,57 @@ export default [
           attributes: {
             fill: "#000",
             d: "M23 12a1 1 0 0 1-1 1H2a1 1 0 1 1 0-2h20a1 1 0 0 1 1 1"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            opacity: ".4"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M22 4.5a.5.5 0 0 0 0-1H2a.5.5 0 0 0 0 1zM22 20.5a.5.5 0 0 0 0-1H2a.5.5 0 0 0 0 1z"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M22.5 12a.5.5 0 0 1-.5.5H2a.5.5 0 0 1 0-1h20a.5.5 0 0 1 .5.5"
           },
           children: []
         }
@@ -27860,6 +36440,60 @@ export default [
           attributes: {
             fill: "#000",
             d: "M7 10.5a1 1 0 1 1 2 0 1 1 0 0 1-2 0M11 10.5a1 1 0 1 1 2 0 1 1 0 0 1-2 0M16 9.5a1 1 0 1 0 0 2 1 1 0 0 0 0-2"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M2 7.6v13.286c0 .527 0 .79.108.927a.5.5 0 0 0 .39.19c.173 0 .38-.163.796-.488l2.554-2.003c.242-.19.362-.285.497-.352a1.5 1.5 0 0 1 .376-.13c.147-.03.3-.03.608-.03H16.4c1.96 0 2.94 0 3.689-.381a3.5 3.5 0 0 0 1.53-1.53C22 16.34 22 15.36 22 13.4V7.6c0-1.96 0-2.94-.381-3.689a3.5 3.5 0 0 0-1.53-1.53C19.34 2 18.36 2 16.4 2H7.6c-1.96 0-2.94 0-3.689.381a3.5 3.5 0 0 0-1.53 1.53C2 4.66 2 5.64 2 7.6",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M12 9.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M7.25 10.5a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0M16 9.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M16.422 1.5H7.578c-.962 0-1.713 0-2.318.05-.614.05-1.12.153-1.576.386a4 4 0 0 0-1.748 1.748c-.233.457-.336.962-.387 1.576C1.5 5.864 1.5 6.616 1.5 7.577v13.33c0 .245 0 .462.016.634.015.168.051.394.2.583a1 1 0 0 0 .778.378c.241.002.441-.11.583-.201.145-.094.315-.228.508-.379l2.571-2.017c.258-.202.334-.259.413-.299q.12-.06.25-.086c.088-.018.183-.02.51-.02h9.093c.962 0 1.713 0 2.317-.05.615-.05 1.12-.153 1.577-.386a4 4 0 0 0 1.748-1.748c.233-.457.336-.962.387-1.576.049-.604.049-1.357.049-2.318V7.578c0-.962 0-1.713-.05-2.318-.05-.614-.153-1.12-.386-1.576a4 4 0 0 0-1.748-1.748c-.457-.233-.962-.336-1.576-.387-.604-.049-1.356-.049-2.318-.049M4.138 2.827c.292-.149.651-.236 1.204-.281C5.9 2.5 6.612 2.5 7.6 2.5h8.8c.988 0 1.7 0 2.258.046.553.045.912.132 1.204.281a3 3 0 0 1 1.311 1.311c.149.292.236.651.281 1.204.046.558.046 1.27.046 2.258v5.8c0 .988 0 1.7-.046 2.258-.045.553-.132.912-.281 1.204a3 3 0 0 1-1.311 1.311c-.292.149-.651.236-1.204.281-.559.046-1.27.046-2.258.046H7.287c-.267 0-.468 0-.665.04a2 2 0 0 0-.502.173c-.18.09-.338.215-.547.38l-2.588 2.029c-.215.169-.35.273-.451.34l-.02.012-.003-.023a7 7 0 0 1-.011-.565V7.6c0-.988 0-1.7.046-2.258.045-.553.132-.912.281-1.204a3 3 0 0 1 1.311-1.311",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -28041,6 +36675,64 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M4.381 5.911C4 6.66 4 7.64 4 9.6v4.8c0 1.96 0 2.94.381 3.689a3.5 3.5 0 0 0 1.53 1.53C6.66 20 7.64 20 9.6 20h4.8c1.96 0 2.94 0 3.689-.381a3.5 3.5 0 0 0 1.53-1.53C20 17.34 20 16.36 20 14.4V9.6c0-1.96 0-2.94-.381-3.689a3.5 3.5 0 0 0-1.53-1.53C17.34 4 16.36 4 14.4 4H9.6c-1.96 0-2.94 0-3.689.381a3.5 3.5 0 0 0-1.53 1.53m3.782 2.908C8 9.139 8 9.559 8 10.4v3.2c0 .84 0 1.26.163 1.581a1.5 1.5 0 0 0 .656.656c.32.163.74.163 1.581.163h3.2c.84 0 1.26 0 1.581-.164a1.5 1.5 0 0 0 .656-.655c.163-.32.163-.74.163-1.581v-3.2c0-.84 0-1.26-.164-1.581a1.5 1.5 0 0 0-.655-.656C14.861 8 14.441 8 13.6 8h-3.2c-.84 0-1.26 0-1.581.163a1.5 1.5 0 0 0-.656.656",
+            "clip-rule": "evenodd",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M14.626 7.522A13 13 0 0 0 13.62 7.5h-3.242c-.402 0-.734 0-1.005.022-.281.023-.54.072-.782.196a2 2 0 0 0-.874.874c-.124.243-.173.501-.196.782-.022.27-.022.603-.022 1.005v3.242c0 .402 0 .734.022 1.005.023.281.072.54.196.782a2 2 0 0 0 .874.874c.243.124.501.173.782.196.27.022.603.022 1.005.022h3.242c.402 0 .734 0 1.005-.022.281-.023.54-.072.782-.196a2 2 0 0 0 .874-.874c.124-.243.173-.501.196-.782.022-.27.022-.603.022-1.005v-3.242c0-.402 0-.734-.022-1.005-.023-.281-.072-.54-.196-.782a2 2 0 0 0-.874-.874c-.243-.124-.501-.173-.782-.196M9.046 8.61c.078-.04.19-.072.41-.09.225-.019.516-.019.944-.019h3.2c.428 0 .72 0 .944.019.22.018.332.05.41.09a1 1 0 0 1 .437.437c.04.078.072.19.09.41.019.225.019.516.019.944v3.2c0 .428 0 .72-.019.944-.018.22-.05.332-.09.41a1 1 0 0 1-.437.437c-.078.04-.19.072-.41.09-.225.019-.516.019-.944.019h-3.2c-.428 0-.72 0-.944-.019-.22-.018-.332-.05-.41-.09a1 1 0 0 1-.437-.437c-.04-.078-.072-.19-.09-.41A13 13 0 0 1 8.5 13.6v-3.2c0-.428 0-.72.019-.944.018-.22.05-.332.09-.41a1 1 0 0 1 .437-.437",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M8 1.5a.5.5 0 0 1 .5.5v1.503Q8.99 3.5 9.578 3.5H11.5V2a.5.5 0 0 1 1 0v1.5h1.922q.588 0 1.078.003V2a.5.5 0 0 1 1 0v1.533l.24.016c.614.05 1.12.154 1.576.387a4 4 0 0 1 1.748 1.748c.233.457.336.962.387 1.576l.016.24H22a.5.5 0 0 1 0 1h-1.503q.004.49.003 1.078V11.5H22a.5.5 0 0 1 0 1h-1.5v1.924q0 .588-.003 1.076H22a.5.5 0 0 1 0 1h-1.533l-.016.24c-.05.614-.154 1.12-.387 1.576a4 4 0 0 1-1.748 1.748c-.457.233-.962.336-1.576.387l-.24.016V22a.5.5 0 0 1-1 0v-1.503q-.49.004-1.076.003H12.5V22a.5.5 0 0 1-1 0v-1.5H9.576q-.587 0-1.076-.003V22a.5.5 0 0 1-1 0v-1.533l-.24-.016c-.614-.05-1.12-.154-1.576-.387a4 4 0 0 1-1.748-1.748c-.233-.457-.336-.962-.387-1.576l-.016-.24H2a.5.5 0 0 1 0-1h1.503q-.004-.49-.003-1.078V12.5H2a.5.5 0 0 1 0-1h1.5V9.578q0-.588.003-1.078H2a.5.5 0 0 1 0-1h1.533l.016-.24c.05-.614.154-1.12.387-1.576a4 4 0 0 1 1.748-1.748c.457-.233.962-.336 1.576-.387l.24-.016V2a.5.5 0 0 1 .5-.5m11.5 8.1v4.8c0 .988 0 1.7-.046 2.258-.045.553-.132.912-.281 1.204a3 3 0 0 1-1.311 1.311c-.292.149-.651.236-1.204.281-.559.046-1.27.046-2.258.046H9.6c-.988 0-1.7 0-2.258-.046-.553-.045-.912-.132-1.204-.281a3 3 0 0 1-1.311-1.311c-.149-.292-.236-.651-.281-1.204C4.5 16.1 4.5 15.388 4.5 14.4V9.6c0-.988 0-1.7.046-2.258.045-.553.132-.912.281-1.204a3 3 0 0 1 1.311-1.311c.292-.149.651-.236 1.204-.281C7.9 4.5 8.612 4.5 9.6 4.5h4.8c.988 0 1.7 0 2.258.046.553.045.912.132 1.204.281a3 3 0 0 1 1.311 1.311c.149.292.236.651.281 1.204.046.558.046 1.27.046 2.258",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -28205,6 +36897,70 @@ export default [
           attributes: {
             fill: "#000",
             d: "M2.53 1.47a.75.75 0 0 0-1.06 1.06l14.387 14.388a6.22 6.22 0 0 1-3.851 1.332h-.012A6.25 6.25 0 0 1 5.75 12a.75.75 0 0 0-1.5 0 7.75 7.75 0 0 0 7 7.714v1.536H8a.75.75 0 0 0 0 1.5h8a.75.75 0 0 0 0-1.5h-3.25v-1.536a7.7 7.7 0 0 0 4.174-1.73l4.546 4.546a.75.75 0 1 0 1.06-1.06l-5.05-5.05v-.001zM19.75 12a.75.75 0 0 0-1.5 0c0 .798-.15 1.559-.42 2.258a.75.75 0 0 0 1.399.542c.337-.87.521-1.814.521-2.8"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            opacity: ".4"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M8 8v4a4 4 0 0 0 6.828 2.828zM15.788 13.288c.137-.404.212-.837.212-1.288V6a4 4 0 0 0-7.972-.472z"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M2.354 1.646a.5.5 0 1 0-.708.708L7.5 8.207V12a4.5 4.5 0 0 0 7.309 3.516l1.42 1.42a6.47 6.47 0 0 1-4.224 1.564h-.01A6.5 6.5 0 0 1 5.5 12a.5.5 0 0 0-1 0 7.5 7.5 0 0 0 7 7.484V21.5H8a.5.5 0 0 0 0 1h8a.5.5 0 0 0 0-1h-3.5v-2.016a7.47 7.47 0 0 0 4.438-1.839l4.708 4.709a.5.5 0 0 0 .708-.708zm11.742 13.157L8.5 9.207V12a3.5 3.5 0 0 0 5.596 2.803",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M15.387 12.887q.112-.426.113-.887V6a3.5 3.5 0 1 0-7 0l-.908-.908A4.502 4.502 0 0 1 16.5 6v6c0 .593-.115 1.159-.323 1.677zM18.405 15.905A7.47 7.47 0 0 0 19.5 12a.5.5 0 0 0-1 0 6.47 6.47 0 0 1-.826 3.174z"
           },
           children: []
         }
@@ -28375,6 +37131,60 @@ export default [
           attributes: {
             fill: "#000",
             d: "M5.75 12a.75.75 0 0 0-1.5 0 7.75 7.75 0 0 0 7 7.714v1.536H8a.75.75 0 0 0 0 1.5h8a.75.75 0 0 0 0-1.5h-3.25v-1.536a7.75 7.75 0 0 0 7-7.714.75.75 0 0 0-1.5 0 6.25 6.25 0 0 1-6.244 6.25h-.012A6.25 6.25 0 0 1 5.75 12"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M8 6a4 4 0 1 1 8 0v6a4 4 0 0 1-8 0z",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M12 1.5A4.5 4.5 0 0 0 7.5 6v6a4.5 4.5 0 1 0 9 0V6A4.5 4.5 0 0 0 12 1.5M8.5 6a3.5 3.5 0 1 1 7 0v6a3.5 3.5 0 1 1-7 0z",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M5 11.5a.5.5 0 0 1 .5.5 6.5 6.5 0 0 0 6.495 6.5h.01A6.5 6.5 0 0 0 18.5 12a.5.5 0 0 1 1 0 7.5 7.5 0 0 1-7 7.484V21.5H16a.5.5 0 0 1 0 1H8a.5.5 0 0 1 0-1h3.5v-2.016A7.5 7.5 0 0 1 4.5 12a.5.5 0 0 1 .5-.5"
           },
           children: []
         }
@@ -28706,6 +37516,100 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "clip-path": "url(#a)"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M23 12c0 6.075-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1s11 4.925 11 11",
+                opacity: ".4"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M16 12.5a.5.5 0 0 0 0-1H8a.5.5 0 0 0 0 1z"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                "fill-rule": "evenodd",
+                d: "M12 .5C5.649.5.5 5.649.5 12S5.649 23.5 12 23.5 23.5 18.351 23.5 12 18.351.5 12 .5M1.5 12C1.5 6.201 6.201 1.5 12 1.5S22.5 6.201 22.5 12 17.799 22.5 12 22.5 1.5 17.799 1.5 12",
+                "clip-rule": "evenodd"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "defs",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {},
+          children: [
+            {
+              name: "clipPath",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                id: "a"
+              },
+              children: [
+                {
+                  name: "path",
+                  type: "element",
+                  value: "",
+                  parent: null,
+                  attributes: {
+                    fill: "#fff",
+                    d: "M0 0h24v24H0z"
+                  },
+                  children: []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
   },
@@ -28822,6 +37726,36 @@ export default [
           attributes: {
             fill: "#000",
             d: "M21 12a1 1 0 0 1-1 1H4a1 1 0 1 1 0-2h16a1 1 0 0 1 1 1",
+            opacity: ".4"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M20.5 12a.5.5 0 0 1-.5.5H4a.5.5 0 0 1 0-1h16a.5.5 0 0 1 .5.5",
             opacity: ".4"
           },
           children: []
@@ -28984,6 +37918,60 @@ export default [
           attributes: {
             fill: "#000",
             d: "M10.5 4.25a.75.75 0 0 0 0 1.5h3a.75.75 0 0 0 0-1.5zM12 17.5a1 1 0 1 0 0 2 1 1 0 0 0 0-2"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "25",
+        fill: "none",
+        viewBox: "0 0 24 25"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M5 7.2c0-1.82 0-2.73.354-3.425a3.25 3.25 0 0 1 1.42-1.42C7.47 2 8.38 2 10.2 2h3.6c1.82 0 2.73 0 3.425.354a3.25 3.25 0 0 1 1.42 1.42C19 4.47 19 5.38 19 7.2v9.6c0 1.82 0 2.73-.354 3.425a3.25 3.25 0 0 1-1.42 1.42C16.53 22 15.62 22 13.8 22h-3.6c-1.82 0-2.73 0-3.425-.354a3.25 3.25 0 0 1-1.42-1.42C5 19.53 5 18.62 5 16.8z",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M11.25 18.5a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0M10.5 4.5a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1z"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M10.178 1.5h3.644c.892 0 1.591 0 2.153.046.573.047 1.048.144 1.478.363a3.75 3.75 0 0 1 1.638 1.639c.22.43.316.904.363 1.477.046.562.046 1.261.046 2.153v9.644c0 .892 0 1.591-.046 2.153-.047.573-.144 1.048-.363 1.477a3.75 3.75 0 0 1-1.639 1.64c-.43.218-.904.315-1.477.362-.562.046-1.261.046-2.153.046h-3.644c-.892 0-1.591 0-2.153-.046-.573-.047-1.048-.144-1.477-.363a3.75 3.75 0 0 1-1.64-1.639c-.218-.43-.315-.904-.362-1.477-.046-.562-.046-1.262-.046-2.153V7.178c0-.892 0-1.591.046-2.153.047-.573.144-1.048.363-1.477a3.75 3.75 0 0 1 1.639-1.64c.43-.218.904-.315 1.477-.362.562-.046 1.261-.046 2.153-.046M8.106 2.543c-.51.041-.84.122-1.104.257A2.75 2.75 0 0 0 5.8 4.002c-.135.265-.216.593-.257 1.104C5.5 5.623 5.5 6.282 5.5 7.2v9.6c0 .918 0 1.577.043 2.094.041.51.122.84.257 1.105A2.75 2.75 0 0 0 7.002 21.2c.265.136.593.216 1.104.257.517.043 1.176.043 2.094.043h3.6c.918 0 1.577 0 2.094-.043.51-.041.84-.122 1.104-.257A2.75 2.75 0 0 0 18.2 20c.136-.266.216-.594.257-1.105.043-.517.043-1.176.043-2.094V7.2c0-.918 0-1.577-.043-2.094-.041-.51-.122-.84-.257-1.104A2.75 2.75 0 0 0 17 2.8c-.266-.135-.594-.216-1.105-.257C15.377 2.5 14.718 2.5 13.8 2.5h-3.6c-.918 0-1.577 0-2.094.043",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -29326,6 +38314,84 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M8.379 7.5H7.078c-.962 0-1.713 0-2.318.05-.614.05-1.12.154-1.576.386a4 4 0 0 0-1.748 1.748c-.233.457-.336.962-.387 1.577C1 11.865 1 12.617 1 13.578v3.845c0 .96 0 1.713.05 2.317.05.614.153 1.12.386 1.576a4 4 0 0 0 1.748 1.748c.457.233.962.337 1.576.387.605.05 1.356.05 2.318.05h9.845c.96 0 1.713 0 2.317-.05.614-.05 1.12-.154 1.576-.387a4 4 0 0 0 1.748-1.748c.233-.456.336-.962.387-1.576.049-.604.049-1.356.049-2.317v-3.845c0-.961 0-1.713-.05-2.317-.05-.615-.153-1.12-.386-1.577a4 4 0 0 0-1.748-1.748c-.457-.232-.962-.336-1.576-.386-.604-.05-1.356-.05-2.317-.05H15.62l-2.56 2.56a1.5 1.5 0 0 1-2.122 0zM12 18.5a3 3 0 0 0 3-3c0-1.574-1.354-3-3-3a3 3 0 0 0 0 6",
+            "clip-rule": "evenodd",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M12 .5a.5.5 0 0 1 .5.5v6.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L11.5 7.793V1a.5.5 0 0 1 .5-.5"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M8.379 7.5H7.078c-.962 0-1.714 0-2.318.05-.614.05-1.12.154-1.576.386a4 4 0 0 0-1.748 1.748c-.233.457-.336.962-.387 1.577C1 11.865 1 12.617 1 13.578v3.845c0 .96 0 1.713.05 2.317.05.614.153 1.12.386 1.576a4 4 0 0 0 1.748 1.748c.457.233.962.337 1.576.387.605.05 1.356.05 2.318.05h9.845c.96 0 1.713 0 2.317-.05.614-.05 1.12-.154 1.576-.387a4 4 0 0 0 1.748-1.748c.233-.456.336-.962.387-1.576.049-.604.049-1.356.049-2.317v-3.845c0-.961 0-1.713-.05-2.317-.05-.615-.153-1.12-.386-1.577a4 4 0 0 0-1.748-1.748c-.457-.232-.962-.336-1.576-.386-.604-.05-1.356-.05-2.317-.05H15.62l-1 1H16.9c.988 0 1.7 0 2.258.046.553.045.912.132 1.204.281a3 3 0 0 1 1.311 1.311c.149.292.236.652.281 1.204.046.559.046 1.27.046 2.258v3.8c0 .989 0 1.7-.046 2.258-.045.553-.132.912-.281 1.204a3 3 0 0 1-1.311 1.311c-.292.15-.651.236-1.204.281-.559.046-1.27.046-2.258.046H7.1c-.988 0-1.7 0-2.258-.046-.553-.045-.912-.132-1.204-.28a3 3 0 0 1-1.311-1.312c-.149-.292-.236-.651-.281-1.204C2 19.1 2 18.388 2 17.4v-3.8c0-.988 0-1.7.046-2.258.045-.553.132-.912.281-1.204a3 3 0 0 1 1.311-1.31c.292-.15.651-.237 1.204-.282C5.4 8.501 6.112 8.5 7.1 8.5h2.279z"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M12 12h.009c1.931 0 3.491 1.66 3.491 3.5A3.5 3.5 0 1 1 12 12m-2.5 3.5A2.5 2.5 0 0 1 12 13h.009c1.36 0 2.491 1.193 2.491 2.5a2.5 2.5 0 1 1-5 0",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M4.75 15.5a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0M18.5 14.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -29642,6 +38708,73 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M10.5 7.5V9a1.5 1.5 0 0 0 3 0V7.5h3.422c.962 0 1.713 0 2.317.05.615.05 1.12.154 1.577.386a4 4 0 0 1 1.748 1.748c.233.457.336.962.387 1.577.049.604.049 1.356.049 2.317v3.845c0 .96 0 1.713-.05 2.317-.05.614-.153 1.12-.386 1.576a4 4 0 0 1-1.748 1.748c-.457.233-.962.337-1.576.387-.604.05-1.356.05-2.317.05H7.077c-.962 0-1.713 0-2.318-.05-.614-.05-1.12-.154-1.576-.387a4 4 0 0 1-1.748-1.748c-.233-.456-.336-.962-.387-1.576C1 19.136 1 18.384 1 17.423v-3.845c0-.961 0-1.713.05-2.317.05-.615.153-1.12.386-1.577a4 4 0 0 1 1.748-1.748c.457-.232.962-.336 1.576-.386.605-.05 1.356-.05 2.318-.05zm1.5 11a3 3 0 0 0 3-3c0-1.574-1.354-3-3-3a3 3 0 0 0 0 6",
+            "clip-rule": "evenodd",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M10.5 7.5H7.078c-.962 0-1.713 0-2.318.05-.614.05-1.12.154-1.576.386a4 4 0 0 0-1.748 1.749c-.233.456-.336.961-.387 1.576C1 11.865 1 12.617 1 13.578v3.845c0 .961 0 1.713.05 2.317.05.615.153 1.12.386 1.577a4 4 0 0 0 1.748 1.747c.457.233.962.337 1.576.387.605.05 1.356.05 2.318.05h9.845c.96 0 1.713 0 2.317-.05.614-.05 1.12-.154 1.576-.387a4 4 0 0 0 1.748-1.747c.233-.457.336-.962.387-1.577.049-.604.049-1.356.049-2.317v-3.845c0-.961 0-1.713-.05-2.317-.05-.615-.153-1.12-.386-1.576a4 4 0 0 0-1.748-1.749c-.457-.232-.962-.336-1.576-.386-.604-.05-1.356-.05-2.317-.05H13.5v1h3.4c.988 0 1.7 0 2.258.047.553.045.912.132 1.204.28a3 3 0 0 1 1.311 1.312c.149.292.236.65.281 1.203.046.559.046 1.27.046 2.258v3.8c0 .989 0 1.7-.046 2.259-.045.552-.132.911-.281 1.204a3 3 0 0 1-1.311 1.31c-.292.15-.651.236-1.204.282-.559.045-1.27.046-2.258.046H7.1c-.988 0-1.7 0-2.258-.047-.553-.045-.912-.132-1.204-.28a3 3 0 0 1-1.311-1.311c-.149-.293-.236-.652-.281-1.204C2 19.1 2 18.389 2 17.4v-3.8c0-.989 0-1.7.046-2.259.045-.552.132-.911.281-1.203a3 3 0 0 1 1.311-1.312c.292-.148.651-.235 1.204-.28C5.4 8.5 6.112 8.5 7.1 8.5h3.4z"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M12 12h.009c1.931 0 3.491 1.66 3.491 3.5A3.5 3.5 0 1 1 12 12m-2.5 3.5A2.5 2.5 0 0 1 12 13h.009c1.36 0 2.491 1.193 2.491 2.5a2.5 2.5 0 0 1-5 0",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M4.75 15.5a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0M18.5 14.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M12 9.5a.5.5 0 0 1-.5-.5V2.207L9.354 4.354a.5.5 0 1 1-.708-.707l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.707L12.5 2.207V9a.5.5 0 0 1-.5.5"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -29798,6 +38931,60 @@ export default [
           attributes: {
             fill: "#000",
             d: "M12.75 8.312V8a.75.75 0 0 0-1.5 0v.317c-.422.08-.813.233-1.14.47-.537.388-.86.977-.86 1.678 0 .909.51 1.48 1.084 1.801.527.296 1.148.408 1.543.474.404.067.784.15 1.057.303.225.126.316.255.316.492a.53.53 0 0 1-.24.463c-.186.135-.517.252-1.01.252-.34 0-.54-.036-.723-.11-.202-.08-.436-.223-.824-.517a.75.75 0 1 0-.906 1.196c.412.312.778.558 1.176.716q.263.104.527.153V16a.75.75 0 1 0 1.5 0v-.317c.423-.08.813-.233 1.14-.47.537-.388.86-.977.86-1.678 0-.909-.509-1.48-1.084-1.801-.527-.296-1.147-.408-1.543-.474-.404-.067-.784-.15-1.057-.303-.225-.126-.316-.256-.316-.492a.53.53 0 0 1 .24-.463c.186-.135.517-.252 1.01-.252.34 0 .54.036.723.11.202.08.436.223.824.517a.75.75 0 1 0 .906-1.196c-.412-.312-.778-.558-1.176-.716-.177-.07-.35-.12-.527-.153"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M6.236 20c4.221 0 6.957-2.017 11.373-2.017 1.174 0 2.25.234 3.362.551.743.212 1.529-.206 1.529-.945V6.355c0-.923-.515-1.467-1.3-1.793C20.315 4.19 19.588 4 17.764 4 13.543 4 10.807 6.017 6.39 6.017c-1.174 0-2.25-.234-3.362-.551-.743-.212-1.529.206-1.529.945v11.234c0 .923.515 1.467 1.3 1.793.885.372 1.612.562 3.436.562",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M11.5 8.53V8a.5.5 0 0 1 1 0v.527c.236.028.459.081.684.17.366.145.71.374 1.118.683a.5.5 0 0 1-.604.797c-.392-.297-.648-.457-.882-.55-.223-.088-.456-.127-.816-.127-.529 0-.916.125-1.157.3a.78.78 0 0 0-.343.665c0 .349.16.552.444.71.315.177.735.265 1.138.332.397.066.977.173 1.462.445.517.289.956.786.956 1.583 0 .618-.282 1.132-.757 1.476-.342.248-.77.398-1.243.458V16a.5.5 0 0 1-1 0v-.527a2.7 2.7 0 0 1-.684-.17c-.366-.146-.71-.375-1.118-.683a.5.5 0 1 1 .604-.797c.392.297.648.457.882.55.223.088.456.127.816.127.529 0 .916-.125 1.157-.3a.78.78 0 0 0 .343-.665c0-.349-.16-.552-.444-.71-.315-.177-.735-.265-1.138-.332-.397-.066-.977-.173-1.462-.445-.517-.289-.956-.786-.956-1.583 0-.618.282-1.132.757-1.476.342-.248.77-.398 1.243-.458"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M17.764 3.5c-2.157 0-3.939.51-5.672 1.005l-.079.023c-1.764.504-3.492.989-5.622.989-1.106 0-2.13-.22-3.225-.532a1.85 1.85 0 0 0-1.434.166A1.44 1.44 0 0 0 1 6.41v11.234c0 .561.16 1.039.46 1.427.296.38.703.643 1.147.827.958.403 1.754.601 3.63.601 2.157 0 3.938-.51 5.67-1.005l.08-.023c1.765-.504 3.492-.989 5.622-.989 1.106 0 2.13.22 3.225.532.496.141 1.02.078 1.434-.166.422-.249.732-.692.732-1.26V6.355c0-.562-.16-1.039-.46-1.427-.296-.38-.703-.642-1.147-.827-.958-.403-1.754-.601-3.63-.601M6.39 6.517c2.286 0 4.134-.524 5.897-1.028l.038-.011c1.756-.502 3.421-.978 5.438-.978 1.772 0 2.431.181 3.242.523l.003.001c.34.141.582.314.74.517.153.197.251.453.251.814V17.59a.45.45 0 0 1-.24.398.85.85 0 0 1-.652.066c-1.13-.322-2.258-.57-3.499-.57-2.286 0-4.135.524-5.897 1.028l-.038.011c-1.756.502-3.421.978-5.438.978-1.772 0-2.431-.181-3.242-.523l-.003-.001c-.34-.141-.582-.314-.74-.517-.153-.197-.251-.453-.251-.814V6.41c0-.171.083-.306.24-.398a.85.85 0 0 1 .652-.066c1.13.322 2.258.57 3.499.57",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -29985,6 +39172,75 @@ export default [
           attributes: {
             fill: "#000",
             d: "M12 8.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7M17.5 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0M5.5 11a1 1 0 1 0 0 2 1 1 0 0 0 0-2"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M1.881 5.911C1.5 6.66 1.5 7.64 1.5 9.6v4.8c0 1.96 0 2.94.381 3.689a3.5 3.5 0 0 0 1.53 1.53C4.16 20 5.14 20 7.1 20h9.8c1.96 0 2.94 0 3.689-.381a3.5 3.5 0 0 0 1.53-1.53c.381-.749.381-1.729.381-3.689V9.6c0-1.96 0-2.94-.381-3.689a3.5 3.5 0 0 0-1.53-1.53C19.84 4 18.86 4 16.9 4H7.1c-1.96 0-2.94 0-3.689.381a3.5 3.5 0 0 0-1.53 1.53M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6",
+            "clip-rule": "evenodd",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M12 8.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7M9.5 12a2.5 2.5 0 1 1 5 0 2.5 2.5 0 0 1-5 0",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M17.75 12a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0M5.5 11.25a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M16.922 3.5H7.078c-.962 0-1.713 0-2.318.05-.614.05-1.12.153-1.576.386a4 4 0 0 0-1.748 1.748c-.233.457-.336.962-.387 1.576C1 7.865 1 8.616 1 9.578v4.844c0 .961 0 1.713.05 2.317.05.615.153 1.12.386 1.577a4 4 0 0 0 1.748 1.748c.457.233.962.336 1.576.387.605.049 1.356.049 2.318.049h9.845c.96 0 1.713 0 2.317-.05.614-.05 1.12-.153 1.576-.386a4 4 0 0 0 1.748-1.748c.233-.457.336-.962.387-1.576.049-.604.049-1.356.049-2.318V9.578c0-.961 0-1.713-.05-2.318-.05-.614-.153-1.12-.386-1.576a4 4 0 0 0-1.748-1.748c-.457-.233-.962-.336-1.576-.387-.604-.049-1.356-.049-2.318-.049M3.638 4.827c.292-.149.651-.236 1.204-.281C5.4 4.5 6.112 4.5 7.1 4.5h9.8c.988 0 1.7 0 2.258.046.553.045.912.132 1.204.281a3 3 0 0 1 1.311 1.311c.149.292.236.651.281 1.204C22 7.9 22 8.612 22 9.6v4.8c0 .988 0 1.7-.046 2.258-.045.553-.132.912-.281 1.204a3 3 0 0 1-1.311 1.311c-.292.149-.651.236-1.204.281-.559.046-1.27.046-2.258.046H7.1c-.988 0-1.7 0-2.258-.046-.553-.045-.912-.132-1.204-.281a3 3 0 0 1-1.311-1.311c-.149-.292-.236-.651-.281-1.204C2 16.1 2 15.388 2 14.4V9.6c0-.988 0-1.7.046-2.258.045-.553.132-.912.281-1.204a3 3 0 0 1 1.311-1.311",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -30221,6 +39477,86 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M1.327 8.888C1 9.53 1 10.37 1 12.05v3.9c0 1.68 0 2.52.327 3.162a3 3 0 0 0 1.311 1.311c.642.327 1.482.327 3.162.327h8.4c1.68 0 2.52 0 3.162-.327a3 3 0 0 0 1.31-1.311C19 18.47 19 17.63 19 15.95v-3.9c0-1.68 0-2.52-.327-3.162a3 3 0 0 0-1.311-1.311C16.72 7.25 15.88 7.25 14.2 7.25H5.8c-1.68 0-2.52 0-3.162.327a3 3 0 0 0-1.311 1.311M10 16.75a2.75 2.75 0 1 0 0-5.5 2.75 2.75 0 0 0 0 5.5",
+            "clip-rule": "evenodd",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M9.778 2.75h8.444c.821 0 1.468 0 1.989.043.531.043.975.133 1.378.338a3.5 3.5 0 0 1 1.53 1.53c.205.403.295.847.338 1.378.043.52.043 1.168.043 1.989v4.944c0 .822 0 1.469-.043 1.99-.043.53-.133.974-.339 1.377a3.5 3.5 0 0 1-1.37 1.444.5.5 0 0 1-.5-.867 2.5 2.5 0 0 0 .98-1.031c.12-.239.194-.536.233-1.005.038-.476.039-1.082.039-1.93v-4.9c0-.848 0-1.455-.04-1.93-.038-.469-.111-.766-.233-1.005a2.5 2.5 0 0 0-1.092-1.093c-.239-.121-.536-.194-1.006-.233-.475-.039-1.08-.039-1.93-.039H9.8c-.848 0-1.455 0-1.93.04-.469.038-.766.11-1.005.232a2.5 2.5 0 0 0-1.031.98.5.5 0 1 1-.867-.5 3.5 3.5 0 0 1 1.444-1.37c.403-.206.847-.296 1.378-.34.52-.042 1.168-.042 1.989-.042"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M10 10.75a3.25 3.25 0 1 0 0 6.5 3.25 3.25 0 0 0 0-6.5M7.75 14a2.25 2.25 0 1 1 4.5 0 2.25 2.25 0 0 1-4.5 0",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M15.25 14a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0M4 13.25a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M5.778 6.75h8.444c.821 0 1.468 0 1.989.043.531.043.975.133 1.378.338a3.5 3.5 0 0 1 1.53 1.53c.205.403.295.847.338 1.378.043.52.043 1.168.043 1.989v3.944c0 .822 0 1.469-.043 1.99-.043.53-.133.974-.339 1.377a3.5 3.5 0 0 1-1.53 1.53c-.402.205-.846.295-1.377.338-.52.043-1.168.043-1.989.043H5.778c-.821 0-1.468 0-1.99-.043-.53-.043-.974-.133-1.377-.338a3.5 3.5 0 0 1-1.53-1.53c-.205-.403-.295-.847-.338-1.378C.5 17.441.5 16.794.5 15.972v-3.944c0-.822 0-1.469.043-1.99.043-.53.133-.974.338-1.377a3.5 3.5 0 0 1 1.53-1.53c.403-.205.847-.295 1.378-.338.52-.043 1.168-.043 1.989-.043M3.87 7.79c-.469.038-.766.11-1.005.232a2.5 2.5 0 0 0-1.093 1.093c-.121.239-.194.536-.233 1.005-.039.476-.039 1.082-.039 1.93v3.9c0 .848 0 1.454.04 1.93.038.469.11.766.232 1.005a2.5 2.5 0 0 0 1.093 1.092c.239.122.536.195 1.005.234.476.039 1.082.039 1.93.039h8.4c.848 0 1.454 0 1.93-.04.469-.038.766-.11 1.005-.233a2.5 2.5 0 0 0 1.092-1.092c.122-.239.195-.536.234-1.005.039-.476.039-1.082.039-1.93v-3.9c0-.848 0-1.455-.04-1.93-.038-.469-.111-.766-.233-1.005a2.5 2.5 0 0 0-1.092-1.093c-.239-.121-.536-.194-1.006-.233-.475-.039-1.08-.039-1.93-.039H5.8c-.848 0-1.455 0-1.93.04",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -30342,6 +39678,49 @@ export default [
             fill: "#000",
             d: "M11.311 1.616a.7.7 0 0 0-.334-.113 1.3 1.3 0 0 0-.242.006c-.141.015-.324.047-.532.084l-.019.003C5.25 2.47 1.5 6.78 1.5 11.966 1.5 17.785 6.216 22.5 12.033 22.5c5.188 0 9.5-3.751 10.371-8.69l.004-.018c.036-.208.069-.39.083-.532.007-.073.013-.158.006-.242a.7.7 0 0 0-.113-.334.75.75 0 0 0-.672-.322.7.7 0 0 0-.342.13c-.07.049-.134.108-.19.164-.107.108-.241.26-.398.439l-.012.014a7.002 7.002 0 1 1-9.883-9.879l.014-.012c.178-.157.33-.29.439-.399a1.5 1.5 0 0 0 .164-.19.7.7 0 0 0 .13-.342.75.75 0 0 0-.323-.67",
             opacity: ".4"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M21.912 13.724c.079-.448.118-.671.06-.756a.25.25 0 0 0-.224-.107c-.102.007-.269.197-.602.577A7.502 7.502 0 1 1 10.557 2.855c.38-.333.57-.5.578-.603a.25.25 0 0 0-.108-.223c-.084-.058-.308-.019-.755.06C5.57 2.921 2 7.027 2 11.967 2 17.507 6.492 22 12.033 22c4.941 0 9.048-3.573 9.879-8.276",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M10.977 1.503a.7.7 0 0 1 .334.113c.22.152.341.404.322.671a.7.7 0 0 1-.13.343 1.5 1.5 0 0 1-.163.19c-.108.107-.26.241-.44.398l-.013.012a7.002 7.002 0 1 0 9.883 9.879l.012-.014c.157-.178.29-.331.399-.44.055-.055.12-.114.19-.163a.7.7 0 0 1 .341-.13c.267-.02.52.102.672.322a.7.7 0 0 1 .113.334c.007.084.001.17-.006.242a8 8 0 0 1-.083.532l-.004.019c-.872 4.938-5.183 8.689-10.371 8.689C6.216 22.5 1.5 17.784 1.5 11.967c0-5.187 3.749-9.497 8.684-10.371l.02-.003c.207-.037.39-.07.53-.084a1.3 1.3 0 0 1 .243-.006m-.93 1.138C5.735 3.554 2.5 7.383 2.5 11.967a9.533 9.533 0 0 0 9.533 9.533c4.585 0 8.415-3.238 9.326-7.552A8.002 8.002 0 1 1 10.047 2.641",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -30635,6 +40014,100 @@ export default [
               parent: null,
               attributes: {
                 d: "M16.5 11a1 1 0 1 1 0 2 1 1 0 0 1 0-2M12 11a1 1 0 1 1 0 2 1 1 0 0 1 0-2M8.5 12a1 1 0 1 0-2 0 1 1 0 0 0 2 0"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "defs",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {},
+          children: [
+            {
+              name: "clipPath",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                id: "a"
+              },
+              children: [
+                {
+                  name: "path",
+                  type: "element",
+                  value: "",
+                  parent: null,
+                  attributes: {
+                    fill: "#fff",
+                    d: "M0 0h24v24H0z"
+                  },
+                  children: []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "clip-path": "url(#a)"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M23 12c0 6.075-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1s11 4.925 11 11",
+                opacity: ".4"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M17.25 12a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0M12 11.25a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5M8.25 12a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                "fill-rule": "evenodd",
+                d: "M12 .5C5.649.5.5 5.649.5 12S5.649 23.5 12 23.5 23.5 18.351 23.5 12 18.351.5 12 .5M1.5 12C1.5 6.201 6.201 1.5 12 1.5S22.5 6.201 22.5 12 17.799 22.5 12 22.5 1.5 17.799 1.5 12",
+                "clip-rule": "evenodd"
               },
               children: []
             }
@@ -30999,6 +40472,100 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "clip-path": "url(#a)"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M23 12c0 6.075-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1s11 4.925 11 11",
+                opacity: ".4"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M12 6.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5M11.25 12a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0M12 15.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                "fill-rule": "evenodd",
+                d: "M12 .5C5.649.5.5 5.649.5 12S5.649 23.5 12 23.5 23.5 18.351 23.5 12 18.351.5 12 .5M1.5 12C1.5 6.201 6.201 1.5 12 1.5S22.5 6.201 22.5 12 17.799 22.5 12 22.5 1.5 17.799 1.5 12",
+                "clip-rule": "evenodd"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "defs",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {},
+          children: [
+            {
+              name: "clipPath",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                id: "a"
+              },
+              children: [
+                {
+                  name: "path",
+                  type: "element",
+                  value: "",
+                  parent: null,
+                  attributes: {
+                    fill: "#fff",
+                    d: "M0 0h24v24H0z"
+                  },
+                  children: []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
   },
@@ -31131,6 +40698,59 @@ export default [
           attributes: {
             fill: "#000",
             d: "M20.602 13.156c-1.45-1.208-3.754-1.208-5.203 0-.744.62-1.149 1.465-1.149 2.344s.405 1.724 1.149 2.344c1.45 1.208 3.753 1.208 5.203 0 .743-.62 1.148-1.466 1.148-2.344 0-.879-.405-1.724-1.148-2.344M8.601 17.156c-1.45-1.208-3.753-1.208-5.202 0-.744.62-1.149 1.466-1.149 2.344s.405 1.724 1.149 2.344c1.45 1.208 3.753 1.208 5.202 0 .744-.62 1.149-1.466 1.149-2.344s-.405-1.724-1.149-2.344"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            opacity: ".4"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M21 7V3.247c0-.834-.8-1.434-1.6-1.2L10.44 4.66A2 2 0 0 0 9 6.58v3.92zM20.121 13.732c1.172.977 1.172 2.56 0 3.536s-3.07.976-4.242 0c-1.172-.977-1.172-2.56 0-3.536s3.07-.976 4.242 0M8.121 17.732c1.172.977 1.172 2.56 0 3.536s-3.07.976-4.242 0c-1.172-.977-1.172-2.56 0-3.536s3.07-.976 4.242 0"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M19.26 1.567a1.75 1.75 0 0 1 2.24 1.68V15.5c0 .799-.367 1.576-1.059 2.152-1.357 1.131-3.525 1.131-4.882 0-.692-.576-1.059-1.353-1.059-2.152s.367-1.576 1.059-2.152c1.357-1.13 3.525-1.13 4.882 0l.059.05V7.667l-11 3.208V19.5c0 .8-.367 1.576-1.059 2.152-1.357 1.131-3.525 1.131-4.882 0C2.867 21.076 2.5 20.3 2.5 19.5s.367-1.576 1.059-2.152c1.357-1.13 3.525-1.13 4.882 0l.059.05V6.58a2.5 2.5 0 0 1 1.8-2.4zM9.5 9.833l11-3.208V3.247c0-.5-.48-.86-.96-.72L10.58 5.14A1.5 1.5 0 0 0 9.5 6.58zm-1.699 8.284c.48.4.699.902.699 1.382v.001c0 .48-.218.984-.699 1.384-.986.822-2.616.822-3.602 0-.48-.4-.699-.903-.699-1.384s.218-.983.699-1.383c.986-.822 2.616-.822 3.602 0m8.398-4c.986-.822 2.616-.822 3.602 0 .48.4.699.903.699 1.383s-.218.984-.699 1.384c-.986.822-2.616.822-3.602 0-.48-.4-.699-.903-.699-1.384s.218-.983.699-1.383",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -31314,6 +40934,64 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M22 8.4v7.2c0 2.24 0 3.36-.436 4.216a4 4 0 0 1-1.748 1.748C18.96 22 17.84 22 15.6 22H8.4c-2.24 0-3.36 0-4.216-.436a4 4 0 0 1-1.748-1.748C2 18.96 2 17.84 2 15.6V8.4c0-2.24 0-3.36.436-4.216a4 4 0 0 1 1.748-1.748C5.04 2 6.16 2 8.4 2h7.2c2.24 0 3.36 0 4.216.436a4 4 0 0 1 1.748 1.748C22 5.04 22 6.16 22 8.4M13.25 7H9.583A.583.583 0 0 0 9 7.583V12.5h4.25a2.75 2.75 0 1 0 0-5.5",
+            "clip-rule": "evenodd",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M9.583 6.5c-.598 0-1.083.485-1.083 1.083V17a.5.5 0 0 0 1 0v-4h3.75a3.25 3.25 0 0 0 0-6.5zM13.25 12H9.5V7.583c0-.046.037-.083.083-.083h3.667a2.25 2.25 0 0 1 0 4.5",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M15.623 1.5H8.377c-1.1 0-1.958 0-2.645.056-.698.057-1.265.175-1.775.434A4.5 4.5 0 0 0 1.99 3.957c-.26.51-.377 1.077-.434 1.775C1.5 6.42 1.5 7.276 1.5 8.377v7.246c0 1.1 0 1.958.056 2.645.057.698.175 1.265.434 1.775a4.5 4.5 0 0 0 1.967 1.967c.51.26 1.077.377 1.775.434.688.056 1.544.056 2.645.056h7.246c1.1 0 1.958 0 2.645-.056.698-.057 1.265-.175 1.775-.434a4.5 4.5 0 0 0 1.967-1.967c.26-.51.377-1.077.434-1.775.056-.687.056-1.544.056-2.645V8.377c0-1.1 0-1.958-.056-2.645-.057-.698-.175-1.265-.434-1.775a4.5 4.5 0 0 0-1.967-1.967c-.51-.26-1.077-.377-1.775-.434-.687-.056-1.544-.056-2.645-.056M4.41 2.881c.346-.176.766-.276 1.403-.328C6.455 2.5 7.272 2.5 8.4 2.5h7.2c1.128 0 1.945 0 2.586.053.637.052 1.057.152 1.403.328a3.5 3.5 0 0 1 1.53 1.53c.176.346.276.766.328 1.403.053.641.053 1.458.053 2.586v7.2c0 1.128 0 1.945-.053 2.586-.052.637-.152 1.057-.328 1.403a3.5 3.5 0 0 1-1.53 1.53c-.346.176-.766.276-1.402.328-.642.053-1.459.053-2.587.053H8.4c-1.128 0-1.945 0-2.586-.053-.637-.052-1.057-.152-1.403-.328a3.5 3.5 0 0 1-1.53-1.53c-.176-.346-.276-.766-.328-1.402C2.5 17.545 2.5 16.728 2.5 15.6V8.4c0-1.128 0-1.945.053-2.586.052-.637.152-1.057.328-1.403a3.5 3.5 0 0 1 1.53-1.53",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -31451,6 +41129,59 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            opacity: ".4"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M4.163 2.819C4 3.139 4 3.559 4 4.4v15.2c0 .84 0 1.26.163 1.581a1.5 1.5 0 0 0 .656.656c.32.163.74.163 1.581.163h1.2c.84 0 1.26 0 1.581-.163a1.5 1.5 0 0 0 .656-.656c.163-.32.163-.74.163-1.581V4.4c0-.84 0-1.26-.163-1.581a1.5 1.5 0 0 0-.656-.656C8.861 2 8.441 2 7.6 2H6.4c-.84 0-1.26 0-1.581.163a1.5 1.5 0 0 0-.656.656M14.164 2.819C14 3.139 14 3.559 14 4.4v15.2c0 .84 0 1.26.164 1.581a1.5 1.5 0 0 0 .655.656c.32.163.74.163 1.581.163h1.2c.84 0 1.26 0 1.581-.163a1.5 1.5 0 0 0 .656-.656c.163-.32.163-.74.163-1.581V4.4c0-.84 0-1.26-.163-1.581a1.5 1.5 0 0 0-.656-.656C18.861 2 18.441 2 17.6 2h-1.2c-.84 0-1.26 0-1.581.163a1.5 1.5 0 0 0-.655.656"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M17.62 1.5h-1.24c-.403 0-.735 0-1.006.022-.281.023-.54.072-.782.196a2 2 0 0 0-.874.874c-.124.243-.173.501-.196.782-.022.27-.022.603-.022 1.005v15.242c0 .402 0 .734.022 1.005.023.281.072.54.196.782a2 2 0 0 0 .874.874c.243.124.501.173.782.196.27.022.603.022 1.005.022h1.242c.402 0 .734 0 1.005-.022.281-.023.54-.072.782-.196a2 2 0 0 0 .874-.874c.124-.243.173-.501.196-.782.022-.27.022-.603.022-1.005V4.379c0-.402 0-.734-.022-1.005-.023-.281-.072-.54-.196-.782a2 2 0 0 0-.874-.874c-.243-.124-.501-.173-.782-.196A13 13 0 0 0 17.62 1.5m-2.574 1.109c.078-.04.19-.072.41-.09.225-.019.516-.019.944-.019h1.2c.428 0 .72 0 .944.019.22.018.332.05.41.09a1 1 0 0 1 .437.437c.04.078.072.19.09.41.019.225.019.516.019.944v15.2c0 .428 0 .72-.019.944-.018.22-.05.332-.09.41a1 1 0 0 1-.437.437c-.078.04-.19.072-.41.09-.225.019-.516.019-.944.019h-1.2c-.428 0-.72 0-.944-.019-.22-.018-.332-.05-.41-.09a1 1 0 0 1-.437-.437c-.04-.078-.072-.19-.09-.41a13 13 0 0 1-.019-.944V4.4c0-.428 0-.72.019-.944.018-.22.05-.332.09-.41a1 1 0 0 1 .437-.437M7.62 1.5H6.38c-.403 0-.735 0-1.006.022-.281.023-.54.072-.782.196a2 2 0 0 0-.874.874c-.124.243-.173.501-.196.782-.022.27-.022.603-.022 1.005v15.242c0 .402 0 .734.022 1.005.023.281.072.54.196.782a2 2 0 0 0 .874.874c.243.124.501.173.782.196.27.022.603.022 1.005.022h1.242c.402 0 .734 0 1.005-.022.281-.023.54-.072.782-.196a2 2 0 0 0 .874-.874c.124-.243.173-.501.196-.782.022-.27.022-.603.022-1.005V4.379c0-.402 0-.734-.022-1.005-.023-.281-.072-.54-.196-.782a2 2 0 0 0-.874-.874c-.243-.124-.501-.173-.782-.196C8.356 1.5 8.023 1.5 7.62 1.5M5.047 2.609c.078-.04.19-.072.41-.09.225-.019.516-.019.944-.019h1.2c.428 0 .72 0 .944.019.22.018.332.05.41.09a1 1 0 0 1 .437.437c.04.078.072.19.09.41.019.225.019.516.019.944v15.2c0 .428 0 .72-.019.944-.018.22-.05.332-.09.41a1 1 0 0 1-.437.437c-.078.04-.19.072-.41.09-.225.019-.516.019-.944.019H6.4c-.428 0-.72 0-.944-.019-.22-.018-.332-.05-.41-.09a1 1 0 0 1-.437-.437c-.04-.078-.072-.19-.09-.41A13 13 0 0 1 4.5 19.6V4.4c0-.428 0-.72.019-.944.018-.22.05-.332.09-.41a1 1 0 0 1 .437-.437",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -31583,6 +41314,49 @@ export default [
           attributes: {
             fill: "#000",
             d: "m12.97 4.97 2.09-2.09c.377-.377.692-.693.97-.929.29-.247.59-.451.95-.568a2.75 2.75 0 0 1 1.7 0c.36.117.66.322.95.568.279.237.594.552.972.93l.517.517c.378.378.693.693.93.972.247.29.451.59.568.95a2.75 2.75 0 0 1 0 1.7c-.117.36-.322.66-.568.95-.237.278-.552.594-.93.971l-2.089 2.09z"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "m13.5 5.5-9.87 9.87c-.19.189-.283.283-.359.392q-.101.144-.166.31c-.048.122-.075.255-.128.519l-.88 4.37c-.079.394-.119.59-.06.731a.5.5 0 0 0 .27.271c.141.059.338.019.733-.06l4.37-.88c.263-.053.396-.08.519-.128q.164-.065.31-.166c.108-.076.203-.171.394-.362L18.5 10.5z",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "m13.14 5.153-9.89 9.89c-.164.163-.287.287-.389.433q-.135.192-.221.412c-.065.165-.1.339-.146.568l-.89 4.425c-.037.18-.07.348-.086.487-.015.145-.02.33.056.515a1 1 0 0 0 .543.543c.186.076.37.071.515.056.14-.015.306-.05.487-.085l4.425-.891c.23-.046.403-.081.568-.146q.219-.086.412-.221c.146-.102.27-.227.436-.392L20.936 8.771c.383-.383.692-.692.922-.963.237-.279.419-.55.521-.866a2.5 2.5 0 0 0 0-1.545c-.102-.316-.284-.587-.52-.865-.23-.271-.54-.58-.923-.963l-.505-.505a18 18 0 0 0-.963-.922c-.278-.237-.55-.419-.865-.521a2.5 2.5 0 0 0-1.545 0c-.317.102-.587.284-.866.52-.27.23-.58.54-.962.922L13.153 5.14l-.007.006zm4.227-2.581a1.5 1.5 0 0 1 .927 0c.14.045.296.136.527.332.236.2.516.48.918.882l.475.475c.402.402.681.682.882.918.196.231.287.387.332.527a1.5 1.5 0 0 1 0 .927c-.045.14-.136.296-.332.528-.2.236-.48.516-.882.918L18.5 9.793 14.207 5.5l1.715-1.715c.401-.401.681-.68.917-.881.232-.196.387-.287.528-.332M13.5 6.207l4.293 4.293-9.514 9.514c-.203.202-.263.26-.327.305a1 1 0 0 1-.206.11c-.073.03-.154.047-.435.104l-4.37.88a6 6 0 0 1-.416.075H2.51l.002-.013c.01-.088.033-.21.075-.416l.88-4.37c.056-.28.074-.362.102-.435q.044-.11.111-.206c.045-.064.102-.124.302-.324z",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -31914,6 +41688,100 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "clip-path": "url(#a)"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M23 12c0 6.075-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1s11 4.925 11 11",
+                opacity: ".4"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M15.354 9.354a.5.5 0 0 0-.708-.708l-6 6a.5.5 0 0 0 .708.708zM8.75 9.5a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0M14.5 13.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                "fill-rule": "evenodd",
+                d: "M12 .5C5.649.5.5 5.649.5 12S5.649 23.5 12 23.5 23.5 18.351 23.5 12 18.351.5 12 .5M1.5 12C1.5 6.201 6.201 1.5 12 1.5S22.5 6.201 22.5 12 17.799 22.5 12 22.5 1.5 17.799 1.5 12",
+                "clip-rule": "evenodd"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "defs",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {},
+          children: [
+            {
+              name: "clipPath",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                id: "a"
+              },
+              children: [
+                {
+                  name: "path",
+                  type: "element",
+                  value: "",
+                  parent: null,
+                  attributes: {
+                    fill: "#fff",
+                    d: "M0 0h24v24H0z"
+                  },
+                  children: []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
   },
@@ -32070,6 +41938,60 @@ export default [
           attributes: {
             fill: "#000",
             d: "M15.53 8.47a.75.75 0 0 1 0 1.06l-6 6a.75.75 0 0 1-1.06-1.06l6-6a.75.75 0 0 1 1.06 0M8.5 9.5a1 1 0 1 1 2 0 1 1 0 0 1-2 0M14.5 13.5a1 1 0 1 0 0 2 1 1 0 0 0 0-2"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M22 15.6V8.4c0-2.24 0-3.36-.436-4.216a4 4 0 0 0-1.748-1.748C18.96 2 17.84 2 15.6 2H8.4c-2.24 0-3.36 0-4.216.436a4 4 0 0 0-1.748 1.748C2 5.04 2 6.16 2 8.4v7.2c0 2.24 0 3.36.436 4.216a4 4 0 0 0 1.748 1.748C5.04 22 6.16 22 8.4 22h7.2c2.24 0 3.36 0 4.216-.436a4 4 0 0 0 1.748-1.748C22 18.96 22 17.84 22 15.6",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M15.354 9.354a.5.5 0 0 0-.708-.708l-6 6a.5.5 0 0 0 .708.708zM8.75 9.5a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0M14.5 13.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M15.623 1.5H8.377c-1.1 0-1.958 0-2.645.056-.698.057-1.265.175-1.775.434A4.5 4.5 0 0 0 1.99 3.957c-.26.51-.377 1.077-.434 1.775C1.5 6.42 1.5 7.276 1.5 8.377v7.246c0 1.1 0 1.958.056 2.645.057.698.175 1.265.434 1.775a4.5 4.5 0 0 0 1.967 1.967c.51.26 1.077.377 1.775.434.687.056 1.544.056 2.645.056h7.246c1.1 0 1.958 0 2.645-.056.698-.057 1.265-.175 1.775-.434a4.5 4.5 0 0 0 1.967-1.967c.26-.51.377-1.077.434-1.775.056-.687.056-1.544.056-2.645V8.377c0-1.1 0-1.958-.056-2.645-.057-.698-.175-1.265-.434-1.775a4.5 4.5 0 0 0-1.967-1.967c-.51-.26-1.077-.377-1.775-.434-.687-.056-1.544-.056-2.645-.056M4.41 2.881c.346-.176.766-.276 1.403-.328C6.455 2.5 7.272 2.5 8.4 2.5h7.2c1.128 0 1.945 0 2.586.053.637.052 1.057.152 1.403.328a3.5 3.5 0 0 1 1.53 1.53c.176.346.276.766.328 1.403.053.641.053 1.458.053 2.586v7.2c0 1.128 0 1.945-.053 2.586-.052.637-.152 1.057-.328 1.403a3.5 3.5 0 0 1-1.53 1.53c-.346.176-.766.276-1.402.328-.642.053-1.459.053-2.587.053H8.4c-1.128 0-1.945 0-2.586-.053-.637-.052-1.057-.152-1.403-.328a3.5 3.5 0 0 1-1.53-1.53c-.176-.346-.276-.766-.328-1.402C2.5 17.545 2.5 16.728 2.5 15.6V8.4c0-1.128 0-1.945.053-2.586.052-.637.152-1.057.328-1.403a3.5 3.5 0 0 1 1.53-1.53",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -32244,6 +42166,70 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            opacity: ".4"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M8.895 12.605c-.486-.67-.928-1.426-1.367-2.31l2.046-2.13c.167-.173.25-.26.286-.36a.5.5 0 0 0 .018-.278c-.024-.104-.095-.2-.24-.394L6.314 2.67c-.18-.241-.27-.361-.366-.44a1 1 0 0 0-1.084-.115c-.111.056-.224.155-.45.353l-.65.568-.112.099a5 5 0 0 0-1.496 4.963l.047.174.012.043a16 16 0 0 0 2.115 4.648l.031.046q.823 1.231 1.785 2.347zM7.349 16.651l2.7-2.7c.954.94 2.11 1.719 3.656 2.522l1.985-2.133c.173-.186.26-.28.364-.32a.5.5 0 0 1 .287-.026c.11.022.211.099.415.252l4.582 3.44c.24.18.36.27.438.368a1 1 0 0 1 .113 1.08c-.056.111-.155.224-.353.45l-.57.652-.1.113a5 5 0 0 1-5.137 1.45l-.043-.013a16 16 0 0 1-4.648-2.115l-.046-.031a24 24 0 0 1-3.643-2.989"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M21.646 1.647a.5.5 0 1 1 .707.707L10.768 13.94c.765.681 1.675 1.289 2.833 1.912l1.734-1.863c.078-.084.155-.166.225-.232.079-.072.178-.15.308-.202a1 1 0 0 1 .576-.05c.137.028.248.087.338.144.082.052.172.12.263.188l4.638 3.482c.196.147.365.273.484.42a1.5 1.5 0 0 1 .169 1.622c-.086.168-.225.327-.387.512l-.61.696-.1.114a5.5 5.5 0 0 1-5.46 1.646l-.175-.047-.049-.013a16.5 16.5 0 0 1-4.793-2.182l-.047-.031a24.5 24.5 0 0 1-3.362-2.701l-4.999 4.999a.5.5 0 1 1-.707-.707zm-13.586 15c.99.95 2.063 1.812 3.21 2.577l.045.03a15.5 15.5 0 0 0 4.503 2.05l.043.012.167.045a4.5 4.5 0 0 0 4.467-1.347l.094-.107.57-.652c.219-.25.263-.306.284-.348a.5.5 0 0 0-.056-.54c-.03-.036-.084-.082-.35-.282l-4.581-3.44a4 4 0 0 0-.211-.152l-.005-.003-.004.004a4 4 0 0 0-.18.187l-1.985 2.132a.5.5 0 0 1-.596.103c-1.388-.72-2.488-1.433-3.416-2.268z",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M8.134 10.386c.363.703.728 1.314 1.12 1.86l-.717.717c-.524-.713-.995-1.515-1.457-2.445a.5.5 0 0 1 .087-.57L9.213 7.82c.09-.092.136-.142.168-.18l.003-.004-.003-.004a4 4 0 0 0-.143-.199L5.912 2.967c-.198-.265-.244-.32-.28-.35a.5.5 0 0 0-.543-.057c-.04.02-.098.065-.347.283l-.649.568-.107.094A4.5 4.5 0 0 0 2.684 8.14l.012.042c.438 1.601 1.13 3.122 2.05 4.503l.03.046Q5.571 13.92 6.499 15l-.709.709a25 25 0 0 1-1.846-2.424l-.03-.047a16.5 16.5 0 0 1-2.182-4.793l-.014-.05-.047-.174a5.5 5.5 0 0 1 1.646-5.46l.114-.1.693-.607c.185-.162.343-.301.512-.387a1.5 1.5 0 0 1 1.626.173c.147.12.273.288.419.485l3.367 4.52c.065.087.129.172.178.25.054.086.11.192.14.323a1 1 0 0 1-.035.554 1 1 0 0 1-.18.303c-.058.07-.132.148-.207.226z"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -32369,6 +42355,49 @@ export default [
             d: "M6.104 2.035a1.25 1.25 0 0 0-1.355-.144c-.14.071-.274.19-.473.363l-.679.594-.113.1A5.25 5.25 0 0 0 1.96 8.334l.013.046A16.3 16.3 0 0 0 4.12 13.1l.031.047a24.3 24.3 0 0 0 6.701 6.701l.046.031a16.3 16.3 0 0 0 4.721 2.148l.046.013.175.047a5.25 5.25 0 0 0 5.211-1.57l.1-.114.597-.682c.174-.199.292-.334.363-.474a1.25 1.25 0 0 0-.14-1.35c-.1-.122-.243-.23-.454-.389l-4.612-3.463-.006-.004H16.9c-.096-.072-.179-.135-.252-.181a.8.8 0 0 0-.255-.111.75.75 0 0 0-.432.038.8.8 0 0 0-.231.154q-.095.09-.216.222l-1.86 2c-1.477-.78-2.575-1.536-3.481-2.442s-1.629-1.97-2.342-3.38l1.93-2.009q.12-.121.199-.215a.8.8 0 0 0 .137-.228.75.75 0 0 0 .026-.416.8.8 0 0 0-.107-.243q-.068-.104-.17-.24L6.49 2.49c-.158-.212-.265-.356-.387-.455",
             "clip-rule": "evenodd",
             opacity: ".4"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M9.639 7.133 6.313 2.67c-.18-.241-.27-.361-.366-.44a1 1 0 0 0-1.084-.115c-.111.056-.224.155-.45.353l-.65.568-.112.099a5 5 0 0 0-1.496 4.963l.047.174.012.043a16 16 0 0 0 2.115 4.648l.031.046a24 24 0 0 0 6.632 6.632l.046.03a16 16 0 0 0 4.648 2.116l.043.012.174.047a5 5 0 0 0 5.062-1.609l.57-.651c.199-.227.297-.34.354-.451a1 1 0 0 0-.113-1.08c-.078-.098-.198-.188-.438-.368l-4.582-3.44c-.204-.153-.305-.23-.415-.252a.5.5 0 0 0-.288.025c-.103.042-.19.135-.363.321l-1.985 2.133c-3.15-1.637-4.684-3.171-6.177-6.178l2.046-2.13c.167-.173.25-.26.286-.36a.5.5 0 0 0 .018-.278c-.024-.104-.095-.2-.24-.394",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M4.636 1.668a1.5 1.5 0 0 1 1.626.173c.147.12.273.288.419.485q.016.023.033.044l3.334 4.476c.065.087.129.172.178.25.054.086.11.192.14.323a1 1 0 0 1-.035.554 1 1 0 0 1-.18.303c-.058.07-.132.148-.207.226l-1.81 1.884c.678 1.314 1.366 2.31 2.215 3.158s1.874 1.567 3.251 2.308l1.734-1.863c.078-.084.155-.166.225-.232.079-.072.178-.15.308-.202a1 1 0 0 1 .576-.05c.137.028.248.087.338.144.082.052.172.12.263.188l4.594 3.449q.023.016.044.033c.196.147.365.273.484.42a1.5 1.5 0 0 1 .169 1.622c-.086.168-.225.327-.387.512l-.036.04-.57.653-.104.117a5.5 5.5 0 0 1-5.46 1.646l-.175-.047-.049-.013a16.5 16.5 0 0 1-4.793-2.182l-.047-.031a24.5 24.5 0 0 1-6.77-6.77l-.03-.047a16.5 16.5 0 0 1-2.182-4.793l-.014-.05-.047-.174a5.5 5.5 0 0 1 1.646-5.46l.114-.1.652-.571.041-.036c.185-.162.343-.301.512-.387m.996.95a.5.5 0 0 0-.543-.058c-.04.02-.098.065-.347.283l-.649.568-.107.094A4.5 4.5 0 0 0 2.684 8.14l.012.042c.438 1.601 1.13 3.122 2.05 4.503l.03.046a23.5 23.5 0 0 0 6.493 6.493l.046.03a15.5 15.5 0 0 0 4.503 2.05l.043.012.167.045a4.5 4.5 0 0 0 4.467-1.347l.094-.107.57-.652c.219-.25.263-.306.284-.348a.5.5 0 0 0-.056-.54c-.03-.036-.084-.082-.35-.282l-4.581-3.44a4 4 0 0 0-.211-.152l-.005-.003-.004.004a4 4 0 0 0-.18.187l-1.985 2.132a.5.5 0 0 1-.596.103c-1.602-.832-2.821-1.652-3.834-2.665s-1.799-2.198-2.561-3.733a.5.5 0 0 1 .087-.57L9.213 7.82c.09-.092.136-.142.168-.18l.003-.004-.003-.004a4 4 0 0 0-.143-.199L5.912 2.967c-.198-.265-.244-.32-.28-.35",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -32700,6 +42729,100 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            "clip-path": "url(#a)",
+            "clip-rule": "evenodd"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M12 23c6.075 0 11-4.925 11-11S18.075 1 12 1 1 5.925 1 12s4.925 11 11 11m-.996-14.835 4.802 2.798a1.2 1.2 0 0 1 0 2.074l-4.802 2.798A1.2 1.2 0 0 1 9.2 14.798V9.202a1.2 1.2 0 0 1 1.804-1.037",
+                opacity: ".4"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M11.256 7.733C10.123 7.073 8.7 7.89 8.7 9.202v5.596c0 1.312 1.423 2.13 2.556 1.469l4.801-2.798a1.7 1.7 0 0 0 0-2.938zM9.7 9.202a.7.7 0 0 1 1.053-.605l4.8 2.798a.7.7 0 0 1 0 1.21l-4.8 2.798a.7.7 0 0 1-1.053-.605z"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M12 .5C5.649.5.5 5.649.5 12S5.649 23.5 12 23.5 23.5 18.351 23.5 12 18.351.5 12 .5M1.5 12C1.5 6.201 6.201 1.5 12 1.5S22.5 6.201 22.5 12 17.799 22.5 12 22.5 1.5 17.799 1.5 12"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "defs",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {},
+          children: [
+            {
+              name: "clipPath",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                id: "a"
+              },
+              children: [
+                {
+                  name: "path",
+                  type: "element",
+                  value: "",
+                  parent: null,
+                  attributes: {
+                    fill: "#fff",
+                    d: "M0 0h24v24H0z"
+                  },
+                  children: []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
   },
@@ -32821,6 +42944,49 @@ export default [
             fill: "#000",
             d: "M8.504 1.726C6.171.374 3.25 2.058 3.25 4.754v14.488c0 2.696 2.921 4.38 5.254 3.028l12.504-7.243c2.328-1.349 2.328-4.71 0-6.057z",
             opacity: ".4"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M20.633 14.377c1.828-1.059 1.828-3.7 0-4.759L8.129 2.375C6.295 1.313 4 2.635 4 4.755v14.487c0 2.118 2.295 3.441 4.129 2.38z",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M3.5 4.754C3.5 2.25 6.212.687 8.38 1.942l12.503 7.244c2.161 1.252 2.161 4.372 0 5.624L8.38 22.054C6.212 23.309 3.5 21.746 3.5 19.242zm4.378-1.947c-1.5-.869-3.378.214-3.378 1.947v14.488c0 1.733 1.878 2.816 3.378 1.947l12.504-7.244c1.496-.867 1.496-3.027 0-3.894z",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -33152,6 +43318,100 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "clip-path": "url(#a)"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M23 12c0 6.075-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1s11 4.925 11 11",
+                opacity: ".4"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M12 16.5a.5.5 0 0 1-.5-.5v-3.5H8a.5.5 0 0 1 0-1h3.5V8a.5.5 0 0 1 1 0v3.5H16a.5.5 0 0 1 0 1h-3.5V16a.5.5 0 0 1-.5.5"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                "fill-rule": "evenodd",
+                d: "M.5 12C.5 5.649 5.649.5 12 .5S23.5 5.649 23.5 12 18.351 23.5 12 23.5.5 18.351.5 12M12 1.5C6.201 1.5 1.5 6.201 1.5 12S6.201 22.5 12 22.5 22.5 17.799 22.5 12 17.799 1.5 12 1.5",
+                "clip-rule": "evenodd"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "defs",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {},
+          children: [
+            {
+              name: "clipPath",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                id: "a"
+              },
+              children: [
+                {
+                  name: "path",
+                  type: "element",
+                  value: "",
+                  parent: null,
+                  attributes: {
+                    fill: "#fff",
+                    d: "M0 0h24v24H0z"
+                  },
+                  children: []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
   },
@@ -33280,6 +43540,47 @@ export default [
           attributes: {
             fill: "#000",
             d: "M21 12a1 1 0 0 1-1 1H4a1 1 0 1 1 0-2h16a1 1 0 0 1 1 1"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M12 20.5a.5.5 0 0 1-.5-.5V4a.5.5 0 0 1 1 0v16a.5.5 0 0 1-.5.5",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M20.5 12a.5.5 0 0 1-.5.5H4a.5.5 0 0 1 0-1h16a.5.5 0 0 1 .5.5"
           },
           children: []
         }
@@ -33479,6 +43780,81 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            opacity: ".4"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M20 6a2 2 0 1 0 0-4 2 2 0 0 0 0 4M16 4a4 4 0 0 0 4.993 3.876C21 8.319 21 8.822 21 9.4v6.2c0 2.24 0 3.36-.436 4.216a4 4 0 0 1-1.748 1.748C17.96 22 16.84 22 14.6 22H8.4c-2.24 0-3.36 0-4.216-.436a4 4 0 0 1-1.748-1.748C2 18.96 2 17.84 2 15.6V9.4c0-2.24 0-3.36.436-4.216a4 4 0 0 1 1.748-1.748C5.04 3 6.16 3 8.4 3h6.2c.578 0 1.08 0 1.524.007-.08.318-.124.65-.124.993"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M17.5 4a2.5 2.5 0 1 1 5 0 2.5 2.5 0 0 1-5 0M20 2.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M20.494 7.97c.006.414.006.886.006 1.43v6.2c0 1.128 0 1.945-.053 2.586-.052.637-.152 1.057-.328 1.403a3.5 3.5 0 0 1-1.53 1.53c-.346.176-.766.276-1.402.328-.642.053-1.459.053-2.587.053H8.4c-1.128 0-1.945 0-2.586-.053-.637-.052-1.057-.152-1.403-.328a3.5 3.5 0 0 1-1.53-1.53c-.176-.346-.276-.766-.328-1.402C2.5 17.545 2.5 16.728 2.5 15.6V9.4c0-1.128 0-1.945.053-2.586.052-.637.152-1.057.328-1.403a3.5 3.5 0 0 1 1.53-1.53c.346-.176.766-.276 1.403-.328C6.455 3.5 7.272 3.5 8.4 3.5h6.2c.544 0 1.016 0 1.43.006q.066-.523.256-.995c-.484-.011-1.033-.011-1.663-.011H8.377c-1.1 0-1.958 0-2.645.056-.698.057-1.265.175-1.775.434A4.5 4.5 0 0 0 1.99 4.957c-.26.51-.377 1.077-.434 1.775C1.5 7.42 1.5 8.276 1.5 9.377v6.246c0 1.1 0 1.958.056 2.645.057.698.175 1.265.434 1.775a4.5 4.5 0 0 0 1.967 1.967c.51.26 1.077.377 1.775.434.687.056 1.544.056 2.645.056h6.246c1.1 0 1.958 0 2.645-.056.698-.057 1.265-.175 1.775-.434a4.5 4.5 0 0 0 1.967-1.967c.26-.51.377-1.077.434-1.775.056-.687.056-1.544.056-2.645V9.377c0-.63 0-1.18-.01-1.664a4 4 0 0 1-.996.257"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M11 16.5a.5.5 0 0 0 1 0v-8a.5.5 0 0 0-1 0zM8 17a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 1 0v3a.5.5 0 0 1-.5.5M14.5 16.5a.5.5 0 0 0 1 0v-6a.5.5 0 0 0-1 0z"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -33635,6 +44011,60 @@ export default [
           attributes: {
             fill: "#000",
             d: "M15.25 16a.75.75 0 0 0 1.5 0v-6a.75.75 0 0 0-1.5 0zM12 16.75a.75.75 0 0 1-.75-.75V8a.75.75 0 0 1 1.5 0v8a.75.75 0 0 1-.75.75M8 16.75a.75.75 0 0 1-.75-.75v-3a.75.75 0 0 1 1.5 0v3a.75.75 0 0 1-.75.75"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M22 15.6V8.4c0-2.24 0-3.36-.436-4.216a4 4 0 0 0-1.748-1.748C18.96 2 17.84 2 15.6 2H8.4c-2.24 0-3.36 0-4.216.436a4 4 0 0 0-1.748 1.748C2 5.04 2 6.16 2 8.4v7.2c0 2.24 0 3.36.436 4.216a4 4 0 0 0 1.748 1.748C5.04 22 6.16 22 8.4 22h7.2c2.24 0 3.36 0 4.216-.436a4 4 0 0 0 1.748-1.748C22 18.96 22 17.84 22 15.6",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M11.5 16a.5.5 0 0 0 1 0V8a.5.5 0 0 0-1 0zM8 16.5a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 1 0v3a.5.5 0 0 1-.5.5M15.5 16a.5.5 0 0 0 1 0v-6a.5.5 0 0 0-1 0z"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M15.623 1.5H8.377c-1.1 0-1.958 0-2.645.056-.698.057-1.265.175-1.775.434A4.5 4.5 0 0 0 1.99 3.957c-.26.51-.377 1.077-.434 1.775C1.5 6.42 1.5 7.276 1.5 8.377v7.246c0 1.1 0 1.958.056 2.645.057.698.175 1.265.434 1.775a4.5 4.5 0 0 0 1.967 1.967c.51.26 1.077.377 1.775.434.688.056 1.544.056 2.645.056h7.246c1.1 0 1.958 0 2.645-.056.698-.057 1.265-.175 1.775-.434a4.5 4.5 0 0 0 1.967-1.967c.26-.51.377-1.077.434-1.775.056-.687.056-1.544.056-2.645V8.377c0-1.1 0-1.958-.056-2.645-.057-.698-.175-1.265-.434-1.775a4.5 4.5 0 0 0-1.967-1.967c-.51-.26-1.077-.377-1.775-.434-.687-.056-1.544-.056-2.645-.056M4.41 2.881c.346-.176.766-.276 1.403-.328C6.455 2.5 7.272 2.5 8.4 2.5h7.2c1.128 0 1.945 0 2.586.053.637.052 1.057.152 1.403.328a3.5 3.5 0 0 1 1.53 1.53c.176.346.276.766.328 1.403.053.641.053 1.458.053 2.586v7.2c0 1.128 0 1.945-.053 2.586-.052.637-.152 1.057-.328 1.403a3.5 3.5 0 0 1-1.53 1.53c-.346.176-.766.276-1.402.328-.642.053-1.459.053-2.587.053H8.4c-1.128 0-1.945 0-2.586-.053-.637-.052-1.057-.152-1.403-.328a3.5 3.5 0 0 1-1.53-1.53c-.176-.346-.276-.766-.328-1.402C2.5 17.545 2.5 16.728 2.5 15.6V8.4c0-1.128 0-1.945.053-2.586.052-.637.152-1.057.328-1.403a3.5 3.5 0 0 1 1.53-1.53",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -33800,6 +44230,64 @@ export default [
           attributes: {
             fill: "#000",
             d: "M.75 2a.75.75 0 0 1 .75-.75h21a.75.75 0 0 1 0 1.5h-21A.75.75 0 0 1 .75 2M12 15.25a.75.75 0 0 1 .75.75v2.625l3.7 2.775a.75.75 0 1 1-.9 1.2L12 19.937 8.45 22.6a.75.75 0 1 1-.9-1.2l3.7-2.775V16a.75.75 0 0 1 .75-.75M11.726 6.051a1.31 1.31 0 0 0-1.288-.09c-.386.183-.688.56-.688 1.05v3.978c0 .49.302.867.688 1.05a1.31 1.31 0 0 0 1.288-.09l2.995-1.99a1.135 1.135 0 0 0 0-1.919z"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M21 2H3v8.4c0 1.96 0 2.94.381 3.689a3.5 3.5 0 0 0 1.53 1.53C5.66 16 6.64 16 8.6 16h6.8c1.96 0 2.94 0 3.689-.382a3.5 3.5 0 0 0 1.53-1.529C21 13.34 21 12.36 21 10.4zm-6.417 6.248L11.588 6.26C10.925 5.82 10 6.256 10 7.011v3.978c0 .755.925 1.192 1.588.752l2.995-1.99a.886.886 0 0 0 0-1.503",
+            "clip-rule": "evenodd",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M11.865 5.843a1.56 1.56 0 0 0-1.534-.108c-.458.217-.831.674-.831 1.276v3.978c0 .602.373 1.059.831 1.276a1.56 1.56 0 0 0 1.534-.108l2.995-1.989a1.385 1.385 0 0 0 0-2.336zM10.5 7.01c0-.153.09-.292.26-.372a.56.56 0 0 1 .551.037l2.995 1.989c.259.172.259.498 0 .67l-2.995 1.99a.56.56 0 0 1-.552.036c-.17-.08-.259-.22-.259-.372z",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M1 2a.5.5 0 0 1 .5-.5h21a.5.5 0 0 1 0 1h-1v7.922c0 .961 0 1.713-.05 2.317-.05.615-.153 1.12-.386 1.577a4 4 0 0 1-1.748 1.748c-.457.233-.962.336-1.576.387-.604.049-1.356.049-2.317.049H12.5v2.25l3.8 2.85a.5.5 0 0 1-.6.8L12 19.625 8.3 22.4a.5.5 0 1 1-.6-.8l3.8-2.85V16.5H8.578c-.962 0-1.713 0-2.318-.05-.614-.05-1.12-.153-1.576-.386a4 4 0 0 1-1.748-1.748c-.233-.457-.336-.962-.387-1.577-.049-.604-.049-1.356-.049-2.317V2.5h-1A.5.5 0 0 1 1 2m14.4 13.5c.988 0 1.7 0 2.258-.046.553-.045.912-.132 1.204-.281a3 3 0 0 0 1.311-1.311c.149-.292.236-.651.281-1.204.046-.558.046-1.27.046-2.258V2.5h-17v7.9c0 .988 0 1.7.046 2.258.045.553.132.912.281 1.204a3 3 0 0 0 1.311 1.311c.292.149.651.236 1.204.281.558.046 1.27.046 2.258.046z",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -34131,6 +44619,100 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "clip-path": "url(#a)"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M23 12c0 6.075-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1s11 4.925 11 11",
+                opacity: ".4"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M11.125 16.5a.875.875 0 1 1 1.75 0 .875.875 0 0 1-1.75 0M10 9.5a2 2 0 1 1 3.403 1.425c-.06.06-.168.13-.365.243l-.06.035a6 6 0 0 0-.566.357c-.454.334-.912.847-.912 1.69a.5.5 0 0 0 1 0c0-.407.194-.656.504-.883.146-.108.304-.2.476-.299l.06-.035c.175-.101.399-.232.565-.395A3 3 0 1 0 9.17 10.5a.5.5 0 0 0 .943-.333A2 2 0 0 1 10 9.5"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                "fill-rule": "evenodd",
+                d: "M.5 12C.5 5.649 5.649.5 12 .5S23.5 5.649 23.5 12 18.351 23.5 12 23.5.5 18.351.5 12M12 1.5C6.201 1.5 1.5 6.201 1.5 12S6.201 22.5 12 22.5 22.5 17.799 22.5 12 17.799 1.5 12 1.5",
+                "clip-rule": "evenodd"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "defs",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {},
+          children: [
+            {
+              name: "clipPath",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                id: "a"
+              },
+              children: [
+                {
+                  name: "path",
+                  type: "element",
+                  value: "",
+                  parent: null,
+                  attributes: {
+                    fill: "#fff",
+                    d: "M0 0h24v24H0z"
+                  },
+                  children: []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
   },
@@ -34273,6 +44855,59 @@ export default [
           attributes: {
             fill: "#000",
             d: "M12.816 2.01a.908.908 0 0 0-1.632 0l-.65 1.34-1.494.194c-.754.097-1.066 1.03-.503 1.555L9.622 6.11l-.273 1.448c-.142.754.655 1.316 1.318.963L12 7.81l1.333.71c.663.354 1.46-.208 1.318-.962l-.273-1.448L15.463 5.1c.563-.526.251-1.458-.503-1.555l-1.493-.194zM13.75 9.75a2 2 0 0 1 2 2v9.5H22a.75.75 0 0 1 0 1.5H2a.75.75 0 0 1 0-1.5h6.25v-9.5a2 2 0 0 1 2-2z"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            opacity: ".4"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M12.366 2.228a.407.407 0 0 0-.732 0l-.692 1.426a.33.33 0 0 1-.251.18l-1.587.206a.403.403 0 0 0-.225.693l1.155 1.078c.081.076.118.187.097.295l-.29 1.544c-.063.333.29.59.59.43l1.415-.755a.33.33 0 0 1 .308 0l1.414.755c.3.16.655-.097.592-.43l-.291-1.544a.32.32 0 0 1 .097-.295l1.156-1.078a.403.403 0 0 0-.226-.693l-1.587-.206a.33.33 0 0 1-.25-.18zM13.5 10.5A1.5 1.5 0 0 1 15 12v2h4.5a1.5 1.5 0 0 1 1.5 1.5V22H3v-4.5A1.5 1.5 0 0 1 4.5 16H9v-4a1.5 1.5 0 0 1 1.5-1.5z"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M11.184 2.01a.908.908 0 0 1 1.632 0l.65 1.34 1.494.194c.754.097 1.066 1.03.502 1.555L14.379 6.11l.273 1.448c.142.754-.655 1.316-1.318.963L12 7.81l-1.333.71c-.663.354-1.46-.208-1.318-.962l.273-1.448L8.537 5.1c-.563-.526-.251-1.458.503-1.555l1.493-.194zm.816.61-.609 1.253a.83.83 0 0 1-.636.457l-1.384.18 1.004.936c.206.192.3.475.248.752l-.254 1.349 1.242-.663a.83.83 0 0 1 .778 0l1.242.663-.254-1.349a.82.82 0 0 1 .248-.752l1.004-.937-1.384-.18a.83.83 0 0 1-.636-.456zM8.5 12a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v1.5h4a2 2 0 0 1 2 2v6h.5a.5.5 0 0 1 0 1H2a.5.5 0 0 1 0-1h.5v-4a2 2 0 0 1 2-2h4zm1 9.5h5V12a1 1 0 0 0-1-1h-3a1 1 0 0 0-1 1zm6 0h5v-6a1 1 0 0 0-1-1h-4zm-7 0v-5h-4a1 1 0 0 0-1 1v4z",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -34421,6 +45056,47 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M9 19.5h6a7.5 7.5 0 0 0 0-15H9a7.5 7.5 0 0 0 0 15",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M14.646 8.354a.5.5 0 0 1 0-.708L16.793 5.5H9a6.5 6.5 0 0 0-5.335 10.214.5.5 0 1 1-.82.572A7.5 7.5 0 0 1 9 4.5h7.793l-2.147-2.146a.5.5 0 0 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0M9.354 15.646a.5.5 0 0 1 0 .708L7.207 18.5H15a6.5 6.5 0 0 0 5.335-10.214.5.5 0 0 1 .82-.572A7.5 7.5 0 0 1 15 19.5H7.207l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -34560,6 +45236,49 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M19 10.5a8.5 8.5 0 1 1-17 0 8.5 8.5 0 0 1 17 0",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M16.5 17.208a9 9 0 1 1 .707-.707l5.147 5.145a.5.5 0 0 1-.708.708zM2.5 10.5a8 8 0 1 1 13.74 5.573.5.5 0 0 0-.167.166A8 8 0 0 1 2.5 10.5",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -34692,6 +45411,49 @@ export default [
           attributes: {
             fill: "#000",
             d: "m9.297 15.763 4.733-4.733a.75.75 0 1 0-1.06-1.06l-4.74 4.738.063.023c.462.186.827.56 1.004 1.032"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M3.694 7.413 18.63 2.148c2-.705 3.923 1.232 3.223 3.247l-5.178 14.899c-.78 2.245-3.918 2.284-4.753.06L10 15.5a2.54 2.54 0 0 0-1.437-1.468L3.6 12.188c-2.18-.867-2.119-3.995.093-4.775",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M22.325 5.559c.835-2.403-1.457-4.73-3.862-3.883L3.528 6.941c-2.648.934-2.72 4.674-.112 5.712l4.967 1.845a2.04 2.04 0 0 1 1.149 1.178l1.923 4.858c1.003 2.658 4.76 2.609 5.693-.076zm-3.53-2.94c1.598-.562 3.151.984 2.586 2.611l-5.178 14.9c-.626 1.803-3.142 1.834-3.813.048l-1.924-4.858a3 3 0 0 0-.376-.703l3.764-3.763a.5.5 0 0 0-.707-.708L9.38 13.912a3 3 0 0 0-.633-.345L3.78 11.721c-1.746-.699-1.695-3.211.08-3.837z",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -34839,6 +45601,59 @@ export default [
           attributes: {
             fill: "#000",
             d: "M19 1.25a3.75 3.75 0 1 0 0 7.5 3.75 3.75 0 0 0 0-7.5M5 8.25a3.75 3.75 0 1 0 0 7.5 3.75 3.75 0 0 0 0-7.5M19 15.25a3.75 3.75 0 1 0 0 7.5 3.75 3.75 0 0 0 0-7.5"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            opacity: ".4"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M22 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0M8 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0M19 22a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M15.5 5a3.5 3.5 0 1 1 .393 1.613l-7.67 3.834a1 1 0 0 1-.071.03c.223.46.348.977.348 1.523s-.125 1.063-.348 1.524a1 1 0 0 1 .072.029l7.669 3.834a3.5 3.5 0 1 1-.33.953l-7.787-3.893a.5.5 0 0 1-.158-.124 3.5 3.5 0 1 1 0-4.646.5.5 0 0 1 .158-.124l7.786-3.893A3.5 3.5 0 0 1 15.5 5M19 2.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5m-14 7a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M16.5 19a2.5 2.5 0 1 1 5 0 2.5 2.5 0 0 1-5 0",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -35013,6 +45828,70 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            opacity: ".4"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "m4.752 4.752-1.43.724A1.5 1.5 0 0 0 2.5 6.814V8.84c0 .45.095 1.391.211 2.377.251 2.127 1.073 4.142 2.32 5.884a16 16 0 0 0 5.59 4.86l.748.391c.394.206.864.206 1.258 0l.75-.393a16 16 0 0 0 4.77-3.81zM19.225 16.725c1.104-1.655 1.831-3.537 2.065-5.515.116-.984.21-1.923.21-2.37V6.814a1.5 1.5 0 0 0-.822-1.339L13.58 1.881a3.5 3.5 0 0 0-3.163 0L6.41 3.911z"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M3.91 4.618 1.647 2.353a.5.5 0 1 1 .708-.707l20 20a.5.5 0 0 1-.708.707l-3.475-3.475a16.5 16.5 0 0 1-4.562 3.523l-.75.393a1.86 1.86 0 0 1-1.721 0l-.75-.392a16.5 16.5 0 0 1-5.763-5.011c-1.292-1.805-2.149-3.9-2.41-6.116C2.099 10.298 2 9.324 2 8.839V6.814A2 2 0 0 1 3.096 5.03zM17.464 18.17a15.5 15.5 0 0 1-4.317 3.345l-.75.393a.86.86 0 0 1-.795 0l-.749-.392a15.5 15.5 0 0 1-5.414-4.707c-1.202-1.678-1.99-3.615-2.23-5.652C3.09 10.163 3 9.253 3 8.84V6.814a1 1 0 0 1 .548-.892l1.107-.56z",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M20.793 11.151c-.22 1.862-.897 3.64-1.928 5.213l.72.722c1.176-1.736 1.954-3.722 2.201-5.818.115-.974.214-1.945.214-2.429V6.815a2 2 0 0 0-1.096-1.785l-7.098-3.595a4 4 0 0 0-3.615 0L6.039 3.54l.744.744 3.86-1.956a3 3 0 0 1 2.711 0l7.098 3.595a1 1 0 0 1 .548.893v2.024c0 .413-.09 1.32-.207 2.312"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -35134,6 +46013,49 @@ export default [
             fill: "#000",
             d: "M13.919 1.212a4.25 4.25 0 0 0-3.841 0L2.983 4.808A2.25 2.25 0 0 0 1.75 6.814V8.84c0 .503.102 1.492.216 2.465.267 2.262 1.14 4.396 2.456 6.233a16.74 16.74 0 0 0 5.851 5.087l.749.392c.611.32 1.341.32 1.953 0l.75-.393a16.75 16.75 0 0 0 5.848-5.082c1.319-1.84 2.194-3.977 2.461-6.243.115-.97.216-1.957.216-2.459V6.815a2.25 2.25 0 0 0-1.233-2.008z",
             opacity: ".4"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M10.417 1.882 3.322 5.476A1.5 1.5 0 0 0 2.5 6.814V8.84c0 .45.095 1.391.211 2.377.251 2.127 1.073 4.143 2.32 5.884a16 16 0 0 0 5.59 4.86l.748.391c.394.206.864.206 1.258 0l.75-.392a16 16 0 0 0 5.586-4.855c1.25-1.744 2.075-3.763 2.327-5.894.116-.984.21-1.922.21-2.37V6.814a1.5 1.5 0 0 0-.822-1.338L13.58 1.88a3.5 3.5 0 0 0-3.163 0",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M10.19 1.436a4 4 0 0 1 3.616 0l7.098 3.594A2 2 0 0 1 22 6.815v2.024c0 .484-.099 1.455-.214 2.43-.262 2.22-1.12 4.319-2.416 6.126a16.5 16.5 0 0 1-5.76 5.006l-.751.393a1.86 1.86 0 0 1-1.721 0l-.75-.391a16.5 16.5 0 0 1-5.763-5.012c-1.292-1.805-2.149-3.9-2.41-6.116C2.099 10.298 2 9.324 2 8.839V6.814A2 2 0 0 1 3.096 5.03zm3.164.891a3 3 0 0 0-2.711 0L3.548 5.923A1 1 0 0 0 3 6.814V8.84c0 .414.09 1.324.208 2.319.24 2.037 1.028 3.973 2.23 5.651a15.5 15.5 0 0 0 5.414 4.708l.75.391c.248.13.545.13.793 0l.75-.393c2.147-1.123 4-2.733 5.412-4.702 1.205-1.681 1.995-3.62 2.236-5.662.117-.992.207-1.899.207-2.312V6.815a1 1 0 0 0-.548-.892z",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -35383,6 +46305,71 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M12 13.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M21.5 12c0-2.56-1.076-4.894-2.85-6.644a.5.5 0 1 1 .703-.712C21.3 6.566 22.5 9.15 22.5 12s-1.2 5.435-3.149 7.357a.5.5 0 0 1-.702-.712c1.775-1.75 2.851-4.086 2.851-6.645"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M12 10a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-1 2a1 1 0 1 1 2 0 1 1 0 0 1-2 0",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M15.647 8.859A4.36 4.36 0 0 1 16.995 12c0 1.22-.511 2.328-1.348 3.141a.5.5 0 1 0 .696.718A5.36 5.36 0 0 0 17.995 12c0-1.508-.634-2.87-1.652-3.859a.5.5 0 1 0-.696.718M2.5 12c0-2.56 1.076-4.894 2.85-6.644a.5.5 0 1 0-.703-.712C2.7 6.566 1.5 9.15 1.5 12s1.2 5.435 3.149 7.357a.5.5 0 0 0 .702-.712C3.576 16.894 2.5 14.558 2.5 11.999M8.353 8.859A4.36 4.36 0 0 0 7.005 12c0 1.22.511 2.328 1.348 3.141a.5.5 0 1 1-.696.718A5.36 5.36 0 0 1 6.005 12c0-1.508.633-2.87 1.652-3.859a.5.5 0 0 1 .696.718"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -35578,6 +46565,83 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            opacity: ".4"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M5 9.5a3 3 0 1 0 0-6 3 3 0 0 0 0 6M19 20.5a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M1.5 6.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0M5 4a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M13 7a.5.5 0 0 1 0-1h9a.5.5 0 0 1 0 1zM11 18a.5.5 0 0 0 0-1H2a.5.5 0 0 0 0 1z"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M19 14a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7m-2.5 3.5a2.5 2.5 0 1 1 5 0 2.5 2.5 0 0 1-5 0",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -35750,6 +46814,60 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M19 13.9v-3.8c0-1.96 0-2.94-.381-3.689a3.5 3.5 0 0 0-1.53-1.53c-.749-.38-1.729-.38-3.689-.38h-2.8c-1.96 0-2.94 0-3.689.38a3.5 3.5 0 0 0-1.53 1.53C5 7.16 5 8.141 5 10.101v3.8c0 1.96 0 2.94.381 3.688a3.5 3.5 0 0 0 1.53 1.53c.749.381 1.729.381 3.689.381h2.8c1.96 0 2.94 0 3.689-.381a3.5 3.5 0 0 0 1.53-1.53C19 16.841 19 15.86 19 13.9",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M12.5 8a.5.5 0 0 0-1 0v4a.5.5 0 0 0 .243.429l2.5 1.5a.5.5 0 1 0 .514-.858L12.5 11.717z"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M4.936 6.184a4 4 0 0 1 1.61-1.675L7.27 1.8A1.75 1.75 0 0 1 8.96.499h6.08a1.75 1.75 0 0 1 1.69 1.3l.723 2.71a4 4 0 0 1 1.611 1.675c.233.457.336.962.387 1.576.049.604.049 1.356.049 2.317v3.845c0 .961 0 1.713-.05 2.317-.05.615-.153 1.12-.386 1.577a4 4 0 0 1-1.61 1.675l-.723 2.71A1.75 1.75 0 0 1 15.04 23.5H8.96a1.75 1.75 0 0 1-1.69-1.3l-.723-2.71a4 4 0 0 1-1.611-1.674c-.233-.457-.336-.962-.387-1.577-.049-.604-.049-1.356-.049-2.317v-3.845c0-.96 0-1.713.05-2.317.05-.614.153-1.12.386-1.576M8.26 4.049a7 7 0 0 0-.574.07l.55-2.062A.75.75 0 0 1 8.96 1.5h6.08a.75.75 0 0 1 .724.557l.55 2.062a7 7 0 0 0-.575-.07C15.136 4 14.384 4 13.423 4h-2.844c-.962 0-1.713 0-2.318.05m7.48 15.902q.303-.025.574-.07l-.55 2.062a.75.75 0 0 1-.724.557H8.96a.75.75 0 0 1-.724-.557l-.55-2.062q.27.045.574.07C8.864 20 9.616 20 10.577 20h2.845c.961 0 1.713 0 2.317-.05M8.342 5.046c-.553.045-.912.132-1.204.28a3 3 0 0 0-1.311 1.312c-.149.292-.236.651-.281 1.204C5.5 8.4 5.5 9.112 5.5 10.1v3.8c0 .988 0 1.7.046 2.258.045.553.132.912.281 1.204a3 3 0 0 0 1.311 1.31c.292.15.651.237 1.204.282C8.9 19 9.612 19 10.6 19h2.8c.988 0 1.7 0 2.258-.046.553-.045.912-.132 1.204-.281a3 3 0 0 0 1.311-1.311c.149-.292.236-.651.281-1.204.046-.559.046-1.27.046-2.258v-3.8c0-.988 0-1.7-.046-2.258-.045-.553-.132-.912-.281-1.204a3 3 0 0 0-1.311-1.311c-.292-.149-.651-.236-1.204-.281C15.1 5 14.388 5 13.4 5h-2.8c-.988 0-1.7 0-2.258.046",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -35893,6 +47011,57 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            opacity: ".4"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M19.5 4a.5.5 0 0 1-.5.5H2a.5.5 0 0 1 0-1h17a.5.5 0 0 1 .5.5M12.5 11a.5.5 0 0 1-.5.5H2a.5.5 0 0 1 0-1h10a.5.5 0 0 1 .5.5M5 18.5a.5.5 0 0 0 0-1H2a.5.5 0 0 0 0 1z"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "m17.5 18.793-3.146-3.147a.5.5 0 0 0-.708.708l4 4a.5.5 0 0 0 .708 0l4-4a.5.5 0 0 0-.708-.708L18.5 18.793V10a.5.5 0 0 0-1 0z"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -36025,6 +47194,59 @@ export default [
           attributes: {
             fill: "#000",
             d: "M13.386 9.941a2 2 0 0 1-2.772 0L5.055 4.598C3.887 3.474 4.682 1.5 6.303 1.5h11.394c1.62 0 2.415 1.974 1.247 3.098z"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            opacity: ".4"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M18.597 4.237 13.04 9.581a1.5 1.5 0 0 1-2.079 0L5.402 4.237C4.558 3.426 5.132 2 6.302 2h11.395c1.17 0 1.744 1.426.9 2.237M18.597 19.763l-5.558-5.344a1.5 1.5 0 0 0-2.079 0l-5.558 5.344c-.844.811-.27 2.237.9 2.237h11.395c1.17 0 1.744-1.426.9-2.237"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M13.386 9.941a2 2 0 0 1-2.772 0L5.055 4.598C3.887 3.474 4.682 1.5 6.303 1.5h11.394c1.62 0 2.415 1.974 1.247 3.098zm-2.08-.72a1 1 0 0 0 1.387 0l5.558-5.344c.52-.5.166-1.377-.555-1.377H6.304c-.72 0-1.074.878-.555 1.377zM13.386 14.059a2 2 0 0 0-2.772 0l-5.559 5.343C3.887 20.526 4.682 22.5 6.303 22.5h11.394c1.62 0 2.415-1.974 1.247-3.098zm-2.08.72a1 1 0 0 1 1.387 0l5.558 5.344c.52.5.166 1.377-.555 1.377H6.304c-.72 0-1.074-.878-.555-1.377z",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -36173,6 +47395,57 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            opacity: ".4"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M19.5 4a.5.5 0 0 1-.5.5H2a.5.5 0 0 1 0-1h17a.5.5 0 0 1 .5.5M12.5 11a.5.5 0 0 1-.5.5H2a.5.5 0 0 1 0-1h10a.5.5 0 0 1 .5.5M5 18.5a.5.5 0 0 0 0-1H2a.5.5 0 0 0 0 1z"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M13.646 13.646a.5.5 0 0 0 .708.708l3.146-3.147V20a.5.5 0 0 0 1 0v-8.793l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0z"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -36305,6 +47578,59 @@ export default [
           attributes: {
             fill: "#000",
             d: "M13.386 2.058a2 2 0 0 0-2.772 0L5.055 7.402c-1.168 1.123-.373 3.097 1.248 3.097h11.394c1.62 0 2.415-1.974 1.247-3.097z"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            opacity: ".4"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M18.597 7.762 13.04 2.42a1.5 1.5 0 0 0-2.079 0L5.402 7.762c-.844.811-.27 2.237.9 2.237h11.395c1.17 0 1.744-1.426.9-2.237M18.597 16.238 13.04 21.58a1.5 1.5 0 0 1-2.079 0l-5.558-5.343c-.844-.811-.27-2.237.9-2.237h11.395c1.17 0 1.744 1.426.9 2.237"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M13.386 2.058a2 2 0 0 0-2.772 0L5.055 7.402c-1.168 1.123-.373 3.097 1.248 3.097h11.394c1.62 0 2.415-1.974 1.247-3.097zm-2.08.721a1 1 0 0 1 1.387 0l5.558 5.344c.52.499.166 1.376-.555 1.376H6.304c-.72 0-1.074-.877-.555-1.376zM13.386 21.942a2 2 0 0 1-2.772 0l-5.559-5.344c-1.168-1.123-.373-3.097 1.248-3.097h11.394c1.62 0 2.415 1.974 1.247 3.097zm-2.08-.721a1 1 0 0 0 1.387 0l5.558-5.344c.52-.499.166-1.376-.555-1.376H6.304c-.72 0-1.074.877-.555 1.376z",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -36508,6 +47834,100 @@ export default [
             d: "m18.818 2.086-.315.959c-.042.126-.063.19-.098.242a.5.5 0 0 1-.118.118c-.053.035-.116.056-.242.098l-.959.315c-.63.207-.946.311-1.03.466a.45.45 0 0 0 0 .432c.084.155.4.259 1.03.466l.959.315c.126.042.19.063.242.098a.5.5 0 0 1 .118.118c.035.053.056.116.098.242l.315.959c.207.63.311.946.466 1.03a.45.45 0 0 0 .432 0c.155-.084.259-.4.466-1.03l.315-.959c.042-.126.063-.19.098-.242a.5.5 0 0 1 .118-.118c.053-.035.116-.056.242-.098l.959-.315c.63-.207.946-.311 1.03-.466a.45.45 0 0 0 0-.432c-.084-.155-.4-.259-1.03-.466l-.959-.315c-.126-.042-.19-.063-.242-.098a.5.5 0 0 1-.118-.118c-.035-.053-.056-.116-.098-.242l-.315-.959c-.207-.63-.311-.946-.466-1.03a.45.45 0 0 0-.432 0c-.155.084-.259.4-.466 1.03M19.346 18.04c-.111.06-.185.286-.333.736l-.225.685c-.03.09-.045.135-.07.172a.3.3 0 0 1-.085.085c-.037.025-.082.04-.172.07l-.685.225c-.45.148-.676.222-.737.333a.32.32 0 0 0 0 .308c.061.111.287.185.737.333l.685.225c.09.03.135.045.172.07a.3.3 0 0 1 .085.085c.025.037.04.082.07.172l.225.685c.148.45.222.676.333.737a.32.32 0 0 0 .308 0c.111-.061.185-.287.333-.737l.225-.685c.03-.09.045-.135.07-.172a.3.3 0 0 1 .085-.085c.037-.025.082-.04.172-.07l.685-.225c.45-.148.676-.222.737-.333a.32.32 0 0 0 0-.308c-.061-.111-.287-.185-.737-.333l-.685-.225c-.09-.03-.135-.045-.172-.07a.3.3 0 0 1-.085-.085c-.025-.037-.04-.082-.07-.172l-.225-.685c-.148-.45-.222-.676-.333-.737a.32.32 0 0 0-.308 0"
           },
           children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "clip-path": "url(#a)"
+          },
+          children: [
+            {
+              name: "g",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                opacity: ".4"
+              },
+              children: [
+                {
+                  name: "path",
+                  type: "element",
+                  value: "",
+                  parent: null,
+                  attributes: {
+                    d: "M18.818 2.086c.207-.63.311-.946.466-1.03a.45.45 0 0 1 .432 0c.155.084.259.4.466 1.03l.315.959c.042.126.063.19.098.242a.5.5 0 0 0 .118.118c.053.035.116.056.242.098l.959.315c.63.207.946.311 1.03.466a.45.45 0 0 1 0 .432c-.084.155-.4.259-1.03.466l-.959.315c-.126.042-.19.063-.242.098a.5.5 0 0 0-.118.118c-.035.053-.056.116-.098.242l-.315.959c-.207.63-.311.946-.466 1.03a.45.45 0 0 1-.432 0c-.155-.084-.259-.4-.466-1.03l-.315-.959c-.042-.126-.063-.19-.098-.242a.5.5 0 0 0-.118-.118c-.053-.035-.116-.056-.242-.098l-.959-.315c-.63-.207-.946-.311-1.03-.466a.45.45 0 0 1 0-.432c.084-.155.4-.259 1.03-.466l.959-.315c.126-.042.19-.063.242-.098a.5.5 0 0 0 .118-.118c.035-.053.056-.116.098-.242zM8.246 6.793c.533-1.621.8-2.432 1.2-2.651.345-.19.763-.19 1.109 0 .399.219.666 1.03 1.199 2.651l.81 2.465c.107.325.16.487.253.622.08.12.184.222.303.303.135.092.297.146.622.252l2.465.811c1.621.533 2.432.8 2.651 1.2.19.345.19.763 0 1.109-.219.399-1.03.666-2.651 1.199l-2.465.81c-.325.107-.487.16-.622.253-.12.08-.222.184-.303.303-.092.135-.146.297-.252.622l-.811 2.465c-.533 1.621-.8 2.432-1.2 2.651-.345.19-.763.19-1.108 0-.4-.219-.667-1.03-1.2-2.651l-.81-2.465c-.107-.325-.16-.487-.253-.622a1.2 1.2 0 0 0-.303-.303c-.135-.092-.297-.146-.622-.252l-2.465-.811c-1.621-.533-2.432-.8-2.651-1.2a1.15 1.15 0 0 1 0-1.109c.219-.399 1.03-.666 2.651-1.199l2.465-.81c.325-.107.487-.16.622-.253.12-.08.222-.184.303-.303.092-.135.146-.297.252-.622zM19.346 18.04c-.111.06-.185.286-.333.736l-.225.685c-.03.09-.045.135-.07.172a.3.3 0 0 1-.085.085c-.037.025-.082.04-.172.07l-.685.225c-.45.148-.676.222-.737.333a.32.32 0 0 0 0 .308c.061.111.287.185.737.333l.685.225c.09.03.135.045.172.07a.3.3 0 0 1 .085.085c.025.037.04.082.07.172l.225.685c.148.45.222.676.333.737a.32.32 0 0 0 .308 0c.111-.061.185-.287.333-.737l.225-.685c.03-.09.045-.135.07-.172a.3.3 0 0 1 .085-.085c.037-.025.082-.04.172-.07l.685-.225c.45-.148.676-.222.737-.333a.32.32 0 0 0 0-.308c-.061-.111-.287-.185-.737-.333l-.685-.225c-.09-.03-.135-.045-.172-.07a.3.3 0 0 1-.085-.085c-.025-.037-.04-.082-.07-.172l-.225-.685c-.148-.45-.222-.676-.333-.737a.32.32 0 0 0-.308 0"
+                  },
+                  children: []
+                }
+              ]
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                "fill-rule": "evenodd",
+                d: "M19.044.617a.95.95 0 0 1 .912 0c.245.134.365.39.434.554.08.188.162.44.26.738l.322.98.026.078.01.026.025.009.078.026.98.322c.297.098.55.18.738.26.163.07.42.189.554.434a.95.95 0 0 1 0 .912c-.134.245-.39.365-.554.434-.188.08-.44.162-.738.26l-.98.322-.078.026-.026.01-.009.025-.026.078-.322.98c-.098.297-.18.55-.26.738-.07.163-.189.42-.434.554a.95.95 0 0 1-.912 0c-.245-.134-.365-.39-.434-.554-.08-.188-.162-.44-.26-.738l-.322-.98-.026-.078-.01-.026-.025-.009-.078-.026-.98-.322c-.297-.098-.55-.18-.738-.26-.163-.07-.42-.189-.554-.434a.95.95 0 0 1 0-.912c.134-.245.39-.365.554-.434.188-.08.44-.162.738-.26l.98-.322.078-.026.026-.01.009-.025.026-.078.322-.98c.098-.297.18-.55.26-.738.07-.163.189-.42.434-.554m.456 1.021c-.054.14-.118.334-.207.605l-.315.958-.01.027a1.3 1.3 0 0 1-.15.34 1 1 0 0 1-.25.25c-.113.077-.243.12-.34.15l-.027.01-.959.315c-.27.089-.463.153-.604.207.14.054.334.118.604.207l.96.315.026.01c.097.03.227.073.34.15a1 1 0 0 1 .25.25c.077.113.12.243.15.34l.01.027.315.958c.089.271.153.464.207.605.054-.14.118-.334.207-.604l.315-.96.01-.026c.03-.097.073-.227.15-.34a1 1 0 0 1 .25-.25c.113-.077.243-.12.34-.15l.027-.01.959-.315c.27-.089.463-.153.604-.207-.14-.054-.334-.118-.604-.207l-.96-.315-.026-.01a1.3 1.3 0 0 1-.34-.15 1 1 0 0 1-.25-.25 1.3 1.3 0 0 1-.15-.34l-.01-.027-.315-.958c-.089-.271-.153-.464-.207-.605M9.205 3.703a1.65 1.65 0 0 1 1.59 0c.367.202.588.616.77 1.044.19.452.396 1.075.656 1.866l.819 2.49c.116.352.147.433.19.495a.7.7 0 0 0 .172.172c.062.043.143.074.496.19l2.49.82c.79.259 1.413.464 1.865.656.428.18.842.402 1.044.77a1.65 1.65 0 0 1 0 1.589c-.202.367-.616.588-1.044.77-.451.19-1.076.396-1.866.656l-2.49.819c-.352.116-.433.147-.495.19a.7.7 0 0 0-.172.172c-.043.062-.075.143-.19.496l-.82 2.49c-.259.79-.464 1.413-.656 1.865-.18.428-.402.842-.77 1.044a1.65 1.65 0 0 1-1.589 0c-.367-.202-.588-.616-.77-1.044-.19-.451-.396-1.076-.656-1.866l-.819-2.49c-.116-.352-.147-.433-.19-.495a.7.7 0 0 0-.172-.172c-.062-.043-.143-.075-.496-.19l-2.49-.82c-.79-.259-1.413-.464-1.865-.656-.428-.18-.842-.402-1.044-.77a1.65 1.65 0 0 1 0-1.589c.202-.367.616-.588 1.044-.77.452-.19 1.075-.396 1.866-.656l2.49-.819c.352-.116.433-.147.495-.19a.7.7 0 0 0 .172-.172c.043-.062.074-.143.19-.496l.82-2.49c.259-.79.464-1.413.656-1.865.18-.428.402-.842.77-1.044m1.11.877a.65.65 0 0 0-.63 0c-.031.018-.143.119-.329.557-.173.409-.365.993-.635 1.813l-.828 2.517c-.09.273-.164.5-.296.695-.117.17-.265.318-.435.435-.195.132-.422.207-.695.296l-2.517.828c-.82.27-1.404.462-1.813.635-.438.186-.539.298-.557.33a.65.65 0 0 0 0 .628c.018.032.119.144.557.33.409.173.993.365 1.813.635l2.517.828c.273.09.5.164.695.296.17.117.318.264.435.435.132.195.207.422.296.695l.828 2.517c.27.82.462 1.404.635 1.813.186.438.298.539.33.557a.65.65 0 0 0 .628 0c.032-.018.144-.119.33-.557.173-.409.365-.993.635-1.812l.828-2.518c.09-.273.164-.5.296-.695.117-.17.264-.318.435-.435.195-.132.422-.207.695-.296l2.518-.828c.82-.27 1.404-.462 1.813-.635.437-.186.538-.298.556-.33a.65.65 0 0 0 0-.628c-.018-.032-.119-.144-.557-.33-.409-.173-.993-.365-1.812-.635l-2.518-.828c-.273-.09-.5-.164-.695-.296a1.7 1.7 0 0 1-.435-.435c-.132-.195-.207-.422-.296-.695l-.828-2.517c-.27-.82-.462-1.404-.635-1.813-.186-.438-.298-.539-.33-.557M20.267 18.067c-.049-.116-.15-.344-.373-.466a.82.82 0 0 0-.788 0c-.223.122-.324.35-.373.466-.06.14-.12.325-.189.533l-.233.71-.711.234c-.208.069-.394.13-.533.189-.116.049-.344.15-.466.373a.82.82 0 0 0 0 .788c.122.223.35.324.466.373.14.06.325.12.533.189l.71.233.234.711c.069.208.13.394.189.533.049.116.15.344.373.466a.82.82 0 0 0 .788 0c.223-.122.324-.35.373-.466.06-.14.12-.325.189-.533l.233-.71.711-.234c.208-.069.394-.13.533-.189.116-.049.344-.15.466-.373a.82.82 0 0 0 0-.788c-.122-.223-.35-.324-.466-.373-.14-.06-.325-.12-.533-.189l-.71-.233-.234-.711c-.069-.208-.13-.394-.189-.533m-.767.828.237.722.007.019c.021.066.058.18.125.279a.8.8 0 0 0 .216.216c.1.067.213.104.28.125l.018.007.722.237-.722.237-.019.007c-.066.021-.18.058-.279.125a.8.8 0 0 0-.216.216c-.067.1-.104.213-.125.28l-.007.018-.237.722-.237-.722-.007-.019a1 1 0 0 0-.125-.279.8.8 0 0 0-.216-.216 1 1 0 0 0-.28-.125l-.018-.007-.722-.237.722-.237.019-.007c.066-.021.18-.058.279-.125a.8.8 0 0 0 .216-.216c.067-.1.104-.213.125-.28l.007-.018z",
+                "clip-rule": "evenodd"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "defs",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {},
+          children: [
+            {
+              name: "clipPath",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                id: "a"
+              },
+              children: [
+                {
+                  name: "path",
+                  type: "element",
+                  value: "",
+                  parent: null,
+                  attributes: {
+                    fill: "#fff",
+                    d: "M0 0h24v24H0z"
+                  },
+                  children: []
+                }
+              ]
+            }
+          ]
         }
       ]
     }
@@ -36837,6 +48257,100 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            "clip-path": "url(#a)",
+            "clip-rule": "evenodd"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M12 23c6.075 0 11-4.925 11-11S18.075 1 12 1 1 5.925 1 12s4.925 11 11 11m1.628-13.436-1.065-2.21a.625.625 0 0 0-1.126 0l-1.065 2.21a.5.5 0 0 1-.386.278l-2.441.319a.625.625 0 0 0-.347 1.075l1.778 1.671a.5.5 0 0 1 .149.456l-.448 2.394a.625.625 0 0 0 .91.665l2.176-1.17a.5.5 0 0 1 .474 0l2.176 1.17a.625.625 0 0 0 .91-.665l-.448-2.394a.5.5 0 0 1 .149-.456l1.778-1.671a.625.625 0 0 0-.347-1.075l-2.441-.319a.5.5 0 0 1-.386-.278",
+                opacity: ".4"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M13.013 7.136c-.409-.848-1.617-.848-2.026 0L9.92 9.346l-2.44.319c-.942.123-1.318 1.285-.626 1.935l1.779 1.671-.448 2.394c-.174.928.806 1.645 1.638 1.198L12 15.693l2.176 1.17c.832.447 1.812-.27 1.638-1.198l-.447-2.394 1.778-1.67c.692-.651.317-1.813-.625-1.936l-2.441-.319zm-1.126.435a.125.125 0 0 1 .226 0l1.065 2.21a1 1 0 0 0 .771.557l2.441.319a.125.125 0 0 1 .07.215l-1.778 1.67a1 1 0 0 0-.299.913l.448 2.393a.125.125 0 0 1-.182.133l-2.176-1.168a1 1 0 0 0-.946 0L9.35 15.98a.125.125 0 0 1-.182-.133l.448-2.393a1 1 0 0 0-.299-.912L7.54 10.872a.125.125 0 0 1 .07-.215l2.44-.319a1 1 0 0 0 .772-.557z"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M12 .5C5.649.5.5 5.649.5 12S5.649 23.5 12 23.5 23.5 18.351 23.5 12 18.351.5 12 .5M1.5 12C1.5 6.201 6.201 1.5 12 1.5S22.5 6.201 22.5 12 17.799 22.5 12 22.5 1.5 17.799 1.5 12"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "defs",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {},
+          children: [
+            {
+              name: "clipPath",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                id: "a"
+              },
+              children: [
+                {
+                  name: "path",
+                  type: "element",
+                  value: "",
+                  parent: null,
+                  attributes: {
+                    fill: "#fff",
+                    d: "M0 0h24v24H0z"
+                  },
+                  children: []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
   },
@@ -37001,6 +48515,70 @@ export default [
           attributes: {
             fill: "#000",
             d: "M1.47 1.47a.75.75 0 0 1 1.06 0l20 20a.75.75 0 1 1-1.06 1.06l-20-20a.75.75 0 0 1 0-1.06"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            opacity: ".4"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M8.146 8.146a1 1 0 0 1-.174.039l-4.883.637c-1.046.137-1.463 1.428-.694 2.15l3.557 3.343a1 1 0 0 1 .298.912l-.896 4.787c-.193 1.033.896 1.828 1.82 1.331l4.353-2.338a1 1 0 0 1 .947 0l4.352 2.338c.925.497 2.013-.298 1.82-1.33l-.315-1.684zM17.756 15.256l-.006-.029a1 1 0 0 1 .299-.912l3.557-3.342c.768-.723.351-2.014-.695-2.151l-4.883-.637a1 1 0 0 1-.771-.557l-2.13-4.42c-.455-.944-1.798-.944-2.253 0l-1.68 3.486z"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M2.354 1.646a.5.5 0 1 0-.707.708l5.442 5.442-4.064.53c-1.465.191-2.049 2-.972 3.01l3.556 3.343a.5.5 0 0 1 .15.456l-.896 4.787c-.27 1.445 1.254 2.56 2.548 1.864l4.353-2.338a.5.5 0 0 1 .473 0l4.352 2.338c1.295.695 2.819-.419 2.549-1.864l-.018-.095 2.526 2.527a.5.5 0 0 0 .708-.708zm15.514 16.93L7.981 8.687l-4.827.63a.75.75 0 0 0-.417 1.29l3.557 3.342a1.5 1.5 0 0 1 .447 1.37l-.895 4.786a.75.75 0 0 0 1.092.799l4.352-2.338a1.5 1.5 0 0 1 1.42 0l4.352 2.338a.75.75 0 0 0 1.093-.799z",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M17.706 13.95a1.5 1.5 0 0 0-.445.81l1.12 1.122-.139-.747a.5.5 0 0 1 .15-.456l3.556-3.342c1.076-1.012.493-2.82-.972-3.01l-4.883-.638a.5.5 0 0 1-.386-.279l-2.13-4.42c-.637-1.32-2.517-1.32-3.153 0L8.819 6.32l.75.748 1.756-3.644a.75.75 0 0 1 1.35 0l2.132 4.42a1.5 1.5 0 0 0 1.157.837l4.883.637a.75.75 0 0 1 .416 1.29z"
           },
           children: []
         }
@@ -37171,6 +48749,64 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M22 8.4v7.2c0 2.24 0 3.36-.436 4.216a4 4 0 0 1-1.748 1.748C18.96 22 17.84 22 15.6 22H8.4c-2.24 0-3.36 0-4.216-.436a4 4 0 0 1-1.748-1.748C2 18.96 2 17.84 2 15.6V8.4c0-2.24 0-3.36.436-4.216a4 4 0 0 1 1.748-1.748C5.04 2 6.16 2 8.4 2h7.2c2.24 0 3.36 0 4.216.436a4 4 0 0 1 1.748 1.748C22 5.04 22 6.16 22 8.4m-9.437-1.046a.625.625 0 0 0-1.126 0l-1.065 2.21a.5.5 0 0 1-.386.278l-2.441.319a.625.625 0 0 0-.347 1.075l1.778 1.671a.5.5 0 0 1 .149.456l-.448 2.394a.625.625 0 0 0 .91.665l2.176-1.17a.5.5 0 0 1 .474 0l2.176 1.17a.625.625 0 0 0 .91-.665l-.448-2.394a.5.5 0 0 1 .149-.456l1.778-1.671a.625.625 0 0 0-.347-1.075l-2.441-.319a.5.5 0 0 1-.386-.278z",
+            "clip-rule": "evenodd",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M13.013 7.136c-.409-.848-1.617-.848-2.026 0L9.92 9.346l-2.44.319c-.942.123-1.318 1.285-.626 1.935l1.779 1.671-.448 2.394c-.174.928.806 1.645 1.638 1.198L12 15.693l2.176 1.17c.832.447 1.812-.27 1.638-1.198l-.447-2.394 1.778-1.67c.692-.651.317-1.813-.625-1.936l-2.441-.319zm-1.126.435a.125.125 0 0 1 .226 0l1.065 2.21a1 1 0 0 0 .771.557l2.441.319a.125.125 0 0 1 .07.215l-1.778 1.67a1 1 0 0 0-.299.913l.448 2.393a.125.125 0 0 1-.182.133l-2.176-1.168a1 1 0 0 0-.946 0L9.35 15.98a.125.125 0 0 1-.182-.133l.448-2.393a1 1 0 0 0-.299-.912L7.54 10.872a.125.125 0 0 1 .07-.215l2.44-.319a1 1 0 0 0 .772-.557z",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M15.623 1.5H8.377c-1.1 0-1.958 0-2.645.056-.698.057-1.265.175-1.775.434A4.5 4.5 0 0 0 1.99 3.957c-.26.51-.377 1.077-.434 1.775C1.5 6.42 1.5 7.276 1.5 8.377v7.246c0 1.1 0 1.958.056 2.645.057.698.175 1.265.434 1.775a4.5 4.5 0 0 0 1.967 1.967c.51.26 1.077.377 1.775.434.688.056 1.544.056 2.645.056h7.246c1.1 0 1.958 0 2.645-.056.698-.057 1.265-.175 1.775-.434a4.5 4.5 0 0 0 1.967-1.967c.26-.51.377-1.077.434-1.775.056-.687.056-1.544.056-2.645V8.377c0-1.1 0-1.958-.056-2.645-.057-.698-.175-1.265-.434-1.775a4.5 4.5 0 0 0-1.967-1.967c-.51-.26-1.077-.377-1.775-.434-.687-.056-1.544-.056-2.645-.056M4.41 2.881c.346-.176.766-.276 1.403-.328C6.455 2.5 7.272 2.5 8.4 2.5h7.2c1.128 0 1.945 0 2.586.053.637.052 1.057.152 1.403.328a3.5 3.5 0 0 1 1.53 1.53c.176.346.276.766.328 1.403.053.641.053 1.458.053 2.586v7.2c0 1.128 0 1.945-.053 2.586-.052.637-.152 1.057-.328 1.403a3.5 3.5 0 0 1-1.53 1.53c-.346.176-.766.276-1.402.328-.642.053-1.459.053-2.587.053H8.4c-1.128 0-1.945 0-2.586-.053-.637-.052-1.057-.152-1.403-.328a3.5 3.5 0 0 1-1.53-1.53c-.176-.346-.276-.766-.328-1.402C2.5 17.545 2.5 16.728 2.5 15.6V8.4c0-1.128 0-1.945.053-2.586.052-.637.152-1.057.328-1.403a3.5 3.5 0 0 1 1.53-1.53",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -37297,6 +48933,49 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M10.874 3.206c.455-.943 1.798-.943 2.252 0l2.131 4.42a1 1 0 0 0 .771.558l4.883.637c1.046.136 1.463 1.428.694 2.15l-3.556 3.342a1 1 0 0 0-.299.913l.896 4.787c.193 1.032-.895 1.828-1.82 1.331l-4.353-2.338a1 1 0 0 0-.946 0l-4.352 2.338c-.925.497-2.014-.299-1.82-1.33l.895-4.788a1 1 0 0 0-.298-.913l-3.557-3.342c-.769-.722-.352-2.014.694-2.15l4.883-.637a1 1 0 0 0 .771-.558z",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M10.424 2.989c.636-1.32 2.516-1.32 3.153 0l2.13 4.42a.5.5 0 0 0 .386.279l4.883.637c1.465.191 2.048 1.999.972 3.01l-3.557 3.343a.5.5 0 0 0-.149.456l.896 4.787c.27 1.445-1.254 2.56-2.549 1.864l-4.352-2.339a.5.5 0 0 0-.473 0L7.41 21.785c-1.294.695-2.818-.419-2.548-1.864l.896-4.787a.5.5 0 0 0-.15-.456l-3.556-3.343c-1.077-1.011-.493-2.819.972-3.01l4.882-.637a.5.5 0 0 0 .386-.279zm2.252.434a.75.75 0 0 0-1.351 0l-2.131 4.42a1.5 1.5 0 0 1-1.157.836l-4.883.638a.75.75 0 0 0-.417 1.29l3.557 3.342a1.5 1.5 0 0 1 .447 1.369l-.895 4.787a.75.75 0 0 0 1.092.799l4.352-2.339a1.5 1.5 0 0 1 1.42 0l4.352 2.339a.75.75 0 0 0 1.093-.799l-.896-4.787a1.5 1.5 0 0 1 .447-1.369l3.557-3.342a.75.75 0 0 0-.416-1.29l-4.883-.638a1.5 1.5 0 0 1-1.157-.836z",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -37418,6 +49097,49 @@ export default [
             fill: "#000",
             d: "M16.433 1.25H7.567c-.952 0-1.713 0-2.327.05-.63.052-1.172.16-1.67.413a4.25 4.25 0 0 0-1.857 1.858c-.253.497-.361 1.04-.413 1.67-.05.613-.05 1.374-.05 2.326v8.866c0 .952 0 1.713.05 2.327.052.63.16 1.172.413 1.67a4.25 4.25 0 0 0 1.858 1.857c.497.253 1.04.361 1.67.413.613.05 1.374.05 2.326.05h8.866c.952 0 1.713 0 2.327-.05.63-.052 1.172-.16 1.67-.413a4.25 4.25 0 0 0 1.857-1.857c.253-.498.361-1.04.413-1.67.05-.614.05-1.375.05-2.327V7.567c0-.952 0-1.713-.05-2.327-.052-.63-.16-1.172-.413-1.67a4.25 4.25 0 0 0-1.857-1.857c-.498-.253-1.04-.361-1.67-.413-.614-.05-1.375-.05-2.327-.05",
             opacity: ".4"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M2 7.6c0-1.96 0-2.94.381-3.689a3.5 3.5 0 0 1 1.53-1.53C4.66 2 5.64 2 7.6 2h8.8c1.96 0 2.94 0 3.689.381a3.5 3.5 0 0 1 1.53 1.53C22 4.66 22 5.64 22 7.6v8.8c0 1.96 0 2.94-.381 3.689a3.5 3.5 0 0 1-1.53 1.53C19.34 22 18.36 22 16.4 22H7.6c-1.96 0-2.94 0-3.689-.381a3.5 3.5 0 0 1-1.53-1.53C2 19.34 2 18.36 2 16.4z",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M7.578 1.5h8.844c.962 0 1.713 0 2.317.05.615.05 1.12.153 1.577.386a4 4 0 0 1 1.748 1.748c.233.457.336.962.387 1.576.049.605.049 1.356.049 2.318v8.845c0 .96 0 1.713-.05 2.317-.05.614-.153 1.12-.386 1.576a4 4 0 0 1-1.748 1.748c-.457.233-.962.336-1.576.387-.604.049-1.356.049-2.317.049H7.577c-.962 0-1.713 0-2.318-.05-.614-.05-1.12-.153-1.576-.386a4 4 0 0 1-1.748-1.748c-.233-.457-.336-.962-.387-1.576-.049-.604-.049-1.356-.049-2.318V7.578c0-.962 0-1.713.05-2.318.05-.614.153-1.12.386-1.576a4 4 0 0 1 1.748-1.748c.457-.233.962-.336 1.576-.387C5.865 1.5 6.616 1.5 7.578 1.5M5.342 2.546c-.553.045-.912.132-1.204.281a3 3 0 0 0-1.311 1.311c-.149.292-.236.651-.281 1.204C2.5 5.9 2.5 6.612 2.5 7.6v8.8c0 .988 0 1.7.046 2.258.045.553.132.912.281 1.204a3 3 0 0 0 1.311 1.311c.292.149.651.236 1.204.281.558.046 1.27.046 2.258.046h8.8c.988 0 1.7 0 2.258-.046.553-.045.912-.132 1.204-.281a3 3 0 0 0 1.311-1.311c.149-.292.236-.651.281-1.204.046-.559.046-1.27.046-2.258V7.6c0-.988 0-1.7-.046-2.258-.045-.553-.132-.912-.281-1.204a3 3 0 0 0-1.311-1.311c-.292-.149-.651-.236-1.204-.281C18.1 2.5 17.388 2.5 16.4 2.5H7.6c-.988 0-1.7 0-2.258.046",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -37579,6 +49301,60 @@ export default [
           attributes: {
             fill: "#000",
             d: "M9 .75a.75.75 0 0 0 0 1.5h2.25V4.5a.75.75 0 0 0 1.5 0V2.25H15a.75.75 0 0 0 0-1.5zM17.72 7.28a.75.75 0 0 1 0-1.06l1.75-1.75a.75.75 0 1 1 1.06 1.06l-1.75 1.75a.75.75 0 0 1-1.06 0M12.75 9a.75.75 0 0 0-1.5 0v4.5a.75.75 0 0 0 1.5 0z"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M21 13.5a9 9 0 1 1-18 0 9 9 0 0 1 18 0",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M12.5 9a.5.5 0 0 0-1 0v4.5a.5.5 0 0 0 1 0z"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M12.5 2v2.013c2.12.11 4.058.916 5.587 2.193l1.56-1.56a.5.5 0 1 1 .707.708L18.82 6.887A9.47 9.47 0 0 1 21.5 13.5a9.5 9.5 0 1 1-10-9.487V2H9a.5.5 0 0 1 0-1h6a.5.5 0 0 1 0 1zm-9 11.5a8.5 8.5 0 1 1 17 0 8.5 8.5 0 0 1-17 0",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -37765,6 +49541,71 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M16.5 12a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M11.5 4.5a.5.5 0 1 0 1 0V2a.5.5 0 0 0-1 0z"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10m-4 5a4 4 0 1 1 8 0 4 4 0 0 1-8 0",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M22 12.5a.5.5 0 0 0 0-1h-2.5a.5.5 0 0 0 0 1zM1.5 12a.5.5 0 0 0 .5.5h2.5a.5.5 0 0 0 0-1H2a.5.5 0 0 0-.5.5M12 22.5a.5.5 0 0 1-.5-.5v-2.5a.5.5 0 1 1 1 0V22a.5.5 0 0 1-.5.5M19.425 5.283a.5.5 0 1 0-.707-.708L16.95 6.343a.5.5 0 0 0 .707.707zM5.282 4.575a.5.5 0 0 0-.707.708L6.343 7.05a.5.5 0 0 0 .707-.707zM7.05 17.657a.5.5 0 1 0-.707-.707l-1.768 1.768a.5.5 0 1 0 .707.707zM17.657 16.95a.5.5 0 1 0-.707.707l1.768 1.768a.5.5 0 1 0 .707-.707z"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -37921,6 +49762,60 @@ export default [
           attributes: {
             fill: "#000",
             d: "M10.5 4.25a.75.75 0 0 0 0 1.5h3a.75.75 0 0 0 0-1.5zM12 17.5a1 1 0 1 0 0 2 1 1 0 0 0 0-2"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M3.5 7.2c0-1.82 0-2.73.354-3.425a3.25 3.25 0 0 1 1.42-1.42C5.97 2 6.88 2 8.7 2h6.6c1.82 0 2.73 0 3.425.354a3.25 3.25 0 0 1 1.42 1.42c.355.696.355 1.606.355 3.426v9.6c0 1.82 0 2.73-.354 3.425a3.25 3.25 0 0 1-1.42 1.42C18.03 22 17.12 22 15.3 22H8.7c-1.82 0-2.73 0-3.425-.354a3.25 3.25 0 0 1-1.42-1.42C3.5 19.53 3.5 18.62 3.5 16.8z",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M11.25 18.5a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0M10.5 4.5a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1z"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M8.678 1.5h6.644c.892 0 1.591 0 2.153.046.573.047 1.048.144 1.477.363a3.75 3.75 0 0 1 1.64 1.639c.218.43.315.904.362 1.477C21 5.587 21 6.286 21 7.178v9.644c0 .892 0 1.591-.046 2.153-.047.573-.144 1.048-.363 1.477a3.75 3.75 0 0 1-1.639 1.64c-.43.218-.904.315-1.477.362-.562.046-1.262.046-2.153.046H8.678c-.892 0-1.591 0-2.153-.046-.573-.047-1.048-.144-1.477-.363a3.75 3.75 0 0 1-1.64-1.639c-.218-.43-.315-.904-.362-1.477C3 18.413 3 17.713 3 16.822V7.178c0-.892 0-1.591.046-2.153.047-.573.144-1.048.363-1.477a3.75 3.75 0 0 1 1.639-1.64c.43-.218.904-.315 1.477-.362C7.087 1.5 7.786 1.5 8.678 1.5M6.606 2.543c-.51.041-.84.122-1.104.257A2.75 2.75 0 0 0 4.3 4.002c-.135.265-.216.593-.257 1.104C4 5.623 4 6.282 4 7.2v9.6c0 .918 0 1.577.043 2.094.041.51.122.84.257 1.105A2.75 2.75 0 0 0 5.502 21.2c.265.136.593.216 1.104.257.517.043 1.176.043 2.094.043h6.6c.918 0 1.577 0 2.094-.043.51-.041.84-.122 1.105-.257A2.75 2.75 0 0 0 19.7 20c.136-.266.216-.594.257-1.105C20 18.377 20 17.718 20 16.8V7.2c0-.918 0-1.577-.043-2.094-.041-.51-.122-.84-.257-1.104A2.75 2.75 0 0 0 18.5 2.8c-.266-.135-.594-.216-1.105-.257C16.877 2.5 16.218 2.5 15.3 2.5H8.7c-.918 0-1.577 0-2.094.043",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -38093,6 +49988,64 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "m14.977 19.492 5.381-5.376c.606-.605.909-.908 1.126-1.261.192-.314.333-.655.42-1.013.096-.402.096-.83.096-1.687V5.203c0-1.12 0-1.681-.218-2.11a2 2 0 0 0-.875-.874c-.428-.217-.989-.217-2.11-.216l-4.958.005c-.854 0-1.281.001-1.683.098a3.5 3.5 0 0 0-1.01.418c-.353.216-.655.518-1.26 1.122l-5.374 5.37c-1.387 1.386-2.08 2.079-2.34 2.878a3.5 3.5 0 0 0-.001 2.163c.259.8.952 1.492 2.337 2.88l2.55 2.551c1.385 1.387 2.078 2.08 2.877 2.34a3.5 3.5 0 0 0 2.163.002c.8-.26 1.493-.953 2.88-2.338M15 7.25a1.75 1.75 0 1 0 3.5 0 1.75 1.75 0 0 0-3.5 0",
+            "clip-rule": "evenodd",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M19 7.25a2.25 2.25 0 1 0-4.5 0 2.25 2.25 0 0 0 4.5 0M16.75 6a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M21.133 1.774c-.296-.151-.616-.214-.981-.243-.354-.029-.792-.029-1.334-.028l-5.046.005c-.79 0-1.273 0-1.733.112a4 4 0 0 0-1.154.478c-.404.247-.745.588-1.304 1.147L4.142 8.68c-.68.679-1.212 1.21-1.604 1.672-.4.47-.683.9-.842 1.388a4 4 0 0 0-.001 2.472c.158.487.442.918.84 1.389.393.462.924.994 1.603 1.673l2.582 2.585c.68.68 1.21 1.211 1.672 1.604.47.4.9.683 1.388.842a4 4 0 0 0 2.472.001c.488-.158.918-.442 1.389-.84.462-.393.994-.924 1.674-1.604l5.444-5.438c.56-.56.903-.903 1.15-1.307.22-.358.382-.748.48-1.157.111-.461.111-.945.111-1.738v-5.04c0-.542 0-.98-.029-1.333-.03-.365-.093-.685-.244-.982a2.5 2.5 0 0 0-1.094-1.092m-2.336.729c.57 0 .966 0 1.274.024.303.025.477.07.609.138a1.5 1.5 0 0 1 .656.656c.067.131.114.305.138.608.026.309.026.705.026 1.274v4.952c0 .88-.003 1.239-.083 1.57a3 3 0 0 1-.36.868c-.178.291-.43.547-1.052 1.17l-5.381 5.375c-.7.699-1.203 1.201-1.63 1.564-.423.358-.739.55-1.05.652a3 3 0 0 1-1.854-.001c-.312-.102-.627-.294-1.05-.653-.427-.363-.93-.866-1.629-1.565l-2.55-2.552c-.698-.7-1.2-1.203-1.563-1.63-.358-.423-.55-.739-.652-1.05a3 3 0 0 1 .001-1.855c.101-.311.294-.627.653-1.05.363-.426.866-.93 1.565-1.628L10.24 4c.621-.62.877-.871 1.167-1.05a3 3 0 0 1 .866-.358c.331-.08.689-.083 1.567-.084z",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -38249,6 +50202,60 @@ export default [
           attributes: {
             fill: "#000",
             d: "M15.53 8.47a.75.75 0 0 1 0 1.06l-6 6a.75.75 0 0 1-1.06-1.06l6-6a.75.75 0 0 1 1.06 0M8.5 9.5a1 1 0 1 1 2 0 1 1 0 0 1-2 0M14.5 13.5a1 1 0 1 0 0 2 1 1 0 0 0 0-2"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M1.5 9.1c0-1.96 0-2.94.381-3.689a3.5 3.5 0 0 1 1.53-1.53C4.16 3.5 5.14 3.5 7.1 3.5h9.8c1.96 0 2.94 0 3.689.381a3.5 3.5 0 0 1 1.53 1.53c.381.749.381 1.729.381 3.689v.161a2.75 2.75 0 0 0 0 5.478v.161c0 1.96 0 2.94-.381 3.689a3.5 3.5 0 0 1-1.53 1.53c-.749.381-1.729.381-3.689.381H7.1c-1.96 0-2.94 0-3.689-.381a3.5 3.5 0 0 1-1.53-1.53C1.5 17.84 1.5 16.86 1.5 14.9v-.161a2.75 2.75 0 0 0 0-5.478z",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M15.354 9.354a.5.5 0 0 0-.708-.708l-6 6a.5.5 0 0 0 .708.708zM8.75 9.5a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0M14.5 13.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M16.922 3H7.078c-.962 0-1.713 0-2.318.05-.614.05-1.12.153-1.576.386a4 4 0 0 0-1.748 1.748c-.233.457-.336.962-.387 1.576C1 7.365 1 8.116 1 9.078v.183a.5.5 0 0 0 .455.498 2.25 2.25 0 0 1 0 4.482.5.5 0 0 0-.455.498v.183c0 .961 0 1.713.05 2.317.05.615.153 1.12.386 1.577a4 4 0 0 0 1.748 1.748c.457.233.962.336 1.576.387C5.365 21 6.116 21 7.078 21h9.845c.96 0 1.713 0 2.317-.05.614-.05 1.12-.153 1.576-.386a4 4 0 0 0 1.748-1.748c.233-.457.336-.962.387-1.576.049-.604.049-1.356.049-2.317v-.184a.5.5 0 0 0-.455-.498 2.25 2.25 0 0 1 0-4.482.5.5 0 0 0 .455-.498v-.183c0-.962 0-1.713-.05-2.318-.05-.614-.153-1.12-.386-1.576a4 4 0 0 0-1.748-1.748c-.457-.233-.962-.336-1.576-.387C18.636 3 17.883 3 16.922 3M3.638 4.327c.292-.149.651-.236 1.204-.281C5.4 4 6.112 4 7.1 4h9.8c.988 0 1.7 0 2.258.046.553.045.912.132 1.204.281a3 3 0 0 1 1.311 1.311c.149.292.236.651.281 1.204.041.508.046 1.142.046 1.995a3.251 3.251 0 0 0 0 6.326c0 .854-.005 1.487-.046 1.995-.045.553-.132.912-.281 1.204a3 3 0 0 1-1.311 1.311c-.292.149-.651.236-1.204.281C18.6 20 17.888 20 16.9 20H7.1c-.988 0-1.7 0-2.258-.046-.553-.045-.912-.132-1.204-.281a3 3 0 0 1-1.311-1.311c-.149-.292-.236-.651-.281-1.204C2.005 16.65 2 16.016 2 15.163a3.25 3.25 0 0 0 0-6.326c0-.853.005-1.487.046-1.995.045-.553.132-.912.281-1.204a3 3 0 0 1 1.311-1.311",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -38448,6 +50455,71 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M4.694 7.5a.5.5 0 0 0-.498.546l.902 9.667c.07.751.125 1.344.208 1.82.084.487.202.891.419 1.255a3.5 3.5 0 0 0 1.507 1.374c.383.181.796.262 1.289.3.482.038 1.077.038 1.831.038h3.296c.754 0 1.35 0 1.832-.038.492-.038.906-.119 1.288-.3a3.5 3.5 0 0 0 1.508-1.373c.216-.365.334-.769.419-1.256.082-.476.137-1.069.207-1.82l.902-9.667a.5.5 0 0 0-.498-.546z",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M10.219 1.5c-.406 0-.712 0-.997.086a2 2 0 0 0-.69.369c-.23.19-.4.444-.624.781l-.612.918c-.277.417-.363.535-.464.619a1 1 0 0 1-.344.184c-.126.038-.272.043-.772.043H3a.5.5 0 0 0 0 1h18a.5.5 0 0 0 0-1h-2.716c-.5 0-.646-.005-.772-.043a1 1 0 0 1-.344-.184c-.101-.084-.187-.202-.465-.62l-.611-.917c-.225-.337-.394-.592-.625-.781a2 2 0 0 0-.689-.369c-.285-.086-.591-.086-.997-.086zm5.848 3-.159-.236-.611-.918c-.278-.417-.364-.535-.465-.619a1 1 0 0 0-.344-.184c-.125-.038-.272-.043-.772-.043h-3.432c-.5 0-.646.005-.772.043a1 1 0 0 0-.344.184c-.101.084-.187.202-.464.62l-.612.916-.16.237z",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M4.647 7.502a.5.5 0 0 1 .545.452l.9 9.645c.072.777.124 1.33.199 1.764.074.427.164.698.293.915a2.5 2.5 0 0 0 1.077.98c.228.109.506.173.938.207.438.035.994.035 1.774.035h3.254c.78 0 1.336 0 1.774-.035.432-.034.71-.098.938-.207a2.5 2.5 0 0 0 1.077-.98c.129-.217.22-.488.293-.915.075-.433.127-.987.2-1.764l.9-9.645a.5.5 0 0 1 .995.092l-.902 9.667c-.07.751-.125 1.344-.208 1.82-.084.487-.202.891-.419 1.256a3.5 3.5 0 0 1-1.507 1.373c-.383.181-.796.262-1.289.3-.481.038-1.077.038-1.83.038h-3.297c-.754 0-1.35 0-1.831-.038-.493-.038-.907-.119-1.29-.3a3.5 3.5 0 0 1-1.506-1.373c-.217-.365-.335-.769-.42-1.256-.082-.476-.137-1.069-.207-1.82l-.902-9.667a.5.5 0 0 1 .451-.544"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M13.5 17.5v-7a.5.5 0 0 1 1 0v7a.5.5 0 1 1-1 0M9.5 10.5v7a.5.5 0 1 0 1 0v-7a.5.5 0 0 0-1 0"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -38582,6 +50654,59 @@ export default [
           attributes: {
             fill: "#000",
             d: "m19.627 3.75-.107 1.5H21a.25.25 0 0 1 .249.27l-.247 3.192a2.75 2.75 0 0 1-1.985 2.432 7.2 7.2 0 0 1-.567 1.602 4.25 4.25 0 0 0 4.048-3.918l.246-3.193A1.75 1.75 0 0 0 21 3.75zM12 16.75q-.38 0-.75-.039V18.5H9.72a1.5 1.5 0 0 0-1.422 1.026l-.575 1.724H7a.75.75 0 0 0 0 1.5h10a.75.75 0 0 0 0-1.5h-.723l-.575-1.724A1.5 1.5 0 0 0 14.28 18.5H12.75v-1.789a7 7 0 0 1-.75.039M5.55 12.746a7.2 7.2 0 0 1-.567-1.602 2.75 2.75 0 0 1-1.985-2.432l-.247-3.193a.25.25 0 0 1 .25-.27h1.48l-.108-1.5H3a1.75 1.75 0 0 0-1.744 1.886l.246 3.193a4.25 4.25 0 0 0 4.048 3.918"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            opacity: ".4"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M16 22H8l.658-1.974A1.5 1.5 0 0 1 10.081 19h3.838a1.5 1.5 0 0 1 1.423 1.026zM6.61 2a1.5 1.5 0 0 0-1.495 1.607l.457 6.408a6.444 6.444 0 0 0 12.855 0l.458-6.408A1.5 1.5 0 0 0 17.39 2z"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M4.616 3.642A2 2 0 0 1 6.611 1.5H17.39a2 2 0 0 1 1.995 2.142L19.358 4H21a1.5 1.5 0 0 1 1.495 1.616l-.247 3.192a4 4 0 0 1-3.957 3.692 6.95 6.95 0 0 1-5.791 3.982V18.5h1.419a2 2 0 0 1 1.897 1.367l.544 1.633H17a.5.5 0 1 1 0 1H7a.5.5 0 0 1 0-1h.64l.544-1.633A2 2 0 0 1 10.08 18.5H11.5v-2.018A6.95 6.95 0 0 1 5.71 12.5a4 4 0 0 1-3.958-3.692l-.247-3.192A1.5 1.5 0 0 1 3 4h1.642zM8.694 21.5h6.612l-.438-1.316a1 1 0 0 0-.949-.684h-3.838a1 1 0 0 0-.948.684zm-3.62-11.45q.054.737.25 1.421a3 3 0 0 1-2.575-2.74L2.502 5.54A.5.5 0 0 1 3 5h1.713zm13.602 1.421a3 3 0 0 0 2.575-2.74l.247-3.192A.5.5 0 0 0 21 5h-1.713l-.36 5.05q-.054.737-.251 1.421M6.61 2.5a1 1 0 0 0-.997 1.071L6.07 9.98a5.944 5.944 0 0 0 11.858 0l.458-6.409a1 1 0 0 0-.998-1.071z",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -38746,6 +50871,60 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M1.5 7.8c0-1.68 0-2.52.327-3.162a3 3 0 0 1 1.311-1.311C3.78 3 4.62 3 6.3 3h11.4c1.68 0 2.52 0 3.162.327a3 3 0 0 1 1.311 1.311c.327.642.327 1.482.327 3.162v5.4c0 1.68 0 2.52-.327 3.162a3 3 0 0 1-1.311 1.311C20.22 18 19.38 18 17.7 18H6.3c-1.68 0-2.52 0-3.162-.327a3 3 0 0 1-1.311-1.311C1.5 15.72 1.5 14.88 1.5 13.2z",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M17.722 2.5H6.278c-.821 0-1.468 0-1.99.043-.53.043-.974.133-1.377.338a3.5 3.5 0 0 0-1.53 1.53c-.205.403-.295.847-.338 1.378C1 6.309 1 6.957 1 7.778v5.444c0 .822 0 1.469.043 1.99.043.53.133.974.338 1.377a3.5 3.5 0 0 0 1.53 1.53c.403.205.847.295 1.378.338.52.043 1.167.043 1.989.043h11.444c.822 0 1.468 0 1.99-.043.53-.043.974-.133 1.377-.338a3.5 3.5 0 0 0 1.53-1.53c.205-.403.295-.847.338-1.378.043-.52.043-1.168.043-1.989V7.778c0-.821 0-1.468-.043-1.99-.043-.53-.133-.974-.338-1.377a3.5 3.5 0 0 0-1.53-1.53c-.403-.205-.847-.295-1.378-.338-.52-.043-1.167-.043-1.989-.043M3.365 3.772c.239-.121.536-.194 1.005-.233C4.845 3.5 5.452 3.5 6.3 3.5h11.4c.848 0 1.454 0 1.93.04.469.038.766.11 1.005.232a2.5 2.5 0 0 1 1.092 1.093c.122.239.195.536.234 1.005C22 6.345 22 6.952 22 7.8v5.4c0 .848 0 1.455-.04 1.93-.038.469-.11.766-.233 1.005a2.5 2.5 0 0 1-1.092 1.092c-.239.122-.536.195-1.005.234-.476.039-1.082.039-1.93.039H6.3c-.848 0-1.455 0-1.93-.04-.469-.038-.766-.11-1.005-.233a2.5 2.5 0 0 1-1.093-1.092c-.121-.239-.194-.536-.233-1.005C2 14.654 2 14.048 2 13.2V7.8c0-.848 0-1.455.04-1.93.038-.469.11-.766.232-1.005a2.5 2.5 0 0 1 1.093-1.093",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M6.5 20.5a.5.5 0 0 0 0 1h11a.5.5 0 0 0 0-1z"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -38878,6 +51057,49 @@ export default [
           attributes: {
             fill: "#000",
             d: "M6.75 6.5a5.25 5.25 0 0 1 10.201-1.75.75.75 0 0 1-1.414.5A3.752 3.752 0 0 0 8.25 6.5V9a.75.75 0 0 1-1.5 0z"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M4 13.8c0-1.68 0-2.52.327-3.162a3 3 0 0 1 1.311-1.311C6.28 9 7.12 9 8.8 9h6.4c1.68 0 2.52 0 3.162.327a3 3 0 0 1 1.311 1.311C20 11.28 20 12.12 20 13.8v3.4c0 1.68 0 2.52-.327 3.162a3 3 0 0 1-1.311 1.311C17.72 22 16.88 22 15.2 22H8.8c-1.68 0-2.52 0-3.162-.327a3 3 0 0 1-1.311-1.311C4 19.72 4 18.88 4 17.2z",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M12 1.5a5 5 0 0 0-5 5v2.028l-.211.015c-.531.043-.975.133-1.378.338a3.5 3.5 0 0 0-1.53 1.53c-.205.403-.295.847-.338 1.378-.043.52-.043 1.168-.043 1.989v3.444c0 .822 0 1.468.043 1.99.043.53.133.974.338 1.377a3.5 3.5 0 0 0 1.53 1.53c.403.205.847.295 1.378.338.52.043 1.167.043 1.989.043h6.444c.822 0 1.469 0 1.99-.043.53-.043.974-.133 1.377-.338a3.5 3.5 0 0 0 1.53-1.53c.205-.403.295-.847.338-1.378.043-.52.043-1.167.043-1.989v-3.444c0-.822 0-1.469-.043-1.99-.043-.53-.133-.974-.338-1.377a3.5 3.5 0 0 0-1.53-1.53c-.403-.205-.847-.295-1.378-.338-.52-.043-1.167-.043-1.989-.043H8.778q-.418 0-.778.002V6.5a4 4 0 0 1 7.773-1.333.5.5 0 0 0 .942-.334A5 5 0 0 0 12 1.5M5.865 9.772c.239-.121.536-.194 1.005-.233C7.345 9.5 7.952 9.5 8.8 9.5h6.4c.848 0 1.454 0 1.93.04.469.038.766.11 1.005.232a2.5 2.5 0 0 1 1.092 1.093c.122.239.195.536.234 1.005.039.476.039 1.082.039 1.93v3.4c0 .848 0 1.454-.04 1.93-.038.469-.11.766-.233 1.005a2.5 2.5 0 0 1-1.092 1.092c-.239.122-.536.195-1.005.234-.476.039-1.082.039-1.93.039H8.8c-.848 0-1.455 0-1.93-.04-.469-.038-.766-.11-1.005-.233a2.5 2.5 0 0 1-1.093-1.092c-.121-.239-.194-.536-.233-1.005-.039-.476-.039-1.082-.039-1.93v-3.4c0-.848 0-1.455.04-1.93.038-.469.11-.766.232-1.005a2.5 2.5 0 0 1 1.093-1.093",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -39049,6 +51271,47 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M21.46 19.13c.04-.476.04-1.082.04-1.93V14a.5.5 0 0 1 1 0v3.222c0 .822 0 1.468-.043 1.99-.043.53-.133.974-.338 1.377a3.5 3.5 0 0 1-1.53 1.53c-.403.205-.847.295-1.378.338-.52.043-1.167.043-1.989.043H6.778c-.821 0-1.468 0-1.99-.043-.53-.043-.974-.133-1.377-.338a3.5 3.5 0 0 1-1.53-1.53c-.205-.403-.295-.847-.338-1.378-.043-.52-.043-1.167-.043-1.989V14a.5.5 0 0 1 1 0v3.2c0 .848 0 1.454.04 1.93.038.469.11.766.232 1.005a2.5 2.5 0 0 0 1.093 1.092c.239.122.536.195 1.005.234.476.039 1.082.039 1.93.039h10.4c.848 0 1.454 0 1.93-.04.469-.038.766-.11 1.005-.233a2.5 2.5 0 0 0 1.092-1.092c.122-.239.195-.536.234-1.005",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M17.354 6.646a.5.5 0 0 1-.708.708L12.5 3.207V15a.5.5 0 0 1-1 0V3.207L7.354 7.354a.5.5 0 1 1-.708-.708l5-5a.5.5 0 0 1 .708 0z"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -39203,6 +51466,70 @@ export default [
           attributes: {
             fill: "#000",
             d: "M3.75 7.5a5.25 5.25 0 1 1 10.5 0 5.25 5.25 0 0 1-10.5 0M23.53 9.53a.75.75 0 0 0-1.06-1.06l-3.97 3.97-1.97-1.97a.75.75 0 1 0-1.06 1.06l2.5 2.5a.75.75 0 0 0 1.06 0z"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            opacity: ".4"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M9 12a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9M.505 20.93C1.05 17.117 4.823 14.5 9 14.5c4.178 0 7.95 2.618 8.495 6.43a.5.5 0 0 1-.495.57H1a.5.5 0 0 1-.495-.57"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M4 7.5a5 5 0 1 1 10 0 5 5 0 0 1-10 0m5-4a4 4 0 1 0 0 8 4 4 0 0 0 0-8",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M9 15.5c-3.823 0-7.05 2.382-7.505 5.57a.5.5 0 0 1-.99-.14c.545-3.812 4.318-6.43 8.496-6.43 4.177 0 7.95 2.618 8.494 6.43a.5.5 0 1 1-.99.14c-.455-3.188-3.681-5.57-7.504-5.57M23.354 9.354a.5.5 0 1 0-.707-.708L18.5 12.793l-2.146-2.147a.5.5 0 0 0-.707.708l2.5 2.5a.5.5 0 0 0 .707 0z"
           },
           children: []
         }
@@ -39534,6 +51861,100 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            "clip-path": "url(#a)",
+            "clip-rule": "evenodd"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M18.632 20.777A10.98 10.98 0 0 0 23 12c0-6.075-4.925-11-11-11S1 5.925 1 12c0 5.695 4.329 10.38 9.875 10.943a10.94 10.94 0 0 1-5.507-2.167C6.68 18.411 9.575 17 12 17s5.32 1.41 6.632 3.776M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0",
+                opacity: ".4"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M12 7a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7m-2.5 3.5a2.5 2.5 0 1 1 5 0 2.5 2.5 0 0 1-5 0"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M12 23.5a11.45 11.45 0 0 0 6.943-2.331A11.48 11.48 0 0 0 23.5 12C23.5 5.649 18.351.5 12 .5S.5 5.649.5 12 5.649 23.5 12 23.5m0-22C6.201 1.5 1.5 6.201 1.5 12c0 3.223 1.452 6.107 3.739 8.034 1.517-2.24 4.355-3.534 6.76-3.534 2.407 0 5.245 1.294 6.763 3.533A10.48 10.48 0 0 0 22.5 12c0-5.799-4.701-10.5-10.5-10.5m0 21c-2.216 0-4.271-.686-5.965-1.858C7.335 18.682 9.864 17.5 12 17.5s4.665 1.182 5.965 3.142A10.45 10.45 0 0 1 12 22.5"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "defs",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {},
+          children: [
+            {
+              name: "clipPath",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                id: "a"
+              },
+              children: [
+                {
+                  name: "path",
+                  type: "element",
+                  value: "",
+                  parent: null,
+                  attributes: {
+                    fill: "#fff",
+                    d: "M0 0h24v24H0z"
+                  },
+                  children: []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
   },
@@ -39688,6 +52109,70 @@ export default [
           attributes: {
             fill: "#000",
             d: "M3.75 7.5a5.25 5.25 0 1 1 10.5 0 5.25 5.25 0 0 1-10.5 0M23 12.75a.75.75 0 0 0 0-1.5h-6a.75.75 0 0 0 0 1.5z"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            opacity: ".4"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M9 12a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9M.505 20.93C1.05 17.117 4.823 14.5 9 14.5c4.178 0 7.95 2.618 8.495 6.43a.5.5 0 0 1-.495.57H1a.5.5 0 0 1-.495-.57"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M4 7.5a5 5 0 1 1 10 0 5 5 0 0 1-10 0m5-4a4 4 0 1 0 0 8 4 4 0 0 0 0-8",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M9 15.5c-3.823 0-7.05 2.382-7.505 5.57a.5.5 0 0 1-.99-.14c.545-3.812 4.318-6.43 8.496-6.43 4.177 0 7.95 2.618 8.494 6.43a.5.5 0 1 1-.99.14c-.455-3.188-3.681-5.57-7.504-5.57M23 12.5a.5.5 0 1 0 0-1h-6a.5.5 0 0 0 0 1z"
           },
           children: []
         }
@@ -39852,6 +52337,70 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            opacity: ".4"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M9 12a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9M.505 20.93C1.05 17.117 4.823 14.5 9 14.5c4.178 0 7.95 2.618 8.495 6.43a.5.5 0 0 1-.495.57H1a.5.5 0 0 1-.495-.57"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M9 2.5a5 5 0 1 0 0 10 5 5 0 0 0 0-10m-4 5a4 4 0 1 1 8 0 4 4 0 0 1-8 0",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M1.495 21.07c.456-3.188 3.682-5.57 7.506-5.57 3.823 0 7.049 2.382 7.504 5.57a.5.5 0 1 0 .99-.14c-.544-3.812-4.317-6.43-8.494-6.43-4.178 0-7.951 2.618-8.496 6.43a.5.5 0 1 0 .99.14M23.5 12a.5.5 0 0 1-.5.5h-2.5V15a.5.5 0 0 1-1 0v-2.5H17a.5.5 0 1 1 0-1h2.5V9a.5.5 0 1 1 1 0v2.5H23a.5.5 0 0 1 .5.5"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -40011,6 +52560,70 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            opacity: ".4"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M12 12a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9M3.505 20.93c.545-3.812 4.318-6.43 8.496-6.43 4.177 0 7.95 2.618 8.494 6.43a.5.5 0 0 1-.495.57H4a.5.5 0 0 1-.495-.57"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M12 2.5a5 5 0 1 0 0 10 5 5 0 0 0 0-10m-4 5a4 4 0 1 1 8 0 4 4 0 0 1-8 0",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M4.495 21.07c.456-3.188 3.682-5.57 7.506-5.57 3.823 0 7.049 2.382 7.504 5.57a.5.5 0 1 0 .99-.14c-.544-3.812-4.317-6.43-8.494-6.43-4.178 0-7.951 2.618-8.496 6.43a.5.5 0 0 0 .99.14"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -40160,6 +52773,59 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            opacity: ".4"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M22 3.25v2c0 .69-.56 1.25-1.25 1.25h-2c-.69 0-1.25-.56-1.25-1.25v-2c0-.69.56-1.25 1.25-1.25h2c.69 0 1.25.56 1.25 1.25M22 18.75v2c0 .69-.56 1.25-1.25 1.25h-2c-.69 0-1.25-.56-1.25-1.25v-2c0-.69.56-1.25 1.25-1.25h2c.69 0 1.25.56 1.25 1.25M6.5 20.75v-2c0-.69-.56-1.25-1.25-1.25h-2c-.69 0-1.25.56-1.25 1.25v2c0 .69.56 1.25 1.25 1.25h2c.69 0 1.25-.56 1.25-1.25M6.5 3.25v2c0 .69-.56 1.25-1.25 1.25h-2C2.56 6.5 2 5.94 2 5.25v-2C2 2.56 2.56 2 3.25 2h2c.69 0 1.25.56 1.25 1.25"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M20.25 7h.5a1.75 1.75 0 0 0 1.75-1.75v-2a1.75 1.75 0 0 0-1.75-1.75h-2A1.75 1.75 0 0 0 17 3.25v.5H7v-.5A1.75 1.75 0 0 0 5.25 1.5h-2A1.75 1.75 0 0 0 1.5 3.25v2C1.5 6.216 2.284 7 3.25 7h.5v10h-.5a1.75 1.75 0 0 0-1.75 1.75v2c0 .966.784 1.75 1.75 1.75h2A1.75 1.75 0 0 0 7 20.75v-.5h10v.5c0 .966.784 1.75 1.75 1.75h2a1.75 1.75 0 0 0 1.75-1.75v-2A1.75 1.75 0 0 0 20.75 17h-.5zm-1.5-4.5a.75.75 0 0 0-.75.75v2c0 .414.336.75.75.75h2a.75.75 0 0 0 .75-.75v-2a.75.75 0 0 0-.75-.75zm.5 4.5h-.5A1.75 1.75 0 0 1 17 5.25v-.5H7v.5A1.75 1.75 0 0 1 5.25 7h-.5v10h.5c.966 0 1.75.784 1.75 1.75v.5h10v-.5c0-.966.784-1.75 1.75-1.75h.5zm-.5 11a.75.75 0 0 0-.75.75v2c0 .414.336.75.75.75h2a.75.75 0 0 0 .75-.75v-2a.75.75 0 0 0-.75-.75zM6 3.25a.75.75 0 0 0-.75-.75h-2a.75.75 0 0 0-.75.75v2c0 .414.336.75.75.75h2A.75.75 0 0 0 6 5.25zm0 15.5a.75.75 0 0 0-.75-.75h-2a.75.75 0 0 0-.75.75v2c0 .414.336.75.75.75h2a.75.75 0 0 0 .75-.75z",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -40292,6 +52958,49 @@ export default [
           attributes: {
             fill: "#000",
             d: "M18.25 14.858V9.141l3.16-2.872c.802-.73 2.09-.16 2.09.925v9.61c0 1.085-1.288 1.654-2.09.924z"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M1.354 6.275C1 6.97 1 7.88 1 9.7v4.6c0 1.82 0 2.73.354 3.425a3.25 3.25 0 0 0 1.42 1.42c.696.355 1.606.355 3.426.355h6.1c1.82 0 2.73 0 3.425-.354a3.25 3.25 0 0 0 1.42-1.42c.355-.696.355-1.606.355-3.426v-.8l3.995 3.631A.9.9 0 0 0 23 16.467V7.535a.9.9 0 0 0-1.505-.666L17.5 10.5v-.8c0-1.82 0-2.73-.354-3.425a3.25 3.25 0 0 0-1.42-1.42C15.03 4.5 14.12 4.5 12.3 4.5H6.2c-1.82 0-2.73 0-3.425.354a3.25 3.25 0 0 0-1.42 1.42",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M12.322 4H6.178c-.892 0-1.591 0-2.153.046-.573.047-1.048.144-1.477.363a3.75 3.75 0 0 0-1.64 1.639c-.218.43-.315.904-.362 1.477C.5 8.087.5 8.786.5 9.678v4.644c0 .892 0 1.591.046 2.153.047.573.144 1.048.363 1.477a3.75 3.75 0 0 0 1.639 1.64c.43.218.904.315 1.477.362C4.587 20 5.286 20 6.178 20h6.144c.892 0 1.591 0 2.153-.046.573-.047 1.048-.144 1.478-.363a3.75 3.75 0 0 0 1.638-1.639c.22-.43.316-.904.363-1.477.04-.496.045-1.098.046-1.845l3.158 2.871c.9.818 2.342.18 2.342-1.035V7.535c0-1.216-1.442-1.854-2.342-1.036L18 9.369c0-.746-.005-1.348-.046-1.844-.047-.573-.144-1.048-.363-1.477a3.75 3.75 0 0 0-1.639-1.64c-.43-.218-.904-.315-1.477-.362C13.913 4 13.214 4 12.322 4M18 10.721v2.558l3.83 3.483a.4.4 0 0 0 .67-.296V7.535a.4.4 0 0 0-.67-.296zM17 9.7c0-.918 0-1.577-.043-2.094-.041-.51-.122-.84-.257-1.104A2.75 2.75 0 0 0 15.5 5.3c-.266-.135-.594-.216-1.105-.257C13.877 5 13.218 5 12.3 5H6.2c-.918 0-1.577 0-2.094.043-.51.041-.84.122-1.104.257A2.75 2.75 0 0 0 1.8 6.502c-.135.265-.216.593-.257 1.104C1.5 8.123 1.5 8.782 1.5 9.7v4.6c0 .918 0 1.577.043 2.094.041.51.122.84.257 1.105A2.75 2.75 0 0 0 3.002 18.7c.265.136.593.216 1.104.257C4.623 19 5.282 19 6.2 19h6.1c.918 0 1.577 0 2.094-.043.51-.041.84-.122 1.104-.257A2.75 2.75 0 0 0 16.7 17.5c.136-.266.216-.594.257-1.105C17 15.877 17 15.218 17 14.3z",
+            "clip-rule": "evenodd"
           },
           children: []
         }
@@ -40499,6 +53208,81 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            opacity: ".4"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M7.286 7.286c-.286.26-.432.391-.598.486a1.8 1.8 0 0 1-.48.185C6.018 8 5.818 8 5.418 8H3.9c-.84 0-1.26 0-1.581.163a1.5 1.5 0 0 0-.656.656c-.163.32-.163.74-.163 1.581v3.2c0 .84 0 1.26.163 1.581a1.5 1.5 0 0 0 .656.656c.32.163.74.163 1.581.163h1.518c.4 0 .6 0 .79.043q.253.057.48.185c.169.096.317.23.613.5l4.39 3.99a1.082 1.082 0 0 0 1.809-.8V13.5zM13.5 11V4.082a1.082 1.082 0 0 0-1.81-.8L8.596 6.094z"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M2.354 1.646a.5.5 0 1 0-.708.708L6.554 7.26a1 1 0 0 1-.113.076 1.3 1.3 0 0 1-.343.133c-.123.027-.258.03-.68.03H3.879c-.402 0-.734 0-1.005.022-.281.023-.54.072-.782.196a2 2 0 0 0-.874.874c-.124.243-.173.501-.196.782C1 9.644 1 9.977 1 10.38v3.242c0 .402 0 .734.022 1.005.023.281.072.54.196.782a2 2 0 0 0 .874.874c.243.124.501.173.782.196.27.022.603.022 1.005.022h1.539c.422 0 .557.003.68.03q.181.041.343.133c.11.062.211.151.524.435l4.39 3.99A1.582 1.582 0 0 0 14 19.919v-5.21l7.646 7.646a.5.5 0 0 0 .708-.708zM13 13.707 7.265 7.972c-.111.093-.217.17-.33.235q-.291.165-.618.238c-.245.055-.497.055-.849.055H3.9c-.428 0-.72 0-.944.019-.22.018-.332.05-.41.09a1 1 0 0 0-.437.437c-.04.078-.072.19-.09.41C2 9.68 2 9.972 2 10.4v3.2c0 .428 0 .72.019.944.018.22.05.332.09.41a1 1 0 0 0 .437.437c.078.04.19.072.41.09.225.019.516.019.944.019h1.568c.352 0 .604 0 .85.055q.326.074.617.239c.218.123.405.294.665.53l4.427 4.025a.582.582 0 0 0 .973-.43z",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M13 10.5V4.082a.582.582 0 0 0-.973-.43L8.949 6.448l-.708-.708 3.113-2.83A1.582 1.582 0 0 1 14 4.081V11.5zM20.637 18.637l-.711-.711A9.46 9.46 0 0 0 22 12a9.48 9.48 0 0 0-3.8-7.6.5.5 0 0 1 .6-.8A10.48 10.48 0 0 1 23 12c0 2.517-.886 4.828-2.363 6.637"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "m17.785 15.785-.718-.718c.59-.877.933-1.931.933-3.067a5.49 5.49 0 0 0-1.834-4.1.5.5 0 0 1 .668-.745A6.49 6.49 0 0 1 19 12c0 1.412-.45 2.72-1.215 3.785"
+          },
+          children: []
+        }
+      ]
+    }
   }
 ]
   },
@@ -40697,6 +53481,71 @@ export default [
           attributes: {
             fill: "#000",
             d: "M17 6.969a.75.75 0 1 0-1 1.118A5.24 5.24 0 0 1 17.75 12c0 1.555-.675 2.951-1.75 3.913a.75.75 0 0 0 1 1.118 6.74 6.74 0 0 0 2.25-5.03c0-2-.87-3.797-2.25-5.032"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M3.9 8h1.518c.4 0 .6 0 .79-.043q.253-.057.48-.185c.169-.096.317-.23.613-.5l4.39-3.99a1.082 1.082 0 0 1 1.809.8v15.836a1.082 1.082 0 0 1-1.81.8l-4.389-3.99c-.296-.27-.444-.404-.613-.5a1.8 1.8 0 0 0-.48-.185C6.018 16 5.818 16 5.418 16H3.9c-.84 0-1.26 0-1.581-.164a1.5 1.5 0 0 1-.656-.655c-.163-.32-.163-.74-.163-1.581v-3.2c0-.84 0-1.26.163-1.581a1.5 1.5 0 0 1 .656-.656C2.639 8 3.059 8 3.9 8",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "fill-rule": "evenodd",
+            d: "M11.354 2.911A1.582 1.582 0 0 1 14 4.081v15.837a1.582 1.582 0 0 1-2.646 1.17l-4.39-3.99c-.312-.284-.414-.373-.523-.435a1.3 1.3 0 0 0-.343-.133c-.123-.027-.258-.03-.68-.03H3.879c-.402 0-.734 0-1.005-.022-.281-.023-.54-.072-.782-.196a2 2 0 0 1-.874-.874c-.124-.243-.173-.501-.196-.782C1 14.356 1 14.023 1 13.62v-3.242c0-.402 0-.734.022-1.005.023-.281.072-.54.196-.782a2 2 0 0 1 .874-.874c.243-.124.501-.173.782-.196.27-.022.603-.022 1.005-.022h1.539c.422 0 .557-.003.68-.03a1.3 1.3 0 0 0 .343-.133c.11-.062.211-.151.524-.435zm1.064.589a.58.58 0 0 0-.391.151L7.6 7.676c-.26.236-.447.407-.665.53q-.291.165-.618.24c-.245.054-.497.054-.849.054H3.9c-.428 0-.72 0-.944.019-.22.018-.332.05-.41.09a1 1 0 0 0-.437.437c-.04.078-.072.19-.09.41C2 9.68 2 9.972 2 10.4v3.2c0 .428 0 .72.019.944.018.22.05.332.09.41a1 1 0 0 0 .437.437c.078.04.19.072.41.09.225.019.516.019.944.019h1.568c.352 0 .604 0 .85.055q.326.074.617.239c.218.123.405.294.665.53l4.427 4.025a.582.582 0 0 0 .973-.43V4.081a.58.58 0 0 0-.582-.582",
+            "clip-rule": "evenodd"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M18.1 3.7a.5.5 0 0 1 .7-.1A10.48 10.48 0 0 1 23 12c0 3.435-1.65 6.485-4.199 8.4a.5.5 0 0 1-.6-.8A9.49 9.49 0 0 0 22 12a9.48 9.48 0 0 0-3.8-7.6.5.5 0 0 1-.1-.7"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M16.834 7.155a.5.5 0 0 0-.668.745A5.49 5.49 0 0 1 18 12a5.49 5.49 0 0 1-1.834 4.1.5.5 0 0 0 .668.745A6.49 6.49 0 0 0 19 12a6.49 6.49 0 0 0-2.166-4.845"
           },
           children: []
         }
@@ -41042,6 +53891,98 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "clip-path": "url(#a)"
+          },
+          children: [
+            {
+              name: "g",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                opacity: ".4"
+              },
+              children: [
+                {
+                  name: "path",
+                  type: "element",
+                  value: "",
+                  parent: null,
+                  attributes: {
+                    d: "M5.032 5.032A15.3 15.3 0 0 0 .642 8.15a.5.5 0 0 0 .005.704l3.5 3.497.014.014 7.498 7a.5.5 0 0 0 .682 0l3.634-3.39zM17.268 14.768l2.571-2.4.015-.014 3.5-3.5a.5.5 0 0 0 .003-.704C20.465 5.198 16.44 3.5 12 3.5c-1.812 0-3.556.283-5.181.819z"
+                  },
+                  children: []
+                }
+              ]
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M1.354.646a.5.5 0 1 0-.708.708l3.912 3.911A15.2 15.2 0 0 0 .643 8.15a.5.5 0 1 0 .714.7 14.3 14.3 0 0 1 3.947-2.84l3.078 3.08a11.5 11.5 0 0 0-4.226 2.545.5.5 0 1 0 .688.726A10.45 10.45 0 0 1 9.182 9.89l3.67 3.67A6 6 0 0 0 12 13.5c-1.638 0-3.017.629-4.092 1.635a.5.5 0 1 0 .684.73C9.498 15.016 10.638 14.5 12 14.5c.91 0 1.721.23 2.43.637l8.216 8.217a.5.5 0 0 0 .708-.708zM12 9.5l-.96-.96q.474-.04.959-.04c3.031 0 5.79 1.192 7.845 3.137a.5.5 0 0 1-.688.726A10.38 10.38 0 0 0 12 9.5M7.618 5.118l-.8-.8A16.5 16.5 0 0 1 12 3.501c4.439 0 8.465 1.698 11.357 4.65a.5.5 0 1 1-.714.7C19.945 6.097 16.179 4.5 12 4.5a15.6 15.6 0 0 0-4.382.618M11.25 19a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "defs",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {},
+          children: [
+            {
+              name: "clipPath",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                id: "a"
+              },
+              children: [
+                {
+                  name: "path",
+                  type: "element",
+                  value: "",
+                  parent: null,
+                  attributes: {
+                    fill: "#fff",
+                    d: "M0 0h24v24H0z"
+                  },
+                  children: []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
   },
@@ -41224,6 +54165,58 @@ export default [
           attributes: {
             fill: "#000",
             d: "M5.187 12.725a9.876 9.876 0 0 1 13.626.001 1 1 0 1 0 1.374-1.452 11.876 11.876 0 0 0-16.374-.002 1 1 0 0 0 1.374 1.453M12 17.75a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M12 3.5C7.561 3.5 3.535 5.198.643 8.15a.5.5 0 0 0 .004.704l3.5 3.497.014.014 3.747 3.5 3.75 3.5a.5.5 0 0 0 .683 0l3.75-3.5 3.748-3.498.015-.013 3.5-3.5a.5.5 0 0 0 .003-.704C20.465 5.198 16.44 3.5 12 3.5",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M1.357 8.85C4.055 6.097 7.821 4.5 12 4.5s7.945 1.597 10.643 4.35a.5.5 0 0 0 .714-.7C20.465 5.198 16.44 3.5 12 3.5S3.535 5.198.643 8.15a.5.5 0 1 0 .714.7"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M4.844 12.361a10.376 10.376 0 0 1 14.312.002.5.5 0 0 0 .688-.726 11.377 11.377 0 0 0-15.688-.002.5.5 0 1 0 .688.726M8.592 15.865C9.498 15.016 10.638 14.5 12 14.5s2.502.516 3.408 1.365a.5.5 0 0 0 .684-.73C15.017 14.129 13.638 13.5 12 13.5s-3.017.629-4.092 1.635a.5.5 0 1 0 .684.73M12 18.25a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5"
           },
           children: []
         }
@@ -41555,6 +54548,100 @@ export default [
         }
       ]
     }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "g",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            "clip-path": "url(#a)"
+          },
+          children: [
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M23 12c0 6.075-4.925 11-11 11S1 18.075 1 12 5.925 1 12 1s11 4.925 11 11",
+                opacity: ".4"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                d: "M15.354 15.354a.5.5 0 0 1-.708 0L12 12.707l-2.646 2.647a.5.5 0 0 1-.708-.708L11.293 12 8.646 9.354a.5.5 0 1 1 .708-.708L12 11.293l2.646-2.647a.5.5 0 1 1 .708.708L12.707 12l2.647 2.646a.5.5 0 0 1 0 .708"
+              },
+              children: []
+            },
+            {
+              name: "path",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                "fill-rule": "evenodd",
+                d: "M.5 12C.5 5.649 5.649.5 12 .5S23.5 5.649 23.5 12 18.351 23.5 12 23.5.5 18.351.5 12M12 1.5C6.201 1.5 1.5 6.201 1.5 12S6.201 22.5 12 22.5 22.5 17.799 22.5 12 17.799 1.5 12 1.5",
+                "clip-rule": "evenodd"
+              },
+              children: []
+            }
+          ]
+        },
+        {
+          name: "defs",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {},
+          children: [
+            {
+              name: "clipPath",
+              type: "element",
+              value: "",
+              parent: null,
+              attributes: {
+                id: "a"
+              },
+              children: [
+                {
+                  name: "path",
+                  type: "element",
+                  value: "",
+                  parent: null,
+                  attributes: {
+                    fill: "#fff",
+                    d: "M0 0h24v24H0z"
+                  },
+                  children: []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
   },
@@ -41683,6 +54770,47 @@ export default [
           attributes: {
             fill: "#000",
             d: "M19.707 4.293a1 1 0 0 1 0 1.414l-14 14a1 1 0 0 1-1.414-1.414l14-14a1 1 0 0 1 1.414 0"
+          },
+          children: []
+        }
+      ]
+    }
+  },
+  {
+    variant: "duotone-line",
+    svg: {
+      name: "svg",
+      type: "element",
+      value: "",
+      parent: null,
+      attributes: {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: "24",
+        height: "24",
+        fill: "none",
+        viewBox: "0 0 24 24"
+      },
+      children: [
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M19.354 19.354a.5.5 0 0 1-.708 0l-14-14a.5.5 0 1 1 .708-.708l14 14a.5.5 0 0 1 0 .708",
+            opacity: ".4"
+          },
+          children: []
+        },
+        {
+          name: "path",
+          type: "element",
+          value: "",
+          parent: null,
+          attributes: {
+            fill: "#000",
+            d: "M19.354 4.646a.5.5 0 0 1 0 .708l-14 14a.5.5 0 0 1-.708-.708l14-14a.5.5 0 0 1 .708 0"
           },
           children: []
         }

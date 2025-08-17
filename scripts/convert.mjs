@@ -11,7 +11,7 @@ const __dirname = path.dirname(__filename)
 
 const SVG_ICONS_DIR = path.join(__dirname, '../icons')
 const OUTPUT_DIR = path.join(__dirname, '../src')
-const VARIANTS = ['light', 'regular', 'filled', 'duotone', 'duotone line']
+const VARIANTS = ['light', 'regular', 'filled', 'duotone', 'duotone-line']
 
 async function convertSvgToTs() {
   try {
@@ -28,6 +28,7 @@ async function convertSvgToTs() {
         console.warn(`Variant folder not found: ${variantDir}`)
         continue
       }
+
       for (const file of files) {
         if (!file.endsWith('.svg')) continue
         const iconName = file.replace('.svg', '')
@@ -37,8 +38,7 @@ async function convertSvgToTs() {
         const jsonObj = await parse(optimizedSvg)
         if (!iconsMap[iconName]) iconsMap[iconName] = {}
 
-        const variantKey = toCamelCase(variant.replace(' ', '-'))
-        iconsMap[iconName][variantKey] = jsonObj
+        iconsMap[iconName][variant] = jsonObj
       }
     }
 
@@ -50,11 +50,10 @@ async function convertSvgToTs() {
     for (const iconName of iconNames) {
       const variantsArr = []
       for (const variant of VARIANTS) {
-        const variantKey = toCamelCase(variant.replace(' ', '-'))
-        if (iconsMap[iconName][variantKey]) {
+        if (iconsMap[iconName][variant]) {
           variantsArr.push({
-            variant: variantKey,
-            svg: iconsMap[iconName][variantKey],
+            variant: variant,
+            svg: iconsMap[iconName][variant],
           })
         }
       }
