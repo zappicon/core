@@ -112,7 +112,3 @@ common/autoinstallers/*/.npmrc
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
-
-# Generated files (auto-generated from SVGs, should not be committed)
-src/icons/*.ts
-src/index.ts

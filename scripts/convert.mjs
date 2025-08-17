@@ -1,60 +1,82 @@
-#!/usr/bin/env node
+import { readdir, readFile, writeFile, mkdir } from 'fs/promises'
+import { fileURLToPath } from 'url'
+import { parse } from 'svgson'
+import { optimize } from 'svgo'
+import { join } from 'path'
+import process from 'process'
+import path from 'path'
 
-/* global console */
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
 
-import { readdir, readFile, writeFile, mkdir } from "fs/promises"
-import { join } from "path"
-import { parse } from "svgson"
-import process from "process"
-
-const sourceDir = "icons"
-const outputDir = "src/icons"
+const SVG_ICONS_DIR = path.join(__dirname, '../icons')
+const OUTPUT_DIR = path.join(__dirname, '../src')
+const VARIANTS = ['light', 'regular', 'filled', 'duotone', 'duotone line']
 
 async function convertSvgToTs() {
   try {
-    // Ensure output directory exists
-    await mkdir(outputDir, { recursive: true })
+    await mkdir(OUTPUT_DIR, { recursive: true })
 
-    const files = await readdir(sourceDir)
-    const svgFiles = files.filter((file) => file.endsWith(".svg"))
+    const iconsMap = {}
 
-    console.log(`Converting ${svgFiles.length} SVG files to TypeScript...`)
+    for (const variant of VARIANTS) {
+      const variantDir = path.join(SVG_ICONS_DIR, variant)
+      let files
+      try {
+        files = await readdir(variantDir)
+      } catch {
+        console.warn(`Variant folder not found: ${variantDir}`)
+        continue
+      }
+      for (const file of files) {
+        if (!file.endsWith('.svg')) continue
+        const iconName = file.replace('.svg', '')
+        const svgPath = join(variantDir, file)
+        const svgContent = await readFile(svgPath, 'utf8')
+        const optimizedSvg = optimize(svgContent.toString()).data
+        const jsonObj = await parse(optimizedSvg)
+        if (!iconsMap[iconName]) iconsMap[iconName] = {}
 
-    for (const file of svgFiles) {
-      const svgPath = join(sourceDir, file)
-      const tsPath = join(outputDir, file.replace(".svg", ".ts"))
-
-      const svgContent = await readFile(svgPath, "utf8")
-      const jsonObj = await parse(svgContent)
-
-      // Generate TypeScript content
-      const tsContent = `const ${toCamelCase(
-        file.replace(".svg", "")
-      )} = ${JSON.stringify(jsonObj, null, 2)} as const;
-
-export default ${toCamelCase(file.replace(".svg", ""))};
-`
-
-      await writeFile(tsPath, tsContent)
+        const variantKey = toCamelCase(variant.replace(' ', '-'))
+        iconsMap[iconName][variantKey] = jsonObj
+      }
     }
 
-    console.log(`✅ Converted ${svgFiles.length} files successfully!`)
+    const iconNames = Object.keys(iconsMap)
+    console.log(`Converting ${iconNames.length} icons to TypeScript objects with variants...`)
+
+    let indexTsContent = ''
+    for (const iconName of iconNames) {
+      const variantsArr = []
+      for (const variant of VARIANTS) {
+        const variantKey = toCamelCase(variant.replace(' ', '-'))
+        if (iconsMap[iconName][variantKey]) {
+          variantsArr.push({ variant: variantKey, svg: iconsMap[iconName][variantKey] })
+        }
+      }
+      let arrString = JSON.stringify(variantsArr, null, 2)
+      arrString = arrString.replace(/"(\w+)":/g, '$1:')
+      indexTsContent += `export const ${toCamelCase(iconName)} = ${arrString} as const;\n\n`
+    }
+    const indexTsPath = join(OUTPUT_DIR, 'icons.ts')
+    await writeFile(indexTsPath, indexTsContent)
+    console.log(`✅ Converted ${iconNames.length} icons successfully and exported to icons.ts!`)
   } catch (error) {
-    console.error("Error converting files:", error)
+    console.error('Error converting files:', error)
     process.exit(1)
   }
 }
 
 function toCamelCase(str) {
   return str
-    .split("-")
+    .split('-')
     .map((word, index) => {
       if (index === 0) {
         return word.charAt(0).toLowerCase() + word.slice(1)
       }
       return word.charAt(0).toUpperCase() + word.slice(1)
     })
-    .join("")
+    .join('')
 }
 
 convertSvgToTs()
